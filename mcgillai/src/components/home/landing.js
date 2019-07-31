@@ -11,6 +11,7 @@ const Title = styled('h1')`
   -webkit-text-fill-color: transparent;
 
   margin-left: 100px;
+  padding-top: 100px;
 `;
 
 class Landing extends React.Component {
