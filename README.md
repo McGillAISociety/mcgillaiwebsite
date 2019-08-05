@@ -6,7 +6,3 @@
 sign in info: 
 - username: mcgillaicontact@gmail.com
 - password: Watermelon2019!
-
-building the website: 
-- React + Redux + Node? 
-- Backend: Python FLASK/Django Restful / Node.js
