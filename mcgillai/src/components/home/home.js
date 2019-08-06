@@ -6,14 +6,16 @@ import About from './about.js'
 import Stats from './stats.js'
 import Activities from './activities.js'
 import Schedule from './schedule.js'
+import Sponsors from './sponsors.js'
 
 import Background from './background.jpg'
 
 const Container = styled('div')`
 	background-image: url(${Background});
 	background-size: cover; /* or contain depending on what you want */
-  	background-position: center center;
-  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-position: center;
+ 	background-repeat: no-repeat;
 `;
 
 class Home extends React.Component {
@@ -25,6 +27,7 @@ class Home extends React.Component {
 				<Stats></Stats>
 				<Activities></Activities>
 				<Schedule></Schedule>
+				<Sponsors></Sponsors>
 			</Container>
 		);
 	}

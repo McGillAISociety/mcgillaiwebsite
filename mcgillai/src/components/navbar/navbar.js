@@ -10,8 +10,7 @@ class NavBar extends React.Component {
 					<li><NavLink activeClassName="active" to="/ourteam">Our Team</NavLink></li>
 					<li><NavLink activeClassName="active" to="/mais202">MAIS202</NavLink></li>
 					<li><a href="https://medium.com/mcgill-artificial-intelligence-review" target="_blank">Blog</a></li>
-					<li><NavLink activeClassName="active" to="/sponsors">Sponsors </NavLink></li>
-					<li><NavLink activeClassName="active" to="/contact">FAQ/Contact </NavLink></li>
+					<li><NavLink activeClassName="active" to="/contact">FAQ </NavLink></li>
 				</ul>
 			</div>
 		);

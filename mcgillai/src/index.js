@@ -9,7 +9,6 @@ import NavBar from './components/navbar/navbar.js'
 import Home from './components/home/home.js';
 import OurTeam from './components/ourteam/ourteam.js';
 import Mais202 from './components/mais202/mais202.js';
-import Sponsors from './components/sponsors/sponsors.js';
 import Faq from './components/faq/faq.js';
 import Footer from './components/footer/footer.js'
 import NotFound from './components/notfound/notfound.js';
@@ -22,7 +21,6 @@ const route = (
 				<Route exact path="/" component={Home} />
 				<Route path="/ourteam" component={OurTeam} />
 				<Route path="/mais202" component={Mais202} />
-				<Route path="/sponsors" component={Sponsors} />
 				<Route path="/contact" component={Faq} />
 				<Route component={NotFound} />
 			</Switch>
