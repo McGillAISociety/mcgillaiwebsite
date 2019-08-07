@@ -1,6 +1,114 @@
 import { css, jsx } from '@emotion/core'
 import styled from '@emotion/styled'
 
+export const MAX_WIDTH = '1400px';
+
 export const PrimaryFont = css`
   font-family: 'Helvetica Neue', monospace;
+  color: #FFFFFF;
 `;
+
+export const SecondaryFont = css`
+	font-family: 'Montserrat', monospace;
+	font-weight: 200;
+	color: #FFFFFF;
+`;
+
+export const SectionBase = props => css`
+  max-width: ${MAX_WIDTH};
+  margin: auto;
+  position: relative;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+
+  :first-child {
+    padding-top: 0;
+  }
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right top, right bottom;
+  background-image: ${props.mobileBackgroundImage || 'none'};
+
+  @media screen and (min-width: 640px) {
+    min-height: ${props.heightPx}px;
+
+    background-image: ${props.backgroundImage};
+    background-size: ${MAX_WIDTH} ${props.heightPx}px
+      ${props.extHeightPx && `, ${MAX_WIDTH} ${props.extHeightPx}px`};
+    background-position: left top, left ${props.heightPx - 1}px;
+
+    padding-left: 144px;
+    padding-right: 144px;
+    padding-top: 87.5px;
+  }
+
+  @media screen and (min-width: ${MAX_WIDTH}) {
+    background-position: center top, center ${props.heightPx - 1}px;
+  }
+`;
+
+export const SectionTextContent = styled('div')`
+  ${SecondaryFont};
+  font-size: 18px;
+  > p {
+    margin-top: 0;
+  }
+`;
+
+export const SectionLeftColumn = styled('div')`
+  box-sizing: border-box;
+  padding: 30px;
+  @media screen and (min-width: 1260px) {
+    width: 500px;
+
+    ${props =>
+      props.sticky &&
+      css`
+        > div:first-child {
+          position: sticky;
+          top: 120px;
+        }
+      `};
+  }
+`;
+
+export const SectionRightColumn = styled('div')`
+  flex-grow: 1;
+  flex-basis: 0;
+  padding-top: 20px;
+
+  @media screen and (min-width: 640px) {
+    padding-top: 40px;
+  }
+
+  @media screen and (min-width: 1260px) {
+    padding-top: 0;
+    padding-left: 40px;
+  }
+`;
+
+export const LeftContentPadding = css`
+  @media screen and (min-width: 640px) {
+    padding-left: 20px;
+  }
+`;
+
+const FlexProps = css`
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: 1260px) {
+    flex-direction: row;
+  }
+`;
+
+export const SectionContent = styled('div')`
+  ${LeftContentPadding};
+  ${props => props.columns && FlexProps};
+  margin-top: 25px;
+`;
+
+
