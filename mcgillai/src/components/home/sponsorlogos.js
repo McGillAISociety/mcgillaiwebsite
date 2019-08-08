@@ -1,13 +1,12 @@
 import React from 'react';
 import styled from '@emotion/styled';
 
-import NationalBankLogo from './img/nationalbank.png';
-import CaeLogo from './img/cae.png';
-import CoveoLogo from './img/coveo.png';
-import HatchLogo from './img/hatch.png';
-
-import SamasourceLogo from './img/samasource.png';
-import wrnchLogo from './img/wrnch.png';
+import NationalBankLogo from './sponsors-img/nationalbank.png';
+import CaeLogo from './sponsors-img/cae.png';
+import CoveoLogo from './sponsors-img/coveo.png';
+import HatchLogo from './sponsors-img/hatch.png';
+import SamasourceLogo from './sponsors-img/samasource.png';
+import wrnchLogo from './sponsors-img/wrnch.png';
 
 const LogoRow = styled('div')`
   display: flex;
