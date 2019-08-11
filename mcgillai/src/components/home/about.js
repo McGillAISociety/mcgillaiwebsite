@@ -23,9 +23,14 @@ const Column = styled('div')`
 	@media screen and (max-width: 600px) {
     	width: 100%;
 	}
+	> p {
+		margin: 0px;
+   		padding: 0px;
+	}
 `;
 
 const Icon = styled('img')`
+	padding: 20px;
 `;
 
 class About extends React.Component {
