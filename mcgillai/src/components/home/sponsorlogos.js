@@ -7,6 +7,7 @@ import CoveoLogo from './sponsors-img/coveo.png';
 import HatchLogo from './sponsors-img/hatch.png';
 import SamasourceLogo from './sponsors-img/samasource.png';
 import wrnchLogo from './sponsors-img/wrnch.png';
+import EricssonLogo from './sponsors-img/ericsson.png';
 
 const LogoRow = styled('div')`
   display: flex;
@@ -83,6 +84,11 @@ export default () => (
         href="https://www.samasource.com/careers"
       />
       <Logo alt="wrnch" src={wrnchLogo} href="https://wrnch.ai/careers/" />
+      <Logo
+        alt="Ericsson"
+        src={EricssonLogo}
+        href="https://www.ericsson.com/en/careers/student-young-professionals/internships"
+      />
     </LogoRow>
   </React.Fragment>
 );
