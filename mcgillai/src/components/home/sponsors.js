@@ -32,7 +32,7 @@ class Sponsors extends React.Component {
 			          <p> As a McGill AI club sponsor, you will have access to the resumes of our hackathon participants, 
 			          hold interviews during the hackathon, and gain access to a platform of over 2000 talented 
 			           and committed students. </p>
-			           <p> If you are interested in partering with our club, 
+			           <p> If you are interested in partnering with our club, 
 			           please don’t hesitate to reach out to mcgillaicontact@gmail.com.!</p>
 			        </SectionTextContent>
 			      </SectionLeftColumn>

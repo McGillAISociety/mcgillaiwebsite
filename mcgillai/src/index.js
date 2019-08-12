@@ -5,6 +5,8 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+import './assets/css/app.css';
+
 import NavBar from './components/navbar/navbar.js'
 import Home from './components/home/home.js';
 import OurTeam from './components/ourteam/ourteam.js';
