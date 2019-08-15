@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from '@emotion/styled';
 
+import { HeadingUnderline } from '../commonstyles.js';
+
 const Container = styled('div')`
 `;
 
@@ -8,7 +10,7 @@ class Landing extends React.Component {
 	render() {
 		return (
 			<Container>
-				MAIS202: For the Students, by the Students
+				<HeadingUnderline>FOR STUDENTS, BY STUDENTS </HeadingUnderline>
 			</Container>
 		);
 	}

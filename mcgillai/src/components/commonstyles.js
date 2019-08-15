@@ -4,7 +4,7 @@ import styled from '@emotion/styled'
 export const MAX_WIDTH = '1400px';
 
 export const PrimaryFont = css`
-  font-family: 'Helvetica Neue', monospace;
+  font-family: 'Helvetica Neue Bold Condensed', monospace;
   color: #FFFFFF;
 `;
 
@@ -12,6 +12,20 @@ export const SecondaryFont = css`
 	font-family: 'Montserrat', monospace;
 	font-weight: 200;
 	color: #FFFFFF;
+`;
+
+export const HeadingUnderline = styled('div')`
+  font-family: 'Montserrat-Bold', monospace;
+  font-size: 30px;
+  color: #FFFFFF;
+  display: inline;
+  background: linear-gradient(to right,#722D60, #A81245);
+  background-repeat: no-repeat;
+  background-size: 85% 50%;
+  background-position: 0% 80%;
+  padding-left: 20px;
+  padding-bottom: 10px;
+
 `;
 
 export const SectionBase = props => css`
