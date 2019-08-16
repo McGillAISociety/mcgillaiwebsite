@@ -12,10 +12,11 @@ import {
  } from '../commonstyles'
 
 const Container = styled('div')`
-	font-size: 30pt;
+	${SectionBase};
 `;
 
 const SVGContainer = styled('svg')`
+	width: 100%;
 `;
 
 const Heading = {

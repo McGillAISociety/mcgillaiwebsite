@@ -14,6 +14,7 @@ import {
  import SponsorLogos from './sponsorlogos.js';
 
 const Container = styled('div')`
+	${SectionBase};
 	font-size: 30pt;
 	text-align: center;
 `;

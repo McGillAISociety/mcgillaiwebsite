@@ -1,12 +1,25 @@
 import React from 'react'
 import styled from '@emotion/styled'
 
-import { PrimaryFont, SecondaryFont, SectionTextContent } from '../commonstyles'
+import { 
+	PrimaryFont, 
+	SecondaryFont, 
+	SectionBase,
+	SectionContent,
+	SectionLeftColumn,
+	SectionRightColumn,
+	SectionTextContent
+ } from '../commonstyles'
+
+
 import Lightbulb from './assets/Lightbulb.svg'
 import People from './assets/People.svg'
 import Network from './assets/Network.svg'
 
 const Container = styled('div')`
+	${SectionBase({
+    heightPx: 600
+  	})};
 	${SecondaryFont};
 	font-size: 48px;
 	text-align: center;
@@ -18,9 +31,9 @@ const Column = styled('div')`
 	float: left;
 	width: 33.33%;
 	box-sizing: border-box;
-    padding: 0 50px 0 50px;
+    padding: 0 50px 0;
 
-	@media screen and (max-width: 600px) {
+	@media screen and (max-width: 900px) {
     	width: 100%;
 	}
 	> p {

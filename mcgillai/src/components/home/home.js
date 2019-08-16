@@ -8,7 +8,7 @@ import Activities from './activities.js'
 import Schedule from './schedule.js'
 import Sponsors from './sponsors.js'
 
-import Background from './background.jpg'
+import Background from './assets/background.jpg'
 
 const Container = styled('div')`
 	background-image: url(${Background});

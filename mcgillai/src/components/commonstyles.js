@@ -32,10 +32,12 @@ export const SectionBase = props => css`
   max-width: ${MAX_WIDTH};
   margin: auto;
   position: relative;
+  display: block;
 
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 40px;
+  padding-bottom: 40px;
 
   :first-child {
     padding-top: 0;
@@ -45,23 +47,6 @@ export const SectionBase = props => css`
   background-size: contain;
   background-position: right top, right bottom;
   background-image: ${props.mobileBackgroundImage || 'none'};
-
-  @media screen and (min-width: 640px) {
-    min-height: ${props.heightPx}px;
-
-    background-image: ${props.backgroundImage};
-    background-size: ${MAX_WIDTH} ${props.heightPx}px
-      ${props.extHeightPx && `, ${MAX_WIDTH} ${props.extHeightPx}px`};
-    background-position: left top, left ${props.heightPx - 1}px;
-
-    padding-left: 144px;
-    padding-right: 144px;
-    padding-top: 87.5px;
-  }
-
-  @media screen and (min-width: ${MAX_WIDTH}) {
-    background-position: center top, center ${props.heightPx - 1}px;
-  }
 `;
 
 export const SectionTextContent = styled('div')`
