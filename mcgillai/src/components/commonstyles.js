@@ -39,6 +39,8 @@ export const SectionBase = props => css`
   padding-top: 40px;
   padding-bottom: 40px;
 
+  overflow:auto; 
+
   :first-child {
     padding-top: 0;
   }
@@ -61,7 +63,7 @@ export const SectionLeftColumn = styled('div')`
   box-sizing: border-box;
   padding: 30px;
   @media screen and (min-width: 1260px) {
-    width: 500px;
+    max-width: 500px;
 
     ${props =>
       props.sticky &&

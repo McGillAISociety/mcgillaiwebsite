@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
+import { css, jsx } from '@emotion/core'
 
 import { 
   PrimaryFont, 
@@ -15,7 +16,6 @@ import {
 
 const Container = styled('div')`
   ${SectionBase};
-
 `;
 
 const Column = styled('div')`
@@ -65,10 +65,10 @@ class Landing extends React.Component {
 		return (
 			<Container>
         <Column>
-				<Title> MCGILL <br/> ARTIFICIAL <br/> INTELLIGENCE <br /> SOCIETY </Title>
+				  <Title> MCGILL <br/> ARTIFICIAL <br/> INTELLIGENCE <br /> SOCIETY </Title>
         </Column>
         <Column>
-        <Icon src={Logo}/>
+          <Icon src={Logo}/>
         </Column>
 			</Container>
 		);
