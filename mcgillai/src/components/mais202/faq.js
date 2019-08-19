@@ -3,24 +3,13 @@ import styled from '@emotion/styled';
 
 import { 
 	HeadingUnderline,
-	SectionBase
+	SectionBase,
+	Question,
+	Answer
  } from '../commonstyles.js';
 
 const Container = styled('div')`
 	${SectionBase};
-`;
-
-const Question = styled('div')`
-	font-family: 'Montserrat-Bold';
-	font-size: 24px;
-	color: #FFFFFF;
-	padding-top: 30px;
-`;
-
-const Answer = styled('div')`
-	font-family: 'Montserrat';
-	font-size: 20px;
-	color: #e7e7e7;
 `;
 
 class FAQ extends React.Component {

@@ -116,4 +116,15 @@ export const SectionContent = styled('div')`
   margin-top: 25px;
 `;
 
+export const Question = styled('div')`
+  font-family: 'Montserrat-Bold';
+  font-size: 24px;
+  color: #FFFFFF;
+  padding-top: 30px;
+`;
 
+export const Answer = styled('div')`
+  font-family: 'Montserrat';
+  font-size: 20px;
+  color: #e7e7e7;
+`;

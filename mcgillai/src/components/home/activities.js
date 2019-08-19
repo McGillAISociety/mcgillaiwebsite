@@ -88,7 +88,7 @@ const ImageText = styled('div')`
 	bottom: 0;
 	left: 0;
 	right: 0;
-	padding: 60px 40px;
+	padding: 20px;
 	color: white;
 	text-align: center;
 	opacity: 0;
@@ -98,12 +98,39 @@ const ImageText = styled('div')`
 		font-family: 'Montserrat-Bold';
 		font-size: 30px;
 		margin: 20px 0px;
+
+		@media screen and (max-width: 1150px) {
+			font-size: 26px;
+		}
+
+		@media screen and (max-width: 1000px) {
+			font-size: 20px;
+			
+		}
+
+		@media screen and (max-width: 767px) {
+			font-size: 30px;
+		}
 	}
 
 	> h3 {
 		font-family: "Montserrat";
 		font-size: 20px;
-		
+		@media screen and (max-width: 1150px) {
+			font-size: 16px;
+		}
+
+		@media screen and (max-width: 1000px) {
+			font-size: 12px;
+		}
+
+		@media screen and (max-width: 767px) {
+			font-size: 20px;
+		}
+	}
+
+	@media screen and (max-width: 850px) {
+			padding: 10px;
 	}
 `;
 
