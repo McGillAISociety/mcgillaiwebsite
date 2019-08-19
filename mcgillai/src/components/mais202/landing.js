@@ -4,6 +4,11 @@ import styled from '@emotion/styled';
 import { SectionBase,
 		 HeadingUnderline } from '../commonstyles.js';
 
+import Stats1 from './assets/stats_1.svg';
+import Stats2 from './assets/stats_2.svg';
+import Stats3 from './assets/stats_3.svg';
+import Stats4 from './assets/stats_4.svg';
+
 const Container = styled('div')`
 	${SectionBase({
     heightPx: 600
@@ -11,12 +16,17 @@ const Container = styled('div')`
   	box-sizing: border-box;
 `;
 
-const Left = styled('div')`
-	width: 40%
+const Row = styled('div')`
+	display: flex;
 `;
 
-const Right = styled('div')`
-	width: 60%;
+const Column = styled('div')`
+	flex: 1;
+	padding: 1em;
+
+	@media screen and (max-width: 767px) {
+		width: 100%;
+	}
 `;
 
 const Title = styled('div')`
@@ -25,17 +35,35 @@ const Title = styled('div')`
   	text-align: center;
 
 	> h1 {
-		font-size: 100px;
+		font-size: 80px;
 	}
 
 	> h3 {
-		font-size: 32px;
+		font-size: 28px;
 	}
 
 	> p {
-		font-family: 'Montserrat', monospace;
-		font-size: 24px;
+		font-size: 20px;
 	}
+
+`;
+
+const StatsColumn = styled('div')`
+	float: left;
+	width: 25%;
+
+	@media screen and (max-width: 767px) {
+		width: 50%;
+	}
+`;
+
+const StatsImage = styled('img')`
+  	margin-left: auto;
+  	margin-right: auto;
+  	display: block;
+  	width: 80%;
+  	padding: 20px 0;
+
 `;
 
 class Landing extends React.Component {
@@ -43,15 +71,31 @@ class Landing extends React.Component {
 		return (
 			<Container>
 				<HeadingUnderline>FOR STUDENTS, BY STUDENTS </HeadingUnderline>
-				<Title>
-					<Left>
+				<Row>
+				<Column>
+					<Title>
 						<h1>MAIS202</h1>
 						<h3>ACCELERATED INTRODUCTION TO MACHINE LEARNING</h3>
 						<p>2019-2020 Offerings: Fall 2019, Winter 2020</p>
-					</Left>
-					<Right>
-					</Right>
-				</Title>
+					</Title>
+				</Column>
+				<Column>
+					~Photo Gallery~
+				</Column>
+				</Row>
+
+				<StatsColumn>
+					<StatsImage src={Stats1} />
+				</StatsColumn>
+				<StatsColumn>
+					<StatsImage src={Stats2} />
+				</StatsColumn>
+				<StatsColumn>
+					<StatsImage src={Stats3} />
+				</StatsColumn>
+				<StatsColumn>
+					<StatsImage src={Stats4} />
+				</StatsColumn>
 			</Container>
 		);
 	}

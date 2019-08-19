@@ -26,6 +26,10 @@ export const HeadingUnderline = styled('div')`
   padding-left: 20px;
   padding-bottom: 10px;
 
+  @media screen and (max-width: 550px) {
+    font-size: 24px;
+  }
+
 `;
 
 export const SectionBase = props => css`
