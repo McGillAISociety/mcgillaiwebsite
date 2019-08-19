@@ -38,15 +38,15 @@ export const SectionBase = props => css`
   position: relative;
   display: block;
 
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
   padding-top: 40px;
   padding-bottom: 40px;
 
   overflow:auto; 
 
   :first-child {
-    padding-top: 0;
+    padding-top: 50px;
   }
 
   background-repeat: no-repeat;
