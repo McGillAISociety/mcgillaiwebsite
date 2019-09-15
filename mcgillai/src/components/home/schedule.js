@@ -20,7 +20,10 @@ import TimelineItem from './timelineitem.js'
 
 const Container = styled('div')`
 	${SectionBase};
-	font-size: 30pt;
+`;
+
+const TimelineContainer = styled('div')`
+	
 	display: flex;
     flex-direction: column;
     position: relative;
@@ -28,21 +31,30 @@ const Container = styled('div')`
 
 
     ::after {
-    	background-color: #e17b77;
+    	background: linear-gradient(to bottom, #BE073A, #003366);
 	    content: '';
 	    position: absolute;
 	    left: calc(50% - 2px);
-	    width: 4px;
+	    width: 16px;
 	    height: 100%;
     }
+`;
+
+const Title = styled('div')`
+	${SecondaryFont};
+	text-align: center;
+	font-size: 48pt;
 `;
 
 const Schedule = () =>
 	TimelineDataFall.length > 0 && (
 		<Container>
-			{TimelineDataFall.map((data, idx) => (
-				<TimelineItem data = {data} key={idx} />
-			))}
+			<Title>Schedule </Title>
+			<TimelineContainer>
+				{TimelineDataFall.map((data, idx) => (
+					<TimelineItem data = {data} key={idx} />
+				))}
+			</TimelineContainer>
 		</Container>
 	);
 

@@ -3,51 +3,51 @@ export const TimelineDataFall = [
 		title: 'Workshop 2',
 		time: 'Sept 25 | 18:00 - 19:30',
 		place: 'McConnell 204, McGill University',
-		category: 'workshop'
+		category: '/schedule-icons/workshop.svg'
 	},
 	{
 		title: 'ImplementAI',
 		time: 'Sept 28-29 | 24 hrs',
 		place: 'National Bank of Canada, Head Office',
-		category: 'hackathon'
+		category: '/schedule-icons/hackathon.svg'
 	},
 	{
 		title: 'Workshop 3',
-		time: 'TBD',
-		place: 'TBD',
-		category: 'workshop'
+		time: 'Time TBD',
+		place: 'Location TBD',
+		category: '/schedule-icons/workshop.svg'
 	},
 	{
 		title: 'Research Talks 1',
-		time: 'TBD',
-		place: 'TBD',
-		category: 'research'
+		time: 'Time TBD',
+		place: 'Location TBD',
+		category: '/schedule-icons/research.svg'
 	},
 	{
 		title: 'Workshop 4',
-		time: 'TBD',
-		place: 'TBD',
-		category: 'workshop'
+		time: 'Time TBD',
+		place: 'Location TBD',
+		category: '/schedule-icons/workshop.svg'
 	},
 	{
 		title: 'Company Crawl',
-		time: 'TBD',
-		place: 'TBD',
-		category: 'company'
+		time: 'Time TBD',
+		place: 'Location TBD',
+		category: '/schedule-icons/company.svg'
 	},
 	{
 		title: 'Women in AI Panel',
-		time: 'TBD',
-		place: 'TBD',
-		category: 'panel'
+		time: 'Time TBD',
+		place: 'Location TBD',
+		category: '/schedule-icons/panel.svg'
 	},
 ];
 
 export const TimelineDataWinter = [
 	{
 		title: 'Workshop 4',
-		time: 'TBD',
-		place: 'TBD',
+		time: 'Time TBD',
+		place: 'Location TBD',
 		category: 'workshop'
 	},
 ];
