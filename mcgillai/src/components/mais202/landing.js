@@ -16,18 +16,39 @@ const Container = styled('div')`
     heightPx: 600
   	})};
   	box-sizing: border-box;
-`;
 
-const Row = styled('div')`
-	display: flex;
+  	.heading {
+  		@media screen and (max-width: 575px) {
+	    	font-size: 24px;
+		}
+
+		@media screen and (max-width: 500px) {
+	    	font-size: 20px;
+		}
+  	}
+
+  	.gallery {
+  		padding-bottom: 0;
+  	}
 `;
 
 const Column = styled('div')`
-	flex: 1;
-	padding: 1em;
+	font-size: 32px;
+	display: inline-block;
+	vertical-align:top;
+	padding: 30px;
+	width: 50%;
+	
+	@media screen and (max-width: 1200px) {
+    	width: 100%;
+    	padding: 10px;
+	}
+`;
 
-	@media screen and (max-width: 1100px) {
-		width: 100%;
+const ContentContainer = styled('div')`
+	text-align: center;
+	@media screen and (max-width: 1050px) {
+		padding-left: 20px;
 	}
 `;
 
@@ -38,16 +59,23 @@ const Title = styled('div')`
 
 	> h1 {
 		font-size: 80px;
+		margin: 10px;
 	}
 
 	> h3 {
 		font-size: 28px;
+		margin: 10px;
 	}
 
 	> p {
 		font-size: 20px;
+		margin: 10px;
 	}
 
+`;
+
+const StatsContainer = styled('div')`
+	display: block;
 `;
 
 const StatsColumn = styled('div')`
@@ -72,8 +100,8 @@ class Landing extends React.Component {
 	render() {
 		return (
 			<Container>
-				<HeadingUnderline>FOR STUDENTS, BY STUDENTS </HeadingUnderline>
-				<Row>
+				<HeadingUnderline className='heading'>FOR STUDENTS, BY STUDENTS </HeadingUnderline>
+				<ContentContainer>
 				<Column>
 					<Title>
 						<h1>MAIS202</h1>
@@ -81,11 +109,11 @@ class Landing extends React.Component {
 						<p>2019-2020 Offerings: Fall 2019, Winter 2020</p>
 					</Title>
 				</Column>
-				<Column>
+				<Column className='gallery'>
 					<Gallery />
 				</Column>
-				</Row>
-
+				</ContentContainer>
+				<StatsContainer>
 				<StatsColumn>
 					<StatsImage src={Stats1} />
 				</StatsColumn>
@@ -98,6 +126,7 @@ class Landing extends React.Component {
 				<StatsColumn>
 					<StatsImage src={Stats4} />
 				</StatsColumn>
+				</StatsContainer>
 			</Container>
 		);
 	}

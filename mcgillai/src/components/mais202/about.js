@@ -4,33 +4,35 @@ import styled from '@emotion/styled';
 import { 
 	HeadingUnderline,
 	SectionBase,
-	Answer,
 	ImageBackground
  } from '../commonstyles.js';
 
- import AboutImg from './assets/img/about.jpg';
-
-const Row = styled('div')`
-	display: flex;
-`;
+ import AboutImg from './assets/img/about.png';
 
 const Column = styled('div')`
-	flex: 1;
-	padding: 1em;
+	font-size: 32px;
+	display: inline-block;
+	vertical-align:top;
+	padding: 30px;
+	width: 50%;
 
-	@media screen and (max-width: 767px) {
-		width: 100%;
+	
+	@media screen and (max-width: 900px) {
+    	width: 100%;
+    	padding: 10px;
+	}
+`;
+
+const ContentContainer = styled('div')`
+	padding: 30px;
+	text-align: center;
+	@media screen and (max-width: 1050px) {
+		max-height: 400px;
+		padding-left: 20px;
 	}
 `;
 
 const ImageContainer = styled('div')`
-	display: inline-block;
-
-	background: linear-gradient(to right,#722D60, #A81245);
-	background-repeat: no-repeat;
-	background-size: 75% 85%;
-	background-position: 40% 20%;
-	padding-left: 40px;
 	padding-bottom: 10px;
 
 	@media screen and (max-width: 767px) {
@@ -39,14 +41,25 @@ const ImageContainer = styled('div')`
 `;
 
 const Image = styled('img')`
-	max-height: 600px;
-	padding: 40px;
+	max-width:100%;
+	max-height:100%;
+	padding: 20px;
+	display:
 	margin-left: auto;
 	margin-right: auto;
+
 `;
 
 const Container = styled('div')`
 	${SectionBase};
+`;
+
+const Text = styled('p')`
+	font-family: 'Montserrat';
+	font-size: 20px;
+	color: #e7e7e7;
+
+	text-align: left;
 `;
 
 class About extends React.Component {
@@ -54,14 +67,14 @@ class About extends React.Component {
 		return (
 			<Container>
 				<HeadingUnderline>ABOUT MAIS202</HeadingUnderline>
-				<Row>
+				<ContentContainer>
 				<Column>
 					<ImageContainer>
 						<Image src={AboutImg} />
 					</ImageContainer>
 				</Column>
 				<Column>
-					<Answer>
+					<Text>
 						Content: 
 							> Relevance of 202; why it was started
 							> Tangible results
@@ -72,9 +85,9 @@ class About extends React.Component {
 							> Syllabus
 							> GitHub Repo
 							> McGill Reporter link
-					</Answer>
+					</Text>
 				</Column>
-				</Row>
+				</ContentContainer>
 			</Container>
 		);
 	}

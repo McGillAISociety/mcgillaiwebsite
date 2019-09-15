@@ -35,7 +35,7 @@ export const DATA = [
 		"photo": '/exec-img/rosie.png',
 		"name": "Rosie Zhao",
 		"position": "VP Communications",
-		"bio": "Rosie is a second year Mathematics and Computer Science student with interests in natural language processing and learning the theory behind machine learning. She also enjoys graphic design and group theory.",
+		"bio": "Rosie is a second year Mathematics and Computer Science student with interests in natural language processing and machine learning theory. She also enjoys graphic design and group theory.",
 		"linkedin": "",
 		"email": ""
 	},

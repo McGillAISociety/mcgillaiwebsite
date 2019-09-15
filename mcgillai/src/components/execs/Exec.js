@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { DATA } from './exec-profile.js';
 import styled from '@emotion/styled'
-import { Container, Row, Col } from 'react-grid-system';
 import { SecondaryFont } from '../commonstyles.js';
 import { HeadingUnderline } from '../commonstyles.js';
 
@@ -24,6 +23,11 @@ const Background = styled('div')`
 	padding: 40px;
 `;
 
+const GridContainer = styled('div')`
+
+	text-align: center;
+`;
+
 const ImageContainer = styled('div')`
 	width: 33.3%;
 	display: inline-block;
@@ -41,10 +45,11 @@ const ImageContainer = styled('div')`
 
 const Image = styled('img')`
 	height: 215px;
-	width: 215px;
+	width: auto;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	padding-bottom: 10px;
 `
 
 const Text = styled('p')`
@@ -56,7 +61,7 @@ const Text = styled('p')`
 const Exec = () => (
 	<Background>
 			<HeadingUnderline> Our Team </HeadingUnderline>
-			
+			<GridContainer>
 			{DATA.map((data, index) => {
 				return (<ImageContainer>
 						<Image src={data.photo}
@@ -67,6 +72,7 @@ const Exec = () => (
 						<Text>{data.bio}</Text>
 				</ImageContainer>)
 			})}
+			</GridContainer>
 	</Background>
 );
 export default Exec;

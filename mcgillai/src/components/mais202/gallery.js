@@ -10,7 +10,19 @@ import Image5 from './assets/gallery/5.JPG';
 import Image6 from './assets/gallery/6.JPG';
 
 const Container = styled('div')`
+	text-align: center;
+`;
+
+const GalleryContainer = styled('div')`
 	max-width: 600px;
+	display: inline-block;
+	@media screen and (max-width: 767px) {
+		max-width: 500px;
+	}
+
+	@media screen and (max-width: 600px) {
+		max-width: 400px;
+	}
 `;
 
 const Image = styled('img')`
@@ -33,6 +45,7 @@ class Gallery extends React.Component {
 	    };
 	    return (
 	      <Container>
+	      <GalleryContainer>
 	        <Slider {...settings}>
 	          <div>
 	            <Image src={Image1} />
@@ -53,6 +66,7 @@ class Gallery extends React.Component {
 	            <Image src={Image6} />
 	          </div>
 	        </Slider>
+	        </GalleryContainer>
 	      </Container>
 	    );
 	}
