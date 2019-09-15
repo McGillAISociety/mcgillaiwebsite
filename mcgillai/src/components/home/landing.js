@@ -25,7 +25,7 @@ const Column = styled('div')`
   width: 50%;
   max-height: 600px;
   box-sizing: border-box;
-  padding: 60px 30px 60px 30px;
+  padding: 0px 30px;
 
   @media screen and (max-width: 1260px) {
       width: 100%;
