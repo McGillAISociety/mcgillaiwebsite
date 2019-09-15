@@ -13,7 +13,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 import NavBar from './components/navbar/navbar.js'
 import Home from './components/home/home.js';
-import OurTeam from './components/ourteam/ourteam.js';
+import OurTeam from './components/execs/Exec.js';
 import Mais202 from './components/mais202/mais202.js';
 import Faq from './components/faq/faq.js';
 import Footer from './components/footer/footer.js'
