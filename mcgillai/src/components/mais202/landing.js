@@ -9,6 +9,8 @@ import Stats2 from './assets/stats_2.svg';
 import Stats3 from './assets/stats_3.svg';
 import Stats4 from './assets/stats_4.svg';
 
+import Gallery from './gallery.js';
+
 const Container = styled('div')`
 	${SectionBase({
     heightPx: 600
@@ -80,7 +82,7 @@ class Landing extends React.Component {
 					</Title>
 				</Column>
 				<Column>
-					~Photo Gallery~
+					<Gallery />
 				</Column>
 				</Row>
 

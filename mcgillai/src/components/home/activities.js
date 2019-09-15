@@ -137,7 +137,7 @@ class Activities extends React.Component {
 						</ImageBounds>
 						<ImageText className="Text">
 							<h2>MAIS202 Bootcamp (Winter 2019)</h2>
-							<h3>Launched by 13 passionate students, MAIS 202 is an eight week bootcamp that teaches lower year undergraduates ML fundamentals. <br /> <br /> Learn More >> </h3>
+							<h3>Launched by 13 passionate students, MAIS 202 is an eight week bootcamp that teaches lower year undergraduates ML fundamentals. </h3>
 						</ImageText>
 					</ImageCell>
 
@@ -146,8 +146,8 @@ class Activities extends React.Component {
 						<ImageBounds className="Bounds">
 						</ImageBounds>
 						<ImageText className="Text">
-							<h2>MAIS202 Bootcamp (Winter 2019)</h2>
-							<h3>Launched by 13 passionate students, MAIS 202 is an eight week bootcamp that teaches lower year undergraduates ML fundamentals. <br /> <br /> Learn More >> </h3>
+							<h2>ImplementAI</h2>
+							<h3>Each year, ImplementAI brings together 150 students across Eastern Canada to design and innovate modern AI solutions. </h3>
 						</ImageText>
 					</ImageCell>
 
@@ -156,8 +156,8 @@ class Activities extends React.Component {
 						<ImageBounds red={true} className="Bounds">
 						</ImageBounds>
 						<ImageText className="Text">
-							<h2>MAIS202 Bootcamp (Winter 2019)</h2>
-							<h3>Launched by 13 passionate students, MAIS 202 is an eight week bootcamp that teaches lower year undergraduates ML fundamentals. <br /> <br /> Learn More >> </h3>
+							<h2>Workshops</h2>
+							<h3>Our workshop leads gave workshops covering an overview of topics in artificial intelligence and machine learning, data preprocessing, and fundamental AI algorithms. This workshop series was extremely popular, garnering over 500 signups and students from other universities across Montreal. </h3>
 						</ImageText>
 					</ImageCell>
 
@@ -166,8 +166,8 @@ class Activities extends React.Component {
 						<ImageBounds className="Bounds">
 						</ImageBounds>
 						<ImageText className="Text">
-							<h2>MAIS202 Bootcamp (Winter 2019)</h2>
-							<h3>Launched by 13 passionate students, MAIS 202 is an eight week bootcamp that teaches lower year undergraduates ML fundamentals. <br /> <br /> Learn More >> </h3>
+							<h2>Women in AI Panel</h2>
+							<h3>In March 2019, we invited some of Montreal’s most celebrated researchers — Joelle Pineau, Layla El Asri, Audrey Durand, and Negar Rostamzadeh to talk their notable achievements and share their career progression in AI. </h3>
 						</ImageText>
 					</ImageCell>
 
@@ -176,8 +176,8 @@ class Activities extends React.Component {
 						<ImageBounds red={true} className="Bounds">
 						</ImageBounds>
 						<ImageText className="Text">
-							<h2>MAIS202 Bootcamp (Winter 2019)</h2>
-							<h3>Launched by 13 passionate students, MAIS 202 is an eight week bootcamp that teaches lower year undergraduates ML fundamentals. <br /> <br /> Learn More >> </h3>
+							<h2>Research Talks</h2>
+							<h3>A series of laidback, evening presentations for students to engage with state-of-the-art research pursued by academic and industry researchers in machine learning. </h3>
 						</ImageText>
 					</ImageCell>
 
@@ -186,8 +186,8 @@ class Activities extends React.Component {
 						<ImageBounds className="Bounds">
 						</ImageBounds>
 						<ImageText className="Text">
-							<h2>MAIS202 Bootcamp (Winter 2019)</h2>
-							<h3>Launched by 13 passionate students, MAIS 202 is an eight week bootcamp that teaches lower year undergraduates ML fundamentals. <br /> <br /> Learn More >> </h3>
+							<h2>Company Crawl</h2>
+							<h3>Over 30 talented individuals had the opportunity to learn more about some of the hottest AI companies in Montreal, including Automat, StrategiAI, Google, and Microsoft. </h3>
 						</ImageText>
 					</ImageCell>
 				</ImageGrid>
