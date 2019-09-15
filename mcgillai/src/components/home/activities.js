@@ -14,7 +14,10 @@ import {
 
  import Mais202 from './activities-img/mais202.jpg';
  import ImplementAI from './activities-img/implementai.jpg';
- import ResearchTalks from './activities-img/researchtalks.jpg';
+ import Workshops from './activities-img/workshops.jpg';
+ import WomenInAI from './activities-img/womeninai.jpg';
+ import ResearchTalks from './activities-img/researchtalks.JPG';
+ import CompanyCrawl from './activities-img/companycrawl.JPG';
 
 const Container = styled('div')`
 	${SectionBase};
@@ -149,7 +152,7 @@ class Activities extends React.Component {
 					</ImageCell>
 
 					<ImageCell>
-						<ImageBackground className="Background" style={{backgroundImage: `url(${ResearchTalks})`}}> </ImageBackground>
+						<ImageBackground className="Background" style={{backgroundImage: `url(${Workshops})`}}> </ImageBackground>
 						<ImageBounds red={true} className="Bounds">
 						</ImageBounds>
 						<ImageText className="Text">
@@ -159,7 +162,7 @@ class Activities extends React.Component {
 					</ImageCell>
 
 					<ImageCell>
-						<ImageBackground className="Background" style={{backgroundImage: `url(${Mais202})`}}> </ImageBackground>
+						<ImageBackground className="Background" style={{backgroundImage: `url(${WomenInAI})`}}> </ImageBackground>
 						<ImageBounds className="Bounds">
 						</ImageBounds>
 						<ImageText className="Text">
@@ -169,7 +172,7 @@ class Activities extends React.Component {
 					</ImageCell>
 
 					<ImageCell>
-						<ImageBackground className="Background" style={{backgroundImage: `url(${ImplementAI})`}}> </ImageBackground>
+						<ImageBackground className="Background" style={{backgroundImage: `url(${ResearchTalks})`}}> </ImageBackground>
 						<ImageBounds red={true} className="Bounds">
 						</ImageBounds>
 						<ImageText className="Text">
@@ -179,7 +182,7 @@ class Activities extends React.Component {
 					</ImageCell>
 
 					<ImageCell>
-						<ImageBackground className="Background" style={{backgroundImage: `url(${ResearchTalks})`}}> </ImageBackground>
+						<ImageBackground className="Background" style={{backgroundImage: `url(${CompanyCrawl})`}}> </ImageBackground>
 						<ImageBounds className="Bounds">
 						</ImageBounds>
 						<ImageText className="Text">

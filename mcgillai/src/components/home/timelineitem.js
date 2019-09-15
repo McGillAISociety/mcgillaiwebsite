@@ -24,7 +24,7 @@ const ItemContainer = styled('div')`
     &:nth-child(odd) .Text {
     	text-align: left;
     	align-items: flex-start;
-    	
+
     	@media only screen and (max-width: 767px) {
     		padding: 15px 10px;
 	        text-align: center;
@@ -53,7 +53,7 @@ const ItemContent = styled('div')`
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding: 30px;
+    padding: 10px;
     position: relative;
     width: 400px;
     max-width: 80%;

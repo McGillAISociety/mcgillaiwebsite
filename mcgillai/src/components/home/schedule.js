@@ -41,15 +41,16 @@ const TimelineContainer = styled('div')`
 `;
 
 const Title = styled('div')`
-	${SecondaryFont};
+	font-family: 'Montserrat-Bold';
+	color: #FFFFFF;
 	text-align: center;
-	font-size: 48pt;
+	font-size: 36pt;
 `;
 
 const Schedule = () =>
 	TimelineDataFall.length > 0 && (
 		<Container>
-			<Title>Schedule </Title>
+			<Title>Upcoming Events</Title>
 			<TimelineContainer>
 				{TimelineDataFall.map((data, idx) => (
 					<TimelineItem data = {data} key={idx} />

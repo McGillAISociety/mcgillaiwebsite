@@ -20,7 +20,8 @@ const Container = styled('div')`
 	${SectionBase({
     heightPx: 600
   	})};
-	${SecondaryFont};
+	font-family: 'Montserrat-Bold';
+	color: #FFFFFF;
 	font-size: 48px;
 	text-align: center;
 `;
