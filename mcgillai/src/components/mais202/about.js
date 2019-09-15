@@ -32,6 +32,10 @@ const ImageContainer = styled('div')`
 	background-position: 40% 20%;
 	padding-left: 40px;
 	padding-bottom: 10px;
+
+	@media screen and (max-width: 767px) {
+		width: 100%;
+	}
 `;
 
 const Image = styled('img')`

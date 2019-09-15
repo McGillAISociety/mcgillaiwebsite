@@ -26,7 +26,7 @@ const Column = styled('div')`
 	flex: 1;
 	padding: 1em;
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 1100px) {
 		width: 100%;
 	}
 `;
