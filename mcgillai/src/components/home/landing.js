@@ -39,6 +39,7 @@ const Column = styled('div')`
 const Icon = styled('img')`
   margin-left: auto;
   margin-right: auto;
+  padding-top: 75px;
   display: block;
   max-height: 500px;
 `;
@@ -52,7 +53,7 @@ const Title = styled('h1')`
   -webkit-text-fill-color: transparent;
 
   margin-left: 80px;
-  padding-top: 30px;
+  padding-top: 125px;
 
   @media screen and (max-width: 1260px) {
       display: none;

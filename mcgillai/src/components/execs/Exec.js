@@ -4,9 +4,17 @@ import styled from '@emotion/styled'
 import { SecondaryFont } from '../commonstyles.js';
 import { HeadingUnderline } from '../commonstyles.js';
 
-const Background = styled('div')`
+import Background from '../home/assets/background.jpg';
+
+const Container = styled('div')`
 	${SecondaryFont};
-	background: #131218;
+	background-image: url(${Background});
+	background-size: cover; /* or contain depending on what you want */
+  	background-attachment: fixed;
+  	background-position: center;
+ 	background-repeat: no-repeat;
+	padding: 70px;
+	padding-top: 80px;
 	h2 {
 		color: #cc0000;
 		font-family: montserrat-bold;
@@ -20,11 +28,11 @@ const Background = styled('div')`
 		padding: 5;
 		margin: 0;
 	}
-	padding: 40px;
+
 `;
 
 const GridContainer = styled('div')`
-
+	padding-top: 40px;
 	text-align: center;
 `;
 
@@ -44,7 +52,7 @@ const ImageContainer = styled('div')`
 `;
 
 const Image = styled('img')`
-	height: 215px;
+	height: 175px;
 	width: auto;
 	display: block;
 	margin-left: auto;
@@ -59,7 +67,7 @@ const Text = styled('p')`
 `;
 
 const Exec = () => (
-	<Background>
+	<Container>
 			<HeadingUnderline> Our Team </HeadingUnderline>
 			<GridContainer>
 			{DATA.map((data, index) => {
@@ -73,6 +81,6 @@ const Exec = () => (
 				</ImageContainer>)
 			})}
 			</GridContainer>
-	</Background>
+	</Container>
 );
 export default Exec;

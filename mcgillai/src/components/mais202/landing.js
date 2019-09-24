@@ -16,6 +16,8 @@ const Container = styled('div')`
     heightPx: 600
   	})};
   	box-sizing: border-box;
+  	padding: 70px;
+	padding-top: 80px;
 
   	.heading {
   		@media screen and (max-width: 575px) {

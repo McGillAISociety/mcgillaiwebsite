@@ -15,6 +15,7 @@ import {
 
 const Container = styled('div')`
 	${SectionBase};
+    align-items: center;
 `;
 
 const SVGContainer = styled('img')`
@@ -22,14 +23,26 @@ const SVGContainer = styled('img')`
   	margin-right: auto;
   	display: block;
   	max-height: 500px;
+  	@media screen and (max-width: 600px) {
+		
+	}
 `;
 
-const Heading = {
-	fontSize: '48px',
-	textAlign: 'center',
-	margin: '0',
-	padding: '100px 0 0 0'
-};
+const Title = styled('p')`
+	font-family: 'Montserrat-Bold';
+	color: #FFFFFF;
+	font-size: 48px;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0;
+	padding: 50px 0 0 0;
+
+	@media screen and (max-width: 600px) {
+		padding: 0;
+		font-size: 32px;
+	}
+
+`;
 
 class Stats extends React.Component {
 	render () {
@@ -38,7 +51,7 @@ class Stats extends React.Component {
 				<SectionContent columns={true}>
 					<SectionLeftColumn>
 						<SectionTextContent>
-							<p style={Heading}>The McGill AI <br /> Community </p>
+							<Title>The McGill AI Community </Title>
 							<hr/>
 						</SectionTextContent>
 					</SectionLeftColumn>

@@ -83,7 +83,7 @@ export const DATA = [
 		"photo": '/exec-img/cheng.png',
 		"name": "Cheng Lin",
 		"position": "Technical Programme Manager",
-		"bio": "Cheng is a third year Electrical Engineering student. She’s interested in safe and fair ML applications that make the world a better place.",
+		"bio": "Cheng is in her third year of electrical engineering. She's interested in machine learning applications in traditionally non-technical fields. In her free time, she figure skates and listens to too much music.",
 		"linkedin": "",
 		"email": ""
 	},

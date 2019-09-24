@@ -6,9 +6,15 @@ import About from './about.js'
 //import Instructors from './instructors.js'
 //import Alumni from './alumni.js'
 import FAQ from './faq.js'
+import Background from '../home/assets/background.jpg'
 
 const Container = styled('div')`
-	background: #131218;
+	background-image: url(${Background});
+	background-size: cover; /* or contain depending on what you want */
+  	background-attachment: fixed;
+  	background-position: center;
+ 	background-repeat: no-repeat;
+	padding-top: 100px;
 `;
 
 class Mais202 extends React.Component {

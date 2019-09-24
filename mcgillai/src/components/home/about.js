@@ -36,6 +36,7 @@ const Column = styled('div')`
 
 	@media screen and (max-width: 900px) {
     	width: 100%;
+    	padding: 0 10px 0;
 	}
 	> p {
 		margin: 0px;

@@ -5,13 +5,15 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+// Import css files
 import './assets/css/app.css';
 import './assets/css/fontello.css';
-// Import css files
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap-theme.css';
 
-import NavBar from './components/navbar/navbar.js'
+import Navigation from './components/navbar/navbar.js'
 import Home from './components/home/home.js';
 import OurTeam from './components/execs/Exec.js';
 import Mais202 from './components/mais202/mais202.js';
@@ -22,12 +24,12 @@ import NotFound from './components/notfound/notfound.js';
 const route = (
 	<Router>
 		<div>
-			<NavBar></NavBar>
+			<Navigation></Navigation>
 			<Switch>
 				<Route exact path="/" component={Home} />
 				<Route path="/ourteam" component={OurTeam} />
 				<Route path="/mais202" component={Mais202} />
-				<Route path="/contact" component={Faq} />
+				<Route path="/faq" component={Faq} />
 				<Route component={NotFound} />
 			</Switch>
 			<Footer></Footer>

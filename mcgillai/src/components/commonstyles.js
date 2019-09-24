@@ -78,6 +78,11 @@ export const SectionLeftColumn = styled('div')`
         }
       `};
   }
+
+  @media screen and (max-width: 900px) {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 `;
 
 export const SectionRightColumn = styled('div')`
@@ -86,7 +91,7 @@ export const SectionRightColumn = styled('div')`
   padding-top: 20px;
 
   @media screen and (min-width: 640px) {
-    padding-top: 40px;
+    padding-top: 0;
   }
 
   @media screen and (min-width: 1260px) {

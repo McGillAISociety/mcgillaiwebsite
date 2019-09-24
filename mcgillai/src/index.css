@@ -5,7 +5,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding-top: 75px;
 }
 
 code {
@@ -13,6 +12,22 @@ code {
     monospace;
 }
 
-.active{
-	color: red;
+.navbarcustom{
+  background: #131218;
+  margin-bottom: 0 !important;
+  height: 75px;
+}
+
+.navtext {
+  font-family: 'Montserrat';
+  font-size: 24px;
+  color: #FFFFFF;
+  transition: opacity 0.2s;
+  text-decoration: none;
+
+
+}
+
+.navtext:hover {
+  opacity: 0.6; 
 }

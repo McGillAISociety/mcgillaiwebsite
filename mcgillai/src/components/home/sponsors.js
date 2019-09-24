@@ -15,7 +15,9 @@ import {
 
 const Container = styled('div')`
 	${SectionBase};
-	font-size: 30pt;
+	font-family: 'Montserrat-Bold';
+	color: #FFFFFF;
+	font-size: 48px;
 	text-align: center;
 `;
 
@@ -23,6 +25,7 @@ class Sponsors extends React.Component {
 	render () {
 		return (
 			<Container>
+				Sponsors
 				<SectionContent columns={true}>
 			      <SectionLeftColumn>
 			        <SectionTextContent>
