@@ -95,12 +95,17 @@ const ImageText = styled('div')`
 		margin: 20px 0px;
 
 		@media screen and (max-width: 1150px) {
+			margin-bottom: 10px;
 			font-size: 26px;
 		}
 
 		@media screen and (max-width: 1000px) {
 			font-size: 20px;
 			
+		}
+		@media screen and (max-width: 767px) {
+			font-size: 16px;
+			margin-bottom: 5px;
 		}
 	}
 
@@ -111,13 +116,26 @@ const ImageText = styled('div')`
 			font-size: 16px;
 		}
 
+		@media screen and (max-width: 767px) {
+			margin-top: 0;
+			font-size: 14px;
+			
+		}
+		
+
 		@media screen and (max-width: 575px) {
 			font-size: 12px;
 		}
+
+		@media screen and (max-width: 350px) {
+			font-size: 10px;
+		}
+
 	}
 
 	@media screen and (max-width: 850px) {
-			padding: 10px;
+		padding: 10px;
+		padding-bottom: 5px;
 	}
 `;
 
@@ -133,7 +151,7 @@ class Activities extends React.Component {
 						<ImageBounds red={true} className="Bounds">
 						</ImageBounds>
 						<ImageText className="Text">
-							<h2>MAIS202 Bootcamp (Winter 2019)</h2>
+							<h2>MAIS202 Bootcamp</h2>
 							<h3>Launched by 13 passionate students, MAIS 202 is an eight week bootcamp that teaches lower year undergraduates ML fundamentals. </h3>
 						</ImageText>
 					</ImageCell>
@@ -154,7 +172,7 @@ class Activities extends React.Component {
 						</ImageBounds>
 						<ImageText className="Text">
 							<h2>Workshops</h2>
-							<h3>Our workshop leads gave workshops covering an overview of topics in artificial intelligence and machine learning, data preprocessing, and fundamental AI algorithms. This workshop series was extremely popular, garnering over 500 signups and students from other universities across Montreal. </h3>
+							<h3>Our workshop leads gave workshops covering an overview of topics in artificial intelligence and machine learning, data preprocessing, and fundamental AI algorithms. This workshop series garnered over 500 signups across Montreal. </h3>
 						</ImageText>
 					</ImageCell>
 
@@ -164,7 +182,7 @@ class Activities extends React.Component {
 						</ImageBounds>
 						<ImageText className="Text">
 							<h2>Women in AI Panel</h2>
-							<h3>In March 2019, we invited some of Montreal’s most celebrated researchers — Joelle Pineau, Layla El Asri, Audrey Durand, and Negar Rostamzadeh to talk their notable achievements and share their career progression in AI. </h3>
+							<h3>In March 2019, we invited Joelle Pineau, Layla El Asri, Audrey Durand, and Negar Rostamzadeh to talk their notable achievements and share their career progression in AI. </h3>
 						</ImageText>
 					</ImageCell>
 

@@ -19,6 +19,12 @@ const Container = styled('div')`
   	padding: 70px;
 	padding-top: 80px;
 
+	@media only screen and (max-width: 767px) {
+	    padding-left: 20px;
+	    padding-right: 20px;
+	    padding-bottom: 0;
+    }
+
   	.heading {
   		@media screen and (max-width: 575px) {
 	    	font-size: 24px;
@@ -50,7 +56,7 @@ const Column = styled('div')`
 const ContentContainer = styled('div')`
 	text-align: center;
 	@media screen and (max-width: 1050px) {
-		padding-left: 20px;
+		padding-left: 0;
 	}
 `;
 
@@ -62,6 +68,12 @@ const Title = styled('div')`
 	> h1 {
 		font-size: 80px;
 		margin: 10px;
+		@media only screen and (max-width: 767px) {
+	      font-size: 74px;
+	  	}
+	  	@media only screen and (max-width: 467px) {
+	      font-size: 54px;
+	  	}
 	}
 
 	> h3 {
@@ -98,11 +110,35 @@ const StatsImage = styled('img')`
 
 `;
 
+const HeadingUnderlineTop = styled('div')`
+	font-family: 'Montserrat-Bold', monospace;
+	font-size: 30px;
+	color: #FFFFFF;
+	display: inline;
+	background: linear-gradient(to right,#722D60, #A81245);
+	background-repeat: no-repeat;
+	background-size: 85% 50%;
+	background-position: 0% 80%;
+	padding-left: 40px;
+	padding-bottom: 10px;
+	@media screen and (max-width: 550px) {
+    	font-size: 24px;
+  	}
+	@media screen and (max-width: 400px) {
+    	font-size: 16px !important;
+  	}
+
+  	@media screen and (max-width: 320px) {
+    	font-size: 14px !important;
+  	}
+
+ `;
+
 class Landing extends React.Component {
 	render() {
 		return (
 			<Container>
-				<HeadingUnderline className='heading'>FOR STUDENTS, BY STUDENTS </HeadingUnderline>
+				<HeadingUnderlineTop className='heading'>FOR STUDENTS, BY STUDENTS </HeadingUnderlineTop>
 				<ContentContainer>
 				<Column>
 					<Title>

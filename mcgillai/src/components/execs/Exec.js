@@ -13,7 +13,8 @@ const Container = styled('div')`
   	background-attachment: fixed;
   	background-position: center;
  	background-repeat: no-repeat;
-	padding: 70px;
+ 	padding-left: 70px;
+ 	padding-right: 20px;
 	padding-top: 125px;
 	h2 {
 		color: #cc0000;
@@ -24,10 +25,20 @@ const Container = styled('div')`
 	}
 	h3 {
 		font-family: montserrat-bold;
+		font-size: 18px;
 		text-align: center;
 		padding: 5;
 		margin: 0;
 	}
+
+	@media only screen and (max-width: 767px) {
+	    padding-left: 20px;
+	    padding-right: 0;
+    }
+
+    @media only screen and (max-width: 767px) {
+	    padding-left: 10px;
+    }
 
 `;
 

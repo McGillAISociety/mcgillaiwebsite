@@ -19,19 +19,32 @@ const GalleryContainer = styled('div')`
 	@media screen and (max-width: 767px) {
 		max-width: 500px;
 	}
-	@media screen and (max-width: 650px) {
-    	visibility: none;
-	}
+	
 	@media screen and (max-width: 600px) {
 		max-width: 400px;
+	}
+
+	@media screen and (max-width: 490px) {
+		display: none;
 	}
 `;
 
 const Image = styled('img')`
-	width: 500px;
+	width: 600px;
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
+	@media screen and (max-width: 767px) {
+		width: 500px;
+		height: auto;
+	}
+	@media screen and (max-width: 600px) {
+		width: 400px;
+		height: auto;
+	}
+	@media screen and (max-width: 490px) {
+		display: none;
+	}
 `;
 
 class Gallery extends React.Component {

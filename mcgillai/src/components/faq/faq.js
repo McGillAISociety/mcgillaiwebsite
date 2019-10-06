@@ -16,6 +16,10 @@ const Container = styled('div')`
  	background-repeat: no-repeat;
   	padding-top: 60px;
   	padding-left: 70px;
+
+  	@media only screen and (max-width: 767px) {
+	    padding-left: 20px;
+    }
 `;
 
 const FAQContainer = styled('div')`

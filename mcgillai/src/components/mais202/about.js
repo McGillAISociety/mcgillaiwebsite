@@ -27,7 +27,7 @@ const ContentContainer = styled('div')`
 	padding: 30px;
 	text-align: center;
 	@media screen and (max-width: 1050px) {
-		max-height: 400px;
+		max-height: 600px;
 		padding-left: 20px;
 	}
 `;
@@ -53,14 +53,25 @@ const Image = styled('img')`
 const Container = styled('div')`
 	${SectionBase};
 	padding-left: 70px;
+	padding-bottom: 0;
+
+	@media only screen and (max-width: 767px) {
+	    padding-left: 20px;
+	    padding-right: 20px;
+    }
 `;
 
 const Text = styled('p')`
 	font-family: 'Montserrat';
 	font-size: 20px;
 	color: #e7e7e7;
-
 	text-align: left;
+	@media only screen and (max-width: 767px) {
+      font-size: 16px;
+  	}
+  	@media only screen and (max-width: 467px) {
+      font-size: 12px;
+  	}
 `;
 
 class About extends React.Component {

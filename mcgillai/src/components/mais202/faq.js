@@ -11,6 +11,11 @@ import {
 const Container = styled('div')`
 	${SectionBase};
 	padding-left: 70px;
+
+	@media only screen and (max-width: 767px) {
+	    padding-left: 20px;
+	    padding-right: 20px;
+    }
 `;
 
 class FAQ extends React.Component {

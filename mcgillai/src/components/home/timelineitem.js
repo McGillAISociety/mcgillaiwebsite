@@ -71,7 +71,7 @@ const ItemContent = styled('div')`
 	    height: 10px;
 
         @media only screen and (max-width: 767px) {
-            visibility: none;
+            visibility: hidden;
         }
 
     }
@@ -95,6 +95,9 @@ const Title = styled('h2')`
 	@media only screen and (max-width: 767px) {
 	    font-size: 24px;
     }
+    @media screen and (max-width: 350px) {
+            font-size: 18px;
+    }
 `;
 
 const Description = styled('div')`
@@ -104,7 +107,7 @@ const Description = styled('div')`
 	> p {
 		margin-top: 0px;
 		@media only screen and (max-width: 767px) {
-	    	font-size: 18px;
+	    	font-size: 14px;
     	}
 	}
 	

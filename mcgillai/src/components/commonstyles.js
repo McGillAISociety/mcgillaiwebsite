@@ -126,12 +126,24 @@ export const Question = styled('div')`
   font-size: 24px;
   color: #FFFFFF;
   padding-top: 30px;
+  @media only screen and (max-width: 767px) {
+      font-size: 18px;
+  }
+  @media only screen and (max-width: 467px) {
+      font-size: 16px;
+  }
 `;
 
 export const Answer = styled('div')`
   font-family: 'Montserrat';
   font-size: 20px;
   color: #e7e7e7;
+  @media only screen and (max-width: 767px) {
+      font-size: 16px;
+  }
+  @media only screen and (max-width: 467px) {
+      font-size: 12px;
+  }
 `;
 
 export const ImageBackground = styled('div')`
