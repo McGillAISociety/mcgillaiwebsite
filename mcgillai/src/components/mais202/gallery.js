@@ -19,7 +19,9 @@ const GalleryContainer = styled('div')`
 	@media screen and (max-width: 767px) {
 		max-width: 500px;
 	}
-
+	@media screen and (max-width: 650px) {
+    	visibility: none;
+	}
 	@media screen and (max-width: 600px) {
 		max-width: 400px;
 	}

@@ -13,21 +13,29 @@ code {
 }
 
 .navbarcustom{
-  background: #131218;
+  background: #131218 !important;
   margin-bottom: 0 !important;
-  height: 75px;
+  text-align: center;
 }
 
 .navtext {
   font-family: 'Montserrat';
   font-size: 24px;
-  color: #FFFFFF;
+  color: #FFFFFF !important;
   transition: opacity 0.2s;
   text-decoration: none;
-
-
+  fill: #FFFFFF !important;
 }
 
 .navtext:hover {
   opacity: 0.6; 
+}
+
+.navbar-brand {
+  height: unset !important;
+  padding-left: 50px !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
 }

@@ -52,6 +52,7 @@ const Image = styled('img')`
 
 const Container = styled('div')`
 	${SectionBase};
+	padding-left: 70px;
 `;
 
 const Text = styled('p')`

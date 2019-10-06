@@ -10,6 +10,7 @@ import {
 
 const Container = styled('div')`
 	${SectionBase};
+	padding-left: 70px;
 `;
 
 class FAQ extends React.Component {

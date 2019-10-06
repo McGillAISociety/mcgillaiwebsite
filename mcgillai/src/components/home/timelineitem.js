@@ -69,6 +69,11 @@ const ItemContent = styled('div')`
 	    transform: rotate(45deg);
 	    width: 10px;
 	    height: 10px;
+
+        @media only screen and (max-width: 767px) {
+            visibility: none;
+        }
+
     }
 
     @media only screen and (max-width: 1023px) {

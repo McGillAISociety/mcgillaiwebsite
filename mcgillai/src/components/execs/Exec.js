@@ -14,7 +14,7 @@ const Container = styled('div')`
   	background-position: center;
  	background-repeat: no-repeat;
 	padding: 70px;
-	padding-top: 80px;
+	padding-top: 125px;
 	h2 {
 		color: #cc0000;
 		font-family: montserrat-bold;

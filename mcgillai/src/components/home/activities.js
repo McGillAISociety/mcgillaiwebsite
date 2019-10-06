@@ -20,7 +20,10 @@ import {
  import CompanyCrawl from './activities-img/companycrawl.JPG';
 
 const Container = styled('div')`
-	${SectionBase};
+	margin: auto;
+  	position: relative;
+  	display: block;
+  	overflow: hidden;
 	font-size: 30pt;
 `;
 
@@ -57,9 +60,11 @@ const ImageCell = styled('div')`
 		opacity: 1;
 	}
 
-	@media screen and (max-width: 767px) {
-		width: 100%;
+	@media screen and (max-width: 750px) {
+		width: 50%;
 	}
+
+
 `;
 
 const ImageBounds = styled('div')`
@@ -97,10 +102,6 @@ const ImageText = styled('div')`
 			font-size: 20px;
 			
 		}
-
-		@media screen and (max-width: 767px) {
-			font-size: 30px;
-		}
 	}
 
 	> h3 {
@@ -110,12 +111,8 @@ const ImageText = styled('div')`
 			font-size: 16px;
 		}
 
-		@media screen and (max-width: 1000px) {
+		@media screen and (max-width: 575px) {
 			font-size: 12px;
-		}
-
-		@media screen and (max-width: 767px) {
-			font-size: 20px;
 		}
 	}
 

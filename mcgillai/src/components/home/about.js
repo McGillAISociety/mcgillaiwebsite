@@ -34,13 +34,20 @@ const Column = styled('div')`
 	box-sizing: border-box;
     padding: 0 50px 0;
 
-	@media screen and (max-width: 900px) {
+    @media screen and (max-width: 1100px) {
+    	padding-left: 8px;
+    	padding-right: 8px;
+	}
+
+	@media screen and (max-width: 967px) {
     	width: 100%;
     	padding: 0 10px 0;
 	}
 	> p {
+		font-family: 'Montserrat-Bold';
 		margin: 0px;
    		padding: 0px;
+   		padding-bottom: 10px;
 	}
 `;
 

@@ -1,15 +1,9 @@
 export const TimelineDataFall = [
 	{
 		title: 'Workshop 2',
-		time: 'Sept 25 | 18:00 - 19:30',
+		time: 'October 9 | 18:00 - 19:30',
 		place: 'McConnell 204, McGill University',
 		category: '/schedule-icons/workshop.svg'
-	},
-	{
-		title: 'ImplementAI',
-		time: 'Sept 28-29 | 24 hrs',
-		place: 'National Bank of Canada, Head Office',
-		category: '/schedule-icons/hackathon.svg'
 	},
 	{
 		title: 'Workshop 3',

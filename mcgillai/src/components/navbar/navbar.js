@@ -13,7 +13,6 @@ const Container=styled('div')`
 `;
 
 const NavbarContent = styled('div')`
-  padding-left: 50px;
 `;
 
 class Navigation extends React.Component {
@@ -21,8 +20,9 @@ class Navigation extends React.Component {
 	render () {
 		return (
       <Container>
-        <Navbar expand="lg" className = 'navbarcustom navbar-toggleable-lg navbar-fixed-top'>
-          <NavbarContent>
+        <NavbarContent>
+        <Navbar inverse collapseOnSelect expand="md" bg="dark" className = 'navbarcustom navbar-toggleable-lg navbar-fixed-top'>
+          
           <Navbar.Brand>
             <Link to='/'>
               <img
@@ -34,17 +34,17 @@ class Navigation extends React.Component {
               />
             </Link>
           </Navbar.Brand>
-
-          <Navbar.Collapse id="responsive-navbar-nav">
+          <Navbar.Toggle aria-controls="basic-navbar-nav" className='navtext'/>
+          <Navbar.Collapse className = "navbar-collapse" id="basic-navbar">
             <Nav className = "mr-auto">
               <Nav.Link><Link to='/ourteam'><Navbar.Text className='navtext'>Our Team</Navbar.Text></Link></Nav.Link>
               <Nav.Link><Link to='/mais202'><Navbar.Text className='navtext'>MAIS202</Navbar.Text></Link></Nav.Link>
               <Nav.Link><Link to='/faq'><Navbar.Text className='navtext'>FAQ</Navbar.Text></Link></Nav.Link>
-              <a target="_blank" href= "https://medium.com/mcgill-artificial-intelligence-review"><Navbar.Text className='navtext'>Blog</Navbar.Text></a>
+              <Nav.Link><a target="_blank" href= "https://medium.com/mcgill-artificial-intelligence-review"><Navbar.Text className='navtext'>Blog</Navbar.Text></a></Nav.Link>
             </Nav>
           </Navbar.Collapse>
-          </NavbarContent>
         </Navbar>
+        </NavbarContent>
       </Container>
 			
 		);

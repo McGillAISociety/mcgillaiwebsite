@@ -15,6 +15,7 @@ const Container = styled('div')`
   	background-position: center;
  	background-repeat: no-repeat;
   	padding-top: 60px;
+  	padding-left: 70px;
 `;
 
 const FAQContainer = styled('div')`
