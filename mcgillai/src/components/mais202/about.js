@@ -4,7 +4,9 @@ import styled from '@emotion/styled';
 import { 
 	HeadingUnderline,
 	SectionBase,
-	ImageBackground
+	ImageBackground,
+	Question,
+	Answer
  } from '../commonstyles.js';
 
  import AboutImg from './assets/img/about.png';
@@ -13,7 +15,7 @@ const Column = styled('div')`
 	font-size: 32px;
 	display: inline-block;
 	vertical-align:top;
-	padding: 30px;
+	padding: 20px;
 	width: 50%;
 
 	
@@ -25,7 +27,7 @@ const Column = styled('div')`
 
 const ContentContainer = styled('div')`
 	padding: 30px;
-	text-align: center;
+	text-align: left;
 	@media screen and (max-width: 1050px) {
 		max-height: 600px;
 		padding-left: 20px;
@@ -61,19 +63,6 @@ const Container = styled('div')`
     }
 `;
 
-const Text = styled('p')`
-	font-family: 'Montserrat';
-	font-size: 20px;
-	color: #e7e7e7;
-	text-align: left;
-	@media only screen and (max-width: 767px) {
-      font-size: 16px;
-  	}
-  	@media only screen and (max-width: 467px) {
-      font-size: 12px;
-  	}
-`;
-
 class About extends React.Component {
 	render() {
 		return (
@@ -86,18 +75,12 @@ class About extends React.Component {
 					</ImageContainer>
 				</Column>
 				<Column>
-					<Text>
-						Content: 
-							> Relevance of 202; why it was started
-							> Tangible results
-							> Influence of the project
-							> Educational Impact 
-
-							Read more about MAIS 202: 
-							> Syllabus
-							> GitHub Repo
-							> McGill Reporter link
-					</Text>
+					<Question> How it started: </Question>
+					<Answer> To fill the lack of introductory AI courses for undergraduate students, the McGill AI Society designed an intensive, nine-week course with the sole intention of equipping 30 young, talented undergraduates with the skills required to land an AI position in industry. </Answer>
+					<Question> How it works:</Question>
+					<Answer> The MAIS 202 bootcamp is an accelerated survey course which aims to teach lower-year undergraduates the fundamentals of machine learning. In addition to weekly lectures and assignments, participants worked towards an individual final project which was presented at the McGill AI Project Fair.</Answer>
+					<Question> Takeaways from MAIS 202:</Question>
+					<Answer>MAIS 202 provides students with both theoretical and hands-on skills required for ML research and industry. Our dedicated team of academic lecturers and TPMs offer real-time mentorship and feedback, and there are other opportunities to network with other ML enthusiasts!</Answer>
 				</Column>
 				</ContentContainer>
 			</Container>

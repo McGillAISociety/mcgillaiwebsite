@@ -38,9 +38,9 @@ const CenterContent = styled('div')`
 `;
 
 const footerLink = css`
-  color: white;
+  color: white !important;
   transition: opacity 0.2s;
-  text-decoration: none;
+  text-decoration: none !important;
 
   :hover {
     opacity: 0.6;
@@ -80,6 +80,10 @@ const iconStyle = css`
     font-size: 20px !important;
   }
 `;
+
+const Subscribe = styled('a')`
+	${footerLink};
+`
 
 const year = new Date().getFullYear();
 
@@ -139,7 +143,8 @@ class Footer extends React.Component {
 			             className='icon-linkedin'
 			          />
 			        </SocialLinks>
-			        © McGill Artificial Intelligence Society {year}
+			        © McGill Artificial Intelligence Society {year} <br />
+			        <Subscribe href="https://docs.google.com/forms/u/3/d/e/1FAIpQLScs1ADlyTZHnvbQPIftXhE2yGvqPGzyhhKq87q212ttkOmIaQ/viewform?usp=sf_link" target="_blank">Subscribe to our biweekly newsletter here! </Subscribe>
 			      </CenterContent>
 			    </CenterContainer>
 			  </FooterContainer>
