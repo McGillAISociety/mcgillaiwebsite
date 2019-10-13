@@ -1,15 +1,10 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import { css, jsx } from '@emotion/core'
 
 import { 
   PrimaryFont, 
   SecondaryFont, 
   SectionBase,
-  SectionContent,
-  SectionLeftColumn,
-  SectionRightColumn,
-  SectionTextContent
  } from '../commonstyles'
 
  import Logo from './assets/logo.svg';

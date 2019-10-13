@@ -34,7 +34,8 @@ class Faq extends React.Component {
 		return (
 			<Container>
 				<FAQContainer>
-					<HeadingUnderline>General FAQ </HeadingUnderline>
+					<HeadingUnderline className='content'>General FAQ </HeadingUnderline>
+					<div className = 'content--inner'>
 					<Question>How can I get involved with McGill AI? </Question>
 					<Answer>
 						We’ll be holding various events throughout the year, some of our regular events being workshops, research talks, movie nights, and the MAIS 202 bootcamp. We’ll be working to hold more community building events this year -- if you have any suggestions for us, please feel free to drop us a line either via our Facebook page or mcgillaicontact@gmail.com!
@@ -42,7 +43,7 @@ class Faq extends React.Component {
 
 					<Question>Can I still come to your events even if I have no experience with AI?</Question>
 					<Answer>
-						Absolutely. We are a student club that strives to learn more about AI by building a community with similar goals - if anything, we’re also learning ourselves.  For more about AI courses at McGill and their pre-requisites, check out this <a href="https://medium.com/mcgill-artificial-intelligence-review/ai-courses-at-mcgill-d10215d65863" target="_blank" >blog post</a> by one of our former co-presidents.
+						Absolutely. We are a student club that strives to learn more about AI by building a community with similar goals - if anything, we’re also learning ourselves.  For more about AI courses at McGill and their pre-requisites, check out this <a href="https://medium.com/mcgill-artificial-intelligence-review/ai-courses-at-mcgill-d10215d65863" target="_blank" rel="noopener noreferrer" >blog post</a> by one of our former co-presidents.
 						<br /> <br />If you are new to programming, we would highly recommend that you build a solid understanding of Python fundamentals first. 
 					</Answer>
 
@@ -64,9 +65,9 @@ class Faq extends React.Component {
 
 					<Question>Our club would like to collaborate with you on an event, how do we get in touch?</Question>
 					<Answer>
-						Fill out this form here and a member of our exec team will be in touch! 
+						Reach out at mcgillaicontact@gmail.com and a member of our exec team will be in touch! 
 					</Answer>
-
+					</div>
 				</FAQContainer>
 			</Container>
 		);

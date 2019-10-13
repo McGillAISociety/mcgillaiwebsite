@@ -4,7 +4,6 @@ import styled from '@emotion/styled';
 import { 
 	HeadingUnderline,
 	SectionBase,
-	ImageBackground,
 	Question,
 	Answer
  } from '../commonstyles.js';

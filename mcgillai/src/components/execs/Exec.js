@@ -1,18 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { DATA } from './exec-profile.js';
 import styled from '@emotion/styled'
 import { SecondaryFont } from '../commonstyles.js';
 import { HeadingUnderline } from '../commonstyles.js';
 
-import Background from '../home/assets/background.jpg';
-
 const Container = styled('div')`
 	${SecondaryFont};
-	background-image: url(${Background});
-	background-size: cover; /* or contain depending on what you want */
-  	background-attachment: fixed;
-  	background-position: center;
- 	background-repeat: no-repeat;
  	padding-left: 70px;
  	padding-right: 20px;
 	padding-top: 125px;
@@ -79,8 +72,8 @@ const Text = styled('p')`
 
 const Exec = () => (
 	<Container>
-			<HeadingUnderline> Our Team </HeadingUnderline>
-			<GridContainer>
+			<HeadingUnderline className = 'content'> Our Team </HeadingUnderline>
+			<GridContainer className = 'content--inner'>
 			{DATA.map((data, index) => {
 				return (<ImageContainer>
 						<Image src={data.photo}

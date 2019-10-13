@@ -1,22 +1,64 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import ReactGA from 'react-ga';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { Transition, TransitionGroup } from 'react-transition-group';
+import { play, exit } from './timeline.js'
+import styled from '@emotion/styled'
 
-function App() {
-  return (
-    <div className="App">
-    <header className="App-header">
-    <img src={logo} className="App-logo" alt="logo" />
-    <h2> suck my dick </h2>
-    </header>
-    </div>
-  );
-}
+import Navigation from './components/navbar/navbar.js'
+import Home from './components/home/home.js';
+import OurTeam from './components/execs/Exec.js';
+import Mais202 from './components/mais202/mais202.js';
+import Faq from './components/faq/faq.js';
+import Footer from './components/footer/footer.js'
+import NotFound from './components/notfound/notfound.js';
 
-function initializeReactGA() {
-  ReactGA.initialize('UA-139993353-1');
-  ReactGA.pageview('/homepage');
+import Background from './components/home/assets/background.jpg'
+
+const Container = styled('div')`
+  background-image: url(${Background});
+  background-size: cover; /* or contain depending on what you want */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+`;
+
+class App extends React.Component {
+  render() {
+    return (
+        <BrowserRouter>
+        <Container>
+          <Navigation></Navigation>
+          <Route render={({ location }) => {
+            const { pathname, key } = location;
+
+            return (
+              <TransitionGroup component = {null} >
+                <Transition
+                  key={key}
+                  appear={true}
+                  onEnter={(node, appears) => play(pathname, node, appears)}
+                  onExit={(node, appears) => exit(node, appears)}
+                  timeout={{enter: 750, exit: 150}}
+                >
+                <div>
+                <Switch location={location}>
+                  <Route exact path="/" component={Home} />
+                  <Route path="/ourteam" component={OurTeam} />
+                  <Route path="/mais202" component={Mais202} />
+                  <Route path="/faq" component={Faq} />
+                  <Route component={NotFound} />
+                </Switch>
+                <Footer></Footer>
+                </div>
+                </Transition>
+              </TransitionGroup>
+            )
+          }}/>
+          
+        </Container>
+      </BrowserRouter>
+    )
+  }
 }
 
 export default App;

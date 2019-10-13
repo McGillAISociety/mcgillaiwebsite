@@ -1,10 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
 
-import { 
-	PrimaryFont, 
-	SecondaryFont
-	} from '../commonstyles'
 
 const ItemContainer = styled('div')`
 	display: flex;

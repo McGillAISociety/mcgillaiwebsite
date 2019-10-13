@@ -2,7 +2,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 
 import { SectionBase,
-		 HeadingUnderline } from '../commonstyles.js';
+		 } from '../commonstyles.js';
 
 import Stats1 from './assets/stats_1.svg';
 import Stats2 from './assets/stats_2.svg';

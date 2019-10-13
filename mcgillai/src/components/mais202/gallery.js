@@ -24,10 +24,7 @@ const GalleryContainer = styled('div')`
 		max-width: 400px;
 	}
 
-	@media screen and (max-width: 490px) {
-		display: none;
-	}
-`;
+	`;
 
 const Image = styled('img')`
 	width: 600px;

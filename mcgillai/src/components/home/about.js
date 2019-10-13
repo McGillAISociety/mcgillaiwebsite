@@ -2,12 +2,8 @@ import React from 'react'
 import styled from '@emotion/styled'
 
 import { 
-	PrimaryFont, 
 	SecondaryFont, 
 	SectionBase,
-	SectionContent,
-	SectionLeftColumn,
-	SectionRightColumn,
 	SectionTextContent
  } from '../commonstyles'
 
@@ -58,7 +54,7 @@ const Icon = styled('img')`
 class About extends React.Component {
 	render() {
 		return (
-			<Container>
+			<Container className='home'>
 				About Us <br/>
 				<Column>
 					<Icon src={Lightbulb} />

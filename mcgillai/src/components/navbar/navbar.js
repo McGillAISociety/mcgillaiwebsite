@@ -1,18 +1,20 @@
 import React from 'react'
-import {Route, NavLink, Link, BrowserRouter as Router} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import NavItem from 'react-bootstrap/NavItem';
-import { LinkContainer } from 'react-router-bootstrap';
 import styled from '@emotion/styled';
-
-import Logo from '../home/assets/logo.svg';
 
 const Container=styled('div')`
 
 `;
 
 const NavbarContent = styled('div')`
+`;
+
+const BlogLink = styled('a')`
+  display: inline-block;
+  margin-top: 4.75px;
+  margin-left: 0.5px;
 `;
 
 class Navigation extends React.Component {
@@ -40,7 +42,7 @@ class Navigation extends React.Component {
               <Nav.Link><Link to='/ourteam'><Navbar.Text className='navtext'>Our Team</Navbar.Text></Link></Nav.Link>
               <Nav.Link><Link to='/mais202'><Navbar.Text className='navtext'>MAIS202</Navbar.Text></Link></Nav.Link>
               <Nav.Link><Link to='/faq'><Navbar.Text className='navtext'>FAQ</Navbar.Text></Link></Nav.Link>
-              <Nav.Link><a target="_blank" href= "https://medium.com/mcgill-artificial-intelligence-review"><Navbar.Text className='navtext'>Blog</Navbar.Text></a></Nav.Link>
+              <BlogLink target="_blank" href= "https://medium.com/mcgill-artificial-intelligence-review" rel="noopener"><Navbar.Text className='navtext'>Blog</Navbar.Text></BlogLink>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

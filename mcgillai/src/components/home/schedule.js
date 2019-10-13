@@ -2,18 +2,11 @@ import React from 'react'
 import styled from '@emotion/styled'
 
 import { 
-	PrimaryFont, 
-	SecondaryFont, 
 	SectionBase,
-	SectionContent,
-	SectionLeftColumn,
-	SectionRightColumn,
-	SectionTextContent
  } from '../commonstyles'
 
 import {
 	TimelineDataFall, 
-	TimelineDataWinter
 	} from './timelinedata.js';
 
 import TimelineItem from './timelineitem.js'
