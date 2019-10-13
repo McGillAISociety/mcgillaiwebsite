@@ -70,6 +70,21 @@ const Text = styled('p')`
 	font-size: 16px;
 `;
 
+const LinkedinButton = styled('a')`
+	background: #cc0000; 
+	padding:0.5em 0.5em;
+	border-radius:1.5em;
+	box-sizing: border-box;
+	text-decoration:none;
+	color: white !important;
+  	transition: opacity 0.2s;
+  	text-decoration: none !important;
+
+  	:hover {
+    	opacity: 0.6;
+  	}
+`;
+
 const Exec = () => (
 	<Container>
 			<HeadingUnderline className = 'content'> Our Team </HeadingUnderline>
@@ -82,6 +97,13 @@ const Exec = () => (
 						<h2>{data.name}</h2>
 						<h3>{data.position}</h3>
 						<Text>{data.bio}</Text>
+						<LinkedinButton
+			            aria-label="Linkedin"
+			            href={data.linkedin}
+			            target="_blank"
+			            rel="noopener noreferrer"
+			             className='icon-linkedin'
+			          />
 				</ImageContainer>)
 			})}
 			</GridContainer>
