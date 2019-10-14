@@ -7,7 +7,7 @@ const getDefaultTimeline = (node, delay) => {
 
   timeline
     .from(node, 0, { display: 'none', autoAlpha: 0, delay, ease: Power1.easeIn })
-    .from(content, 0.3, { autoAlpha: 0, y: 25, ease: Power1.easeInOut })
+    .from(content, 0.5, { autoAlpha: 0, y: 25, ease: Power1.easeInOut })
     .from(contentInner, 0.3, { autoAlpha: 0, delay: 0.20, ease: Power1.easeIn });
 
   return timeline;

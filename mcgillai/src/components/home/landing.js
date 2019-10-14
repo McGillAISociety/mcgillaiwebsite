@@ -103,7 +103,7 @@ class Landing extends React.Component {
 	        <Column>
 			  <Title> MCGILL <br/> ARTIFICIAL <br/> INTELLIGENCE <br /> SOCIETY </Title>
 			    <ButtonContainer>
-			    <SubscribeButton href="https://docs.google.com/forms/u/3/d/e/1FAIpQLScs1ADlyTZHnvbQPIftXhE2yGvqPGzyhhKq87q212ttkOmIaQ/viewform?usp=sf_link" target="_blank">BECOME A MEMBER</SubscribeButton>
+			    <SubscribeButton href="https://docs.google.com/forms/u/3/d/e/1FAIpQLScs1ADlyTZHnvbQPIftXhE2yGvqPGzyhhKq87q212ttkOmIaQ/viewform?usp=sf_link" target="_blank">BECOME A SUBSCRIBER</SubscribeButton>
 	          </ButtonContainer>
 	        </Column>
 	        <Column>

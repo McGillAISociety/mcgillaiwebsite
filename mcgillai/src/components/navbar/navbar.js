@@ -18,12 +18,34 @@ const BlogLink = styled('a')`
 `;
 
 class Navigation extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      navExpanded:false 
+    }
+    this.setNavExpanded = this.setNavExpanded.bind(this)
+    this.closeNav = this.closeNav.bind(this)
+  }
+
+  setNavExpanded(expanded) {
+    this.setState({ navExpanded: expanded });
+  }
+
+  closeNav() {
+    this.setState({ navExpanded: false });
+  }
 
 	render () {
 		return (
       <Container>
         <NavbarContent>
-        <Navbar inverse collapseOnSelect expand="md" bg="dark" className = 'navbarcustom navbar-toggleable-lg navbar-fixed-top'>
+        <Navbar collapseOnSelect
+                inverse = {true} 
+                onToggle={this.setNavExpanded}
+                expanded={this.state.navExpanded}
+                expand="md" 
+                bg="dark" 
+                className = 'navbarcustom navbar-toggleable-lg navbar-fixed-top'>
           
           <Navbar.Brand>
             <Link to='/'>
@@ -38,10 +60,10 @@ class Navigation extends React.Component {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" className='navtext'/>
           <Navbar.Collapse className = "navbar-collapse" id="basic-navbar">
-            <Nav className = "mr-auto">
-              <Nav.Link><Link to='/ourteam'><Navbar.Text className='navtext'>Our Team</Navbar.Text></Link></Nav.Link>
-              <Nav.Link><Link to='/mais202'><Navbar.Text className='navtext'>MAIS202</Navbar.Text></Link></Nav.Link>
-              <Nav.Link><Link to='/faq'><Navbar.Text className='navtext'>FAQ</Navbar.Text></Link></Nav.Link>
+            <Nav onSelect={this.closeNav} className = "mr-auto">
+              <Nav.Link><Link to='/ourteam'><Navbar.Text className='navtext' onClick={this.closeNav}>Our Team</Navbar.Text></Link></Nav.Link>
+              <Nav.Link><Link to='/mais202'><Navbar.Text className='navtext' onClick={this.closeNav}>MAIS202</Navbar.Text></Link></Nav.Link>
+              <Nav.Link><Link to='/faq'><Navbar.Text className='navtext' onClick={this.closeNav}>FAQ</Navbar.Text></Link></Nav.Link>
               <BlogLink target="_blank" href= "https://medium.com/mcgill-artificial-intelligence-review" rel="noopener"><Navbar.Text className='navtext'>Blog</Navbar.Text></BlogLink>
             </Nav>
           </Navbar.Collapse>

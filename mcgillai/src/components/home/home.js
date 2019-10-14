@@ -16,7 +16,7 @@ class Home extends React.Component {
 	render () {
 		return (
 			<Container>
-				<div className='content'>
+				<div className='content' id='top'>
 				<Landing></Landing>
 				</div>
 				<div className='content--inner'>
