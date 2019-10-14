@@ -6,7 +6,7 @@ const getDefaultTimeline = (node, delay) => {
   const contentInner = node.querySelector('.content--inner');
 
   timeline
-    .from(node, 0, { display: 'none', autoAlpha: 0, delay, ease: Power1.easeIn })
+    .from(node, 0.1, { display: 'none', autoAlpha: 0, delay, ease: Power1.easeIn })
     .from(content, 0.5, { autoAlpha: 0, y: 25, ease: Power1.easeInOut })
     .from(contentInner, 0.3, { autoAlpha: 0, delay: 0.20, ease: Power1.easeIn });
 
@@ -15,13 +15,7 @@ const getDefaultTimeline = (node, delay) => {
 
 export const play = (pathname, node, appears) => {
   const delay = 0;
-  let timeline
-
-  if (pathname === '/')
-    timeline = getDefaultTimeline(node, delay);
-  else
-    timeline = getDefaultTimeline(node, delay);
-
+  let timeline = getDefaultTimeline(node, delay);
   window
     .loadPromise
     .then(() => requestAnimationFrame(() => timeline.play()))

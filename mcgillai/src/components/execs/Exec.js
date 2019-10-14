@@ -87,7 +87,7 @@ const LinkedinButton = styled('a')`
 
 const Exec = () => (
 	<Container>
-			<HeadingUnderline className = 'content'> Our Team </HeadingUnderline>
+			<HeadingUnderline className = 'content' id='top'> Our Team </HeadingUnderline>
 			<GridContainer className = 'content--inner'>
 			{DATA.map((data, index) => {
 				return (<ImageContainer>

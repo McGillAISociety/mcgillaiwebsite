@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import styled from '@emotion/styled';
+import { TweenMax } from 'gsap';
 
 const Container=styled('div')`
 
@@ -25,6 +26,8 @@ class Navigation extends React.Component {
     }
     this.setNavExpanded = this.setNavExpanded.bind(this)
     this.closeNav = this.closeNav.bind(this)
+    this.scrollToTop = this.scrollToTop.bind(this)
+    this.closeNav = this.closeNav.bind(this)
   }
 
   setNavExpanded(expanded) {
@@ -33,6 +36,15 @@ class Navigation extends React.Component {
 
   closeNav() {
     this.setState({ navExpanded: false });
+  }
+
+  scrollToTop() {
+    TweenMax.to(window, 0.5, { scrollTo: {y:0} });
+  }
+
+  clickedNav() {
+    this.closeNav();
+    this.scrollToTop();
   }
 
 	render () {
@@ -48,7 +60,7 @@ class Navigation extends React.Component {
                 className = 'navbarcustom navbar-toggleable-lg navbar-fixed-top'>
           
           <Navbar.Brand>
-            <Link to='/'>
+            <Link to='/' onClick={this.closeNav}>
               <img
               src="/logo.svg"
               width="40"
