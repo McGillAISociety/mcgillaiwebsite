@@ -82,7 +82,7 @@ export const DATA = [
 	{
 		"photo": '/exec-img/cheng.png',
 		"name": "Cheng Lin",
-		"position": "Technical Programme Manager",
+		"position": "Technical Project Manager",
 		"bio": "Cheng is in her third year of electrical engineering. She's interested in machine learning applications in traditionally non-technical fields. In her free time, she figure skates and listens to too much music.",
 		"linkedin": "https://www.linkedin.com/in/cheng-lin",
 		"email": ""
@@ -90,7 +90,7 @@ export const DATA = [
 	{
 		"photo": '/exec-img/diego.png',
 		"name": "Diego Lopez",
-		"position": "Technical Programme Manager",
+		"position": "Technical Project Manager",
 		"bio": "Diego is a second year Math and Computer Science student. He is interested in the mathematical foundations of machine learning. On rare occasions, he can be found wearing something other than a blue shirt.",
 		"linkedin": "https://www.linkedin.com/in/lopdie101/",
 		"email": ""
@@ -98,7 +98,7 @@ export const DATA = [
 	{
 		"photo": '/exec-img/li.png',
 		"name": "Li Zhang",
-		"position": "Technical Programme Manager",
+		"position": "Technical Project Manager",
 		"bio": "Li is a third year Software Engineering student. She’s interested in various fields of machine learning, but computer vision is one of her favourite. Her specialty is to “make things work”.",
 		"linkedin": "https://www.linkedin.com/in/litigre/",
 		"email": ""
@@ -106,7 +106,7 @@ export const DATA = [
 	{
 		"photo": '/exec-img/rick.png',
 		"name": "Rick Wu",
-		"position": "Technical Programme Manager",
+		"position": "Technical Project Manager",
 		"bio": "Rick is a second year Master of Electrical Engineering student. His research interests concern computer vision and deep learning, primarily focusing on video summarization using multimodal learning.",
 		"linkedin": "https://www.linkedin.com/in/rick-wu/",
 		"email": ""

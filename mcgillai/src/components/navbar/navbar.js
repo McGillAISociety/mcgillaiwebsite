@@ -27,7 +27,7 @@ class Navigation extends React.Component {
     this.setNavExpanded = this.setNavExpanded.bind(this)
     this.closeNav = this.closeNav.bind(this)
     this.scrollToTop = this.scrollToTop.bind(this)
-    this.closeNav = this.closeNav.bind(this)
+    this.clickedNav = this.clickedNav.bind(this)
   }
 
   setNavExpanded(expanded) {
@@ -39,7 +39,7 @@ class Navigation extends React.Component {
   }
 
   scrollToTop() {
-    TweenMax.to(window, 0.5, { scrollTo: {y:0} });
+    TweenMax.to(window, 0.1, { scrollTo: {y:0} });
   }
 
   clickedNav() {
