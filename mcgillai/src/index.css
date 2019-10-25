@@ -25,6 +25,8 @@ code {
   transition: opacity 0.2s;
   text-decoration: none;
   fill: #FFFFFF !important;
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
 }
 
 .navtext:hover {
