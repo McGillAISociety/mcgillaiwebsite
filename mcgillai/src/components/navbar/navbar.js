@@ -3,7 +3,6 @@ import {Link} from 'react-router-dom'
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import styled from '@emotion/styled';
-import { TweenMax } from 'gsap';
 
 const Container=styled('div')`
 
@@ -39,7 +38,7 @@ class Navigation extends React.Component {
   }
 
   scrollToTop() {
-    TweenMax.to(window, 0.1, { scrollTo: {y:0} });
+    window.scrollTo({top: 0});
   }
 
   clickedNav() {
@@ -60,7 +59,7 @@ class Navigation extends React.Component {
                 className = 'navbarcustom navbar-toggleable-lg navbar-fixed-top'>
           
           <Navbar.Brand>
-            <Link to='/' onClick={this.closeNav}>
+            <Link to='/' onClick={this.clickedNav}>
               <img
               src="/logo.svg"
               width="40"
@@ -72,10 +71,10 @@ class Navigation extends React.Component {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" className='navtext'/>
           <Navbar.Collapse className = "navbar-collapse" id="basic-navbar">
-            <Nav onSelect={this.closeNav} className = "mr-auto">
-              <Nav.Link><Link to='/ourteam'><Navbar.Text className='navtext' onClick={this.closeNav}>Our Team</Navbar.Text></Link></Nav.Link>
-              <Nav.Link><Link to='/mais202'><Navbar.Text className='navtext' onClick={this.closeNav}>MAIS202</Navbar.Text></Link></Nav.Link>
-              <Nav.Link><Link to='/faq'><Navbar.Text className='navtext' onClick={this.closeNav}>FAQ</Navbar.Text></Link></Nav.Link>
+            <Nav onSelect={this.clickedNav} className = "mr-auto">
+              <Nav.Link><Link to='/ourteam'><Navbar.Text className='navtext' onClick={this.clickedNav}>Our Team</Navbar.Text></Link></Nav.Link>
+              <Nav.Link><Link to='/mais202'><Navbar.Text className='navtext' onClick={this.clickedNav}>MAIS202</Navbar.Text></Link></Nav.Link>
+              <Nav.Link><Link to='/faq'><Navbar.Text className='navtext' onClick={this.clickedNav}>FAQ</Navbar.Text></Link></Nav.Link>
               <BlogLink target="_blank" href= "https://medium.com/mcgill-artificial-intelligence-review" rel="noopener"><Navbar.Text className='navtext'>Blog</Navbar.Text></BlogLink>
             </Nav>
           </Navbar.Collapse>

@@ -9,8 +9,8 @@ import {
  import ImplementAI from './activities-img/implementai.jpg';
  import Workshops from './activities-img/workshops.jpg';
  import WomenInAI from './activities-img/womeninai.jpg';
- import ResearchTalks from './activities-img/researchtalks.JPG';
- import CompanyCrawl from './activities-img/companycrawl.JPG';
+ import ResearchTalks from './activities-img/researchtalks.jpg';
+ import CompanyCrawl from './activities-img/companycrawl.jpg';
 
 const Container = styled('div')`
 	margin: auto;
