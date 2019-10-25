@@ -1,8 +1,14 @@
 export const TimelineDataFall = [
 	{
+		title: 'Element AI Talk',
+		time: 'October 28 | 7:00 pm',
+		place: 'Location Trottier 3120',
+		category: '/schedule-icons/research.svg'
+	},
+	{
 		title: 'Workshop 3',
-		time: 'October 24 | 6:00 pm',
-		place: 'Location TBD',
+		time: 'November 4 | 6:00 pm',
+		place: 'Location Trottier 3120',
 		category: '/schedule-icons/workshop.svg'
 	},
 	{

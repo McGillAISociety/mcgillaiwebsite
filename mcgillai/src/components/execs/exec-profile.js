@@ -99,7 +99,7 @@ export const DATA = [
 		"photo": '/exec-img/li.png',
 		"name": "Li Zhang",
 		"position": "Technical Project Manager",
-		"bio": "Li is a third year Software Engineering student. She’s interested in various fields of machine learning, but computer vision is one of her favourite. Her specialty is to “make things work”.",
+		"bio": "Li is a final year Software Engineering student. She's interested in various fields of machine learning, but computer vision is one of her favourite. Her specialty is to learn while building, and to “make things work”.",
 		"linkedin": "https://www.linkedin.com/in/litigre/",
 		"email": ""
 	},
