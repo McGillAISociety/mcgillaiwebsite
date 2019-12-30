@@ -1,40 +1,22 @@
 export const TimelineDataFall = [
 	{
-		title: 'Element AI Talk',
-		time: 'October 28 | 7:00 pm',
-		place: 'Location Trottier 3120',
-		category: '/schedule-icons/research.svg'
+		title: 'MAIS 202 Applications Due',
+		time: 'January 7 | 11:59 PM',
+		place: 'McGill University',
+		category: '/schedule-icons/mais202.svg'
 	},
 	{
-		title: 'Workshop 3',
-		time: 'November 4 | 6:00 pm',
-		place: 'Location Trottier 3120',
-		category: '/schedule-icons/workshop.svg'
-	},
-	{
-		title: 'Research Talks 1',
-		time: 'Time TBD',
-		place: 'Location TBD',
-		category: '/schedule-icons/research.svg'
-	},
-	{
-		title: 'Workshop 4',
-		time: 'Time TBD',
-		place: 'Location TBD',
-		category: '/schedule-icons/workshop.svg'
-	},
-	{
-		title: 'Company Crawl',
-		time: 'Time TBD',
-		place: 'Location TBD',
-		category: '/schedule-icons/company.svg'
-	},
-	{
-		title: 'Women in AI Panel',
-		time: 'Time TBD',
-		place: 'Location TBD',
+		title: 'Activities Night',
+		time: 'January 9 - 10',
+		place: 'Tomlinson Fieldhouse',
 		category: '/schedule-icons/panel.svg'
 	},
+	{
+		title: 'Workshop 1',
+		time: 'January 20 | 6:00 PM',
+		place: 'Trottier 3120',
+		category: '/schedule-icons/workshop.svg'
+	}
 ];
 
 export const TimelineDataWinter = [

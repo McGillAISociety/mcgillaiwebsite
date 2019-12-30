@@ -5,6 +5,7 @@ import {
   PrimaryFont, 
   SecondaryFont, 
   SectionBase,
+  SubscribeButton
  } from '../commonstyles'
 
  import Logo from './assets/logo.svg';
@@ -66,35 +67,6 @@ const ButtonContainer = styled('div')`
 
 `;
 
-const SubscribeButton = styled('a')`
-	display:inline-block;
-	padding:0.35em 1.2em;
-	border:0.1em solid #FFFFFF;
-	margin:0 0.3em 0.3em 0;
-	border-radius:0.12em;
-	box-sizing: border-box;
-	text-decoration:none;
-	font-family: 'Helvetica Neue Bold Condensed', monospace;
-	font-weight:300;
-	font-size: 36px;
-	color:#FFFFFF;
-	text-decoration: none !important;
-	text-align:center;
-	transition: all 0.2s;
-
-	:visited {
-		color:#FFFFFF;
-	}
-
-	:hover {
-		color:#000000;
-        background-color:#FFFFFF;
-	}
-
-	@media screen and (max-width: 1260px) {
-      display: none;
-  	}
-`;
 
 class Landing extends React.Component {
 	render() {

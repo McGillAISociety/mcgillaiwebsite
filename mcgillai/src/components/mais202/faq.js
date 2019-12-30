@@ -43,7 +43,7 @@ class FAQ extends React.Component {
 				<Question>When do applications for MAIS 202 open?</Question>
 				<Answer>
 					Fall 2019 cohort: August 18, 2019 - September 10, 2019<br/>
-					Winter 2020 cohort: date TBC
+					Winter 2020 cohort: January 14, 2020 - March 10, 2020
 				</Answer>
 
 				<Question>What is the selection process like?</Question>
