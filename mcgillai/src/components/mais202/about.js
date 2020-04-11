@@ -8,7 +8,6 @@ import {
 	Answer
  } from '../commonstyles.js';
 
- import AboutImg from './assets/img/about.png';
 
 const Column = styled('div')`
 	font-size: 32px;
@@ -25,7 +24,6 @@ const Column = styled('div')`
 `;
 
 const ContentContainer = styled('div')`
-	padding: 30px;
 	text-align: left;
 	@media screen and (max-width: 1050px) {
 		max-height: 600px;
@@ -39,16 +37,6 @@ const ImageContainer = styled('div')`
 	@media screen and (max-width: 767px) {
 		width: 100%;
 	}
-`;
-
-const Image = styled('img')`
-	max-width:100%;
-	max-height:100%;
-	padding: 20px;
-	display:
-	margin-left: auto;
-	margin-right: auto;
-
 `;
 
 const Container = styled('div')`
@@ -68,19 +56,17 @@ class About extends React.Component {
 			<Container>
 				<HeadingUnderline>ABOUT MAIS202</HeadingUnderline>
 				<ContentContainer>
-				<Column>
+				{/*<Column>
 					<ImageContainer>
 						<Image src={AboutImg} />
 					</ImageContainer>
-				</Column>
-				<Column>
+				</Column>*/}
 					<Question> How it started: </Question>
 					<Answer> To fill the lack of introductory AI courses for undergraduate students, the McGill AI Society designed an intensive, nine-week course with the sole intention of equipping 30 young, talented undergraduates with the skills required to land an AI position in industry. </Answer>
 					<Question> How it works:</Question>
 					<Answer> The MAIS 202 bootcamp is an accelerated survey course which aims to teach lower-year undergraduates the fundamentals of machine learning. In addition to weekly lectures and assignments, participants worked towards an individual final project which was presented at the McGill AI Project Fair.</Answer>
 					<Question> Takeaways from MAIS 202:</Question>
 					<Answer>MAIS 202 provides students with both theoretical and hands-on skills required for ML research and industry. Our dedicated team of academic lecturers and TPMs offer real-time mentorship and feedback, and there are other opportunities to network with other ML enthusiasts!</Answer>
-				</Column>
 				</ContentContainer>
 			</Container>
 		);

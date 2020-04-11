@@ -4,7 +4,7 @@ import styled from '@emotion/styled'
 import Landing from './landing.js'
 import About from './about.js'
 //import Instructors from './instructors.js'
-//import Alumni from './alumni.js'
+import Alumni from './alumni.js'
 import FAQ from './faq.js'
 
 const Container = styled('div')`
@@ -20,8 +20,8 @@ class Mais202 extends React.Component {
 				</div>
 				<div className = 'content--inner'>
 				<About></About>
-				{/* //<Instructors></Instructors>
-				//<Alumni></Alumni> */}
+				{/* //<Instructors></Instructors> */}
+				<Alumni></Alumni> 
 				<FAQ></FAQ>
 				</div>
 			</Container>
