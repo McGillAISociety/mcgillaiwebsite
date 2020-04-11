@@ -21,7 +21,7 @@ class Mais202 extends React.Component {
 				<div className = 'content--inner'>
 				<About></About>
 				{/* //<Instructors></Instructors> */}
-				<Alumni></Alumni> 
+				{/* <Alumni></Alumni> */}
 				<FAQ></FAQ>
 				</div>
 			</Container>

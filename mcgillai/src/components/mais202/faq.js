@@ -40,7 +40,7 @@ class FAQ extends React.Component {
 					MAIS 202 participants will be expected to attend one two-hour lecture every week for eight weeks, complete five assignments, and fulfill project deliverables pertaining to their final project. More details regarding assignments and project deliverables can be found on our GitHub repo, but time commitment for the course can range from four to eight hours a week, depending on your familiarity with the material. 
 				</Answer>
 
-				<Question>When do applications for MAIS 202 open?</Question>
+				<Question>How long does MAIS 202 run for?</Question>
 				<Answer>
 					Fall 2019 cohort: August 18, 2019 - September 10, 2019<br/>
 					Winter 2020 cohort: January 14, 2020 - March 10, 2020
