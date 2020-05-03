@@ -36,9 +36,9 @@ class Faq extends React.Component {
 				<FAQContainer>
 					<HeadingUnderline className='content'>General FAQ </HeadingUnderline>
 					<div className = 'content--inner'>
-					<Question>How can I get involved with McGill AI? </Question>
+					<Question>How can I get involved with McGill AI?</Question>
 					<Answer>
-						We’ll be holding various events throughout the year, some of our regular events being workshops, research talks, movie nights, and the MAIS 202 bootcamp. We’ll be working to hold more community building events this year -- if you have any suggestions for us, please feel free to drop us a line either via our Facebook page or mcgillaicontact@gmail.com!
+						We’ll be holding various events throughout the year, some of our regular events being workshops, research talks, movie nights, and the MAIS 202 bootcamp. We’ll be working to hold more community building events this year -- if you have any suggestions for us, please feel free to drop us a line either via our <a href="https://www.facebook.com/McGillAI/">Facebook page</a> or <a href="mailto:mcgillaicontact@gmail.com">mcgillaicontact@gmail.com</a>!
 					</Answer>
 
 					<Question>Can I still come to your events even if I have no experience with AI?</Question>
@@ -54,18 +54,18 @@ class Faq extends React.Component {
 
 					<Question>Our company is hiring interns - can you post our listing on your Facebook page?</Question>
 					<Answer>
-						To be fair to our company sponsors, our Facebook page is reserved for them and our own events only.
+						To be fair to our company sponsors, our Facebook page is reserved for them and our own events only. If you'd like to partner with us, feel free to email <a href="mailto:external@mcgillai.com">external@mcgillai.com</a>.
 					</Answer>
 
 					<Question>Can we submit a blurb to your biweekly newsletter?</Question>
 					<Answer>
-						For McGill clubs: Yes! Please reach out to us through our email or Facebook and one of our execs will be in touch. 
-						<br/>For companies in Montreal and abroad: Due to agreements with our sponsors, blurbs submitted by non-sponsors will be reviewed on a case by case basis. In the past, we have included blurbs from non-sponsors for networking events, research opportunities on campus (pertaining to AI), and the AI for Good summer lab. 
+						For McGill clubs: Yes! Please reach out to us at <a href="mailto:mcgillaicontact@gmail.com">mcgillaicontact@gmail.com</a> or Facebook and one of our execs will be in touch. 
+						<br/>For companies in Montreal and abroad: Due to agreements with our sponsors, blurbs submitted by non-sponsors will be reviewed on a case by case basis. In the past, we have included blurbs from non-sponsors for networking events, research opportunities on campus (pertaining to AI), and the AI4Good summer lab. 
 					</Answer>
 
 					<Question>Our club would like to collaborate with you on an event, how do we get in touch?</Question>
 					<Answer>
-						Reach out at mcgillaicontact@gmail.com and a member of our exec team will be in touch! 
+						Reach out at <a href="mailto:mcgillaicontact@gmail.com">mcgillaicontact@gmail.com</a> and a member of our exec team will be in touch! 
 					</Answer>
 					</div>
 				</FAQContainer>

@@ -60,21 +60,21 @@ class About extends React.Component {
 					<Icon src={Lightbulb} />
 					<p>Learn</p>
 					<SectionTextContent>
-						We aim to make AI more accessible by hosting events, bootcamps, workshops, and producing blog articles that cover computer vision, NLP, and anything in between.
+						We aim to make AI more accessible by hosting events, bootcamps, and workshops that give students an opportunity to learn about AI in a peer-based, supportive environment.
 					</SectionTextContent>
 				</Column>
 				<Column>
 					<Icon src={People} />
 					<p>Foster Community</p>
 					<SectionTextContent>
-						We want to make learning AI fun. Want to talk to a prof, but too scared to speak up in class? Come to our research talks, surround yourself with like minded people at revision sessions and fun community building events. 
+						We want to make learning AI fun and welcoming. Our talks, bootcamps, and community building events give our participants the opportunity to meet others interested in AI. 
 					</SectionTextContent>
 				</Column>
 				<Column>
 					<Icon src={Network} />
-					<p>Exposure</p>
+					<p>Connect</p>
 					<SectionTextContent>
-						We aim to make AI more accessible by holding biweekly workshops and research talks that cover anything from computer vision, NLP, and anything in between. We also hold MAIS 202 - an ML fundamentals bootcamp - once per semester.
+						Montreal is one of the world's leading AI hubs. Through our hackathon, Company Crawl, and industry events, we help connect McGill students with Montreal's AI ecosystem.
 					</SectionTextContent>
 				</Column>
 			</Container>
