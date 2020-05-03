@@ -145,7 +145,7 @@ class Activities extends React.Component {
 						</ImageBounds>
 						<ImageText className="Text">
 							<h2>MAIS202 Bootcamp</h2>
-							<h3>Launched by 13 passionate students, MAIS 202 is an eight week bootcamp that teaches lower year undergraduates ML fundamentals. </h3>
+							<h3>MAIS 202 is a ten-week bootcamp that teaches lower year undergraduates ML fundamentals. With over 60 bootcamp alumni, our Fall 2020 iteration will welcome our fourth cohort of students.</h3>
 						</ImageText>
 					</ImageCell>
 
@@ -155,7 +155,17 @@ class Activities extends React.Component {
 						</ImageBounds>
 						<ImageText className="Text">
 							<h2>ImplementAI</h2>
-							<h3>Each year, ImplementAI brings together 150 students across Eastern Canada to design and innovate modern AI solutions. </h3>
+							<h3>Our annual hackathon, ImplementAI, brings together 150 students across Eastern Canada to design and innovate modern AI solutions.</h3>
+						</ImageText>
+					</ImageCell>
+
+					<ImageCell>
+						<ImageBackground className="Background" style={{backgroundImage: `url(${CompanyCrawl})`}}> </ImageBackground>
+						<ImageBounds className="Bounds">
+						</ImageBounds>
+						<ImageText className="Text">
+							<h2>Company Crawl</h2>
+							<h3>Each fall, we invite over 30 talented individuals to tour some of the hottest AI companies in Montreal, including Automat, StrategiAI, Google, and Microsoft. </h3>
 						</ImageText>
 					</ImageCell>
 
@@ -165,7 +175,7 @@ class Activities extends React.Component {
 						</ImageBounds>
 						<ImageText className="Text">
 							<h2>Workshops</h2>
-							<h3>Our workshop leads gave workshops covering an overview of topics in artificial intelligence and machine learning, data preprocessing, and fundamental AI algorithms. This workshop series garnered over 500 signups across Montreal. </h3>
+							<h3>Our technical project managers provide workshops each term teaching applied topics in artificial intelligence and machine learning. Our 2019-2020 workshop series covered topics such as image classification, OpenCV, and building a chatbot.</h3>
 						</ImageText>
 					</ImageCell>
 
@@ -185,17 +195,7 @@ class Activities extends React.Component {
 						</ImageBounds>
 						<ImageText className="Text">
 							<h2>Research Talks</h2>
-							<h3>A series of laidback, evening presentations for students to engage with state-of-the-art research pursued by academic and industry researchers in machine learning. </h3>
-						</ImageText>
-					</ImageCell>
-
-					<ImageCell>
-						<ImageBackground className="Background" style={{backgroundImage: `url(${CompanyCrawl})`}}> </ImageBackground>
-						<ImageBounds className="Bounds">
-						</ImageBounds>
-						<ImageText className="Text">
-							<h2>Company Crawl</h2>
-							<h3>Over 30 talented individuals had the opportunity to learn more about some of the hottest AI companies in Montreal, including Automat, StrategiAI, Google, and Microsoft. </h3>
+							<h3>A series of informal presentations for students to engage with state-of-the-art research pursued by academic and industry researchers in machine learning. </h3>
 						</ImageText>
 					</ImageCell>
 				</ImageGrid>
