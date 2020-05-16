@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from '@emotion/styled'
 
-import { 
+import {
 	ImageBackground
  } from '../commonstyles'
 
@@ -94,7 +94,7 @@ const ImageText = styled('div')`
 
 		@media screen and (max-width: 1000px) {
 			font-size: 20px;
-			
+
 		}
 		@media screen and (max-width: 767px) {
 			font-size: 16px;
@@ -112,9 +112,9 @@ const ImageText = styled('div')`
 		@media screen and (max-width: 767px) {
 			margin-top: 0;
 			font-size: 14px;
-			
+
 		}
-		
+
 
 		@media screen and (max-width: 575px) {
 			font-size: 12px;
@@ -185,7 +185,7 @@ class Activities extends React.Component {
 						</ImageBounds>
 						<ImageText className="Text">
 							<h2>Women in AI Panel</h2>
-							<h3>In March 2019, we invited Joelle Pineau, Layla El Asri, Audrey Durand, and Negar Rostamzadeh to talk their notable achievements and share their career progression in AI. </h3>
+							<h3>To celebrate International Women's Day, we invited Joelle Pineau, Layla El Asri, Audrey Durand, and Negar Rostamzadeh to talk about their notable achievements and share their career progression in AI. </h3>
 						</ImageText>
 					</ImageCell>
 

@@ -2,7 +2,7 @@ export const DATA = [
 	{
 		"photo": "/exec-img/hisham.png",
 		"name": "Hisham Hawara",
-		"position": "Co-President",
+		"position": "Senior Advisor",
 		"bio": "Hisham is a final year Software Engineering student. He is interested in computer vision and pattern recognition.",
 		"linkedin": "https://www.linkedin.com/in/hisham-hawara/",
 		"email": ""
@@ -18,7 +18,7 @@ export const DATA = [
 	{
 		"photo": '/exec-img/ketan.png',
 		"name": "Ketan Rampurkar",
-		"position": "VP External",
+		"position": "Senior Advisor",
 		"bio": "Ketan is a third year Software Engineering student with an interest in combining finance and tech to make some impactful software projects.",
 		"linkedin": "https://www.linkedin.com/in/ketan-rampurkar/",
 		"email": ""
@@ -34,15 +34,15 @@ export const DATA = [
 	{
 		"photo": '/exec-img/rosie.png',
 		"name": "Rosie Zhao",
-		"position": "VP Communications",
-		"bio": "Rosie is a second year Mathematics and Computer Science student with interests in natural language processing and machine learning mathematical theory. She has a love-hate relationship with React and does graphic design in her free time.",
+		"position": "VP Internal",
+		"bio": "Rosie is a third year Mathematics and Computer Science student with interests in natural language processing and machine learning mathematical theory. She has a love-hate relationship with React and does graphic design in her free time.",
 		"linkedin": "https://www.linkedin.com/in/rosieyzh",
 		"email": ""
 	},
 	{
 		"photo": '/exec-img/philip.png',
 		"name": "Philip Tam",
-		"position": "VP Events",
+		"position": "VP External",
 		"bio": "Philip is a second year Computer Science student with interests in natural language processing, and its applications with automated speech recognition. Rumors say he can talk for days.",
 		"linkedin": "https://www.linkedin.com/in/philiptamcode/",
 		"email": ""
@@ -58,7 +58,7 @@ export const DATA = [
 	{
 		"photo": '/exec-img/aakarsh.png',
 		"name": "Aakarsh Shekhar",
-		"position": "VP Finance",
+		"position": "Senior Advisor",
 		"bio": "Aakarsh is a third year Software Engineering student. He is interested in real-world applications of machine learning primarily in the field of pattern recognition.",
 		"linkedin": "http://linkedin.com/in/aakarshshekhar/",
 		"email": ""
@@ -74,7 +74,7 @@ export const DATA = [
 	{
 		"photo": '/exec-img/antonios.png',
 		"name": "Antonios Valkanas",
-		"position": "Academic Lecturer",
+		"position": "Senior Advisor",
 		"bio": "Hailing from Athens, Greece, this man knows his way around a neural network. He will be lecturing his heart out during the MAIS bootcamp. He is also a first year graduate student interested in graph neural networks.",
 		"linkedin": "https://www.linkedin.com/in/antonios-valkanas/",
 		"email": ""
@@ -82,8 +82,8 @@ export const DATA = [
 	{
 		"photo": '/exec-img/cheng.png',
 		"name": "Cheng Lin",
-		"position": "Technical Project Manager",
-		"bio": "Cheng is in her third year of electrical engineering. She's interested in machine learning applications in traditionally non-technical fields. In her free time, she figure skates and listens to too much music.",
+		"position": "President",
+		"bio": "Cheng is in her fourth year of electrical engineering. She's interested in cool applications of ML and ways of realizing these applications that benefit everyone. She can often be found figure skating, climbing, or listening to music.",
 		"linkedin": "https://www.linkedin.com/in/cheng-lin",
 		"email": ""
 	},
