@@ -2,12 +2,12 @@ import React from 'react';
 import styled from '@emotion/styled';
 
 import Slider from "react-slick";
-import Image1 from './assets/gallery/1.jpg';
-import Image2 from './assets/gallery/2.jpg';
-import Image3 from './assets/gallery/3.jpg';
-import Image4 from './assets/gallery/4.jpg';
+import Image1 from './assets/gallery/1.JPG';
+import Image2 from './assets/gallery/2.JPG';
+import Image3 from './assets/gallery/3.JPG';
+import Image4 from './assets/gallery/4.JPG';
 import Image5 from './assets/gallery/5.jpg';
-import Image6 from './assets/gallery/6.jpg';
+import Image6 from './assets/gallery/6.JPG';
 
 const Container = styled('div')`
 	text-align: center;
@@ -19,7 +19,7 @@ const GalleryContainer = styled('div')`
 	@media screen and (max-width: 767px) {
 		max-width: 500px;
 	}
-	
+
 	@media screen and (max-width: 600px) {
 		max-width: 400px;
 	}
@@ -82,7 +82,7 @@ class Gallery extends React.Component {
 	      </Container>
 	    );
 	}
-		
+
 }
 
 export default Gallery;

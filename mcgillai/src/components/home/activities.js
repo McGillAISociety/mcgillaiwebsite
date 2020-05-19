@@ -10,7 +10,7 @@ import {
  import Workshops from './activities-img/workshops.jpg';
  import WomenInAI from './activities-img/womeninai.jpg';
  import ResearchTalks from './activities-img/researchtalks.jpg';
- import CompanyCrawl from './activities-img/companycrawl.jpg';
+ import CompanyCrawl from './activities-img/companycrawl.JPG';
 
 const Container = styled('div')`
 	margin: auto;
