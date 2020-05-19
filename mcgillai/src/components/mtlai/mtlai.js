@@ -7,6 +7,7 @@ import { SectionBase,
 		 Answer} from '../commonstyles.js';
 
 import Background from '../home/assets/background.jpg';
+import Resources from './resources.js';
 
 const Container = styled('div')`
   	background-image: url(${Background});
@@ -33,26 +34,32 @@ const MtlaiContainer = styled('div')`
 		font-size: 48px;
 		text-align: center;
 `;
+const MtlContainer = styled('div')`
+
+`;
 
 class Mtlai extends React.Component {
 	render () {
 		return (
+			<MtlContainer>
 			<Container>
 				<MtlaiContainer>
-					<HeadingUnderline className='content'>Montreal AI Resources </HeadingUnderline>
+					<HeadingUnderline className='content'>Montreal's AI Scene </HeadingUnderline>
 					<div className = 'content--inner'>
-					<p>Welcome to our guide!</p>
+					<p>McGill AI's Guide to MTL!</p>
+					<Question>Hello!</Question>
 					<Answer>
-						This page is coming soon!
+					The following is a list of different ways students can get involved with the AI and ML community in Montreal. <br/>
+					For technical content to begin learning ML, please visit our MAIS 202 Course Notes page. While our team tried our best to capture as many opportunities as possible, if you feel this list is lacking a certain group of organization, please let us know at <a href="mailto:mcgillaicontact@gmail.com">mcgillaicontact@gmail.com</a>! <br/>
+					Of course, the best way for you to stay updated with upcoming AI events at McGill and Montreal is by following us on Facebook and subscribing to our newsletter ;)
 					</Answer>
 
-					<Question>Get in touch</Question>
-					<Answer>
-						Reach out at <a href="mailto:mcgillaicontact@gmail.com">mcgillaicontact@gmail.com</a> and a member of our exec team will be in touch!
-					</Answer>
 					</div>
 				</MtlaiContainer>
-			</Container>
+				</Container>
+					<Resources></Resources>
+
+			</MtlContainer>
 		);
 	}
 }

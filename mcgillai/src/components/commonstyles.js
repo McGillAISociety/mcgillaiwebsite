@@ -43,7 +43,7 @@ export const SectionBase = props => css`
   padding-top: 40px;
   padding-bottom: 40px;
 
-  overflow:auto; 
+  overflow:auto;
 
   :first-child {
     padding-top: 50px;
@@ -146,6 +146,12 @@ export const Answer = styled('div')`
   }
 `;
 
+export const GuideFont = styled('div')`
+  font-family: 'Helvetica Neue Bold Condensed', monospace;
+  font-size: 20px;
+  color: #FFFFFF;
+`;
+
 export const ImageBackground = styled('div')`
   position: absolute;
   top: 0;
@@ -157,7 +163,7 @@ export const ImageBackground = styled('div')`
   background-repeat: no-repeat;
   transition: -webkit-transform 500ms;
   transition: transform 500ms;
-  transition: transform 500ms, -webkit-transform 500ms; 
+  transition: transform 500ms, -webkit-transform 500ms;
 `;
 
 export const SubscribeButton = styled('a')`

@@ -44,7 +44,7 @@ const ImageContainer = styled('div')`
 	width: 33.3%;
 	display: inline-block;
 	vertical-align:top;
-	padding: 30px;
+	padding: 20px;
 
 	@media screen and (max-width: 900px) {
     	width: 50%;
@@ -71,7 +71,7 @@ const Text = styled('p')`
 `;
 
 const LinkedinButton = styled('a')`
-	background: #cc0000; 
+	background: #cc0000;
 	padding:0.5em 0.5em;
 	border-radius:1.5em;
 	box-sizing: border-box;
