@@ -134,7 +134,9 @@ class Footer extends React.Component {
 			          />
 			        </SocialLinks>
 			        © McGill Artificial Intelligence Society {year} <br />
-			        <Subscribe rel="noopener noreferrer" href="https://forms.gle/L8HqJWJ2KSy3Cd6y5" target="_blank">Subscribe to our biweekly newsletter here! </Subscribe>
+
+			        <Subscribe rel="noopener noreferrer" href="https://forms.gle/L8HqJWJ2KSy3Cd6y5" target="_blank">Subscribe to our newsletter here! </Subscribe>
+
 			      </CenterContent>
 			    </CenterContainer>
 			  </FooterContainer>

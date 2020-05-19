@@ -21,7 +21,7 @@ class Navigation extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      navExpanded:false 
+      navExpanded:false
     }
     this.setNavExpanded = this.setNavExpanded.bind(this)
     this.closeNav = this.closeNav.bind(this)
@@ -52,13 +52,13 @@ class Navigation extends React.Component {
         <NavbarContent>
         <Navbar collapseOnSelect
                 style={{marginBottom: "0"}}
-                inverse = {true} 
+                inverse = {true}
                 onToggle={this.setNavExpanded}
                 expanded={this.state.navExpanded}
-                expand="md" 
-                bg="dark" 
+                expand="md"
+                bg="dark"
                 className = 'navbarcustom navbar-toggleable-lg navbar-fixed-top'>
-          
+
           <Navbar.Brand>
             <Link to='/' onClick={this.clickedNav}>
               <img
@@ -77,12 +77,13 @@ class Navigation extends React.Component {
               <Nav.Link><Link to='/mais202'><Navbar.Text className='navtext' onClick={this.clickedNav}>MAIS202</Navbar.Text></Link></Nav.Link>
               <Nav.Link><Link to='/faq'><Navbar.Text className='navtext' onClick={this.clickedNav}>FAQ</Navbar.Text></Link></Nav.Link>
               <BlogLink target="_blank" href= "https://medium.com/mcgill-artificial-intelligence-review" rel="noopener"><Navbar.Text className='navtext'>Blog</Navbar.Text></BlogLink>
+              <Nav.Link><Link to='/mtlai'><Navbar.Text className='navtext' onClick={this.clickedNav}>MTL AI Resources</Navbar.Text></Link></Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
         </NavbarContent>
       </Container>
-			
+
 		);
 	}
 }

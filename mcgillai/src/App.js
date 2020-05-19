@@ -9,6 +9,7 @@ import Home from './components/home/home.js';
 import OurTeam from './components/execs/Exec.js';
 import Mais202 from './components/mais202/mais202.js';
 import Faq from './components/faq/faq.js';
+import Mtlai from './components/mtlai/mtlai.js'
 import Footer from './components/footer/footer.js'
 import NotFound from './components/notfound/notfound.js';
 
@@ -46,6 +47,7 @@ class App extends React.Component {
                   <Route path="/ourteam" component={OurTeam} />
                   <Route path="/mais202" component={Mais202} />
                   <Route path="/faq" component={Faq} />
+                  <Route path="/mtlai" component = {Mtlai} />
                   <Route component={NotFound} />
                 </Switch>
                 <Footer></Footer>
@@ -54,7 +56,7 @@ class App extends React.Component {
               </TransitionGroup>
             )
           }}/>
-          
+
         </Container>
       </BrowserRouter>
     )
