@@ -131,59 +131,60 @@ class Resources extends React.Component {
 			<Container>
 				<ImageGrid>
 
-					<ImageCell href = "https://mila.quebec/en/" target='_blank' rel="noopener noreferrer" className='link'>
-						<ImageBounds red={true} className="Bounds">
-						</ImageBounds>
-						<ImageText className="Text">
-							<h2>MILA (Quebec Artificial Intelligence Institute)</h2>
-							<h3>Mila is a community of 450 researchers specializing in machine learning and dedicated to scientific excellence and innovation. Many members are also professors at various Quebec universities. They have research projects in numerous fundamental and applied areas of ML.</h3>
-						</ImageText>
-					</ImageCell>
-
-					<ImageCell href = "https://ivado.ca/en/" target='_blank' rel="noopener noreferrer" className='link'>
+					<ImageCell href = "https://www.ajungmoon.com/" target='_blank' rel="noopener noreferrer" className='link'>
 						<ImageBounds className="Bounds">
 						</ImageBounds>
 						<ImageText className="Text">
-							<h2>Ivado (Institue for Data Valorization)</h2>
-							<h3>IVADO aims to bring together industry professionals and academic researchers to develop cutting-edge expertise in data science, operational research and artificial intelligence.</h3>
+							<h2>McGill Responsible Autonomy & Intelligent Systems Ethics (RAISE)</h2>
+							<h3>Led by Prof. AJung Moon, the lab investigates human-robot interaction, roboethics, and AI ethics.</h3>
 						</ImageText>
 					</ImageCell>
 
-					<ImageCell href = "https://www.cim.mcgill.ca/" target='_blank' rel="noopener noreferrer" className='link'>
+					<ImageCell href = "https://blogs.mcgill.ca/design-engineering-society/" target='_blank' rel="noopener noreferrer" className='link'>
+						<ImageBounds red = {true} className="Bounds">
+						</ImageBounds>
+						<ImageText className="Text">
+							<h2>Reading Group on Design, Engineering, and Society (DES)</h2>
+							<h3>The Reading Group on Design, Engineering, and Society (DES) is a joint initiative by Profs. Theodora Vardouli (Architecture) and AJung Moon (Electrical and Computer Engineering), aimed at fostering interdisciplinary conversations on social aspects of design and technology.</h3>
+						</ImageText>
+					</ImageCell>
+
+					<ImageCell href = "https://www.cyberjustice.ca/en/" target='_blank' rel="noopener noreferrer" className='link'>
 						<ImageBounds className="Bounds">
 						</ImageBounds>
 						<ImageText className="Text">
-							<h2>McGill CIM (Centre for Intelligence Machines)</h2>
-							<h3>CIM is an inter-departmental inter-faculty research group at McGill which was formed in 1985 to facilitate and promote research on intelligent systems. A handful of McGill labs that apply AI to different fields can be found on their website! </h3>
+							<h2>Cyberjustice Lab</h2>
+							<h3>The Cyberjustice Lab analyses the impact of technologies on justice and develops concrete technological tools that are adapted to the reality of the justice system.</h3>
 						</ImageText>
 					</ImageCell>
 
-					<ImageCell href = "http://rl.cs.mcgill.ca/index.html" target='_blank' rel="noopener noreferrer" className='link'>
-						<ImageBounds red={true} className="Bounds">
+					<ImageCell href = "https://www.facebook.com/pages/category/School/McGill-AI-Law-492418731238015/" target='_blank' rel="noopener noreferrer" className='link'>
+						<ImageBounds red = {true} className="Bounds">
 						</ImageBounds>
 						<ImageText className="Text">
-							<h2>McGill Reasoning and Learning Lab</h2>
-							<h3>The research in the Reasoning and Learning Lab, co-directed by Professors Prakash Panangaden, Doina Precup, Joelle Pineau, and Jackie Chi Kit Cheung, is broadly concerned with the study of probabilistic systems. Current areas of interest include Markov processes, reinforcement learning and computational linguistics.</h3>
-						</ImageText>
-					</ImageCell>
-
-					<ImageCell href = "https://www.ai4goodlab.com/" target='_blank' rel="noopener noreferrer" className='link'>
-						<ImageBounds className="Bounds">
-						</ImageBounds>
-						<ImageText className="Text">
-							<h2>AI4Good Lab</h2>
-							<h3>The AI for Good Lab Program takes place over 7 weeks and brings together a cohort of 30 women from across Canada. The program consists of a mashup of lectures, workshops, self-directed team projects. Instructors and mentors include university researchers, graduate students, and practitioners from startups, corporates, inter-governmental organizations and city government.</h3>
-						</ImageText>
-					</ImageCell>
-
-					<ImageCell href = "https://ivado.ca/en/ivado-scholarships/undergraduate-research-scholarships/" target='_blank' rel="noopener noreferrer" className='link'>
-						<ImageBounds red={true} className="Bounds">
-						</ImageBounds>
-						<ImageText className="Text">
-							<h2>Ivado Undergraduate Intro to Research Scholarships</h2>
+							<h2>McGill AI and Law</h2>
 							<h3> </h3>
 						</ImageText>
 					</ImageCell>
+
+					<ImageCell href = "https://blogs.mcgill.ca/ai-law-mcgill/" target='_blank' rel="noopener noreferrer" className='link'>
+						<ImageBounds className="Bounds">
+						</ImageBounds>
+						<ImageText className="Text">
+							<h2>AI and Law Reading Group</h2>
+							<h3>Speaker series organized by & at McGill in conjunction with the Cyberjustice Lab.</h3>
+						</ImageText>
+					</ImageCell>
+
+					<ImageCell href = "https://montrealethics.ai/" target='_blank' rel="noopener noreferrer" className='link'>
+						<ImageBounds red={true} className="Bounds">
+						</ImageBounds>
+						<ImageText className="Text">
+							<h2>Montreal Ethics AI</h2>
+							<h3>A group that seeks to create tangible and applied technical and policy research in the ethical, safe, and inclusive development of AI. </h3>
+						</ImageText>
+					</ImageCell>
+
 				</ImageGrid>
 			</Container>
 		);
