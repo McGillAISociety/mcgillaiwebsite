@@ -131,56 +131,65 @@ class Resources extends React.Component {
 			<Container>
 				<ImageGrid>
 
-					<ImageCell href = "https://mila.quebec/en/" target='_blank' rel="noopener noreferrer" className='link'>
+					<ImageCell href = "https://www.mcgill.ca/cscds/" target='_blank' rel="noopener noreferrer" className='link'>
 						<ImageBounds red={true} className="Bounds">
 						</ImageBounds>
 						<ImageText className="Text">
-							<h2>MILA (Quebec Artificial Intelligence Institute)</h2>
-							<h3>Mila is a community of 450 researchers specializing in machine learning and dedicated to scientific excellence and innovation. Many members are also professors at various Quebec universities. They have research projects in numerous fundamental and applied areas of ML.</h3>
+							<h2>CSCDS (Centre for Social and Cultural Data Science)</h2>
+							<h3>CSCDS is a multi-disciplinary community of scholars who apply data science to research in the humanities and social sciences through training, networking and support.</h3>
 						</ImageText>
 					</ImageCell>
 
-					<ImageCell href = "https://ivado.ca/en/" target='_blank' rel="noopener noreferrer" className='link'>
+					<ImageCell href = "http://networkdynamics.org/" target='_blank' rel="noopener noreferrer" className='link'>
+						<ImageBounds red = {true} className="Bounds">
+						</ImageBounds>
+						<ImageText className="Text">
+							<h2>Network Dynamics Lab</h2>
+							<h3>The Network Dynamics Lab is led by Prof. Derek Ruths and aims to measure and model large-scale human behavior, such as those found within social platforms, NYT bestsellers, human communities, political parties, and ancient civilizations.</h3>
+						</ImageText>
+					</ImageCell>
+
+					<ImageCell href = "https://txtlab.org/" target='_blank' rel="noopener noreferrer" className='link'>
 						<ImageBounds className="Bounds">
 						</ImageBounds>
 						<ImageText className="Text">
-							<h2>Ivado (Institue for Data Valorization)</h2>
-							<h3>IVADO aims to bring together industry professionals and academic researchers to develop cutting-edge expertise in data science, operational research and artificial intelligence.</h3>
+							<h2>.txtLAB @ McGill</h2>
+							<h3>.txtLAB applies statistical and machine learning techniques to the study of culture, with a focus on cultural inequality.</h3>
 						</ImageText>
 					</ImageCell>
 
-					<ImageCell href = "https://www.cim.mcgill.ca/" target='_blank' rel="noopener noreferrer" className='link'>
+					<ImageCell href = "http://www.aaronerlich.com/demotip-laboratory" target='_blank' rel="noopener noreferrer" className='link'>
 						<ImageBounds className="Bounds">
 						</ImageBounds>
 						<ImageText className="Text">
-							<h2>McGill CIM (Centre for Intelligence Machines)</h2>
-							<h3>CIM is an inter-departmental inter-faculty research group at McGill which was formed in 1985 to facilitate and promote research on intelligent systems. A handful of McGill labs that apply AI to different fields can be found on their website! </h3>
+							<h2>demoTIP</h2>
+							<h3>The DemoTIP laboratory applies state of the art research methods, such as machine learning, to bring answers to empirical problems in political science.</h3>
 						</ImageText>
 					</ImageCell>
 
-					<ImageCell href = "http://rl.cs.mcgill.ca/index.html" target='_blank' rel="noopener noreferrer" className='link'>
+					<ImageCell href = "https://www.policyanddatascience.org/" target='_blank' rel="noopener noreferrer" className='link'>
 						<ImageBounds red={true} className="Bounds">
 						</ImageBounds>
 						<ImageText className="Text">
-							<h2>McGill Reasoning and Learning Lab</h2>
-							<h3>The research in the Reasoning and Learning Lab, co-directed by Professors Prakash Panangaden, Doina Precup, Joelle Pineau, and Jackie Chi Kit Cheung, is broadly concerned with the study of probabilistic systems. Current areas of interest include Markov processes, reinforcement learning and computational linguistics.</h3>
+							<h2>Policy and Data Science Summer Program</h2>
+							<h3>Held by CSCDS and the Max Bell School of Public Policy, the summer program trains students from non-technical backgrounds in data science. Students finish the program by applying their skills in a policy internship.</h3>
 						</ImageText>
 					</ImageCell>
 
-					<ImageCell href = "https://www.ai4goodlab.com/" target='_blank' rel="noopener noreferrer" className='link'>
+					<ImageCell href = "https://www.facebook.com/McGillNeurotech/" target='_blank' rel="noopener noreferrer" className='link'>
 						<ImageBounds className="Bounds">
 						</ImageBounds>
 						<ImageText className="Text">
-							<h2>AI4Good Lab</h2>
-							<h3>The AI for Good Lab Program takes place over 7 weeks and brings together a cohort of 30 women from across Canada. The program consists of a mashup of lectures, workshops, self-directed team projects. Instructors and mentors include university researchers, graduate students, and practitioners from startups, corporates, inter-governmental organizations and city government.</h3>
+							<h2>McGill Neuro Tech</h2>
+							<h3>A student-run design team that participates in the NeuroTechX Student Clubs Competition each year, having won each year. Projects usually involve ML applications in neurotechnology.</h3>
 						</ImageText>
 					</ImageCell>
 
-					<ImageCell href = "https://ivado.ca/en/ivado-scholarships/undergraduate-research-scholarships/" target='_blank' rel="noopener noreferrer" className='link'>
+					<ImageCell href = "http://www.ece.mcgill.ca/~aemad2/" target='_blank' rel="noopener noreferrer" className='link'>
 						<ImageBounds red={true} className="Bounds">
 						</ImageBounds>
 						<ImageText className="Text">
-							<h2>Ivado Undergraduate Intro to Research Scholarships</h2>
+							<h2>McGill Computational Biology and Artificial Intelligence Lab</h2>
 							<h3> </h3>
 						</ImageText>
 					</ImageCell>

@@ -8,6 +8,8 @@ import { SectionBase,
 
 import Background from '../home/assets/background.jpg';
 import Resources from './resources.js';
+import Resources2 from './resources2.js';
+import Resources3 from './resources3.js';
 
 const Container = styled('div')`
   	background-image: url(${Background});
@@ -51,13 +53,26 @@ class Mtlai extends React.Component {
 					<Answer>
 					The following is a list of different ways students can get involved with the AI and ML community in Montreal. <br/>
 					For technical content to begin learning ML, please visit our MAIS 202 Course Notes page. While our team tried our best to capture as many opportunities as possible, if you feel this list is lacking a certain group of organization, please let us know at <a href="mailto:mcgillaicontact@gmail.com">mcgillaicontact@gmail.com</a>! <br/>
-					Of course, the best way for you to stay updated with upcoming AI events at McGill and Montreal is by following us on Facebook and subscribing to our newsletter ;)
+					Of course, the best way for you to stay updated with upcoming AI events at McGill and Montreal is by following us on Facebook and subscribing to our newsletter ;) <br/><br/><br/>
 					</Answer>
+					<p> AI / ML Research </p>
 
 					</div>
 				</MtlaiContainer>
 				</Container>
 					<Resources></Resources>
+					<Container>
+					<MtlaiContainer>
+					<p>AI x Other Fields </p>
+					</MtlaiContainer>
+					</Container>
+					<Resources2></Resources2>
+					<Container>
+					<MtlaiContainer>
+					<p>AI Ethics, Society, Regulation </p>
+					</MtlaiContainer>
+					</Container>
+					<Resources3></Resources3>
 
 			</MtlContainer>
 		);
