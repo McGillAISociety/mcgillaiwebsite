@@ -32,19 +32,19 @@ export const DATA = [
 		"email": ""
 	},
 	{
-		"photo": '/exec-img/yulu.png',
-		"name": "Yu Lu Liu",
-		"position": "VP Communications",
-		"bio": "Yu Lu is a second year Stats and Comp Sci student. She is interested in applications of ML, especially in the field of linguistics and of earth sciences. She also loves gardening and watching nature documentaries.",
-		"linkedin": "https://www.linkedin.com/in/yu-lu-liu-5a66861a2/",
-		"email": ""
-	},
-	{
 		"photo": '/exec-img/teresa.png',
 		"name": "Teresa Altamirano Mayoral",
 		"position": "VP Events",
 		"bio": "Teresa is a third year Computer Science student with a minor in Psychology. She is interested in the intersection between technology and psychology and how each discipline contributes in some ways to the other. When she is not coding, she is either organizing events, playing the guitar or devouring a fantasy book.",
 		"linkedin": "https://www.linkedin.com/in/teresa-altamirano-mayoral-993967118/?locale=en_US",
+		"email": ""
+	},
+	{
+		"photo": '/exec-img/yulu.png',
+		"name": "Yu Lu Liu",
+		"position": "VP Communications",
+		"bio": "Yu Lu is a second year Stats and Comp Sci student. She is interested in applications of ML, especially in the field of linguistics and of earth sciences. She also loves gardening and watching nature documentaries.",
+		"linkedin": "https://www.linkedin.com/in/yu-lu-liu-5a66861a2/",
 		"email": ""
 	},
 	{

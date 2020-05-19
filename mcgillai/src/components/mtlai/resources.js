@@ -5,13 +5,6 @@ import {
 	ImageBackground
  } from '../commonstyles'
 
- import Mais202 from './activities-img/mais202.jpg';
- import ImplementAI from './activities-img/implementai.jpg';
- import Workshops from './activities-img/workshops.jpg';
- import WomenInAI from './activities-img/womeninai.jpg';
- import ResearchTalks from './activities-img/researchtalks.jpg';
- import CompanyCrawl from './activities-img/companycrawl.JPG';
-
 const Container = styled('div')`
 	margin: auto;
   	position: relative;
@@ -66,7 +59,7 @@ const ImageBounds = styled('div')`
 	right: 0;
 	bottom: 0;
 	left: 0;
-	opacity: 0;
+	opacity: 1;
 	transition: opacity 500ms;
 	background: ${props => props.red ? 'linear-gradient(to bottom,#722D60, #A81245)' : 'linear-gradient(to bottom,#6E2F62, #003399)'};
 `;
@@ -79,7 +72,7 @@ const ImageText = styled('div')`
 	padding: 20px;
 	color: white;
 	text-align: center;
-	opacity: 0;
+	opacity: 1;
 	transition: opacity 500ms;
 
 	> h2 {
@@ -133,69 +126,63 @@ const ImageText = styled('div')`
 `;
 
 
-class Activities extends React.Component {
+class Resources extends React.Component {
 	render () {
 		return (
 			<Container>
 				<ImageGrid>
 
 					<ImageCell>
-						<ImageBackground className="Background" style={{backgroundImage: `url(${Mais202})`}}>  </ImageBackground>
 						<ImageBounds red={true} className="Bounds">
 						</ImageBounds>
 						<ImageText className="Text">
-							<h2>MAIS202 Bootcamp</h2>
-							<h3>MAIS 202 is a ten-week bootcamp that teaches lower year undergraduates ML fundamentals. With over 60 bootcamp alumni, our Fall 2020 iteration will welcome our fourth cohort of students.</h3>
+							<h2>MILA (Quebec Artificial Intelligence Institute)</h2>
+							<h3>Mila is a community of 450 researchers specializing in machine learning and dedicated to scientific excellence and innovation. Many members are also professors at various Quebec universities. They have research projects in numerous fundamental and applied areas of ML.</h3>
 						</ImageText>
 					</ImageCell>
 
 					<ImageCell>
-						<ImageBackground className="Background" style={{backgroundImage: `url(${ImplementAI})`}}> </ImageBackground>
 						<ImageBounds className="Bounds">
 						</ImageBounds>
 						<ImageText className="Text">
-							<h2>ImplementAI</h2>
-							<h3>Our annual hackathon, ImplementAI, brings together 150 students across Eastern Canada to design and innovate modern AI solutions.</h3>
+							<h2>Ivado (Institue for Data Valorization)</h2>
+							<h3>IVADO aims to bring together industry professionals and academic researchers to develop cutting-edge expertise in data science, operational research and artificial intelligence.</h3>
 						</ImageText>
 					</ImageCell>
 
 					<ImageCell>
-						<ImageBackground className="Background" style={{backgroundImage: `url(${CompanyCrawl})`}}> </ImageBackground>
 						<ImageBounds className="Bounds">
 						</ImageBounds>
 						<ImageText className="Text">
-							<h2>Company Crawl</h2>
-							<h3>Each fall, we invite over 30 talented individuals to tour some of the hottest AI companies in Montreal, including Automat, StrategiAI, Google, and Microsoft. </h3>
+							<h2>McGill CIM (Centre for Intelligence Machines)</h2>
+							<h3>CIM is an inter-departmental inter-faculty research group at McGill which was formed in 1985 to facilitate and promote research on intelligent systems. A handful of McGill labs that apply AI to different fields can be found on their website! </h3>
 						</ImageText>
 					</ImageCell>
 
 					<ImageCell>
-						<ImageBackground className="Background" style={{backgroundImage: `url(${Workshops})`}}> </ImageBackground>
 						<ImageBounds red={true} className="Bounds">
 						</ImageBounds>
 						<ImageText className="Text">
-							<h2>Workshops</h2>
-							<h3>Our technical project managers provide workshops each term teaching applied topics in artificial intelligence and machine learning. Our 2019-2020 workshop series covered topics such as image classification, OpenCV, and building a chatbot.</h3>
+							<h2>McGill Reasoning and Learning Lab</h2>
+							<h3>The research in the Reasoning and Learning Lab, co-directed by Professors Prakash Panangaden, Doina Precup, Joelle Pineau, and Jackie Chi Kit Cheung, is broadly concerned with the study of probabilistic systems. Current areas of interest include Markov processes, reinforcement learning and computational linguistics.</h3>
 						</ImageText>
 					</ImageCell>
 
 					<ImageCell>
-						<ImageBackground className="Background" style={{backgroundImage: `url(${WomenInAI})`}}> </ImageBackground>
 						<ImageBounds className="Bounds">
 						</ImageBounds>
 						<ImageText className="Text">
-							<h2>Women in AI Panel</h2>
-							<h3>To celebrate International Women's Day, we invited Joelle Pineau, Layla El Asri, Audrey Durand, and Negar Rostamzadeh to talk about their notable achievements and share their career progression in AI. </h3>
+							<h2>AI4Good Lab</h2>
+							<h3>The AI for Good Lab Program takes place over 7 weeks and brings together a cohort of 30 women from across Canada. The program consists of a mashup of lectures, workshops, self-directed team projects. Instructors and mentors include university researchers, graduate students, and practitioners from startups, corporates, inter-governmental organizations and city government.</h3>
 						</ImageText>
 					</ImageCell>
 
 					<ImageCell>
-						<ImageBackground className="Background" style={{backgroundImage: `url(${ResearchTalks})`}}> </ImageBackground>
 						<ImageBounds red={true} className="Bounds">
 						</ImageBounds>
 						<ImageText className="Text">
-							<h2>Research Talks</h2>
-							<h3>A series of informal presentations for students to engage with state-of-the-art research pursued by academic and industry researchers in machine learning. </h3>
+							<h2>Ivado Undergraduate Intro to Research Scholarships</h2>
+							<h3> </h3>
 						</ImageText>
 					</ImageCell>
 				</ImageGrid>
@@ -204,4 +191,4 @@ class Activities extends React.Component {
 	}
 }
 
-export default Activities
+export default Resources
