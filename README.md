@@ -19,5 +19,7 @@
 2. About
 
 ## Montreal AI resources
-- Add to nav bar
-- Create new page
+- ~~Add to nav bar~~
+- ~~Create new page~~
+- Figure out wireframe / aesthetic for this page
+- Write an intro to the page
