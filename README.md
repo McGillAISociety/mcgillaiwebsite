@@ -21,8 +21,8 @@
 ## Montreal AI resources
 - ~~Add to nav bar~~
 - ~~Create new page~~
-- Figure out wireframe / aesthetic for this page
-- Add links to the click for each site
+- ~~Figure out wireframe / aesthetic for this page~~
+- ~~Add links to the click for each site~~
 - Fix header
 
 ## Future
