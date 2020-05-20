@@ -131,7 +131,7 @@ export const DATA = [
 		"photo": '/exec-img/antonios.png',
 		"name": "Antonios Valkanas",
 		"position": "Senior Advisor",
-		"bio": "Hailing from Athens, Greece, this man knows his way around a neural network. He will be lecturing his heart out during the MAIS bootcamp. He is also a first year graduate student interested in graph neural networks.",
+		"bio": "Antonios is a second year Master’s student in Electrical Engineering. His research focuses on deep learning for graphs. He likes teaching AI to undergrads, travelling to places where he can’t communicate with the locals and sports.",
 		"linkedin": "https://www.linkedin.com/in/antonios-valkanas/",
 		"email": ""
 	},
