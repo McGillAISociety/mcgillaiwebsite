@@ -23,7 +23,8 @@
 - ~~Create new page~~
 - ~~Figure out wireframe / aesthetic for this page~~
 - ~~Add links to the click for each site~~
-- Fix header
+- ~~Fix header~~
+- ~~Center containers~~
 
 ## Future
 - Consider adding a link to the hackathon website / A tab for the hackathon given it is now names MAIS Hacks
