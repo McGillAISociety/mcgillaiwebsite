@@ -66,9 +66,10 @@ const ImageBounds = styled('div')`
 
 const ImageText = styled('div')`
 	position: absolute;
-	left: 0;
-	right: 0;
-	padding: 20px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 90%;
 	color: white;
 	text-align: center;
 	opacity: 1;
