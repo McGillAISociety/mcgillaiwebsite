@@ -51,8 +51,8 @@ export const DATA = [
 		"photo": '/exec-img/parsa.png',
 		"name": "Parsa Yadollahi",
 		"position": "VP Finance",
-		"bio": "Etienne is a final year Computer Science interested in graph representation and reinforcement learning. He was raised in a French household deep in the state of Texas (Austin!). When he is not doing research, he spends his time reading, playing tennis and biking.",
-		"linkedin": "https://www.linkedin.com/in/egdenis/",
+		"bio": "Parsa is a third year Computer Science student interested in software engineering and quantitative finance. A lover of Toronto and Drake, he embodies the spirit of Trottier's 3rd floor where he and his trademark biceps roam.",
+		"linkedin": "https://www.linkedin.com/in/parsa-yadollahi/",
 		"email": ""
 	},
 	{
@@ -91,8 +91,8 @@ export const DATA = [
 		"photo": '/exec-img/william.png',
 		"name": "William Zhang",
 		"position": "Technical Project Manager",
-		"bio": "Ying is a fourth year Statistics and Computer Science student with a minor in Finance. She is interested in data science and quantitative finance. With a love for nature, she takes photos of stunning sunsets every day :D",
-		"linkedin": "https://www.linkedin.com/in/ying-wang-90611714a/",
+		"bio": "William is a third year software engineering student very interested in the applications of machine learning in finance.",
+		"linkedin": "https://www.linkedin.com/in/williamykzhang/",
 		"email": ""
 	},
 	{

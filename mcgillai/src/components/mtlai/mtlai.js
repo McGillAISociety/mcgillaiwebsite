@@ -45,15 +45,16 @@ class Mtlai extends React.Component {
 		return (
 			<MtlContainer>
 			<Container>
+			<HeadingUnderline className='content'>Montreal's AI Scene </HeadingUnderline>
 				<MtlaiContainer>
-					<HeadingUnderline className='content'>Montreal's AI Scene </HeadingUnderline>
+
 					<div className = 'content--inner'>
-					<p>McGill AI's Guide to MTL!</p>
+					<p>McGill AI's Guide to MTL's AI Scene!</p>
 					<Question>Hello!</Question>
 					<Answer>
 					The following is a list of different ways students can get involved with the AI and ML community in Montreal. <br/>
-					For technical content to begin learning ML, please visit our MAIS 202 Course Notes page. While our team tried our best to capture as many opportunities as possible, if you feel this list is lacking a certain group of organization, please let us know at <a href="mailto:mcgillaicontact@gmail.com">mcgillaicontact@gmail.com</a>! <br/>
-					Of course, the best way for you to stay updated with upcoming AI events at McGill and Montreal is by following us on Facebook and subscribing to our newsletter ;) <br/><br/><br/>
+					For technical content to begin learning ML, please visit our <a href="/mais202">MAIS 202 Course Notes page</a>. While our team tried our best to capture as many opportunities as possible, if you feel this list is lacking a certain group of organization, please let us know at <a href="mailto:mcgillaicontact@gmail.com">mcgillaicontact@gmail.com</a>! <br/>
+					Of course, the best way for you to stay updated with upcoming AI events at McGill and Montreal is by following us on <a href="https://www.facebook.com/McGillAI">Facebook</a> and subscribing to our <a rel="noopener noreferrer" href="https://forms.gle/L8HqJWJ2KSy3Cd6y5" target="_blank">newsletter</a> ;) <br/><br/><br/>
 					</Answer>
 					<p> AI / ML Research </p>
 
@@ -63,16 +64,16 @@ class Mtlai extends React.Component {
 					<Resources></Resources>
 					<Container>
 					<MtlaiContainer>
-					<p>AI x Other Fields </p>
-					</MtlaiContainer>
-					</Container>
-					<Resources2></Resources2>
-					<Container>
-					<MtlaiContainer>
-					<p>AI Ethics, Society, Regulation </p>
+					<p>AI Ethics, Society and Regulation </p>
 					</MtlaiContainer>
 					</Container>
 					<Resources3></Resources3>
+					<Container>
+					<MtlaiContainer>
+					<p>AI x Other Fields</p>
+					</MtlaiContainer>
+					</Container>
+					<Resources2></Resources2>
 
 			</MtlContainer>
 		);

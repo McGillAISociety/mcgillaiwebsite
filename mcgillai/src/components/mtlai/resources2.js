@@ -141,7 +141,7 @@ class Resources extends React.Component {
 					</ImageCell>
 
 					<ImageCell href = "http://networkdynamics.org/" target='_blank' rel="noopener noreferrer" className='link'>
-						<ImageBounds red = {true} className="Bounds">
+						<ImageBounds className="Bounds">
 						</ImageBounds>
 						<ImageText className="Text">
 							<h2>Network Dynamics Lab</h2>
@@ -190,7 +190,7 @@ class Resources extends React.Component {
 						</ImageBounds>
 						<ImageText className="Text">
 							<h2>McGill Computational Biology and Artificial Intelligence Lab</h2>
-							<h3> </h3>
+							<h3>A cool opportunity for anyone keen on AI and life sciences!</h3>
 						</ImageText>
 					</ImageCell>
 				</ImageGrid>
