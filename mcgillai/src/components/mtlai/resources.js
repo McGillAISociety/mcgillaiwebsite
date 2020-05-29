@@ -140,6 +140,15 @@ class Resources extends React.Component {
 						</ImageText>
 					</ImageCell>
 
+					<ImageCell href = "https://www.google.com/url?q=https://sites.google.com/lisa.iro.umontreal.ca/tea-talks/home&sa=D&ust=1590498852183000&usg=AFQjCNFeHGXWFsoiPghmXt9rMmM5saJ5iA" target='_blank' rel="noopener noreferrer" className='link'>
+						<ImageBounds red={true} className="Bounds">
+						</ImageBounds>
+						<ImageText className="Text">
+							<h2>Mila Tea Talks</h2>
+							<h3>Tea talks are scientific keynote-like talks given at Mila on Friday mornings (10:30am EDT). Speakers are either internal or invited, and give a 1 hour talk with 15 minutes of questions interspersed throughout. These talks are open to the public, but the vast majority of attendees are Mila students and professors, so the talks are aimed at that level of understanding.</h3>
+						</ImageText>
+					</ImageCell>
+
 					<ImageCell href = "https://ivado.ca/en/" target='_blank' rel="noopener noreferrer" className='link'>
 						<ImageBounds className="Bounds">
 						</ImageBounds>
@@ -181,7 +190,7 @@ class Resources extends React.Component {
 						</ImageBounds>
 						<ImageText className="Text">
 							<h2>Ivado Undergraduate Intro to Research Scholarships</h2>
-							<h3> </h3>
+							<h3> A cool summer opportunity!</h3>
 						</ImageText>
 					</ImageCell>
 				</ImageGrid>

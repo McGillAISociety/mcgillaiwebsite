@@ -163,7 +163,7 @@ class Resources extends React.Component {
 						</ImageBounds>
 						<ImageText className="Text">
 							<h2>McGill AI and Law</h2>
-							<h3> </h3>
+							<h3>Check this out if you're interested in the intersection between law and AI!</h3>
 						</ImageText>
 					</ImageCell>
 
@@ -180,8 +180,8 @@ class Resources extends React.Component {
 						<ImageBounds red={true} className="Bounds">
 						</ImageBounds>
 						<ImageText className="Text">
-							<h2>Montreal Ethics AI</h2>
-							<h3>A group that seeks to create tangible and applied technical and policy research in the ethical, safe, and inclusive development of AI. </h3>
+							<h2>Montreal AI Ethics Institute (MAIEI)</h2>
+							<h3>MAIEI’s mission is to help define humanity’s place in a world increasingly characterized and driven by algorithms. They publish tangible and applied technical and policy research in the ethical, safe and inclusive development of AI.</h3>
 						</ImageText>
 					</ImageCell>
 
