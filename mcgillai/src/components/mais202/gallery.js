@@ -19,7 +19,7 @@ const GalleryContainer = styled('div')`
 	@media screen and (max-width: 767px) {
 		max-width: 500px;
 	}
-	
+
 	@media screen and (max-width: 600px) {
 		max-width: 400px;
 	}
@@ -82,7 +82,7 @@ class Gallery extends React.Component {
 	      </Container>
 	    );
 	}
-		
+
 }
 
 export default Gallery;
