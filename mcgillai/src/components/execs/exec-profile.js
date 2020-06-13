@@ -11,7 +11,7 @@ export const DATA = [
 		"photo": '/exec-img/rosie.png',
 		"name": "Rosie Zhao",
 		"position": "VP Internal",
-		"bio": "Rosie is a third year Mathematics and Computer Science student with interests in natural language processing and machine learning mathematical theory. She has a love-hate relationship with React and does graphic design in her free time.",
+		"bio": "Rosie is a third year Mathematics and Computer Science student with interests in natural language processing, ML theory and stochastic processes. She has a love-hate relationship with React and does graphic design in her free time.",
 		"linkedin": "https://www.linkedin.com/in/rosieyzh",
 		"email": ""
 	},
@@ -59,7 +59,7 @@ export const DATA = [
 		"photo": '/exec-img/jad.png',
 		"name": "Jad Hamdan",
 		"position": "Academic Lecturer",
-		"bio": "Jad Is a third Year Honours Computer Science and Math student with interest in ML theory and Math. If you have any questions ranging from Computer Science to how to make your rap flow better after chugging half a cup of ~water~, he’d be happy to help. He will be passing that raw knowledge during the MAIS bootcamp lectures. He also goes by the name Senpai.",
+		"bio": "Jad Is a third Year Honours Computer Science and Math student with interest in ML theory and Math. If you have any questions ranging from Computer Science to how to make your rap flow better after chugging half a cup of ~water~, he’d be happy to help. He will be passing that raw knowledge during the MAIS bootcamp lectures.",
 		"linkedin": "https://linkedin.com/in/jad-hamdan/",
 		"email": ""
 	},
