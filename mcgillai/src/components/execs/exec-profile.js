@@ -11,7 +11,7 @@ export const DATA = [
 		"photo": '/exec-img/rosie.png',
 		"name": "Rosie Zhao",
 		"position": "VP Internal",
-		"bio": "Rosie is a third year Mathematics and Computer Science student with interests in natural language processing, ML theory and stochastic processes. She has a love-hate relationship with React and does graphic design in her free time.",
+		"bio": "Rosie is a third year Mathematics and Computer Science student with interests in natural language processing and machine learning mathematical theory. She has a love-hate relationship with React and does graphic design in her free time.",
 		"linkedin": "https://www.linkedin.com/in/rosieyzh",
 		"email": ""
 	},
@@ -27,7 +27,7 @@ export const DATA = [
 		"photo": '/exec-img/raph.png',
 		"name": "Raphaëlle Tseng",
 		"position": "VP Communications",
-		"bio": "Raph is a third year Maths and Comp Sci student, keen to apply AI in a way that has a positive social and environmental impact on the world. She likes the beach, a good podcast, and chocolate. Her friends think her spirit animal is a cat. ",
+		"bio": "Raph is a third year Maths and Comp Sci student, keen to apply AI in a way that has a positive social and environmental impact on the world. She likes warm sunshine, the ocean and a good book. Her friends think her spirit animal is a cat. ",
 		"linkedin": "https://www.linkedin.com/in/raphaëlletseng/",
 		"email": ""
 	},
@@ -59,8 +59,8 @@ export const DATA = [
 		"photo": '/exec-img/jad.png',
 		"name": "Jad Hamdan",
 		"position": "Academic Lecturer",
-		"bio": "Jad Is a third Year Honours Computer Science and Math student with interest in ML theory and Math. If you have any questions ranging from Computer Science to how to make your rap flow better after chugging half a cup of ~water~, he’d be happy to help. He will be passing that raw knowledge during the MAIS bootcamp lectures.",
-		"linkedin": "https://linkedin.com/in/jad-hamdan/",
+		"bio": "Ali is a good looking individual who is in his final year of Electrical Engineering. He was born in Iran and will look to impress you with his lecturing during the MAIS bootcamp.",
+		"linkedin": "https://linkedin.com/in/ali-shobeiri/",
 		"email": ""
 	},
 	{

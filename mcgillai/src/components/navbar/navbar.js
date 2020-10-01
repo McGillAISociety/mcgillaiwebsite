@@ -74,7 +74,7 @@ class Navigation extends React.Component {
           <Navbar.Collapse className = "navbar-collapse" id="basic-navbar">
             <Nav onSelect={this.clickedNav} className = "mr-auto">
               <Nav.Link><Link to='/ourteam'><Navbar.Text className='navtext' onClick={this.clickedNav}>Our Team</Navbar.Text></Link></Nav.Link>
-              <Nav.Link><Link to='/mais202'><Navbar.Text className='navtext' onClick={this.clickedNav}>MAIS 202</Navbar.Text></Link></Nav.Link>
+              <Nav.Link><Link to='/mais202'><Navbar.Text className='navtext' onClick={this.clickedNav}>MAIS202</Navbar.Text></Link></Nav.Link>
               <Nav.Link><Link to='/faq'><Navbar.Text className='navtext' onClick={this.clickedNav}>FAQ</Navbar.Text></Link></Nav.Link>
               <BlogLink target="_blank" href= "https://medium.com/mcgill-artificial-intelligence-review" rel="noopener"><Navbar.Text className='navtext'>Blog</Navbar.Text></BlogLink>
               <Nav.Link><Link to='/mtlai'><Navbar.Text className='navtext' onClick={this.clickedNav}>MTL AI Resources</Navbar.Text></Link></Nav.Link>
