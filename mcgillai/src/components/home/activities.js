@@ -10,7 +10,7 @@ import {
  import Workshops from './activities-img/workshops.jpg';
  import WomenInAI from './activities-img/womeninai.jpg';
  import ResearchTalks from './activities-img/researchtalks.jpg';
- import CompanyCrawl from './activities-img/companycrawl.JPG';
+ import CompanyCrawl from './activities-img/companycrawl.jpg';
 
 const Container = styled('div')`
 	margin: auto;
@@ -154,8 +154,8 @@ class Activities extends React.Component {
 						<ImageBounds className="Bounds">
 						</ImageBounds>
 						<ImageText className="Text">
-							<h2>ImplementAI</h2>
-							<h3>Our annual hackathon, ImplementAI, brings together 150 students across Eastern Canada to design and innovate modern AI solutions.</h3>
+							<h2>MAIS Hacks</h2>
+							<h3>Our annual hackathon brings together 150 students across Eastern Canada to design and innovate modern AI solutions.</h3>
 						</ImageText>
 					</ImageCell>
 
