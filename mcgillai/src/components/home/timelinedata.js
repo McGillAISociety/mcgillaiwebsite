@@ -1,31 +1,19 @@
 export const TimelineDataFall = [
 	{
-		title: 'MAIS 202 Apps Due',
-		time: 'September 9 | 11:59 PM',
+		title: 'Ubisoft La Forge Talks',
+		time: 'October 21 | 6:00 PM',
 		place: 'Online!',
 		category: '/schedule-icons/mais202.svg'
 	},
 	{
-		title: 'Activities Night',
-		time: 'September 9 - 10',
+		title: 'Workshop 2: Intro to Pytorch',
+		time: 'Upcoming!',
 		place: 'Online!',
 		category: '/schedule-icons/panel.svg'
 	},
 	{
-		title: 'MAIS Hacks First Round Deadline',
-		time: 'September 12 | 11:59 PM',
-		place: 'Online!',
-		category: '/schedule-icons/hackathon.svg'
-	},
-	{
-		title: 'MAIS Hacks Second Round Deadline',
-		time: 'September 19 | 11:59 PM',
-		place: 'Online!',
-		category: '/schedule-icons/hackathon.svg'
-	},
-	{
-		title: 'MAIS Hacks',
-		time: 'October 3 - 4',
+		title: 'Workshop 3: ML Dev Ops',
+		time: 'Upcoming!',
 		place: 'Online!',
 		category: '/schedule-icons/hackathon.svg'
 	},
