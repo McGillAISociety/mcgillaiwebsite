@@ -4,6 +4,7 @@ import styled from '@emotion/styled';
 import wrnchLogo from './sponsors-img/wrnch.png';
 import intactLogo from './sponsors-img/intact.png';
 import nvidiaLogo from './sponsors-img/nvidia.png';
+import microsoftLogo from './sponsors-img/microsoft.png';
 
 const LogoRow = styled('div')`
   display: flex;
@@ -49,6 +50,13 @@ const Logo = ({ alt, src, href }) => (
 
 export default () => (
   <React.Fragment>
+  <LogoRow>
+      <Logo
+        alt="microsoft"
+        src={microsoftLogo}
+        href="https://careers.microsoft.com/us/en"
+      />
+    </LogoRow>
     <LogoRow>
       <Logo
         alt="wrnch"
