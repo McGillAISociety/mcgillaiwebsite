@@ -27,4 +27,4 @@
 - ~~Center containers~~
 
 ## Future
-- Consider adding a link to the hackathon website / A tab for the hackathon given it is now names MAIS Hacks
+- ~~Consider adding a link to the hackathon website / A tab for the hackathon given it is now names MAIS Hacks~~
