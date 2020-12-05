@@ -25,6 +25,10 @@
 - ~~Add links to the click for each site~~
 - ~~Fix header~~
 - ~~Center containers~~
+- Fix the changing screen size text disappearing
 
 ## Future
 - ~~Consider adding a link to the hackathon website / A tab for the hackathon given it is now names MAIS Hacks~~
+- Fix the janky gallery in Mais 202 occasionally disappearing
+- Add an accordion FAQ
+- Write a better README for incoming execs
