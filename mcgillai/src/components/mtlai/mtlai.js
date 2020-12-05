@@ -53,7 +53,7 @@ class Mtlai extends React.Component {
 					<Question>Hello!</Question>
 					<Answer>
 					The following is a list of different ways students can get involved with the AI and ML community in Montreal. <br/>
-					For technical content to begin learning ML, please visit our <a href="/mais202">MAIS 202 Course Notes page</a>. While our team tried our best to capture as many opportunities as possible, if you feel this list is lacking a certain group of organization, please let us know at <a href="mailto:mcgillaicontact@gmail.com">mcgillaicontact@gmail.com</a>! <br/>
+					For technical content to begin learning ML, please visit our <a href="/mais202">MAIS 202 Course Notes page</a>. While we tried our best to capture as many opportunities as possible, if you feel this list is lacking a certain group or organization, please let us know at <a href="mailto:mcgillaicontact@gmail.com">mcgillaicontact@gmail.com</a>! <br/>
 					Of course, the best way for you to stay updated with upcoming AI events at McGill and Montreal is by following us on <a href="https://www.facebook.com/McGillAI">Facebook</a> and subscribing to our <a rel="noopener noreferrer" href="https://forms.gle/L8HqJWJ2KSy3Cd6y5" target="_blank">newsletter</a> ;) <br/><br/><br/>
 					</Answer>
 					<p> AI / ML Research </p>
