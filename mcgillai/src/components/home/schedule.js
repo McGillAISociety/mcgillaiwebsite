@@ -6,7 +6,7 @@ import {
  } from '../commonstyles'
 
 import {
-	TimelineDataFall, 
+	TimelineData, 
 	} from './timelinedata.js';
 
 import TimelineItem from './timelineitem.js'
@@ -41,11 +41,11 @@ const Title = styled('div')`
 `;
 
 const Schedule = () =>
-	TimelineDataFall.length > 0 && (
+	TimelineData.length > 0 && (
 		<Container>
 			<Title>Upcoming Events</Title>
 			<TimelineContainer>
-				{TimelineDataFall.map((data, idx) => (
+				{TimelineData.map((data, idx) => (
 					<TimelineItem data = {data} key={idx} />
 				))}
 			</TimelineContainer>

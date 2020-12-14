@@ -1,20 +1,8 @@
-export const TimelineDataFall = [
+export const TimelineData = [
 	{
-		title: 'Ubisoft La Forge Talks',
-		time: 'October 21 | 6:00 PM',
+		title: 'MAIS 202 Winter 2021 Applications',
+		time: 'January 15 | 11:59 PM EST',
 		place: 'Online!',
 		category: '/schedule-icons/mais202.svg'
-	},
-	{
-		title: 'Workshop 2: Intro to Pytorch',
-		time: 'Upcoming!',
-		place: 'Online!',
-		category: '/schedule-icons/panel.svg'
-	},
-	{
-		title: 'Workshop 3: ML Dev Ops',
-		time: 'Upcoming!',
-		place: 'Online!',
-		category: '/schedule-icons/hackathon.svg'
-	},
+	}
 ];
