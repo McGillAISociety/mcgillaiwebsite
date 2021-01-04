@@ -6,6 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 1. Make sure you have Node.js and NPM from Browser, then run `npm install` to install dependencies into the local `node_modules` folder.
 2. Run `npm run start` to run the app locally in development mode, and view it in the browser via [http://localhost:3000](http://localhost:3000).
 
+## Usage Guide
+Read the `USAGE.md` file for general file navigation and a guide on updating certain website features.
+
 ## Deployment Guide
 **Steps 1-2** only need to be done before your first time deploying to the website.
 1. Install the AWS command line interface (CLI) [here](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv1.html) (version 1 should suffice).
@@ -14,7 +17,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 As a general note, you can access the McGill AI bucket on the AWS browser console by logging in and navigating to `Services -> Storage -> S3`.
 
-## Available Scripts
+## Available Scripts - from Create React App template
 
 In the project directory (mcgillai), you can run:
 
