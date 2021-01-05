@@ -79,6 +79,7 @@ class Navigation extends React.Component {
               <BlogLink target="_blank" href= "https://medium.com/mcgill-artificial-intelligence-review" rel="noopener"><Navbar.Text className='navtext'>Blog</Navbar.Text></BlogLink>
               <Nav.Link><Link to='/mtlai'><Navbar.Text className='navtext' onClick={this.clickedNav}>MTL AI Resources</Navbar.Text></Link></Nav.Link>
               <BlogLink target="_blank" href= "http://maishacks.com/" rel="noopener"><Navbar.Text className='navtext'>MAIS Hacks</Navbar.Text></BlogLink>
+              <BlogLink target="_blank" href= "http://mcgillailearn.com/" rel="noopener"><Navbar.Text className='navtext'>Learnathon</Navbar.Text></BlogLink>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
