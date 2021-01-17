@@ -1,20 +1,14 @@
-export const TimelineDataFall = [
-	/*{
-		title: 'MAIS 202 Applications Due',
-		time: 'January 7 | 11:59 PM',
-		place: 'McGill University',
+export const TimelineData = [
+	{
+		title: 'MAIS 202 Winter 2021 Applications',
+		time: 'January 15 | 11:59 PM EST',
+		place: 'Online!',
 		category: '/schedule-icons/mais202.svg'
 	},
 	{
-		title: 'Activities Night',
-		time: 'January 9 - 10',
-		place: 'Tomlinson Fieldhouse',
+		title: 'McGill AI Learnathon!',
+		time: 'February 6',
+		place: 'Online!',
 		category: '/schedule-icons/panel.svg'
-	},
-	{
-		title: 'Workshop 1',
-		time: 'January 20 | 6:00 PM',
-		place: 'Trottier 3120',
-		category: '/schedule-icons/workshop.svg'
-	}*/
+	}
 ];

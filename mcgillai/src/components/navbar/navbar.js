@@ -75,6 +75,7 @@ class Navigation extends React.Component {
           <Navbar.Toggle aria-controls="basic-navbar-nav" className='navtext'/>
           <Navbar.Collapse className = "navbar-collapse" id="basic-navbar-nav">
             <Nav onSelect={this.clickedNav} className = "mr-auto">
+
               <NavDropdown
 
                   title = {

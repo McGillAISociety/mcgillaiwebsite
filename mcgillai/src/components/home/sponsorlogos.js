@@ -1,12 +1,10 @@
 import React from 'react';
 import styled from '@emotion/styled';
 
-import NationalBankLogo from './sponsors-img/nationalbank.png';
-import CaeLogo from './sponsors-img/cae.png';
-import CoveoLogo from './sponsors-img/coveo.png';
-import HatchLogo from './sponsors-img/hatch.png';
-import SamasourceLogo from './sponsors-img/samasource.png';
 import wrnchLogo from './sponsors-img/wrnch.png';
+import intactLogo from './sponsors-img/intact.png';
+import nvidiaLogo from './sponsors-img/nvidia.png';
+import microsoftLogo from './sponsors-img/microsoft.png';
 
 const LogoRow = styled('div')`
   display: flex;
@@ -52,37 +50,33 @@ const Logo = ({ alt, src, href }) => (
 
 export default () => (
   <React.Fragment>
-    <LogoRow>
+  <LogoRow>
       <Logo
-        alt="NationalBank"
-        src={NationalBankLogo}
-        href="https://jobs.nbc.ca/students-internships"
+        alt="microsoft"
+        src={microsoftLogo}
+        href="https://careers.microsoft.com/us/en"
       />
     </LogoRow>
     <LogoRow>
       <Logo
-        alt="Cae"
-        src={CaeLogo}
-        href="https://www.cae.com/careers/job-categories/students-and-new-graduates/"
-      />
-      <Logo
-        alt="Coveo"
-        src={CoveoLogo}
-        href="https://www.coveo.com/en/company/careers"
-      />
-      <Logo
-        alt="Hatch"
-        src={HatchLogo}
-        href="https://jobs.hatch.com/go/Student-&-New-Graduate-Jobs/2565100/"
+        alt="wrnch"
+        src={wrnchLogo}
+        href="https://wrnch.ai/careers/"
       />
     </LogoRow>
     <LogoRow>
       <Logo
-        alt="Samasource"
-        src={SamasourceLogo}
-        href="https://www.samasource.com/careers"
+        alt="intact"
+        src={intactLogo}
+        href="https://careers.intact.ca/ca/en/"
       />
-      <Logo alt="wrnch" src={wrnchLogo} href="https://wrnch.ai/careers/" />
+     </LogoRow>
+     <LogoRow>
+      <Logo
+        alt="nvidia"
+        src={nvidiaLogo}
+        href="https://www.nvidia.com/en-us/about-nvidia/careers/"
+      />
     </LogoRow>
   </React.Fragment>
 );

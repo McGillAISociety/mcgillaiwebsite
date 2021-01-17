@@ -154,8 +154,8 @@ class Activities extends React.Component {
 						<ImageBounds className="Bounds">
 						</ImageBounds>
 						<ImageText className="Text">
-							<h2>ImplementAI</h2>
-							<h3>Our annual hackathon, ImplementAI, brings together 150 students across Eastern Canada to design and innovate modern AI solutions.</h3>
+							<h2>MAIS Hacks</h2>
+							<h3>Our annual hackathon brings together 150 students across Eastern Canada to design and innovate modern AI solutions.</h3>
 						</ImageText>
 					</ImageCell>
 

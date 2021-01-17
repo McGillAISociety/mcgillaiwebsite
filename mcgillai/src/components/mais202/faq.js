@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from '@emotion/styled';
 
-import { 
+import {
 	HeadingUnderline,
 	SectionBase,
 	Question,
@@ -31,18 +31,22 @@ class FAQ extends React.Component {
 						<li>Basic Programming (COMP 202/204/208, ECSE 202)</li>
 						<li>Optional but helpful: Multivariate Calculus (MATH 151/222/262), more advanced linear algebra (MATH 223/236/251/271), probability/stats (MATH 323/356, ECSE 205/305)</li>
 					</ul>
-					If you have not taken some of the aforementioned courses, don’t worry! What matters more is a positive attitude to learning and a passion for math, computer science, and AI demonstrated in your application. 
+					If you have not taken some of the aforementioned courses, don’t worry! What matters more is a positive attitude to learning and a passion for math, computer science, and AI demonstrated in your application.
 				</Answer>
 
 				<Question>What is the time commitment like for MAIS 202?</Question>
 				<Answer>
-					MAIS 202 participants will be expected to attend one two-hour lecture every week for eight weeks, complete four assignments, and fulfill bi-weekly project deliverables pertaining to their final project. For more details regarding assignments and project deliverables, see our <a href="https://drive.google.com/file/d/1F7M4OQZAmtQozatOksX1AHabd-ZGSMu9/view?usp=sharing">Winter 2020 Syllabus</a>. The time commitment for the course can range from four to eight hours a week (~2-3 credit McGill course), depending on your familiarity with the material. 
+					MAIS 202 participants will be expected to attend one two-hour lecture every week for eight weeks, complete four assignments, and fulfill bi-weekly project deliverables pertaining to their final project. For more details regarding assignments and project deliverables, see our <a href="https://drive.google.com/file/d/1lWot1-_4ZwiuDCZ4pmjnZoZGBLuBSH1j/view?usp=sharing">2020/2021 Syllabus</a>. The time commitment for the course can range from four to eight hours a week (~2-3 credit McGill course), depending on your familiarity with the material.
 				</Answer>
 
 				<Question>How long does MAIS 202 run for?</Question>
 				<Answer>
-					Fall 2020 cohort: September 20, 2020 - November 28, 2020<br/>
-					Winter 2021 cohort: TBD
+					Winter 2021 cohort:
+					<ul>
+				  	<li>Applications Open: 21st December - 15th Jaunary </li>
+						<li>Lectures: 25th January - 26th March </li>
+						<li>Final Project Fair: Week of 5th April</li>
+					</ul>
 				</Answer>
 
 				<Question>What is the selection process like?</Question>
