@@ -18,6 +18,7 @@ code {
   text-align: center;
 }
 
+
 .navtext {
   font-family: 'Montserrat';
   font-size: 24px;
@@ -29,9 +30,37 @@ code {
   margin-top: 0 !important;
 }
 
-.navtext:hover {
-  opacity: 0.6; 
+.navtext a{
+  color: #fff;
 }
+
+.navtext:hover {
+  opacity: 0.6;
+}
+
+.droptext {
+  font-family: 'Montserrat';
+  font-size: 18px;
+  color: #2b2b2b !important;
+  transition: opacity 0.2s;
+  text-decoration: none;
+  fill: #FFFFFF !important;
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+}
+.droptext:hover{
+  background-color: #fff;
+  opacity: 0.6;
+}
+
+.dropdown-item:hover{
+  background-color: #fff;
+  opacity: 0.6;
+}
+.dropdown-toggle::after{
+  display: none !important;
+}
+
 
 .navbar-brand {
   height: unset !important;
