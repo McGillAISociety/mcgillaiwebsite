@@ -2,11 +2,13 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 import styled from '@emotion/styled';
 
 const Container=styled('div')`
 
 `;
+
 
 const NavbarContent = styled('div')`
 `;
@@ -71,13 +73,32 @@ class Navigation extends React.Component {
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" className='navtext'/>
-          <Navbar.Collapse className = "navbar-collapse" id="basic-navbar">
+          <Navbar.Collapse className = "navbar-collapse" id="basic-navbar-nav">
             <Nav onSelect={this.clickedNav} className = "mr-auto">
-              <Nav.Link><Link to='/ourteam'><Navbar.Text className='navtext' onClick={this.clickedNav}>Our Team</Navbar.Text></Link></Nav.Link>
-              <Nav.Link><Link to='/mais202'><Navbar.Text className='navtext' onClick={this.clickedNav}>MAIS202</Navbar.Text></Link></Nav.Link>
-              <Nav.Link><Link to='/faq'><Navbar.Text className='navtext' onClick={this.clickedNav}>FAQ</Navbar.Text></Link></Nav.Link>
-              <BlogLink target="_blank" href= "https://medium.com/mcgill-artificial-intelligence-review" rel="noopener"><Navbar.Text className='navtext'>Blog</Navbar.Text></BlogLink>
+              <NavDropdown
+
+                  title = {
+                    <Navbar.Text className="navtext">About Us  <i className="fa fa-angle-down"></i></Navbar.Text>
+                  }id ="basic-nav-dropdown">
+                <NavDropdown.Item><Link to='/ourteam' id="dropLink"><Navbar.Text className='droptext'onClick={this.clickedNav}><i className="fa fa-user fa-fw"></i>  Our Team</Navbar.Text></Link></NavDropdown.Item>
+                <NavDropdown.Item><Link to='/faq'><Navbar.Text className='droptext' onClick={this.clickedNav}><i className="fa fa-info fa-fw"></i>  FAQ</Navbar.Text></Link></NavDropdown.Item>
+                <NavDropdown.Item><BlogLink target="_blank" href= "https://medium.com/mcgill-artificial-intelligence-review" rel="noopener"><Navbar.Text className='droptext'><i className="fa fa-medium fa-fw"></i>  Blog</Navbar.Text></BlogLink></NavDropdown.Item>
+
+              </NavDropdown>
+
+              <Nav.Link><Link to='/mais202'><Navbar.Text className='navtext' onClick={this.clickedNav}>MAIS 202</Navbar.Text></Link></Nav.Link>
+              <NavDropdown
+
+                  title = {
+                    <Navbar.Text className="navtext">Events  <i className="fa fa-angle-down"></i></Navbar.Text>
+                  }id ="basic-nav-dropdown">
+                <NavDropdown.Item><BlogLink target="_blank" href= "http://maishacks.com/" rel="noopener"><Navbar.Text className='droptext'><i className="fa fa-lightbulb-o fa-fw"></i>  MAIS Hacks</Navbar.Text></BlogLink></NavDropdown.Item>
+                <NavDropdown.Item><BlogLink target="_blank" href= "http://mcgillailearn.com/" rel="noopener"><Navbar.Text className='droptext'><i className="fa fa-cogs fa-fw"></i>  Learnathon Conference</Navbar.Text></BlogLink></NavDropdown.Item>
+
+              </NavDropdown>
+
               <Nav.Link><Link to='/mtlai'><Navbar.Text className='navtext' onClick={this.clickedNav}>MTL AI Resources</Navbar.Text></Link></Nav.Link>
+
             </Nav>
           </Navbar.Collapse>
         </Navbar>
