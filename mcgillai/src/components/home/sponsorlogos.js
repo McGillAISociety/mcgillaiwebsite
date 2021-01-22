@@ -2,9 +2,11 @@ import React from 'react';
 import styled from '@emotion/styled';
 
 import wrnchLogo from './sponsors-img/wrnch.png';
-import intactLogo from './sponsors-img/intact.png';
+import intactLogo from './sponsors-img/Intactlab.png';
 import nvidiaLogo from './sponsors-img/nvidia.png';
-import microsoftLogo from './sponsors-img/microsoft.png';
+import microsoftLogo from './sponsors-img/microsoft-white.png';
+import squarepoint from './sponsors-img/squarepoint.png';
+
 
 const LogoRow = styled('div')`
   display: flex;
@@ -63,20 +65,25 @@ export default () => (
         src={wrnchLogo}
         href="https://wrnch.ai/careers/"
       />
-    </LogoRow>
-    <LogoRow>
+
       <Logo
-        alt="intact"
+        alt="intactlab"
         src={intactLogo}
         href="https://careers.intact.ca/ca/en/"
       />
      </LogoRow>
      <LogoRow>
+     <Logo
+       alt="nvidia"
+       src={nvidiaLogo}
+       href="https://www.nvidia.com/en-us/about-nvidia/careers/"
+     />
       <Logo
-        alt="nvidia"
-        src={nvidiaLogo}
-        href="https://www.nvidia.com/en-us/about-nvidia/careers/"
+       alt="squarepoint"
+       src={squarepoint}
+       href="https://www.squarepoint-capital.com/"
       />
+
     </LogoRow>
   </React.Fragment>
 );

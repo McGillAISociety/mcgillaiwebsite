@@ -8,6 +8,7 @@ import Navigation from './components/navbar/navbar.js'
 import Home from './components/home/home.js';
 import OurTeam from './components/execs/Exec.js';
 import Mais202 from './components/mais202/mais202.js';
+import Alumni from './components/mais202/alumni.js';
 import Faq from './components/faq/faq.js';
 import Mtlai from './components/mtlai/mtlai.js'
 import Footer from './components/footer/footer.js'
@@ -46,6 +47,7 @@ class App extends React.Component {
                   <Route exact path="/" component={Home} />
                   <Route path="/ourteam" component={OurTeam} />
                   <Route path="/mais202" component={Mais202} />
+                  <Route path="/alumni" component={Alumni} />
                   <Route path="/faq" component={Faq} />
                   <Route path="/mtlai" component = {Mtlai} />
                   <Route component={NotFound} />
