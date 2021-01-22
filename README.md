@@ -6,6 +6,10 @@
 ### useful react articles
 - about different types of components - https://code.tutsplus.com/tutorials/stateful-vs-stateless-functional-components-in-react--cms-29541
 
+### Editing logo colours
+An easy way to make sections of a company logo white so they appear on our site:
+Go to [https://www.photopea.com/](https://www.photopea.com/) and upload the logo image. Then go to Select > Colour Range in the top, drop down menu. Click the sections that need to change colour and when they are outlined, use a fill bucket to colour them the colour you need. 
+
 # mcgill-ai website 2020 Updates
 
 ## Team Page
