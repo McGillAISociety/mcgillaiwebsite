@@ -86,27 +86,27 @@ const LinkedinButton = styled('a')`
 `;
 
 const Exec = () => (
-	<Container>
-			<HeadingUnderline className = 'content' id='top'> Our Team </HeadingUnderline>
-			<GridContainer className = 'content--inner'>
-			{DATA.map((data, index) => {
-				return (<ImageContainer>
-						<Image src={data.photo}
-							className="center"
-							/>
-						<h2>{data.name}</h2>
-						<h3>{data.position}</h3>
-						<Text>{data.bio}</Text>
-						<LinkedinButton
-			            aria-label="Linkedin"
-			            href={data.linkedin}
-			            target="_blank"
-			            rel="noopener noreferrer"
-			             className='icon-linkedin'
-			          />
-				</ImageContainer>)
-			})}
-			</GridContainer>
-	</Container>
+    <Container>
+        <HeadingUnderline className='content' id='top'> Our Team </HeadingUnderline>
+        <GridContainer className='content--inner'>
+            {DATA.map((data, index) => {
+                return (<ImageContainer key={index}>
+                    <Image src={data.photo}
+                        className="center"
+                    />
+                    <h2>{data.name}</h2>
+                    <h3>{data.position}</h3>
+                    <Text>{data.bio}</Text>
+                    <LinkedinButton
+                        aria-label="Linkedin"
+                        href={data.linkedin}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className='icon-linkedin'
+                    />
+                </ImageContainer>)
+            })}
+        </GridContainer>
+    </Container>
 );
 export default Exec;
