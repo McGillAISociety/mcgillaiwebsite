@@ -58,14 +58,16 @@ class Navigation extends React.Component {
                         bg="dark"
                         className="navbarcustom navbar-toggleable-lg navbar-fixed-top"
                     >
-                        <Navbar.Brand href="/">
-                            <img
-                                src="/logo.svg"
-                                width="40"
-                                height="40"
-                                className="d-inline-block align-top"
-                                alt="McGillAI logo"
-                            />
+                        <Navbar.Brand>
+                            <Link to="/">
+                                <img
+                                    src="/logo.svg"
+                                    width="40"
+                                    height="40"
+                                    className="d-inline-block align-top"
+                                    alt="McGillAI logo"
+                                />
+                            </Link>
                         </Navbar.Brand>
                         <Navbar.Toggle
                             aria-controls="basic-navbar-nav"
