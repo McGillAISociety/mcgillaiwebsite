@@ -7,8 +7,8 @@ import * as serviceWorker from './serviceWorker';
 // Import css files
 import './assets/css/app.css';
 import './assets/css/fontello.css';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
 
