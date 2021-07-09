@@ -77,7 +77,7 @@ class Landing extends React.Component {
                     </Title>
                     <ButtonContainer>
                         <SubscribeButton
-                            href="https://forms.gle/L8HqJWJ2KSy3Cd6y5"
+                            href="https://forms.gle/BLaS18JzspRyYthW8"
                             target="_blank"
                             rel="noopener noreferrer"
                         >

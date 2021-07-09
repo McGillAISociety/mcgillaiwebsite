@@ -1,14 +1,14 @@
 export const TimelineData = [
     {
-        title: 'MAIS 202 Winter 2021 Applications',
-        time: 'January 15 | 11:59 PM EST',
-        place: 'Online!',
+        title: 'MAIS 202 Fall 2021 Applications Out',
+        time: 'August (date TBA)',
+        place: 'Location TBA',
         category: '/schedule-icons/mais202.svg',
     },
     {
-        title: 'McGill AI Learnathon!',
-        time: 'February 6',
-        place: 'Online!',
+        title: 'MAIS Hacks',
+        time: 'October (date TBA)',
+        place: 'Location TBA',
         category: '/schedule-icons/panel.svg',
     },
 ];
