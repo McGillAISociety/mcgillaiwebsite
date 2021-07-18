@@ -60,9 +60,30 @@ const Title = styled('h1')`
     }
 `;
 
-const ButtonContainer = styled('div')`
+const DesktopButtonContainer = styled('div')`
     display: table;
     margin-left: 80px;
+`;
+
+const MobileButtonContainer = styled('div')`
+    width: 100%;
+    display: flex;
+    justify-content: center;
+`;
+
+const DesktopSubscribeButton = styled('a')`
+    ${SubscribeButton};
+    @media screen and (max-width: 1260px) {
+        display: none;
+    }
+`;
+
+const MobileSubscribeButton = styled('a')`
+    ${SubscribeButton};
+    @media screen and (min-width: 1260px) {
+        display: none;
+    }
+    margin-top: 30px;
 `;
 
 class Landing extends React.Component {
@@ -75,18 +96,27 @@ class Landing extends React.Component {
                         MCGILL <br /> ARTIFICIAL <br /> INTELLIGENCE <br />{' '}
                         SOCIETY{' '}
                     </Title>
-                    <ButtonContainer>
-                        <SubscribeButton
+                    <DesktopButtonContainer>
+                        <DesktopSubscribeButton
                             href="https://forms.gle/BLaS18JzspRyYthW8"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
                             BECOME A SUBSCRIBER
-                        </SubscribeButton>
-                    </ButtonContainer>
+                        </DesktopSubscribeButton>
+                    </DesktopButtonContainer>
                 </Column>
                 <Column>
                     <Icon src={Logo} />
+                    <MobileButtonContainer>
+                        <MobileSubscribeButton
+                            href="https://forms.gle/BLaS18JzspRyYthW8"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            BECOME A SUBSCRIBER
+                        </MobileSubscribeButton>
+                    </MobileButtonContainer>
                 </Column>
             </Container>
         );

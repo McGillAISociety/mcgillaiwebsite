@@ -165,11 +165,10 @@ export const ImageBackground = styled('div')`
     transition: transform 500ms, -webkit-transform 500ms;
 `;
 
-export const SubscribeButton = styled('a')`
+export const SubscribeButton = (props) => css`
   display:inline-block;
   padding:0.35em 1.2em;
   border:0.1em solid #FFFFFF;
-  margin:0 0.3em 0.3em 0;
   border-radius:0.12em;
   box-sizing: border-box;
   text-decoration:none;
@@ -189,8 +188,4 @@ export const SubscribeButton = styled('a')`
     color:#000000;
         background-color:#FFFFFF;
   }
-
-  @media screen and (max-width: 1260px) {
-      display: none;
-    }
 `;
