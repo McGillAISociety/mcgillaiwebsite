@@ -101,7 +101,7 @@ export const DATA = [
     },
     {
         photo: path('kaustav'),
-        name: 'Kaustav Das Sharma ',
+        name: 'Kaustav Das Sharma',
         position: 'Podcast Producer ',
         bio: 'Kaustav is in his final year of computer engineering and is enamoured with the prospect of a world where policy does not lag behind technological advancement. In his spare time, he likes reading The Economist, jamming to A$AP Rocky or Frank Ocean, and breaking @Cheng’s and @Youssef’s ankles.',
         linkedin: 'https://www.linkedin.com/in/kdassharma/',

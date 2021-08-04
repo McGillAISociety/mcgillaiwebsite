@@ -9,6 +9,7 @@ import Home from './components/home/home.js';
 import OurTeam from './components/execs/Exec.js';
 import Mais202 from './components/mais202/mais202.js';
 import Alumni from './components/mais202/alumni.js';
+import Podcast from './components/podcast/podcast.js';
 import Faq from './components/faq/faq.js';
 import Mtlai from './components/mtlai/mtlai.js';
 import Footer from './components/footer/footer.js';
@@ -73,6 +74,10 @@ class App extends React.Component {
                                                 <Route
                                                     path="/mtlai"
                                                     component={Mtlai}
+                                                />
+                                                <Route
+                                                    path="/podcast"
+                                                    component={Podcast}
                                                 />
                                                 <Route component={NotFound} />
                                             </Switch>

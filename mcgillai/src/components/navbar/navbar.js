@@ -131,6 +131,16 @@ class Navigation extends React.Component {
                                         </Navbar.Text>
                                     </Link>
                                 </Nav.Link>
+                                <Nav.Link>
+                                    <Link to="/podcast">
+                                        <Navbar.Text
+                                            className="navtext"
+                                            onClick={this.clickedNav}
+                                        >
+                                            Podcast
+                                        </Navbar.Text>
+                                    </Link>
+                                </Nav.Link>
                                 <NavDropdown
                                     title={
                                         <Navbar.Text className="navtext">
