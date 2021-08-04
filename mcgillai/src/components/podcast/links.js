@@ -72,7 +72,7 @@ const ImageContent = styled('img')`
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 50%;
+    width: 40%;
     opacity: 1;
     transition: opacity 500ms;
 `;
@@ -81,7 +81,7 @@ export default function Links() {
     return (
         <Container>
             <ImageCell
-                href="https://mila.quebec/en/"
+                href="Spotify.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="link"
@@ -90,7 +90,7 @@ export default function Links() {
                 <ImageContent src={spotify} alt="" />
             </ImageCell>
             <ImageCell
-                href="https://mila.quebec/en/"
+                href="https://www.apple.com/apple-podcasts/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="link"
@@ -99,7 +99,7 @@ export default function Links() {
                 <ImageContent src={apple} alt="" />
             </ImageCell>
             <ImageCell
-                href="https://mila.quebec/en/"
+                href="youtube.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="link"
