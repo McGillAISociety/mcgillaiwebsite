@@ -7,14 +7,6 @@ export default function About() {
             <HeadingUnderline>About</HeadingUnderline>
             <Question>Origins</Question>
             <Answer>
-                Because of the location we are in, filled with some of the best
-                minds in AI, why not produce a podcast to share some of that
-                wisdom, get folks interested and start thinking about the
-                challenges ahead of us? Kaustav proposed the idea to the McGill
-                AI society and spearheaded the efforts leaving us where we are
-                today!
-                <br />
-                <br />
                 There are very few places in the world like Montreal and McGill
                 which have such a concentration of talent in the field of AI/ML.
                 MAIS primarily serves to build a community with a shared passion

@@ -20,7 +20,7 @@ export default function Landing() {
                 McGill AI Podcast
             </HeadingUnderline>
             <Subtitle>
-                Connnecting fundemantal AI/ML principles to their research
+                Connnecting fundamental AI/ML principles to their research
                 disciplines
             </Subtitle>
         </>
