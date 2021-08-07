@@ -110,7 +110,7 @@ export const DATA = [
         photo: path('bonnie'),
         name: 'Bonnie Li',
         position: 'Podcast Producer',
-        bio: 'Bonnie is studying Math and CS. She has a long love-hate relationship with Reinforcement Learning and is trying to figure out what she wants to do next. She likes running, hockey, basketball, and hopping around places.',
+        bio: 'Bonnie is a maximum entropy reinforcement learning agent trying to figure out what she wants to do next. She is studying Math and CS, and likes running, hockey, basketball, and hopping around places.',
         linkedin: 'https://www.linkedin.com/in/bonniesjli/',
     },
     {
