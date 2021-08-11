@@ -145,7 +145,7 @@ class Landing extends React.Component {
                             <h3>
                                 ACCELERATED INTRODUCTION TO MACHINE LEARNING
                             </h3>
-                            <p>2020-2021 Offerings: Fall 2020, Winter 2021</p>
+                            <p>2021-2022 Offerings: Fall 2021, Winter 2022</p>
                         </Title>
                         {/* <SubscribeButton href="https://tiny.cc/mais202-w2020-app" target="_blank">APPLY NOW!</SubscribeButton> */}
                     </Column>

@@ -148,8 +148,8 @@ class Activities extends React.Component {
                             <h3>
                                 MAIS 202 is a ten-week bootcamp that teaches
                                 lower year undergraduates ML fundamentals. With
-                                over 60 bootcamp alumni, our Fall 2020 iteration
-                                will welcome our fourth cohort of students.
+                                over 60 bootcamp alumni, our Fall 2021 iteration
+                                will welcome our sixth cohort of students.
                             </h3>
                         </ImageText>
                     </ImageCell>

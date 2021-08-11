@@ -55,25 +55,24 @@ class FAQ extends React.Component {
                     assignments, and fulfill bi-weekly project deliverables
                     pertaining to their final project. For more details
                     regarding assignments and project deliverables, see our{' '}
-                    <a href="https://drive.google.com/file/d/1lWot1-_4ZwiuDCZ4pmjnZoZGBLuBSH1j/view?usp=sharing">
-                        2020/2021 Syllabus
+                    <a href="https://drive.google.com/file/d/10EoBsvygM6U5v-AVIHXs0MVm_xGXZ0HA/view?fbclid=IwAR3wC0q2r8ugqb2sVAGAMPNXXU9b0jU8a27wQ_9VIuoUXsHeRP8Gowr-CQ8">
+                        2021/2022 Syllabus
                     </a>
                     . The time commitment for the course can range from four to
                     eight hours a week (~2-3 credit McGill course), depending on
                     your familiarity with the material.
                 </Answer>
 
-                <Question>How long does MAIS 202 run for?</Question>
+                {/* <Question>How long does MAIS 202 run for?</Question>
                 <Answer>
-                    Winter 2021 cohort:
+                    Fall 2021 cohort:
                     <ul>
+                        <li>Applications Open: 9th August - 8th September </li>
                         <li>
-                            Applications Open: 21st December - 15th Jaunary{' '}
+                            Final Project Fair: Late November/early December
                         </li>
-                        <li>Lectures: 25th January - 26th March </li>
-                        <li>Final Project Fair: Week of 5th April</li>
                     </ul>
-                </Answer>
+                </Answer> */}
 
                 <Question>What is the selection process like?</Question>
                 <Answer>
@@ -82,7 +81,7 @@ class FAQ extends React.Component {
                     provided on our Facebook page. Shortlisted applicants will
                     then be invited to an interview with the academic lecturers
                     and technical project managers. The applications for our
-                    Fall 2020 cohort will open at the end of August.
+                    Fall 2021 cohort will open at the end of August.
                 </Answer>
 
                 <Question>

@@ -1,7 +1,7 @@
 export const TimelineData = [
     {
-        title: 'MAIS 202 Fall 2021 Applications Out',
-        time: 'August (date TBA)',
+        title: 'MAIS 202 Fall 2021 Applications Due',
+        time: 'September 8th',
         place: 'Location TBA',
         category: '/schedule-icons/mais202.svg',
     },
