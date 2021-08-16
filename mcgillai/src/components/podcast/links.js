@@ -81,7 +81,7 @@ export default function Links() {
     return (
         <Container>
             <ImageCell
-                href="https://www.spotify.com"
+                href="https://open.spotify.com/show/1k3AWxBYuGetrCjvZip8Ot"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="link"
@@ -99,7 +99,7 @@ export default function Links() {
                 <ImageContent src={apple} alt="" />
             </ImageCell>
             <ImageCell
-                href="https://www.youtube.com"
+                href="https://www.youtube.com/channel/UCP12K3ISvfFHnZzc0p6Zj3g"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="link"
