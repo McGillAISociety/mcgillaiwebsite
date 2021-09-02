@@ -90,7 +90,7 @@ export default function Links() {
                 <ImageContent src={spotify} alt="" />
             </ImageCell>
             <ImageCell
-                href="https://www.apple.com/apple-podcasts/"
+                href="https://podcasts.apple.com/us/podcast/mcgill-ai-podcast/id1583837131"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="link"
