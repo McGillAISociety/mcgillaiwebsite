@@ -1,10 +1,9 @@
 import React from 'react';
 import styled from '@emotion/styled';
 
-import wrnchLogo from './sponsors-img/wrnch.png';
-import intactLogo from './sponsors-img/Intactlab.png';
-import nvidiaLogo from './sponsors-img/nvidia.png';
-import microsoftLogo from './sponsors-img/microsoft-white.png';
+import intact from './sponsors-img/Intactlab.png';
+import sama from './sponsors-img/sama.png';
+import cae from './sponsors-img/cae.png';
 import squarepoint from './sponsors-img/squarepoint.png';
 
 const LogoRow = styled('div')`
@@ -52,31 +51,17 @@ const Logo = ({ alt, src, href }) => (
 export default () => (
     <React.Fragment>
         <LogoRow>
-            <Logo
-                alt="microsoft"
-                src={microsoftLogo}
-                href="https://careers.microsoft.com/us/en"
-            />
+            <Logo alt="sama" src={sama} href="https://www.sama.com/careers" />
         </LogoRow>
         <LogoRow>
             <Logo
-                alt="wrnch"
-                src={wrnchLogo}
-                href="https://wrnch.ai/careers/"
-            />
-
-            <Logo
                 alt="intactlab"
-                src={intactLogo}
+                src={intact}
                 href="https://careers.intact.ca/ca/en/"
             />
         </LogoRow>
         <LogoRow>
-            <Logo
-                alt="nvidia"
-                src={nvidiaLogo}
-                href="https://www.nvidia.com/en-us/about-nvidia/careers/"
-            />
+            <Logo alt="cae" src={cae} href="https://www.cae.com/careers/" />
             <Logo
                 alt="squarepoint"
                 src={squarepoint}
