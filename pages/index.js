@@ -1,12 +1,12 @@
 import React from 'react';
 import styled from '@emotion/styled';
 
-import Landing from './landing.js';
-import About from './about.js';
-import Stats from './stats.js';
-import Activities from './activities.js';
-import Schedule from './schedule.js';
-import Sponsors from './sponsors.js';
+import Landing from './index/landing.js';
+import About from './index/about.js';
+import Stats from './index/stats.js';
+import Activities from './index/activities.js';
+import Schedule from './index/schedule.js';
+import Sponsors from './index/sponsors.js';
 
 const Container = styled('div')``;
 

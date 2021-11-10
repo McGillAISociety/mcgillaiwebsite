@@ -7,7 +7,7 @@ import {
     SectionLeftColumn,
     SectionRightColumn,
     SectionTextContent,
-} from '../commonstyles';
+} from '../../components/commonstyles';
 
 import SponsorLogos from './sponsorlogos.js';
 

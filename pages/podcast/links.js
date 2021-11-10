@@ -1,8 +1,5 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import spotify from './spotify.png';
-import apple from './apple.png';
-import youtube from './youtube.png';
 
 const Container = styled('div')`
     margin: auto;
@@ -87,7 +84,7 @@ export default function Links() {
                 className="link"
             >
                 <ImageBounds red={true} className="Bounds"></ImageBounds>
-                <ImageContent src={spotify} alt="" />
+                <ImageContent src="/images/podcast/spotify.png" alt="" />
             </ImageCell>
             <ImageCell
                 href="https://podcasts.apple.com/us/podcast/mcgill-ai-podcast/id1583837131"
@@ -96,7 +93,7 @@ export default function Links() {
                 className="link"
             >
                 <ImageBounds className="Bounds"></ImageBounds>
-                <ImageContent src={apple} alt="" />
+                <ImageContent src="/images/podcast/apple.png" alt="" />
             </ImageCell>
             <ImageCell
                 href="https://www.youtube.com/channel/UCP12K3ISvfFHnZzc0p6Zj3g"
@@ -105,7 +102,7 @@ export default function Links() {
                 className="link"
             >
                 <ImageBounds red={true} className="Bounds"></ImageBounds>
-                <ImageContent src={youtube} alt="" />
+                <ImageContent src="/images/podcast/youtube.png" alt="" />
             </ImageCell>
         </Container>
     );

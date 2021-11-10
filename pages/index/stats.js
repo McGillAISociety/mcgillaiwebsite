@@ -7,9 +7,7 @@ import {
     SectionLeftColumn,
     SectionRightColumn,
     SectionTextContent,
-} from '../commonstyles';
-
-import Grid from './assets/grid.svg';
+} from '../../components/commonstyles';
 
 const Container = styled('div')`
     ${SectionBase};
@@ -52,7 +50,7 @@ class Stats extends React.Component {
                         </SectionTextContent>
                     </SectionLeftColumn>
                     <SectionRightColumn>
-                        <SVGContainer src={Grid} />
+                        <SVGContainer src="/images/home/assets/grid.svg" />
                     </SectionRightColumn>
                 </SectionContent>
             </Container>

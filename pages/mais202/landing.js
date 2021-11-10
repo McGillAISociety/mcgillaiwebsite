@@ -3,10 +3,10 @@ import styled from '@emotion/styled';
 
 import { SectionBase, SubscribeButton } from '../../components/commonstyles.js';
 
-import Stats1 from './assets/stats_1.svg';
-import Stats2 from './assets/stats_2.svg';
-import Stats3 from './assets/stats_3.svg';
-import Stats4 from './assets/stats_4.svg';
+// import Stats1 from './assets/stats_1.svg';
+// import Stats2 from './assets/stats_2.svg';
+// import Stats3 from './assets/stats_3.svg';
+// import Stats4 from './assets/stats_4.svg';
 
 import Gallery from './gallery.js';
 
@@ -155,16 +155,16 @@ class Landing extends React.Component {
                 </ContentContainer>
                 <StatsContainer>
                     <StatsColumn>
-                        <StatsImage src={Stats1} />
+                        <StatsImage src="/images/mais202/stats_1.svg" />
                     </StatsColumn>
                     <StatsColumn>
-                        <StatsImage src={Stats2} />
+                        <StatsImage src="/images/mais202/stats_2.svg" />
                     </StatsColumn>
                     <StatsColumn>
-                        <StatsImage src={Stats3} />
+                        <StatsImage src="/images/mais202/stats_3.svg" />
                     </StatsColumn>
                     <StatsColumn>
-                        <StatsImage src={Stats4} />
+                        <StatsImage src="/images/mais202/stats_4.svg" />
                     </StatsColumn>
                 </StatsContainer>
             </Container>

@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from '@emotion/styled';
 
-import { SectionBase } from '../commonstyles';
+import { SectionBase } from '../../components/commonstyles';
 
 import { TimelineData } from './timelinedata.js';
 

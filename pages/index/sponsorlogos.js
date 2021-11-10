@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from '@emotion/styled';
 
-import intact from './sponsors-img/Intactlab.png';
-import sama from './sponsors-img/sama.png';
-import cae from './sponsors-img/cae.png';
-import squarepoint from './sponsors-img/squarepoint.png';
+// import intact from './sponsors-img/Intactlab.png';
+// import sama from './sponsors-img/sama.png';
+// import cae from './sponsors-img/cae.png';
+// import squarepoint from './sponsors-img/squarepoint.png';
 
 const LogoRow = styled('div')`
     display: flex;
@@ -51,20 +51,28 @@ const Logo = ({ alt, src, href }) => (
 export default () => (
     <React.Fragment>
         <LogoRow>
-            <Logo alt="sama" src={sama} href="https://www.sama.com/careers" />
+            <Logo
+                alt="sama"
+                src="/images/home/sponsors/sama.png"
+                href="https://www.sama.com/careers"
+            />
         </LogoRow>
         <LogoRow>
             <Logo
                 alt="intactlab"
-                src={intact}
+                src="/images/home/sponsors/Intactlab.png"
                 href="https://careers.intact.ca/ca/en/"
             />
         </LogoRow>
         <LogoRow>
-            <Logo alt="cae" src={cae} href="https://www.cae.com/careers/" />
+            <Logo
+                alt="cae"
+                src="/images/home/sponsors/cae.png"
+                href="https://www.cae.com/careers/"
+            />
             <Logo
                 alt="squarepoint"
-                src={squarepoint}
+                src="/images/home/sponsors/squarepoint.png"
                 href="https://www.squarepoint-capital.com/"
             />
         </LogoRow>

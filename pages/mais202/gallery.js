@@ -2,12 +2,12 @@ import React from 'react';
 import styled from '@emotion/styled';
 
 import Slider from 'react-slick';
-import Image1 from './assets/gallery/1.jpg';
-import Image2 from './assets/gallery/2.jpg';
-import Image3 from './assets/gallery/3.jpg';
-import Image4 from './assets/gallery/4.jpg';
-import Image5 from './assets/gallery/5.jpg';
-import Image6 from './assets/gallery/6.jpg';
+// import Image1 from './assets/gallery/1.jpg';
+// import Image2 from './assets/gallery/2.jpg';
+// import Image3 from './assets/gallery/3.jpg';
+// import Image4 from './assets/gallery/4.jpg';
+// import Image5 from './assets/gallery/5.jpg';
+// import Image6 from './assets/gallery/6.jpg';
 
 const Container = styled('div')`
     text-align: center;
@@ -59,22 +59,22 @@ class Gallery extends React.Component {
                 <GalleryContainer>
                     <Slider {...settings}>
                         <div>
-                            <Image src={Image1} />
+                            <Image src="/images/mais202/gallery/1.jpg" />
                         </div>
                         <div>
-                            <Image src={Image2} />
+                            <Image src="/images/mais202/gallery/2.jpg" />
                         </div>
                         <div>
-                            <Image src={Image3} />
+                            <Image src="/images/mais202/gallery/3.jpg" />
                         </div>
                         <div>
-                            <Image src={Image4} />
+                            <Image src="/images/mais202/gallery/4.jpg" />
                         </div>
                         <div>
-                            <Image src={Image5} />
+                            <Image src="/images/mais202/gallery/5.jpg" />
                         </div>
                         <div>
-                            <Image src={Image6} />
+                            <Image src="/images/mais202/gallery/6.jpg" />
                         </div>
                     </Slider>
                 </GalleryContainer>

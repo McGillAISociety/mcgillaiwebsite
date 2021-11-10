@@ -5,11 +5,7 @@ import {
     SecondaryFont,
     SectionBase,
     SectionTextContent,
-} from '../commonstyles';
-
-import Lightbulb from './assets/Lightbulb.svg';
-import People from './assets/People.svg';
-import Network from './assets/Network.svg';
+} from '../../components/commonstyles';
 
 const Container = styled('div')`
     ${SectionBase({
@@ -56,7 +52,7 @@ class About extends React.Component {
             <Container className="home">
                 About Us <br />
                 <Column>
-                    <Icon src={Lightbulb} />
+                    <Icon src="/images/home/assets/Lightbulb.svg" />
                     <p>Learn</p>
                     <SectionTextContent>
                         We aim to make AI more accessible by hosting events,
@@ -66,7 +62,7 @@ class About extends React.Component {
                     </SectionTextContent>
                 </Column>
                 <Column>
-                    <Icon src={People} />
+                    <Icon src="/images/home/assets/People.svg" />
                     <p>Foster Community</p>
                     <SectionTextContent>
                         We want to make learning AI fun and welcoming. Our
@@ -76,7 +72,7 @@ class About extends React.Component {
                     </SectionTextContent>
                 </Column>
                 <Column>
-                    <Icon src={Network} />
+                    <Icon src="/images/home/assets/Network.svg" />
                     <p>Connect</p>
                     <SectionTextContent>
                         Montreal is one of the world's leading AI hubs. Through

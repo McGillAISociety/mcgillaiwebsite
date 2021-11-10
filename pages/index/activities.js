@@ -1,14 +1,14 @@
 import React from 'react';
 import styled from '@emotion/styled';
 
-import { ImageBackground } from '../commonstyles';
+import { ImageBackground } from '../../components/commonstyles';
 
-import Mais202 from './activities-img/mais202.jpg';
-import ImplementAI from './activities-img/implementai.jpg';
-import Workshops from './activities-img/workshops.jpg';
-import WomenInAI from './activities-img/womeninai.jpg';
-import ResearchTalks from './activities-img/researchtalks.jpg';
-import CompanyCrawl from './activities-img/companycrawl.jpg';
+// import Mais202 from './activities-img/mais202.jpg';
+// import ImplementAI from './activities-img/implementai.jpg';
+// import Workshops from './activities-img/workshops.jpg';
+// import WomenInAI from './activities-img/womeninai.jpg';
+// import ResearchTalks from './activities-img/researchtalks.jpg';
+// import CompanyCrawl from './activities-img/companycrawl.jpg';
 
 const Container = styled('div')`
     margin: auto;
@@ -135,7 +135,9 @@ class Activities extends React.Component {
                     <ImageCell>
                         <ImageBackground
                             className="Background"
-                            style={{ backgroundImage: `url(${Mais202})` }}
+                            style={{
+                                backgroundImage: `url(../../public/images/home/activities/mais202.jpg)`,
+                            }}
                         >
                             {' '}
                         </ImageBackground>
@@ -157,7 +159,9 @@ class Activities extends React.Component {
                     <ImageCell>
                         <ImageBackground
                             className="Background"
-                            style={{ backgroundImage: `url(${ImplementAI})` }}
+                            style={{
+                                backgroundImage: `url(../../public/images/home/activities/implementai.jpg)`,
+                            }}
                         >
                             {' '}
                         </ImageBackground>
@@ -175,7 +179,9 @@ class Activities extends React.Component {
                     <ImageCell>
                         <ImageBackground
                             className="Background"
-                            style={{ backgroundImage: `url(${CompanyCrawl})` }}
+                            style={{
+                                backgroundImage: `url(../../public/images/home/activities/companycrawl.jpg)`,
+                            }}
                         >
                             {' '}
                         </ImageBackground>
@@ -194,7 +200,9 @@ class Activities extends React.Component {
                     <ImageCell>
                         <ImageBackground
                             className="Background"
-                            style={{ backgroundImage: `url(${Workshops})` }}
+                            style={{
+                                backgroundImage: `url($../../public/images/home/activities/workshops.jpg)`,
+                            }}
                         >
                             {' '}
                         </ImageBackground>
@@ -217,7 +225,9 @@ class Activities extends React.Component {
                     <ImageCell>
                         <ImageBackground
                             className="Background"
-                            style={{ backgroundImage: `url(${WomenInAI})` }}
+                            style={{
+                                backgroundImage: `url(../../public/images/home/activities/womeninai.jpg)`,
+                            }}
                         >
                             {' '}
                         </ImageBackground>
@@ -237,7 +247,9 @@ class Activities extends React.Component {
                     <ImageCell>
                         <ImageBackground
                             className="Background"
-                            style={{ backgroundImage: `url(${ResearchTalks})` }}
+                            style={{
+                                backgroundImage: `url(../../public/images/home/activities/researchtalks.jpg)`,
+                            }}
                         >
                             {' '}
                         </ImageBackground>

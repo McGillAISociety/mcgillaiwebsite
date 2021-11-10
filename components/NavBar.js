@@ -61,7 +61,7 @@ class Navigation extends React.Component {
                         <Navbar.Brand>
                             <Link href="/">
                                 <img
-                                    src="/logo.svg"
+                                    src="/images/logo.png"
                                     width="40"
                                     height="40"
                                     className="d-inline-block align-top"

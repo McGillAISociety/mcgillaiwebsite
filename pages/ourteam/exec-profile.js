@@ -1,4 +1,4 @@
-const path = (name) => `/images/exec-img/2021-2022/${name}.png`;
+const path = (name) => `/images/ourteam/2021-2022/${name}.png`;
 
 export const DATA = [
     {

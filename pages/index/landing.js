@@ -6,9 +6,9 @@ import {
     SecondaryFont,
     SectionBase,
     SubscribeButton,
-} from '../commonstyles';
+} from '../../components/commonstyles';
 
-import Logo from './assets/logo.svg';
+// import Logo from './assets/logo.svg';
 
 const Container = styled('div')`
     ${SectionBase};
@@ -107,7 +107,7 @@ class Landing extends React.Component {
                     </DesktopButtonContainer>
                 </Column>
                 <Column>
-                    <Icon src={Logo} />
+                    <Icon src="/images/logo.png" />
                     <MobileButtonContainer>
                         <MobileSubscribeButton
                             href="https://forms.gle/BLaS18JzspRyYthW8"
