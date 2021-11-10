@@ -5,7 +5,7 @@
 
 # testing
 /coverage
-/.next
+.next
 
 # production
 /out
