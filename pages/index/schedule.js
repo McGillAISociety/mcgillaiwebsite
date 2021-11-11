@@ -28,7 +28,6 @@ const TimelineContainer = styled('div')`
 `;
 
 const Title = styled('div')`
-    font-family: 'Montserrat-Bold';
     color: #ffffff;
     text-align: center;
     font-size: 36pt;

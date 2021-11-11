@@ -32,7 +32,6 @@ const MtlaiContainer = styled('div')`
     })};
     box-sizing: border-box;
 
-    font-family: 'Montserrat-Bold';
     color: #ffffff;
     font-size: 48px;
     text-align: center;

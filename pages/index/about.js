@@ -1,24 +1,18 @@
 import React from 'react';
 import styled from '@emotion/styled';
 
-import {
-    SecondaryFont,
-    SectionBase,
-    SectionTextContent,
-} from '../../components/commonstyles';
+import { SectionBase, SectionTextContent } from '../../components/commonstyles';
 
 const Container = styled('div')`
     ${SectionBase({
         heightPx: 600,
     })};
-    font-family: 'Montserrat-Bold';
     color: #ffffff;
     font-size: 48px;
     text-align: center;
 `;
 
 const Column = styled('div')`
-    ${SecondaryFont};
     font-size: 32px;
     float: left;
     width: 33.33%;
@@ -35,7 +29,6 @@ const Column = styled('div')`
         padding: 0 10px 0;
     }
     > p {
-        font-family: 'Montserrat-Bold';
         margin: 0px;
         padding: 0px;
         padding-bottom: 10px;

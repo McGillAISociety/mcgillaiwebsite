@@ -75,7 +75,6 @@ const ImageText = styled('div')`
     transition: opacity 500ms;
 
     > h2 {
-        font-family: 'Montserrat-Bold';
         font-size: 30px;
         margin: 20px 0px;
 

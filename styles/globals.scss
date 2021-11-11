@@ -6,14 +6,11 @@
 }
 
 html {
-    box-sizing: border-box;
-    background-color: black;
-}
-
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
+    background-image: url(../public/images/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .navbarcustom {

@@ -16,14 +16,14 @@ const Container = styled('div')`
     padding-top: 30px;
     h2 {
         color: #cc0000;
-        font-family: montserrat-bold;
+        font-family: ;
         text-align: center;
         padding: 0;
         margin: 0;
     }
     h3 {
         color: white;
-        font-family: montserrat-bold;
+        font-family: ;
         font-size: 18px;
         text-align: center;
         padding: 5;

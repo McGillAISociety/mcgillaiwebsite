@@ -10,7 +10,7 @@ const Subtitle = styled('div')`
     ${SectionBase({
         heightPx: 600,
     })};
-    font-family: 'Montserrat-Bold';
+
     color: #ffffff;
     font-size: 25px;
     text-align: center;

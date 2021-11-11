@@ -1,23 +1,21 @@
 import React from 'react';
 import { DATA } from './exec-profile.js';
 import styled from '@emotion/styled';
-import { SecondaryFont } from '../../components/commonstyles.js';
 import { HeadingUnderline } from '../../components/commonstyles.js';
 
 const Container = styled('div')`
-    ${SecondaryFont};
     padding-left: 70px;
     padding-right: 20px;
     padding-top: 125px;
     h2 {
         color: #cc0000;
-        font-family: montserrat-bold;
+        font-family: ;
         text-align: center;
         padding: 0;
         margin: 0;
     }
     h3 {
-        font-family: montserrat-bold;
+        font-family: ;
         font-size: 18px;
         text-align: center;
         padding: 5;

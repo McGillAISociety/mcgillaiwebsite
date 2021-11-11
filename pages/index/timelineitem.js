@@ -81,7 +81,6 @@ const ItemContent = styled('div')`
 `;
 
 const Title = styled('h2')`
-    font-family: 'Montserrat-Bold';
     font-size: 28px;
     color: #ffffff;
     margin-bottom: 0px;

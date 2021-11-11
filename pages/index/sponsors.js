@@ -13,7 +13,7 @@ import SponsorLogos from './sponsorlogos.js';
 
 const Container = styled('div')`
     ${SectionBase};
-    font-family: 'Montserrat-Bold';
+
     color: #ffffff;
     font-size: 48px;
     text-align: center;

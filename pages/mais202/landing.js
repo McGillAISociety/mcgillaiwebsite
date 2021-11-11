@@ -60,7 +60,7 @@ const ContentContainer = styled('div')`
 `;
 
 const Title = styled('div')`
-    font-family: 'Montserrat-Bold', monospace;
+    font-family: '', monospace;
     color: #ffffff;
     text-align: center;
     padding-bottom: 20px;
@@ -109,7 +109,7 @@ const StatsImage = styled('img')`
 `;
 
 const HeadingUnderlineTop = styled('div')`
-    font-family: 'Montserrat-Bold', monospace;
+    font-family: '', monospace;
     font-size: 30px;
     color: #ffffff;
     display: inline;

@@ -1,8 +1,6 @@
 import React from 'react';
 import styled from '@emotion/styled';
 
-import { PrimaryFont } from '../../components/commonstyles';
-
 const Container = styled('div')`
     background-image: url(../public/images/background.jpg);
     background-size: cover; /* or contain depending on what you want */
@@ -17,7 +15,6 @@ const Container = styled('div')`
 `;
 
 const Heading = styled('div')`
-    ${PrimaryFont};
     font-size: 64px;
     margin-left: auto;
     margin-right: auto;

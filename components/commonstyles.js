@@ -3,19 +3,18 @@ import styled from '@emotion/styled';
 
 export const MAX_WIDTH = '1400px';
 
-export const PrimaryFont = css`
-    font-family: 'Helvetica Neue Bold Condensed', monospace;
-    color: #ffffff;
-`;
+// export const PrimaryFont = css`
+//     font-family: 'Helvetica Neue Bold Condensed', monospace;
+//     color: #ffffff;
+// `;
 
-export const SecondaryFont = css`
-    font-family: 'Montserrat', monospace;
-    font-weight: 200;
-    color: #ffffff;
-`;
+// export const SecondaryFont = css`
+//     font-family: 'Montserrat', sans-serrif;
+//     font-weight: 200;
+//     color: #ffffff;
+// `;
 
 export const HeadingUnderline = styled('div')`
-    font-family: 'Montserrat-Bold', monospace;
     font-size: 30px;
     color: #ffffff;
     display: inline;
@@ -55,7 +54,6 @@ export const SectionBase = (props) => css`
 `;
 
 export const SectionTextContent = styled('div')`
-    ${SecondaryFont};
     font-size: 18px;
     > p {
         margin-top: 0;
@@ -121,7 +119,6 @@ export const SectionContent = styled('div')`
 `;
 
 export const Question = styled('div')`
-    font-family: 'Montserrat-Bold';
     font-size: 24px;
     color: #ffffff;
     padding-top: 30px;

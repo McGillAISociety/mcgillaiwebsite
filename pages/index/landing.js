@@ -1,12 +1,7 @@
 import React from 'react';
 import styled from '@emotion/styled';
 
-import {
-    PrimaryFont,
-    SecondaryFont,
-    SectionBase,
-    SubscribeButton,
-} from '../../components/commonstyles';
+import { SectionBase, SubscribeButton } from '../../components/commonstyles';
 
 // import Logo from './assets/logo.svg';
 
@@ -16,7 +11,6 @@ const Container = styled('div')`
 `;
 
 const Column = styled('div')`
-    ${SecondaryFont};
     font-size: 32px;
     float: left;
     width: 50%;
@@ -44,7 +38,6 @@ const Icon = styled('img')`
 `;
 
 const Title = styled('h1')`
-    ${PrimaryFont};
     font-weight: 900;
     font-size: 60pt;
     background: -webkit-linear-gradient(#cc0033, #663366);

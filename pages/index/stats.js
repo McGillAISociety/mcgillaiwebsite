@@ -24,7 +24,6 @@ const SVGContainer = styled('img')`
 `;
 
 const Title = styled('p')`
-    font-family: 'Montserrat-Bold';
     color: #ffffff;
     font-size: 48px;
     text-align: center;

@@ -2,7 +2,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
 
-import { SecondaryFont, MAX_WIDTH } from './commonstyles.js';
+import { MAX_WIDTH } from './commonstyles.js';
 
 const FooterContainer = styled('div')`
     display: block;
@@ -14,7 +14,6 @@ const FooterContainer = styled('div')`
 `;
 
 const CenterContainer = styled('div')`
-    ${SecondaryFont};
     display: flex;
     flex-grow: 1;
     flex-basis: 0;
