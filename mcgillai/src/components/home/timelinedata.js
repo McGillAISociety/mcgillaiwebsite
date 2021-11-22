@@ -1,12 +1,8 @@
 export const TimelineData = [
     {
-        title: 'Workshop 3: Weights and Biases',
-        time: 'November 10th',
-        category: '/schedule-icons/workshop.svg',
-    },
-    {
-        title: 'AI Ethics Panel',
-        time: 'November 17th',
-        category: '/schedule-icons/workshop.svg',
+        title: 'MAIS 202 Project Fair',
+        time: 'December 2nd, 1-4 PM',
+        category: '/schedule-icons/mais202.svg',
+        place: 'In person @ Trottier Mezzanine',
     },
 ];
