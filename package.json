@@ -18,6 +18,7 @@
     "react-scripts": "3.0.1",
     "react-slick": "^0.25.2",
     "react-transition-group": "^4.3.0",
+    "sass": "^1.43.4",
     "slick-carousel": "^1.8.1"
   },
   "scripts": {
