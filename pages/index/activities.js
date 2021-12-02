@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from '@emotion/styled';
-
-import { ImageBackground } from '../../components/commonstyles';
+import styles from '../../styles/Home.module.scss';
 
 // import Mais202 from './activities-img/mais202.jpg';
 // import ImplementAI from './activities-img/implementai.jpg';
@@ -132,18 +131,12 @@ class Activities extends React.Component {
             <Container>
                 <ImageGrid>
                     <ImageCell>
-                        <ImageBackground
-                            className="Background"
-                            style={{
-                                backgroundImage: `url(../../public/images/home/activities/mais202.jpg)`,
-                            }}
-                        >
-                            {' '}
-                        </ImageBackground>
-                        <ImageBounds
-                            red={true}
-                            className="Bounds"
-                        ></ImageBounds>
+                        <img
+                            src="/images/home/activities/mais202.jpg"
+                            alt=""
+                            className={`Background ${styles['activity-background']}`}
+                        />
+                        <ImageBounds red={true} className="Bounds" />
                         <ImageText className="Text">
                             <h2>MAIS202 Bootcamp</h2>
                             <h3>
@@ -156,15 +149,12 @@ class Activities extends React.Component {
                     </ImageCell>
 
                     <ImageCell>
-                        <ImageBackground
-                            className="Background"
-                            style={{
-                                backgroundImage: `url(../../public/images/home/activities/implementai.jpg)`,
-                            }}
-                        >
-                            {' '}
-                        </ImageBackground>
-                        <ImageBounds className="Bounds"></ImageBounds>
+                        <img
+                            src="/images/home/activities/implementai.jpg"
+                            alt=""
+                            className={`Background ${styles['activity-background']}`}
+                        />
+                        <ImageBounds className="Bounds" />
                         <ImageText className="Text">
                             <h2>MAIS Hacks</h2>
                             <h3>
@@ -176,15 +166,12 @@ class Activities extends React.Component {
                     </ImageCell>
 
                     <ImageCell>
-                        <ImageBackground
-                            className="Background"
-                            style={{
-                                backgroundImage: `url(../../public/images/home/activities/companycrawl.jpg)`,
-                            }}
-                        >
-                            {' '}
-                        </ImageBackground>
-                        <ImageBounds className="Bounds"></ImageBounds>
+                        <img
+                            src="/images/home/activities/companycrawl.jpg"
+                            alt=""
+                            className={`Background ${styles['activity-background']}`}
+                        />
+                        <ImageBounds className="Bounds" />
                         <ImageText className="Text">
                             <h2>Company Crawl</h2>
                             <h3>
@@ -197,18 +184,12 @@ class Activities extends React.Component {
                     </ImageCell>
 
                     <ImageCell>
-                        <ImageBackground
-                            className="Background"
-                            style={{
-                                backgroundImage: `url($../../public/images/home/activities/workshops.jpg)`,
-                            }}
-                        >
-                            {' '}
-                        </ImageBackground>
-                        <ImageBounds
-                            red={true}
-                            className="Bounds"
-                        ></ImageBounds>
+                        <img
+                            src="/images/home/activities/workshops.jpg"
+                            alt=""
+                            className={`Background ${styles['activity-background']}`}
+                        />
+                        <ImageBounds red={true} className="Bounds" />
                         <ImageText className="Text">
                             <h2>Workshops</h2>
                             <h3>
@@ -222,15 +203,12 @@ class Activities extends React.Component {
                     </ImageCell>
 
                     <ImageCell>
-                        <ImageBackground
-                            className="Background"
-                            style={{
-                                backgroundImage: `url(../../public/images/home/activities/womeninai.jpg)`,
-                            }}
-                        >
-                            {' '}
-                        </ImageBackground>
-                        <ImageBounds className="Bounds"></ImageBounds>
+                        <img
+                            src="/images/home/activities/womeninai.jpg"
+                            alt=""
+                            className={`Background ${styles['activity-background']}`}
+                        />
+                        <ImageBounds className="Bounds" />
                         <ImageText className="Text">
                             <h2>Women in AI Panel</h2>
                             <h3>
@@ -244,18 +222,12 @@ class Activities extends React.Component {
                     </ImageCell>
 
                     <ImageCell>
-                        <ImageBackground
-                            className="Background"
-                            style={{
-                                backgroundImage: `url(../../public/images/home/activities/researchtalks.jpg)`,
-                            }}
-                        >
-                            {' '}
-                        </ImageBackground>
-                        <ImageBounds
-                            red={true}
-                            className="Bounds"
-                        ></ImageBounds>
+                        <img
+                            src="/images/home/activities/researchtalks.jpg"
+                            alt=""
+                            className={`Background ${styles['activity-background']}`}
+                        />
+                        <ImageBounds red={true} className="Bounds" />
                         <ImageText className="Text">
                             <h2>Research Talks</h2>
                             <h3>

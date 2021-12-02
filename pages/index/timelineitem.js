@@ -124,7 +124,10 @@ const TimelineItem = ({ data }) => (
                 </p>
             </Description>
         </ItemContent>
-        <Icon className="Image" src={data.category} />
+        <Icon
+            className="Image"
+            src={`/images/home/schedule-icons/${data.image}`}
+        />
     </ItemContainer>
 );
 

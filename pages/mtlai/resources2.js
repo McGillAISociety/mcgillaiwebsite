@@ -1,8 +1,6 @@
 import React from 'react';
 import styled from '@emotion/styled';
 
-import { ImageBackground } from '../../components/commonstyles';
-
 const Container = styled('div')`
     margin: auto;
     position: relative;

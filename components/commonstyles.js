@@ -148,20 +148,6 @@ export const GuideFont = styled('div')`
     color: #ffffff;
 `;
 
-export const ImageBackground = styled('div')`
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: -webkit-transform 500ms;
-    transition: transform 500ms;
-    transition: transform 500ms, -webkit-transform 500ms;
-`;
-
 export const SubscribeButton = (props) => css`
   display:inline-block;
   padding:0.35em 1.2em;
