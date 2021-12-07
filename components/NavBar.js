@@ -51,7 +51,7 @@ class Navigation extends React.Component {
                     <Navbar
                         collapseOnSelect
                         style={{ marginBottom: '0' }}
-                        inverse={true}
+                        inverse
                         onToggle={this.setNavExpanded}
                         expanded={this.state.navExpanded}
                         expand="md"

@@ -1,3 +1,32 @@
+@use './vars';
+
+.main-title {
+    font-family: 'Roboto', sans-serif;
+    background: -webkit-linear-gradient(vars.$red, vars.$purple);
+    font-weight: 700;
+    > span {
+        font-weight: 400;
+    }
+    font-size: 60pt;
+    width: 550px;
+    word-break: break-word;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    @media (max-width: vars.$max-mobile) {
+        width: 100%;
+        text-align: center;
+        font-size: 40pt;
+    }
+}
+
+.mais-logo {
+    max-height: 350px;
+    @media (max-width: vars.$max-mobile) {
+        max-height: 200px;
+    }
+}
+
 .activity-background {
     position: absolute;
     top: 0;

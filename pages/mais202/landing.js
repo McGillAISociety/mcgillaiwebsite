@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from '@emotion/styled';
 
-import { SectionBase, SubscribeButton } from '../../components/commonstyles.js';
+import { SectionBase } from '../../components/commonstyles.js';
 
 // import Stats1 from './assets/stats_1.svg';
 // import Stats2 from './assets/stats_2.svg';

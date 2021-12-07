@@ -3,17 +3,6 @@ import styled from '@emotion/styled';
 
 export const MAX_WIDTH = '1400px';
 
-// export const PrimaryFont = css`
-//     font-family: 'Helvetica Neue Bold Condensed', monospace;
-//     color: #ffffff;
-// `;
-
-// export const SecondaryFont = css`
-//     font-family: 'Montserrat', sans-serrif;
-//     font-weight: 200;
-//     color: #ffffff;
-// `;
-
 export const HeadingUnderline = styled('div')`
     font-size: 30px;
     color: #ffffff;

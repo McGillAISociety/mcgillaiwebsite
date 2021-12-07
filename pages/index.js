@@ -1,30 +1,41 @@
 import React from 'react';
+import styles from '../styles/Home.module.scss';
+
 import styled from '@emotion/styled';
 
-import Landing from './index/landing.js';
 import About from './index/about.js';
 import Stats from './index/stats.js';
 import Activities from './index/activities.js';
 import Schedule from './index/schedule.js';
 import Sponsors from './index/sponsors.js';
 
-const Container = styled('div')``;
-
+// TODO: find another location for the listserv signup, or just have it on the footer only
+// Maybe have a "connect with us section on homepage"
 class Home extends React.Component {
     render() {
         return (
-            <Container>
+            <>
                 <div className="content" id="top">
-                    <Landing></Landing>
+                    <div className="flex-center">
+                        <img
+                            src="/images/logo.png"
+                            alt="MAIS Logo"
+                            className={styles['mais-logo']}
+                        />
+                        <div className={styles['main-title']}>
+                            <span>MCGILL</span> ARTIFICIAL INTELLIGENCE{' '}
+                            <span>SOCIETY</span>
+                        </div>
+                    </div>
                 </div>
                 <div className="content--inner">
-                    <About></About>
-                    <Stats></Stats>
-                    <Activities></Activities>
-                    <Schedule></Schedule>
-                    <Sponsors></Sponsors>
+                    <About />
+                    <Stats />
+                    <Activities />
+                    <Schedule />
+                    <Sponsors />
                 </div>
-            </Container>
+            </>
         );
     }
 }
