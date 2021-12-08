@@ -6,6 +6,7 @@
     padding: 0;
     margin: 0;
     font-family: Montserrat, sans-serif;
+    color: white;
 }
 
 html {
@@ -43,88 +44,17 @@ html {
     justify-content: space-evenly;
 }
 
-// TODO: everything below this comment is to be cleaned up!
-
-.navbarcustom {
-    background: #131218 !important;
-    margin-bottom: 0 !important;
-    text-align: center;
+h2 {
+    font-size: 35pt;
 }
 
-.navtext {
-    font-family: 'Montserrat';
-    font-size: 24px;
-    color: #ffffff !important;
-    transition: opacity 0.2s;
-    text-decoration: none;
-    fill: #ffffff !important;
-    margin-bottom: 0 !important;
-    margin-top: 0 !important;
+h3 {
+    font-size: 20pt;
+    font-style: italic;
+    font-weight: 500;
 }
 
-.navtext a {
-    color: #fff;
-}
-
-.navtext:hover {
-    opacity: 0.6;
-}
-
-.droptext {
-    font-family: 'Montserrat';
-    font-size: 18px;
-    color: #2b2b2b !important;
-    transition: opacity 0.2s;
-    text-decoration: none;
-    fill: #ffffff !important;
-    margin-bottom: 0 !important;
-    margin-top: 0 !important;
-}
-.droptext:hover {
-    background-color: #fff;
-    opacity: 0.6;
-}
-
-.navLink {
-    background-color: #fff;
-}
-
-.dropdown-item {
-    background-color: #fff;
-}
-.dropdown-item:hover {
-    background-color: #fff;
-    opacity: 0.6;
-}
-.external-text {
-    font-family: 'Montserrat';
-    font-size: 18px;
-    color: #2b2b2b !important;
-    transition: opacity 0.2s;
-    text-decoration: none;
-    fill: #ffffff !important;
-    margin-bottom: 0 !important;
-    margin-top: 0 !important;
-}
-.external-text:hover {
-    opacity: 0.6;
-}
-
-.dropdown-toggle::after {
-    display: none !important;
-}
-
-.navbar-brand {
-    height: unset !important;
-    padding-left: 50px !important;
-}
-
-// .navbar-light .navbar-toggler-icon {
-//     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
-// }
-
-@media only screen and (max-width: 767px) {
-    .navbar-brand {
-        padding-left: 0 !important;
-    }
+p {
+    font-size: 15pt;
+    font-weight: 200;
 }

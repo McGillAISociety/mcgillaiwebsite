@@ -1,29 +1,47 @@
 @use './vars';
 
-.main-title {
-    font-family: 'Roboto', sans-serif;
-    background: -webkit-linear-gradient(vars.$red, vars.$purple);
-    font-weight: 700;
-    > span {
-        font-weight: 300;
+.landing {
+    &__main-title {
+        font-family: 'Roboto', sans-serif;
+        background: -webkit-linear-gradient(vars.$red, vars.$purple);
+        font-weight: 700;
+        > span {
+            font-weight: 300;
+        }
+        font-size: 60pt;
+        width: 550px;
+        word-break: break-word;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        @media (max-width: vars.$max-mobile) {
+            width: 100%;
+            text-align: center;
+            font-size: 40pt;
+        }
     }
-    font-size: 60pt;
-    width: 550px;
-    word-break: break-word;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    @media (max-width: vars.$max-mobile) {
-        width: 100%;
-        text-align: center;
-        font-size: 40pt;
+    &__mais-logo {
+        max-height: 350px;
+        @media (max-width: vars.$max-mobile) {
+            max-height: 200px;
+        }
     }
 }
 
-.mais-logo {
-    max-height: 350px;
-    @media (max-width: vars.$max-mobile) {
-        max-height: 200px;
+.about {
+    margin-top: 100px;
+    text-align: center;
+    h2 {
+        margin-bottom: 15px;
+    }
+    &__entry {
+        h3 {
+            margin-bottom: 10px;
+        }
+        p {
+            max-width: 350px;
+        }
+        margin-bottom: 35px;
     }
 }
 
