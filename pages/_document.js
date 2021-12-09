@@ -1,3 +1,4 @@
+import React from 'react';
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 
 class MyDocument extends Document {
@@ -32,7 +33,7 @@ class MyDocument extends Document {
                     <meta name="theme-color" content="#ffffff" />
                     <meta
                         name="keywords"
-                        content="AI, ML, MAIS, McGill, artificial intelligence, machine learning, university, society, MAIS 202, MAIS Hacks, hackathon, bootcamp, deep learning, club, student"
+                        content="AI, ML, MAIS, McGill, artificial intelligence, machine learning, university, society, MAIS 202, MAIS Hacks, hackathon, bootcamp, deep learning, club, student, podcast, learnathon, ethics"
                     />
                     <meta name="robots" content="index, follow" />
                     <meta
