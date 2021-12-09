@@ -5,7 +5,7 @@
         font-family: 'Roboto', sans-serif;
         background: -webkit-linear-gradient(vars.$red, vars.$purple);
         font-weight: 700;
-        > span {
+        span {
             font-weight: 300;
         }
         font-size: 60pt;
@@ -29,7 +29,6 @@
 }
 
 .about {
-    margin-top: 100px;
     text-align: center;
     h2 {
         margin-bottom: 15px;
@@ -42,6 +41,12 @@
             max-width: 350px;
         }
         margin-bottom: 35px;
+    }
+}
+
+.stats {
+    &__img {
+        max-width: 800px;
     }
 }
 

@@ -3,7 +3,6 @@ import styles from '../styles/Home.module.scss';
 
 import styled from '@emotion/styled';
 
-import Stats from './index/stats.js';
 import Activities from './index/activities.js';
 import Schedule from './index/schedule.js';
 import Sponsors from './index/sponsors.js';
@@ -36,7 +35,7 @@ function Home() {
     return (
         <>
             {/* Landing */}
-            <div className={`flex-center ${styles['landing']}`}>
+            <div className={`section flex-center ${styles['landing']}`}>
                 <img
                     src="/images/logo.png"
                     alt="MAIS Logo"
@@ -49,7 +48,7 @@ function Home() {
             </div>
 
             {/* About */}
-            <div className={styles['about']}>
+            <div className={`section ${styles['about']}`}>
                 <h2>About Us</h2>
                 <div className="flex-center">
                     {aboutData.map((data, index) => (
@@ -62,7 +61,16 @@ function Home() {
                 </div>
             </div>
 
-            <Stats />
+            {/* Stats */}
+            <div className={`section flex-center ${styles['stats']}`}>
+                <h2>The McGill AI Community</h2>
+                <img
+                    className={styles['stats__img']}
+                    src="/images/home/assets/grid.svg"
+                    alt="MAIS Stats"
+                />
+            </div>
+
             <Activities />
             <Schedule />
             <Sponsors />
