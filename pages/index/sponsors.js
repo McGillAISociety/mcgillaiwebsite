@@ -13,7 +13,6 @@ import SponsorLogos from './sponsorlogos.js';
 
 const Container = styled('div')`
     ${SectionBase};
-
     color: #ffffff;
     font-size: 48px;
     text-align: center;

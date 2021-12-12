@@ -1,10 +1,9 @@
 import React from 'react';
 import styles from '../styles/Home.module.scss';
-import MetaTags from '../components/MetaTags';
+// import MetaTags from '../components/MetaTags';
 
 import styled from '@emotion/styled';
 
-import Schedule from './index/schedule.js';
 import Sponsors from './index/sponsors.js';
 
 const aboutImgDir = (img) => `/images/home/assets/${img}.svg`;
@@ -69,8 +68,46 @@ const activitiesData = [
     },
 ];
 
+const timelineImgDir = (img) => `/images/home/schedule-icons/${img}.svg`;
+const timelineData = [
+    // {
+    //     title: 'MAIS 202 Project Fair',
+    //     time: 'December 2nd, 1-4 PM',
+    //     img: timelineDataImg('mais202'),
+    //     place: 'In person @ Trottier Mezzanine',
+    // },
+];
+
+const sponsorImgDir = (img) => `/images/home/sponsors/${img}.png"`;
+const sponsorData = [
+    {
+        name: 'sama',
+        url: 'https://www.sama.com/careers',
+        imgWidth: 300,
+        img: sponsorImgDir('sama'),
+    },
+    {
+        name: 'intact',
+        url: 'https://careers.intactfc.com/intactinsurance/ca/en',
+        imgWidth: 300,
+        img: sponsorImgDir('Intactlab'),
+    },
+    {
+        name: 'cae',
+        url: 'https://www.cae.com/careers/',
+        imgWidth: 200,
+        img: sponsorImgDir('cae'),
+    },
+    {
+        name: 'squarepoint',
+        url: 'https://www.squarepoint-capital.com/',
+        imgWidth: 150,
+        img: sponsorImgDir('squarepoint'),
+    },
+];
+
 // TODO: find another location for the listserv signup, or just have it on the footer only
-// Maybe have a "connect with us section on homepage"
+// Maybe have a "connect with us" section on homepage
 function Home() {
     return (
         <>
@@ -101,6 +138,24 @@ function Home() {
                 </div>
             </div>
 
+            {/* Timeline */}
+            <div className={`section ${styles['timeline']}`}>
+                <h2>Upcoming Events</h2>
+                {timelineData.length ? (
+                    <div className={styles['timeline__events']}>
+                        {timelineData.map((data, index) => (
+                            <></>
+                            // TODO: rewrite this!
+                        ))}
+                    </div>
+                ) : (
+                    <p className={styles['timeline__no-event-message']}>
+                        We do not have any upcoming events right now; check back
+                        soon!
+                    </p>
+                )}
+            </div>
+
             {/* Stats */}
             <div className={`section flex-center ${styles['stats']}`}>
                 <h2 className={styles['stats__title']}>
@@ -113,37 +168,84 @@ function Home() {
                 />
             </div>
 
-            {/* TODO: the images have this infuriating small empty space below them within the cell; figure out! */}
             {/* Activities */}
-            <div className={`section ${styles['activities']}`}>
-                {activitiesData.map((data, index) => (
-                    <div className={styles['activities__cell']} key={index}>
-                        <img
-                            src={data.img}
-                            alt={data.title}
-                            className={styles['activities__background']}
-                        />
-                        <div
-                            className={`${styles['activities__bounds']} 
+            <div className="section">
+                <h2>Our Initiatives</h2>
+                <center className="desktop-hide">
+                    <small>
+                        <i>Tap images for more!</i>
+                    </small>
+                </center>
+                <div className={styles['activities']}>
+                    {activitiesData.map((data, index) => (
+                        <div className={styles['activities__cell']} key={index}>
+                            <img
+                                src={data.img}
+                                alt={data.title}
+                                className={styles['activities__background']}
+                            />
+                            <div
+                                className={`${styles['activities__bounds']} 
                             ${
                                 index % 2 === 0 &&
                                 styles['activities__bounds--red']
                             }`}
-                        />
-                        <div
-                            className={`flex-center ${styles['activities__text']}`}
-                        >
-                            <div>
-                                <h3>{data.title}</h3>
-                                <p>{data.description}</p>
+                            />
+                            <div
+                                className={`flex-center ${styles['activities__text']}`}
+                            >
+                                <div>
+                                    <h3>{data.title}</h3>
+                                    <p>{data.description}</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                ))}
+                    ))}
+                </div>
             </div>
 
-            <Schedule />
-            <Sponsors />
+            {/* <Sponsors /> */}
+            <div className={`section flex-center ${styles['sponsors']}`}>
+                <div className={styles['sponsors__text']}>
+                    <p>
+                        All club operations are funded by our generous sponsors.
+                        Without their support, we would not be able to do what
+                        we do, or be what we are today: a major hub for learning
+                        and community in the Montreal AI ecosystem.
+                    </p>
+                    <p>
+                        As a McGill AI club sponsor, you will have access to the
+                        resumes of our hackathon participants, hold interviews
+                        during the hackathon, and gain access to a platform of
+                        over 2000 talented and committed students.
+                    </p>
+                    <p>
+                        If you are interested in partnering with our club,
+                        please don’t hesitate to reach out to&nbsp;
+                        <a href="mailto:mcgillaicontact@gmail.com">
+                            mcgillaicontact@gmail.com
+                        </a>
+                        !
+                    </p>
+                </div>
+
+                <div className="flex-center">
+                    {sponsorData.map((sponsor, index) => (
+                        <a
+                            key={index}
+                            href={sponsor.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img
+                                src={sponsor.img}
+                                alt={`${sponsor.name} logo`}
+                                width={sponsor.imgWidth}
+                            />
+                        </a>
+                    ))}
+                </div>
+            </div>
         </>
     );
 }

@@ -32,12 +32,17 @@
 
 .about {
     text-align: center;
+    h3 {
+        text-align: left;
+    }
     &__entry {
         p {
-            max-width: 350px;
+            max-width: 375px;
+            text-align: left;
         }
         img {
             margin: 10px;
+            height: 150px;
         }
         margin-bottom: 35px;
     }
@@ -46,13 +51,27 @@
 .stats {
     &__title {
         width: 350px;
+        text-align: left;
+        @media (max-width: vars.$max-mobile) {
+            text-align: center;
+            width: 100%;
+        }
     }
     &__img {
         max-width: 800px;
     }
 }
 
+// TODO: keep cleaning this up!
 .activities {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    @media (max-width: vars.$max-mobile) {
+        grid-template-columns: 1fr 1fr;
+    }
+    p {
+        text-align: center;
+    }
     %abs-pos {
         position: absolute;
         top: 0;
@@ -60,18 +79,13 @@
         bottom: 0;
         left: 0;
     }
-    // TODO: possibly redo all this styling with flex?
     &__cell {
         display: inline-block;
         vertical-align: bottom;
-        width: calc(100% / 3);
-        @media (max-width: vars.$max-mobile) {
-            width: 50%;
-        }
+        aspect-ratio: 1;
         height: fit-content;
         position: relative;
         overflow: hidden;
-
         &:hover .activities__background {
             -webkit-transform: scale(1.025);
             transform: scale(1.025);
@@ -113,6 +127,27 @@
             p {
                 font-size: 12px;
             }
+        }
+    }
+}
+
+.timeline {
+    &__events {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__no-event-message {
+        text-align: center;
+        font-weight: 100;
+    }
+}
+
+.sponsors {
+    &__text {
+        max-width: 500px;
+        p {
+            margin-bottom: 15px;
         }
     }
 }
