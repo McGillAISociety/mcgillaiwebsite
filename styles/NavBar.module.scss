@@ -1,0 +1,25 @@
+.nav {
+    position: fixed;
+    background-color: black;
+    height: fit-content;
+    width: 100vw;
+    top: 0;
+
+    &__item {
+        display: inline-block;
+        padding: 0;
+        margin: 15px;
+        cursor: pointer;
+        &--logo {
+            height: 50px;
+        }
+        &--text {
+            font-size: x-large;
+            font-weight: 200;
+        }
+        &--icon {
+            margin-left: 5px;
+            margin-bottom: -3px;
+        }
+    }
+}

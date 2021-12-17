@@ -1,7 +1,10 @@
 @use './vars';
 
 .landing {
+    margin-top: 130px;
+
     &__main-title {
+        // TODO: mayhaps change from roboto to Monsterrat; figure out overflow
         font-family: 'Roboto', sans-serif;
         background: -webkit-linear-gradient(vars.$red, vars.$purple);
         font-weight: 700;

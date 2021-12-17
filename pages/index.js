@@ -129,6 +129,7 @@ function Home() {
                 <h2>About Us</h2>
                 <div className="flex-center">
                     {aboutData.map((data, index) => (
+                        // TODO: style these entries into cards (and also maybe the timeline entries?)
                         <div key={index} className={styles['about__entry']}>
                             <img src={data.img} alt={data.title} />
                             <h3>{data.title}</h3>

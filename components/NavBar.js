@@ -1,198 +1,93 @@
 import React from 'react';
-import Link from 'next/link';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import styled from '@emotion/styled';
+import { useState } from 'react';
+import NavLink from './NavLink';
+import styles from '../styles/NavBar.module.scss';
+import { HiExternalLink } from 'react-icons/hi';
 
-// TODO: flatten the navbar
-// the new page structure will be: home, team, mais 202, podcast, MAIS Hacks, Learnathon, resources, faq
+// TODO: hover styling
+// TODO: mobile nav!
 
-const Container = styled('div')``;
+const navOptions = [
+    {
+        title: 'Team',
+        route: 'ourteam',
+    },
+    {
+        title: 'MAIS 202',
+        route: 'mais202',
+    },
+    {
+        title: 'Podcast',
+        route: 'podcast',
+    },
+    {
+        title: 'Resources',
+        route: 'mtlai',
+    },
+    {
+        title: 'FAQ',
+        route: 'faq',
+    },
+    {
+        title: 'MAIS Hacks',
+        route: 'https://maishacks.com/',
+        external: true,
+    },
+    {
+        title: 'Learnathon',
+        route: 'https://mcgillailearn.com/',
+        external: true,
+    },
+];
 
-const NavbarContent = styled('div')``;
-
-const BlogLink = styled('a')`
-    display: inline-block;
-    margin-top: 4.75px;
-    margin-left: 0.5px;
-`;
-
-class Navigation extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            navExpanded: false,
-        };
-        this.setNavExpanded = this.setNavExpanded.bind(this);
-        this.closeNav = this.closeNav.bind(this);
-        this.scrollToTop = this.scrollToTop.bind(this);
-        this.clickedNav = this.clickedNav.bind(this);
-    }
-
-    setNavExpanded(expanded) {
-        this.setState({ navExpanded: expanded });
-    }
-
-    closeNav() {
-        this.setState({ navExpanded: false });
-    }
-
-    scrollToTop() {
+function NavBar() {
+    const [expanded, setExpanded] = useState(false);
+    const scrollToTop = () => {
         window.scrollTo({ top: 0 });
-    }
+    };
 
-    clickedNav() {
-        this.closeNav();
-        this.scrollToTop();
-    }
-
-    render() {
-        return (
-            <Container>
-                <NavbarContent>
-                    <Navbar
-                        collapseOnSelect
-                        style={{ marginBottom: '0' }}
-                        inverse
-                        onToggle={this.setNavExpanded}
-                        expanded={this.state.navExpanded}
-                        expand="md"
-                        bg="dark"
-                        className="navbarcustom navbar-toggleable-lg navbar-fixed-top"
-                    >
-                        <Navbar.Brand>
-                            <Link href="/">
-                                <img
-                                    src="/images/logo.png"
-                                    width="40"
-                                    height="40"
-                                    className="d-inline-block align-top"
-                                    alt="McGillAI logo"
-                                />
-                            </Link>
-                        </Navbar.Brand>
-                        <Navbar.Toggle
-                            aria-controls="basic-navbar-nav"
-                            className="navtext"
-                        />
-                        <Navbar.Collapse
-                            className="navbar-collapse"
-                            id="basic-navbar-nav"
+    return (
+        <nav className={`${styles['nav']} flex-center`}>
+            <NavLink exact href="/">
+                <img
+                    src="/images/logo.png"
+                    alt="MAIS Logo"
+                    className={`${styles['nav__item']} ${styles['nav__item--logo']}`}
+                />
+            </NavLink>
+            {/* TODO: decide if I'm going to wrap these in their own div or not */}
+            <div>
+                {navOptions.map((navOption, index) => {
+                    const props = {
+                        href: navOption.route,
+                        key: index,
+                    };
+                    const item = (
+                        <span
+                            className={`${styles['nav__item']} ${styles['nav__item--text']}`}
                         >
-                            <Nav onSelect={this.clickedNav} className="mr-auto">
-                                <NavDropdown
-                                    title={
-                                        <Navbar.Text className="navtext">
-                                            About Us{' '}
-                                            <i className="fa fa-angle-down"></i>
-                                        </Navbar.Text>
-                                    }
-                                    id="basic-nav-dropdown"
-                                >
-                                    <NavDropdown.Item>
-                                        <Link href="/ourteam" id="dropLink">
-                                            <Navbar.Text
-                                                className="droptext"
-                                                onClick={this.clickedNav}
-                                            >
-                                                <i className="fa fa-user fa-fw"></i>{' '}
-                                                Our Team
-                                            </Navbar.Text>
-                                        </Link>
-                                    </NavDropdown.Item>
-                                    <NavDropdown.Item>
-                                        <Link href="/faq">
-                                            <Navbar.Text
-                                                className="droptext"
-                                                onClick={this.clickedNav}
-                                            >
-                                                <i className="fa fa-info fa-fw"></i>{' '}
-                                                FAQ
-                                            </Navbar.Text>
-                                        </Link>
-                                    </NavDropdown.Item>
-                                    <NavDropdown.Item
-                                        target="_blank"
-                                        href="https://medium.com/mcgill-artificial-intelligence-review"
-                                        rel="noopener"
-                                        className="navLink"
-                                    >
-                                        <Navbar.Text className="external-text">
-                                            <i className="fa fa-medium fa-fw"></i>{' '}
-                                            Blog
-                                        </Navbar.Text>
-                                    </NavDropdown.Item>
-                                </NavDropdown>
-                                <Nav.Link>
-                                    <Link href="/mais202">
-                                        <Navbar.Text
-                                            className="navtext"
-                                            onClick={this.clickedNav}
-                                        >
-                                            MAIS 202
-                                        </Navbar.Text>
-                                    </Link>
-                                </Nav.Link>
-                                <Nav.Link>
-                                    <Link href="/podcast">
-                                        <Navbar.Text
-                                            className="navtext"
-                                            onClick={this.clickedNav}
-                                        >
-                                            Podcast
-                                        </Navbar.Text>
-                                    </Link>
-                                </Nav.Link>
-                                <NavDropdown
-                                    title={
-                                        <Navbar.Text className="navtext">
-                                            Events{' '}
-                                            <i className="fa fa-angle-down"></i>
-                                        </Navbar.Text>
-                                    }
-                                    id="basic-nav-dropdown"
-                                >
-                                    <NavDropdown.Item
-                                        target="_blank"
-                                        href="http://maishacks.com/"
-                                        rel="noopener"
-                                        className="navLink"
-                                    >
-                                        <Navbar.Text className="droptext">
-                                            <i className="fa fa-lightbulb-o fa-fw"></i>{' '}
-                                            MAIS Hacks
-                                        </Navbar.Text>
-                                    </NavDropdown.Item>
-                                    <NavDropdown.Item
-                                        target="_blank"
-                                        href="http://mcgillailearn.com/"
-                                        rel="noopener"
-                                        className="navLink"
-                                    >
-                                        <Navbar.Text className="droptext">
-                                            <i className="fa fa-cogs fa-fw"></i>{' '}
-                                            Learnathon Conference
-                                        </Navbar.Text>
-                                    </NavDropdown.Item>
-                                </NavDropdown>
-                                <Nav.Link>
-                                    <Link href="/mtlai">
-                                        <Navbar.Text
-                                            className="navtext"
-                                            onClick={this.clickedNav}
-                                        >
-                                            MTL AI Resources
-                                        </Navbar.Text>
-                                    </Link>
-                                </Nav.Link>
-                            </Nav>
-                        </Navbar.Collapse>
-                    </Navbar>
-                </NavbarContent>
-            </Container>
-        );
-    }
+                            {navOption.title}
+                            {navOption.external && (
+                                <HiExternalLink
+                                    className={styles['nav__item--icon']}
+                                    size={25}
+                                    color="lightgray"
+                                />
+                            )}
+                        </span>
+                    );
+                    return navOption.external ? (
+                        <a {...props} target="_blank" rel="noopener noreferrer">
+                            {item}
+                        </a>
+                    ) : (
+                        // TODO: add active styling
+                        <NavLink {...props}>{item}</NavLink>
+                    );
+                })}
+            </div>
+        </nav>
+    );
 }
 
-export default Navigation;
+export default NavBar;
