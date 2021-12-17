@@ -42,6 +42,7 @@ const navOptions = [
 
 function NavBar() {
     const [expanded, setExpanded] = useState(false);
+    // TODO: smooth scroll to top of page when nav-ing
     const scrollToTop = () => {
         window.scrollTo({ top: 0 });
     };
@@ -68,6 +69,7 @@ function NavBar() {
                         >
                             {navOption.title}
                             {navOption.external && (
+                                // TODO: figure out why the color isn't working!
                                 <HiExternalLink
                                     className={styles['nav__item--icon']}
                                     size={25}

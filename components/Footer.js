@@ -76,6 +76,7 @@ const Subscribe = styled('a')`
 
 const year = new Date().getFullYear();
 
+// TODO: fix all this, and use react-icons
 class Footer extends React.Component {
     render() {
         return (

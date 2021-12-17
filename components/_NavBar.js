@@ -5,9 +5,6 @@ import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import styled from '@emotion/styled';
 
-// TODO: flatten the navbar
-// the new page structure will be: home, team, mais 202, podcast, MAIS Hacks, Learnathon, resources, faq
-
 const Container = styled('div')``;
 
 const NavbarContent = styled('div')``;
