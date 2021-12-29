@@ -2,10 +2,6 @@ import React from 'react';
 import styles from '../styles/home.module.scss';
 // import MetaTags from '../components/MetaTags';
 
-import styled from '@emotion/styled';
-
-import Sponsors from './index/sponsors.js';
-
 const aboutImgDir = (img) => `/images/home/assets/${img}.svg`;
 const aboutData = [
     {
@@ -78,7 +74,7 @@ const timelineData = [
     // },
 ];
 
-const sponsorImgDir = (img) => `/images/home/sponsors/${img}.png"`;
+const sponsorImgDir = (img) => `/images/home/sponsors/${img}.png`;
 const sponsorData = [
     {
         name: 'sama',
@@ -206,45 +202,51 @@ function Home() {
             </div>
 
             {/* <Sponsors /> */}
-            <div className={`section flex-center ${styles['sponsors']}`}>
-                <div className={styles['sponsors__text']}>
-                    <p>
-                        All club operations are funded by our generous sponsors.
-                        Without their support, we would not be able to do what
-                        we do, or be what we are today: a major hub for learning
-                        and community in the Montreal AI ecosystem.
-                    </p>
-                    <p>
-                        As a McGill AI club sponsor, you will have access to the
-                        resumes of our hackathon participants, hold interviews
-                        during the hackathon, and gain access to a platform of
-                        over 2000 talented and committed students.
-                    </p>
-                    <p>
-                        If you are interested in partnering with our club,
-                        please don’t hesitate to reach out to&nbsp;
-                        <a href="mailto:mcgillaicontact@gmail.com">
-                            mcgillaicontact@gmail.com
-                        </a>
-                        !
-                    </p>
-                </div>
 
-                <div className="flex-center">
-                    {sponsorData.map((sponsor, index) => (
-                        <a
-                            key={index}
-                            href={sponsor.url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <img
-                                src={sponsor.img}
-                                alt={`${sponsor.name} logo`}
-                                width={sponsor.imgWidth}
-                            />
-                        </a>
-                    ))}
+            <div className="section">
+                <h2>Sponsors</h2>
+                <div className={`flex-center ${styles['sponsors']}`}>
+                    <div className={styles['sponsors__text']}>
+                        <p>
+                            All club operations are funded by our generous
+                            sponsors. Without their support, we would not be
+                            able to do what we do, or be what we are today: a
+                            major hub for learning and community in the Montreal
+                            AI ecosystem.
+                        </p>
+                        <p>
+                            As a McGill AI club sponsor, you will have access to
+                            the resumes of our hackathon participants, hold
+                            interviews during the hackathon, and gain access to
+                            a platform of over 2000 talented and committed
+                            students.
+                        </p>
+                        <p>
+                            If you are interested in partnering with our club,
+                            please don’t hesitate to reach out to&nbsp;
+                            <a href="mailto:mcgillaicontact@gmail.com">
+                                mcgillaicontact@gmail.com
+                            </a>
+                            !
+                        </p>
+                    </div>
+
+                    <div className={`flex-center ${styles['sponsors__logos']}`}>
+                        {sponsorData.map((sponsor, index) => (
+                            <a
+                                key={index}
+                                href={sponsor.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <img
+                                    src={sponsor.img}
+                                    alt={`${sponsor.name} logo`}
+                                    width={sponsor.imgWidth}
+                                />
+                            </a>
+                        ))}
+                    </div>
                 </div>
             </div>
         </>

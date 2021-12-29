@@ -5,7 +5,6 @@ import Link from 'next/link';
 import styles from '../styles/NavBar.module.scss';
 import { HiExternalLink } from 'react-icons/hi';
 
-// TODO: hover styling
 // TODO: mobile nav!
 
 const navOptions = [
