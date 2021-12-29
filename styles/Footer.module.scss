@@ -1,0 +1,13 @@
+.footer {
+    height: 100px;
+    div {
+        justify-content: center;
+    }
+    padding: 10px 0 10px 0;
+    color: white;
+    margin-top: 50px;
+    background-color: black;
+    &__logo {
+        margin: 10px;
+    }
+}

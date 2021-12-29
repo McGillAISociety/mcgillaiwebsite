@@ -103,7 +103,8 @@ const sponsorData = [
 ];
 
 // TODO: find another location for the listserv signup, or just have it on the footer only
-// Maybe have a "connect with us" section on homepage
+// Maybe have a "connect with us" section on homepage?
+// Maybe have a form that auto signs up to mailing list?
 function Home() {
     return (
         <>
@@ -230,7 +231,6 @@ function Home() {
                             !
                         </p>
                     </div>
-
                     <div className={`flex-center ${styles['sponsors__logos']}`}>
                         {sponsorData.map((sponsor, index) => (
                             <a
