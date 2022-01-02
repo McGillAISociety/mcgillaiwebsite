@@ -159,6 +159,7 @@ function Home() {
                 <h2 className={styles['stats__title']}>
                     The McGill AI Community
                 </h2>
+                {/* TODO: this is overflowing the screen on mobile! */}
                 <img
                     className={styles['stats__img']}
                     src="/images/home/assets/grid.svg"

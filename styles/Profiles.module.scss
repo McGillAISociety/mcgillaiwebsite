@@ -1,0 +1,33 @@
+@use './vars';
+
+.profiles-container {
+    align-items: flex-start;
+}
+
+.profile {
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    max-width: 400px;
+    img {
+        width: 200px;
+    }
+    h2 {
+        font-weight: 700;
+        font-size: xx-large;
+        color: vars.$red;
+        margin-bottom: 0;
+    }
+    h3 {
+        font-size: larger;
+    }
+    p {
+        text-align: start;
+        margin-bottom: 15px;
+    }
+    a {
+        background: #cc0000;
+        padding: 1em 1em 0.5em 1em;
+        border-radius: 1.5em;
+    }
+}

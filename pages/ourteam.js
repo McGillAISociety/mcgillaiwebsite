@@ -1,6 +1,10 @@
+import React from 'react';
+import { HeadingUnderline } from '../components/commonstyles.js';
+import Profiles from '../components/Profiles';
+
 const path = (name) => `/images/ourteam/2021-2022/${name}.png`;
 
-export const DATA = [
+export const execData = [
     {
         photo: path('yulu'),
         name: 'Yu Lu Liu',
@@ -142,3 +146,14 @@ export const DATA = [
         linkedin: 'https://www.linkedin.com/in/philiptamcode/',
     },
 ];
+
+const Exec = () => (
+    <>
+        <HeadingUnderline className="content" id="top">
+            {' '}
+            Our Team{' '}
+        </HeadingUnderline>
+        <Profiles profilesData={execData} />
+    </>
+);
+export default Exec;
