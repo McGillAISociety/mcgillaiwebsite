@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
-import styles from '../styles/NavBar.module.scss';
+import styles from '../styles/components/NavBar.module.scss';
 import { HiExternalLink } from 'react-icons/hi';
 
 // TODO: mobile nav!

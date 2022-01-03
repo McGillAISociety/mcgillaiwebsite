@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../styles/Profiles.module.scss';
+import styles from '../styles/components/Profiles.module.scss';
 import { FaLinkedinIn as LinkedIn } from 'react-icons/fa';
 
 /** 

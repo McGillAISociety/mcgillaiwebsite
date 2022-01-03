@@ -6,7 +6,7 @@ import {
     HeadingUnderline,
     Question,
     Answer,
-} from '../../components/commonstyles.js';
+} from '../components/commonstyles.js';
 
 const Container = styled('div')`
     background-image: url(../public/images/background.jpg);

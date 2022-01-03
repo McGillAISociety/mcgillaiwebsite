@@ -9,8 +9,9 @@ function MyApp({ Component, pageProps }) {
     return (
         <>
             <NavBar />
-            {/* TODO: render a top margin on every Component b/c the navbar doesn't have block display */}
-            <Component {...pageProps} />
+            <div className="page">
+                <Component {...pageProps} />
+            </div>
             <Footer />
         </>
     );

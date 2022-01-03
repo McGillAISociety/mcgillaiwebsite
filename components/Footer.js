@@ -1,4 +1,4 @@
-import styles from '../styles/Footer.module.scss';
+import styles from '../styles/components/Footer.module.scss';
 import React from 'react';
 import { MdEmail as Email } from 'react-icons/md';
 import {

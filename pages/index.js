@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../styles/home.module.scss';
+import styles from '../styles/pages/index.module.scss';
 // import MetaTags from '../components/MetaTags';
 
 const aboutImgDir = (img) => `/images/home/assets/${img}.svg`;
