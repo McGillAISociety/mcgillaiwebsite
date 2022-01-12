@@ -21,6 +21,8 @@ const Heading = styled('div')`
     display: inline-block;
 `;
 
+// TODO: rewrite and include home link
+
 class NotFound extends React.Component {
     render() {
         return (
