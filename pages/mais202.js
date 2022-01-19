@@ -6,8 +6,6 @@ import styles from '../styles/pages/mais202.module.scss';
 export default function MAIS202() {
     return (
         <>
-            {/* TODO: make heading underline */}
-            <h1>MAIS202</h1>
             <div className="flex-center">
                 <div>
                     <h3>ACCELERATED INTRODUCTION TO MACHINE LEARNING</h3>

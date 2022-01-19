@@ -1,5 +1,4 @@
 import React from 'react';
-import { HeadingUnderline } from '../components/commonstyles.js';
 import Profiles from '../components/Profiles';
 
 const path = (name) => `/images/ourteam/2021-2022/${name}.png`;
@@ -149,10 +148,6 @@ export const execData = [
 
 const Exec = () => (
     <>
-        <HeadingUnderline className="content" id="top">
-            {' '}
-            Our Team{' '}
-        </HeadingUnderline>
         <Profiles profilesData={execData} />
     </>
 );
