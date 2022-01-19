@@ -15,76 +15,86 @@ const hostData = execData.filter((exec) =>
 export default function Podcast() {
     return (
         <>
-            <div className="flex-center">
-                <iframe
-                    title="Apple Podcasts"
-                    className={styles['embeds__apple']}
-                    src="https://embed.podcasts.apple.com/us/podcast/mcgill-ai-podcast/id1583837131?itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=auto"
-                    height="500px"
-                    frameborder="0"
-                    sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
-                    allow="autoplay *; encrypted-media *;"
-                />
+            <div className="section">
+                <h2>Listen</h2>
+                {/* TODO: fiddle with the sizing of these things so they fit more naturally (especially accross viewports!) */}
                 <div className="flex-center">
                     <iframe
-                        title="Spotify"
-                        className={styles['embeds__spotify']}
-                        src="https://open.spotify.com/embed/show/1k3AWxBYuGetrCjvZip8Ot?utm_source=generator&theme=0"
-                        height="232"
-                        frameBorder="0"
-                        allowfullscreen=""
-                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        title="Apple Podcasts"
+                        className={styles['embeds__apple']}
+                        src="https://embed.podcasts.apple.com/us/podcast/mcgill-ai-podcast/id1583837131?itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=auto"
+                        height="500px"
+                        frameborder="0"
+                        sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+                        allow="autoplay *; encrypted-media *;"
                     />
-                    <iframe
-                        title="Youtube"
-                        className={styles['embeds__youtube']}
-                        src="" //TODO
-                        height="300"
-                    />
+                    <div className="flex-center">
+                        <iframe
+                            title="Spotify"
+                            className={styles['embeds__spotify']}
+                            src="https://open.spotify.com/embed/show/1k3AWxBYuGetrCjvZip8Ot?utm_source=generator&theme=0"
+                            height="232"
+                            frameBorder="0"
+                            allowfullscreen=""
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        />
+                        <iframe
+                            className={styles['embeds__youtube']}
+                            height="315"
+                            src="https://www.youtube.com/embed/videoseries?list=PLxI2mURqdZYNjiA6cXMepfASyunlaP9Ah"
+                            title="YouTube"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                        />
+                    </div>
                 </div>
             </div>
-            <h2>About</h2>
-            <h3>Origins</h3>
-            <p>
-                There are very few places in the world like Montreal and McGill
-                which have such a concentration of talent in the field of AI/ML.
-                MAIS primarily serves to build a community with a shared passion
-                for the field, spreading knowledge and resources to help aid
-                people trying to enter it. Therefore, a podcast would be the
-                perfect platform to promote interest and reduce the barrier to
-                entry which currently exists in the AI ecosystem. We hope to
-                focus on promoting the achievements of underrepresented people
-                within the field, promoting their research/work, give them a
-                platform to share their experiences and allow others to use that
-                information to break into the field while being more aware of
-                the challenges and opportunities.
-            </p>
-            <h3>Vision/Goals</h3>
-            <p>
-                <ul>
-                    <li>
-                        Attract students from all backgrounds/disciplines
-                        towards AI research.
-                    </li>
-                    <li>
-                        Promote the research of McGill & MILA professors by
-                        connecting fundamental AI/ML principles to their
-                        research interests/disciplines.
-                    </li>
-                    <li>
-                        Cover the current/potential applications of AI research
-                        into technology and society’s daily lives.
-                    </li>
-                    <li>
-                        Analyse the socioeconomic, geopolitical and ethical
-                        concerns with AI research.
-                    </li>
-                    <li>
-                        Destigmatize the field of AI and reduce barriers to
-                        entry to all those interested/curious.
-                    </li>
-                </ul>
-            </p>
+            <div className="section">
+                <h2>About</h2>
+                <h3>Origins</h3>
+                <p>
+                    There are very few places in the world like Montreal and
+                    McGill which have such a concentration of talent in the
+                    field of AI/ML. MAIS primarily serves to build a community
+                    with a shared passion for the field, spreading knowledge and
+                    resources to help aid people trying to enter it. Therefore,
+                    a podcast would be the perfect platform to promote interest
+                    and reduce the barrier to entry which currently exists in
+                    the AI ecosystem. We hope to focus on promoting the
+                    achievements of underrepresented people within the field,
+                    promoting their research/work, give them a platform to share
+                    their experiences and allow others to use that information
+                    to break into the field while being more aware of the
+                    challenges and opportunities.
+                </p>
+                <h3>Vision/Goals</h3>
+                <p>
+                    <ul>
+                        <li>
+                            Attract students from all backgrounds/disciplines
+                            towards AI research.
+                        </li>
+                        <li>
+                            Promote the research of McGill & MILA professors by
+                            connecting fundamental AI/ML principles to their
+                            research interests/disciplines.
+                        </li>
+                        <li>
+                            Cover the current/potential applications of AI
+                            research into technology and society’s daily lives.
+                        </li>
+                        <li>
+                            Analyse the socioeconomic, geopolitical and ethical
+                            concerns with AI research.
+                        </li>
+                        <li>
+                            Destigmatize the field of AI and reduce barriers to
+                            entry to all those interested/curious.
+                        </li>
+                    </ul>
+                </p>
+            </div>
 
             <div className="section">
                 <h2>Meet The Hosts</h2>
