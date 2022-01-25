@@ -44,10 +44,6 @@ html {
     justify-content: space-evenly;
 }
 
-.page {
-    padding-top: 80px;
-}
-
 .section {
     padding-top: 80px;
 }
@@ -100,7 +96,7 @@ p {
 }
 
 .bm-menu {
-    background: black;
+    background: vars.$menu-background;
     padding: 1em 1em 0;
 }
 
@@ -111,5 +107,5 @@ p {
 }
 
 .bm-overlay {
-    background: hsla(0, 0%, 0%, 0.7);
+    background: vars.$menu-background;
 }
