@@ -17,10 +17,8 @@
             position: relative;
             height: 60px;
             width: 60px;
-            // TODO: make the outline more noticeable or the only thing that shows up
             &__bounds {
                 border-radius: 10px;
-                border: 3px solid #c56dae;
                 position: absolute;
                 width: 100%;
                 height: 100%;
@@ -35,12 +33,15 @@
                 position: absolute;
                 height: 50px;
                 transform: scale(1);
-                transition: transform 300ms;
+                opacity: 0.8;
+                transition: transform 300ms, opacity 300ms;
                 &:hover {
                     transform: scale(1.1);
+                    opacity: 1;
                 }
                 &--active {
                     transform: scale(1.1);
+                    opacity: 1;
                 }
             }
         }

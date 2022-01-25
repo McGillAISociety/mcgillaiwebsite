@@ -20,11 +20,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next export",
-    "deploy": "aws s3 sync out/ s3://www.mcgillai.com --acl public-read"
+    "export": "next build && next export",
+    "serve": "yarn export && serve out",
+    "deploy": "yarn export && aws s3 sync out/ s3://www.mcgillai.com --acl public-read"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "next"
   },
   "browserslist": {
     "production": [
