@@ -70,3 +70,46 @@ p {
     font-size: 15pt;
     font-weight: 200;
 }
+
+// for the burger menu libary
+.bm-burger-button {
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    right: 36px;
+    top: 25px;
+}
+
+.bm-burger-bars {
+    background: linear-gradient(to left, vars.$purple, vars.$red);
+}
+
+.bm-cross-button {
+    transform: scale(2) !important;
+    top: 20px !important;
+    right: 20px !important;
+}
+
+.bm-cross {
+    background: linear-gradient(to top, vars.$purple, vars.$red);
+}
+
+.bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+}
+
+.bm-menu {
+    background: black;
+    padding: 1em 1em 0;
+}
+
+.bm-item-list {
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.bm-overlay {
+    background: hsla(0, 0%, 0%, 0.7);
+}

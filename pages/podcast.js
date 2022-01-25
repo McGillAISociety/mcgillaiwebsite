@@ -35,7 +35,7 @@ export default function Podcast() {
                             src="https://open.spotify.com/embed/show/1k3AWxBYuGetrCjvZip8Ot?utm_source=generator&theme=0"
                             height="232"
                             frameBorder="0"
-                            allowfullscreen=""
+                            allowFullScreen
                             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                         />
                         <iframe
@@ -45,7 +45,7 @@ export default function Podcast() {
                             title="YouTube"
                             frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen
+                            allowFullScreen
                         />
                     </div>
                 </div>
