@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function FAQ() {
     return (
-        <>
+        <div className="section">
             <h3>How can I get involved with McGill AI?</h3>
             <p>
                 We’ll be holding various events throughout the year, some of our
@@ -90,6 +90,6 @@ export default function FAQ() {
                 </a>{' '}
                 and a member of our exec team will be in touch!
             </p>
-        </>
+        </div>
     );
 }

@@ -1,6 +1,7 @@
 @use '../vars';
 
 .landing {
+    padding-top: 80px;
     &__main-title {
         // TODO: mayhaps change from roboto to Monsterrat; figure out overflow
         font-family: 'Roboto', sans-serif;

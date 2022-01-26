@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 
+// TODO: include keywords?
 export default function MetaTags({ title, description, imagePath, route }) {
     return (
         <Head>
