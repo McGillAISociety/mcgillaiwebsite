@@ -46,6 +46,17 @@ html {
 
 .section {
     padding-top: 80px;
+    > h3,
+    > p {
+        margin: 0 40px 5px 50px;
+    }
+    > h3 {
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    > ul {
+        margin: 0 40px 5px 75px;
+    }
 }
 
 h2 {
@@ -58,14 +69,17 @@ h2 {
 h3 {
     font-style: italic;
     font-size: 20pt;
-    font-weight: 400;
+    font-weight: 600;
     margin-bottom: 10px;
 }
 
-p {
+p,
+ul {
     font-size: 15pt;
     font-weight: 200;
 }
+
+// TODO: global link styling!
 
 // for the burger menu libary
 .bm-burger-button {

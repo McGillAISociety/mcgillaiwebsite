@@ -43,7 +43,7 @@ export default function MAIS202() {
             </div>
             <div className="section">
                 <h2>About The Bootcamp</h2>
-                <h3> How it started: </h3>
+                <h3>How it started</h3>
                 <p>
                     {' '}
                     To fill the lack of introductory AI courses for
@@ -52,7 +52,7 @@ export default function MAIS202() {
                     equipping 30 young, talented undergraduates with the skills
                     required to land an AI position in industry.{' '}
                 </p>
-                <h3> How it works:</h3>
+                <h3>How it works</h3>
                 <p>
                     {' '}
                     The MAIS 202 bootcamp is an accelerated survey course which
@@ -61,7 +61,7 @@ export default function MAIS202() {
                     assignments, participants worked towards an individual final
                     project which was presented at the McGill AI Project Fair.
                 </p>
-                <h3> Takeaways from MAIS 202:</h3>
+                <h3>Takeaways</h3>
                 <p>
                     MAIS 202 provides students with both theoretical and
                     hands-on skills required for ML research and industry. Our
@@ -77,18 +77,19 @@ export default function MAIS202() {
                     I am a U0/U1 student interested in taking MAIS 202. What
                     pre-requisites do I need?
                 </h3>
+
+                <ul>
+                    <li>Introductory Linear Algebra (MATH 133)</li>
+                    <li>Calculus I (MATH 139-140/150)</li>
+                    <li>Basic Programming (COMP 202/204/208, ECSE 202)</li>
+                    <li>
+                        Optional but helpful: Multivariate Calculus (MATH
+                        151/222/262), more advanced linear algebra (MATH
+                        223/236/251/271), probability/stats (MATH 323/356, ECSE
+                        205/305)
+                    </li>
+                </ul>
                 <p>
-                    <ul>
-                        <li>Introductory Linear Algebra (MATH 133)</li>
-                        <li>Calculus I (MATH 139-140/150)</li>
-                        <li>Basic Programming (COMP 202/204/208, ECSE 202)</li>
-                        <li>
-                            Optional but helpful: Multivariate Calculus (MATH
-                            151/222/262), more advanced linear algebra (MATH
-                            223/236/251/271), probability/stats (MATH 323/356,
-                            ECSE 205/305)
-                        </li>
-                    </ul>
                     If you have not taken some of the aforementioned courses,
                     don’t worry! What matters more is a positive attitude to
                     learning and a passion for math, computer science, and AI

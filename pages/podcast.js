@@ -69,31 +69,29 @@ export default function Podcast() {
                     challenges and opportunities.
                 </p>
                 <h3>Vision/Goals</h3>
-                <p>
-                    <ul>
-                        <li>
-                            Attract students from all backgrounds/disciplines
-                            towards AI research.
-                        </li>
-                        <li>
-                            Promote the research of McGill & MILA professors by
-                            connecting fundamental AI/ML principles to their
-                            research interests/disciplines.
-                        </li>
-                        <li>
-                            Cover the current/potential applications of AI
-                            research into technology and society’s daily lives.
-                        </li>
-                        <li>
-                            Analyse the socioeconomic, geopolitical and ethical
-                            concerns with AI research.
-                        </li>
-                        <li>
-                            Destigmatize the field of AI and reduce barriers to
-                            entry to all those interested/curious.
-                        </li>
-                    </ul>
-                </p>
+                <ul>
+                    <li>
+                        Attract students from all backgrounds/disciplines
+                        towards AI research.
+                    </li>
+                    <li>
+                        Promote the research of McGill & MILA professors by
+                        connecting fundamental AI/ML principles to their
+                        research interests/disciplines.
+                    </li>
+                    <li>
+                        Cover the current/potential applications of AI research
+                        into technology and society’s daily lives.
+                    </li>
+                    <li>
+                        Analyse the socioeconomic, geopolitical and ethical
+                        concerns with AI research.
+                    </li>
+                    <li>
+                        Destigmatize the field of AI and reduce barriers to
+                        entry to all those interested/curious.
+                    </li>
+                </ul>
             </div>
 
             <div className="section">
@@ -104,27 +102,24 @@ export default function Podcast() {
             <div className="section">
                 <h2>FAQ</h2>
                 <h3>What does the structure of an episode look like?</h3>
-                <p>
-                    We will broadly be focusing on three ideas each episode:
-                    <ul>
-                        <li>
-                            Getting to know the guest, their background, and the
-                            history of the topics they are studying.
-                        </li>
-                        <li>
-                            Looking at the theoretical concepts and frameworks
-                            the guest’s research uses and the problems their
-                            research is trying to solve.
-                        </li>
-                        <li>
-                            Analyzing this information from an interdisciplinary
-                            lens and trying to understand the socio political
-                            and economical impact their research has, as well as
-                            the ethical considerations that have gone into their
-                            work.
-                        </li>
-                    </ul>
-                </p>
+                <p>We will broadly be focusing on three ideas each episode:</p>
+                <ul>
+                    <li>
+                        Getting to know the guest, their background, and the
+                        history of the topics they are studying.
+                    </li>
+                    <li>
+                        Looking at the theoretical concepts and frameworks the
+                        guest’s research uses and the problems their research is
+                        trying to solve.
+                    </li>
+                    <li>
+                        Analyzing this information from an interdisciplinary
+                        lens and trying to understand the socio political and
+                        economical impact their research has, as well as the
+                        ethical considerations that have gone into their work.
+                    </li>
+                </ul>
 
                 <h3>What schedule does the podcast operate on?</h3>
                 <p>
