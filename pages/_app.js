@@ -56,7 +56,13 @@ const pagesData = {
 
 function MAIS({ Component, pageProps, router }) {
     const route = router.route;
-    const pageData = pagesData[router.route];
+    let pageData = pagesData[router.route];
+
+    if (!pageData) {
+        pageData = {
+            metaTitle: 'Page Not Found',
+        };
+    }
 
     return (
         <>
