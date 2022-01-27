@@ -10,7 +10,7 @@ import { motion } from 'framer-motion';
 // TODO: get images for paths!
 const pagesData = {
     '/': {
-        metaTitle: 'The McGill Artificial Intelligence Society',
+        metaTitle: 'McGill Artificial Intelligence Society',
         metaDescription: '', //TODO
         metaImagePath: '', //TODO
         title: '',
@@ -55,7 +55,6 @@ const pagesData = {
 };
 
 // TODO: bugs to fix from the netlify deploy:
-// - fonts not loading
 // - images loading in after page load and shifting layout
 
 function MAIS({ Component, pageProps, router }) {
