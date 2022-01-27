@@ -54,6 +54,10 @@ const pagesData = {
     },
 };
 
+// TODO: bugs to fix from the netlify deploy:
+// - fonts not loading
+// - images loading in after page load and shifting layout
+
 function MAIS({ Component, pageProps, router }) {
     const route = router.route;
     let pageData = pagesData[router.route];
