@@ -148,6 +148,7 @@ export const execData = [
 
 const Exec = () => (
     <>
+        {/* TODO: include our beach picture? */}
         <Profiles profilesData={execData} />
     </>
 );

@@ -47,6 +47,8 @@ html {
 
 .section {
     padding: 40px 0 40px 0;
+    max-width: 2000px;
+    margin: auto;
     > h3,
     > p,
     > ul {
@@ -94,7 +96,7 @@ h2 {
 h3 {
     font-style: italic;
     font-size: 20pt;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 10px;
 }
 

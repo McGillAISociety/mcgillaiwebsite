@@ -203,11 +203,11 @@ function Home() {
             </div>
 
             {/* <Sponsors /> */}
-
             <div className="section">
                 <h2>Sponsors</h2>
                 <div className={`flex-center ${styles['sponsors']}`}>
                     <div className={styles['sponsors__text']}>
+                        {/* TODO: update this writing */}
                         <p>
                             All club operations are funded by our generous
                             sponsors. Without their support, we would not be
