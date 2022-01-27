@@ -22,19 +22,19 @@ export default function MAIS202() {
                             <img
                                 key={number}
                                 src={`/images/mais202/gallery/${number}.jpg`}
-                                alt="MAIS"
+                                alt="MAIS 202"
                                 className={styles['carousel__img']}
                             />
                         ))}
                     </Carousel>
 
-                    <div className="flex-center">
+                    <div className={`flex-center ${styles['stats']}`}>
                         {['1', '2', '3', '4'].map((number) => (
                             <img
                                 key={number}
                                 src={`/images/mais202/stats_${number}.svg`}
                                 alt="MAIS Statistic"
-                                className={styles['stat-img']}
+                                className={styles['stats__img']}
                             />
                         ))}
                     </div>
