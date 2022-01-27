@@ -1,7 +1,8 @@
 @use '../vars';
 
 .landing {
-    padding-top: 80px;
+    padding-top: 20px;
+    padding-bottom: 40px;
     &__main-title {
         // TODO: mayhaps change from roboto to Monsterrat; figure out overflow
         font-family: 'Roboto', sans-serif;
@@ -148,9 +149,10 @@
 
 .sponsors {
     &__text {
-        max-width: 500px;
+        max-width: 700px;
         p {
             margin-bottom: 15px;
+            padding: 0 5vw 0 5vw;
         }
     }
     &__logos {

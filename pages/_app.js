@@ -27,7 +27,7 @@ const pagesData = {
         metaTitle: 'MAIS 202 Machine Learning Bootcamp',
         metaDescription: 'By students, for students',
         metaImagePath: '',
-        title: 'MAIS 202: accelerated introduction to machine learning',
+        title: 'MAIS 202: Accelerated Introduction to Machine Learning',
         subtitle: 'By students, for students',
     },
     '/podcast': {
