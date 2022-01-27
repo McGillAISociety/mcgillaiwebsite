@@ -112,7 +112,7 @@ ul {
     position: absolute;
     width: 36px;
     height: 30px;
-    right: 36px;
+    right: 25px;
     top: 25px;
 }
 
@@ -126,6 +126,7 @@ ul {
     right: 20px !important;
 }
 
+// TODO: why isn't this dimming on hover like the burger bars?
 .bm-cross {
     background: linear-gradient(to top, vars.$purple, vars.$red);
 }

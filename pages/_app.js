@@ -5,8 +5,6 @@ import '../styles/app.scss';
 import MetaTags from '../components/MetaTags';
 import { motion } from 'framer-motion';
 
-// TODO: animate in the navbar?
-
 // TODO: get images for paths!
 const pagesData = {
     '/': {
@@ -54,9 +52,6 @@ const pagesData = {
     },
 };
 
-// TODO: bugs to fix from the netlify deploy:
-// - images loading in after page load and shifting layout
-
 function MAIS({ Component, pageProps, router }) {
     const route = router.route;
     let pageData = pagesData[router.route];
@@ -75,34 +70,62 @@ function MAIS({ Component, pageProps, router }) {
                 imagePath={pageData.metaImagePath}
                 route={route}
             />
-            <NavBar />
 
-            {/* TODO: either animate in this heading underline, or include it within the motion.div */}
-            <div className="page-header">
-                {pageData.title !== '' && (
-                    <h1 className="page-header__title">{pageData.title}</h1>
-                )}
-                {pageData.subtitle !== '' && (
-                    <h3 className="page-header__subtitle">
-                        {pageData.subtitle}
-                    </h3>
-                )}
-            </div>
-            {/* TODO: make a longer or more substantial animation? */}
+            {/* TODO: find a way to have the navbar slide down from the top (couldn't get to work yet) */}
+            <motion.div
+                initial={{
+                    opacity: 0,
+                }}
+                animate={{
+                    opacity: 1,
+                }}
+                transition={{
+                    duration: 0.4,
+                }}
+            >
+                <NavBar />
+            </motion.div>
+
+            {/* TODO: transition the opacity to 0 on exit (couldn't get to work yet) */}
+            <motion.div
+                layout
+                key={pageData.title}
+                initial={{
+                    opacity: 0,
+                }}
+                animate={{
+                    opacity: 1,
+                }}
+                transition={{
+                    duration: 0.4,
+                }}
+            >
+                <div className="page-header">
+                    {pageData.title !== '' && (
+                        <h1 className="page-header__title">{pageData.title}</h1>
+                    )}
+                    {pageData.subtitle !== '' && (
+                        <h3 className="page-header__subtitle">
+                            {pageData.subtitle}
+                        </h3>
+                    )}
+                </div>
+            </motion.div>
+
             <motion.div
                 layout
                 key={route}
-                initial="initial"
-                animate="animate"
-                variants={{
-                    initial: {
-                        opacity: 0,
-                        y: 30,
-                    },
-                    animate: {
-                        opacity: 1,
-                        y: 0,
-                    },
+                initial={{
+                    opacity: 0,
+                    y: 40,
+                }}
+                animate={{
+                    opacity: 1,
+                    y: 0,
+                }}
+                // TODO: longer animation w/ duration while keeping the bounce-y ness? (couldn't get to work yet)
+                transition={{
+                    delay: 0.3,
                 }}
             >
                 <Component {...pageProps} />

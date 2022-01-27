@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from '../styles/pages/index.module.scss';
-// import MetaTags from '../components/MetaTags';
 
 const aboutImgDir = (img) => `/images/home/assets/${img}.svg`;
 const aboutData = [
@@ -79,25 +78,25 @@ const sponsorData = [
     {
         name: 'sama',
         url: 'https://www.sama.com/careers',
-        imgWidth: 300,
+        imgWidth: 400,
         img: sponsorImgDir('sama'),
     },
     {
         name: 'intact',
         url: 'https://careers.intactfc.com/intactinsurance/ca/en',
-        imgWidth: 300,
+        imgWidth: 400,
         img: sponsorImgDir('Intactlab'),
     },
     {
         name: 'cae',
         url: 'https://www.cae.com/careers/',
-        imgWidth: 200,
+        imgWidth: 250,
         img: sponsorImgDir('cae'),
     },
     {
         name: 'squarepoint',
         url: 'https://www.squarepoint-capital.com/',
-        imgWidth: 150,
+        imgWidth: 200,
         img: sponsorImgDir('squarepoint'),
     },
 ];
@@ -207,24 +206,18 @@ function Home() {
                 <h2>Sponsors</h2>
                 <div className={`flex-center ${styles['sponsors']}`}>
                     <div className={styles['sponsors__text']}>
-                        {/* TODO: update this writing */}
                         <p>
                             All club operations are funded by our generous
                             sponsors. Without their support, we would not be
-                            able to do what we do, or be what we are today: a
-                            major hub for learning and community in the Montreal
-                            AI ecosystem.
+                            able to be a major hub for learning and community in
+                            the Montreal AI ecosystem.
                         </p>
                         <p>
                             As a McGill AI club sponsor, you will have access to
-                            the resumes of our hackathon participants, hold
-                            interviews during the hackathon, and gain access to
-                            a platform of over 2000 talented and committed
-                            students.
-                        </p>
-                        <p>
-                            If you are interested in partnering with our club,
-                            please don’t hesitate to reach out to&nbsp;
+                            the CVs of our hundreds of event participants and
+                            reach our over 2000 subscribers. If you are
+                            interested in partnering with our club, please don’t
+                            hesitate to reach out to&nbsp;
                             <a href="mailto:mcgillaicontact@gmail.com">
                                 mcgillaicontact@gmail.com
                             </a>
