@@ -39,6 +39,9 @@
         text-align: left;
     }
     &__entry {
+        @media (max-width: vars.$max-mobile) {
+            padding: 0 5vw 0 5vw;
+        }
         p {
             max-width: 375px;
             text-align: left;
@@ -156,9 +159,10 @@
         }
     }
     &__logos {
-        max-width: 600px;
+        width: 600px;
         img {
-            margin: 10px;
+            max-width: 90%;
+            padding: 10px;
         }
     }
 }

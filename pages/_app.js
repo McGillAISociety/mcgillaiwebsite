@@ -9,7 +9,8 @@ import { motion } from 'framer-motion';
 const pagesData = {
     '/': {
         metaTitle: 'McGill Artificial Intelligence Society',
-        metaDescription: '', //TODO
+        metaDescription:
+            'A hub for learning and community in the Montreal AI ecosystem',
         metaImagePath: '', //TODO
         title: '',
         subtitle: '',
@@ -80,7 +81,7 @@ function MAIS({ Component, pageProps, router }) {
                     opacity: 1,
                 }}
                 transition={{
-                    duration: 0.4,
+                    duration: 0.3,
                 }}
             >
                 <NavBar />
@@ -97,7 +98,7 @@ function MAIS({ Component, pageProps, router }) {
                     opacity: 1,
                 }}
                 transition={{
-                    duration: 0.4,
+                    duration: 0.5,
                 }}
             >
                 <div className="page-header">
