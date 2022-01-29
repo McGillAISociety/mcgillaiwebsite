@@ -72,6 +72,8 @@ function MAIS({ Component, pageProps, router }) {
                 route={route}
             />
 
+            <div id="background" />
+
             {/* TODO: find a way to have the navbar slide down from the top (couldn't get to work yet) */}
             <motion.div
                 initial={{
