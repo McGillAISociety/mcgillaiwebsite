@@ -74,7 +74,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     @media (max-width: vars.$max-mobile) {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
     p {
         text-align: center;
@@ -126,15 +126,6 @@
         text-align: center;
         opacity: 0;
         transition: opacity 500ms;
-        // TODO: play around with sizes here; may want another breakpoint...
-        @media (max-width: vars.$max-mobile) {
-            h3 {
-                font-size: 16px;
-            }
-            p {
-                font-size: 12px;
-            }
-        }
     }
 }
 
