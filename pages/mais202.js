@@ -41,7 +41,7 @@ export default function MAIS202() {
                 </div>
             </div>
             <div className="section">
-                <h2>About The Bootcamp</h2>
+                <h2>About</h2>
                 <h3>How it started</h3>
                 <p>
                     {' '}

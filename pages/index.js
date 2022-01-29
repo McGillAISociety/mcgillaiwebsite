@@ -47,7 +47,7 @@ const activitiesData = [
         title: 'Workshops',
         img: activitiesImgDir('workshops'),
         description:
-            'Our technical project managers give workshops on applied topics in machine learning. Our 2021-2022 series covered topics such as Python data science tools and ML model deployment.',
+            'Our technical project managers give workshops on applied topics in machine learning. Our 2021-2022 series covered topics such as Python data science tools and ML model deployment',
     },
     {
         title: 'AI Ethics Panel',
@@ -58,7 +58,7 @@ const activitiesData = [
     {
         title: 'Learnathon',
         img: activitiesImgDir('learnathon'),
-        description: 'An AI research conference aimed at undergraduates.',
+        description: 'An AI research conference aimed at undergraduates',
     },
 ];
 
@@ -166,7 +166,7 @@ function Home() {
 
             {/* Activities */}
             <div className="section">
-                <h2>Our Initiatives</h2>
+                <h2>Initiatives</h2>
                 <center className="desktop-hide">
                     <small>
                         <i>Tap images for more!</i>
