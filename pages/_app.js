@@ -5,27 +5,27 @@ import '../styles/app.scss';
 import MetaTags from '../components/MetaTags';
 import { motion } from 'framer-motion';
 
-// TODO: get images for paths!
+const metaImagePath = (img) => `/meta/page-previews/${img}.png`;
 const pagesData = {
     '/': {
         metaTitle: 'McGill Artificial Intelligence Society',
         metaDescription:
             'A hub for learning and community in the Montreal AI ecosystem',
-        metaImagePath: '', //TODO
+        metaImagePath: metaImagePath('mais'),
         title: '',
         subtitle: '',
     },
     '/ourteam': {
         metaTitle: 'McGill AI Society – Our Team',
         metaDescription: '',
-        metaImagePath: '',
+        metaImagePath: '/images/ourteam/execs.jpeg',
         title: 'Our Team',
         subtitle: 'Get to know our execs',
     },
     '/mais202': {
         metaTitle: 'MAIS 202 Machine Learning Bootcamp',
         metaDescription: 'By students, for students',
-        metaImagePath: '',
+        metaImagePath: metaImagePath('mais202'),
         title: 'MAIS 202: Accelerated Introduction to Machine Learning',
         subtitle: 'By students, for students',
     },
@@ -33,21 +33,21 @@ const pagesData = {
         metaTitle: 'The McGill AI Podcast',
         metaDescription:
             'Connnecting AI principles to their research disciplines',
-        metaImagePath: '',
+        metaImagePath: metaImagePath('podcast'),
         title: 'The McGill AI Podcast',
         subtitle: 'Connnecting ML principles to their research disciplines',
     },
     '/mtlai': {
         metaTitle: 'McGill AI Society – Montreal AI Resources',
         metaDescription: "McGill AI's guide to the Montreal AI Scene",
-        metaImagePath: '',
+        metaImagePath: metaImagePath('mais'),
         title: 'Montreal AI Resources',
         subtitle: 'Our guide to the Montreal AI Scene',
     },
     '/faq': {
         metaTitle: 'McGill AI Society – FAQ',
         metaDescription: '',
-        metaImagePath: '',
+        metaImagePath: metaImagePath('mais'),
         title: 'Frequently Asked Questions',
         subtitle: '',
     },

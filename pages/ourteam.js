@@ -1,5 +1,6 @@
 import React from 'react';
 import Profiles from '../components/Profiles';
+import styles from '../styles/pages/ourteam.module.scss';
 
 const path = (name) => `/images/ourteam/2021-2022/${name}.png`;
 
@@ -148,8 +149,18 @@ export const execData = [
 
 const Exec = () => (
     <>
-        {/* TODO: include our beach picture? */}
         <Profiles profilesData={execData} />
+        <div className="section flex-center">
+            <h3>
+                Join a team like no other! Exec recruitement starts in late
+                February.
+            </h3>
+            <img
+                src="/images/ourteam/execs.jpeg"
+                alt="MAIS execs"
+                className={styles['execs-img']}
+            />
+        </div>
     </>
 );
 export default Exec;

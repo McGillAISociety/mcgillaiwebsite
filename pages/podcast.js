@@ -17,7 +17,6 @@ export default function Podcast() {
         <>
             <div className="section">
                 <h2>Stream</h2>
-                {/* TODO: fiddle with the sizing of these things so they fit more naturally (especially accross viewports!) */}
                 <div className="flex-center">
                     <iframe
                         title="Apple Podcasts"
