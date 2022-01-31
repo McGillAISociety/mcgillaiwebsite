@@ -108,11 +108,11 @@ ul {
 a {
     color: vars.$red;
     text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
-a:hover {
-    text-decoration: underline;
-}
 
 // for the burger menu libary
 .bm-burger-button {
