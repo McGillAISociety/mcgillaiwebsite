@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from '../styles/pages/index.module.scss';
-// import MetaTags from '../components/MetaTags';
 
 const aboutImgDir = (img) => `/images/home/assets/${img}.svg`;
 const aboutData = [
@@ -27,40 +26,39 @@ const aboutData = [
 const activitiesImgDir = (img) => `/images/home/activities/${img}.jpg`;
 const activitiesData = [
     {
-        title: 'MAIS202 Bootcamp',
+        title: 'MAIS 202',
         img: activitiesImgDir('mais202'),
         description:
-            'MAIS 202 is a ten-week bootcamp that teaches lower year undergraduates ML fundamentals. With over 60 bootcamp alumni, our Fall 2021 iteration will welcome our sixth cohort of students.',
+            'A ten-week bootcamp that teaches lower-year undergraduates ML fundamentals',
     },
     {
         title: 'MAIS Hacks',
         img: activitiesImgDir('maishacks'),
         description:
-            'Our annual hackathon brings together 150 students across Eastern Canada to design and innovate modern AI solutions.',
+            'Our annual hackathon bringing together 150 students to innovate modern AI solutions',
     },
     {
-        title: 'Company Crawl',
-        img: activitiesImgDir('companycrawl'),
+        title: 'The McGill AI Podcast',
+        img: activitiesImgDir('podcast'),
         description:
-            'Each fall, we invite over 30 talented individuals to tour some of the hottest AI companies in Montreal, including Automat, StrategiAI, Google, and Microsoft.',
+            'Connnecting ML principles to their research disciplines through interviews with professors and industry leaders',
     },
     {
         title: 'Workshops',
         img: activitiesImgDir('workshops'),
         description:
-            'Our technical project managers provide workshops each term teaching applied topics in artificial intelligence and machine learning. Our 2019-2020 workshop series covered topics such as image classification, OpenCV, and building a chatbot.',
+            'Our technical project managers give workshops on applied topics in machine learning. Our 2021-2022 series covered topics such as Python data science tools and ML model deployment',
     },
     {
-        title: 'Women in AI Panel',
-        img: activitiesImgDir('womeninai'),
+        title: 'AI Ethics Panel',
+        img: activitiesImgDir('aiethics'),
         description:
-            "To celebrate International Women's Day, we invited Joelle Pineau, Layla El Asri, Audrey Durand, and Negar Rostamzadeh to talk about  their notable achievements and share their career progression in AI.",
+            'We hosted a panel on the ethical implications of AI systems with experts on the subject',
     },
     {
-        title: 'Research Talks',
-        img: activitiesImgDir('researchtalks'),
-        description:
-            'A series of informal presentations for students to engage with state-of-the-art research pursued by academic and industry researchers in machine learning.',
+        title: 'Learnathon',
+        img: activitiesImgDir('learnathon'),
+        description: 'An AI research conference aimed at undergraduates',
     },
 ];
 
@@ -79,25 +77,25 @@ const sponsorData = [
     {
         name: 'sama',
         url: 'https://www.sama.com/careers',
-        imgWidth: 300,
+        imgWidth: 400,
         img: sponsorImgDir('sama'),
     },
     {
         name: 'intact',
         url: 'https://careers.intactfc.com/intactinsurance/ca/en',
-        imgWidth: 300,
+        imgWidth: 400,
         img: sponsorImgDir('Intactlab'),
     },
     {
         name: 'cae',
         url: 'https://www.cae.com/careers/',
-        imgWidth: 200,
+        imgWidth: 250,
         img: sponsorImgDir('cae'),
     },
     {
         name: 'squarepoint',
         url: 'https://www.squarepoint-capital.com/',
-        imgWidth: 150,
+        imgWidth: 200,
         img: sponsorImgDir('squarepoint'),
     },
 ];
@@ -168,7 +166,7 @@ function Home() {
 
             {/* Activities */}
             <div className="section">
-                <h2>Our Initiatives</h2>
+                <h2>Initiatives</h2>
                 <center className="desktop-hide">
                     <small>
                         <i>Tap images for more!</i>
@@ -203,7 +201,6 @@ function Home() {
             </div>
 
             {/* <Sponsors /> */}
-
             <div className="section">
                 <h2>Sponsors</h2>
                 <div className={`flex-center ${styles['sponsors']}`}>
@@ -211,20 +208,15 @@ function Home() {
                         <p>
                             All club operations are funded by our generous
                             sponsors. Without their support, we would not be
-                            able to do what we do, or be what we are today: a
-                            major hub for learning and community in the Montreal
-                            AI ecosystem.
+                            able to be a major hub for learning and community in
+                            the Montreal AI ecosystem.
                         </p>
                         <p>
                             As a McGill AI club sponsor, you will have access to
-                            the resumes of our hackathon participants, hold
-                            interviews during the hackathon, and gain access to
-                            a platform of over 2000 talented and committed
-                            students.
-                        </p>
-                        <p>
-                            If you are interested in partnering with our club,
-                            please don’t hesitate to reach out to&nbsp;
+                            the CVs of our hundreds of event participants and
+                            reach our over 2000 subscribers. If you are
+                            interested in partnering with our club, please don’t
+                            hesitate to reach out to&nbsp;
                             <a href="mailto:mcgillaicontact@gmail.com">
                                 mcgillaicontact@gmail.com
                             </a>

@@ -16,13 +16,12 @@ export default function Podcast() {
     return (
         <>
             <div className="section">
-                <h2>Listen</h2>
-                {/* TODO: fiddle with the sizing of these things so they fit more naturally (especially accross viewports!) */}
+                <h2>Stream</h2>
                 <div className="flex-center">
                     <iframe
                         title="Apple Podcasts"
                         className={styles['embeds__apple']}
-                        src="https://embed.podcasts.apple.com/us/podcast/mcgill-ai-podcast/id1583837131?itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=auto"
+                        src="https://embed.podcasts.apple.com/us/podcast/mcgill-ai-podcast/id1583837131?itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=dark"
                         height="500px"
                         frameborder="0"
                         sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
@@ -68,7 +67,7 @@ export default function Podcast() {
                     to break into the field while being more aware of the
                     challenges and opportunities.
                 </p>
-                <h3>Vision/Goals</h3>
+                <h3>Vision and Goals</h3>
                 <ul>
                     <li>
                         Attract students from all backgrounds/disciplines

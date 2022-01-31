@@ -18,31 +18,31 @@ const iconProps = {
 
 const socials = [
     {
-        icon: <Email {...iconProps} />,
+        icon: <Email {...iconProps} title="MAIS email" />,
         link: 'mailto:mcgillaicontact@gmail.com',
     },
     {
-        icon: <Facebook {...iconProps} />,
+        icon: <Facebook {...iconProps} title="MAIS Facebook" />,
         link: 'https://www.facebook.com/McGillAI/',
     },
     {
-        icon: <Instagram {...iconProps} />,
+        icon: <Instagram {...iconProps} title="MAIS Instagram" />,
         link: 'https://www.instagram.com/mcgillaisociety/',
     },
     {
-        icon: <Linkedin {...iconProps} />,
+        icon: <Linkedin {...iconProps} title="MAIS LinkedIn" />,
         link: 'https://www.linkedin.com/company/mcgill-artificial-intelligence-society/',
     },
     {
-        icon: <Twitter {...iconProps} />,
+        icon: <Twitter {...iconProps} title="MAIS Twitter" />,
         link: 'https://twitter.com/mcgillaisociety',
     },
     {
-        icon: <Github {...iconProps} />,
+        icon: <Github {...iconProps} title="MAIS GitHub" />,
         link: 'https://github.com/McGillAISociety',
     },
     {
-        icon: <Medium {...iconProps} />,
+        icon: <Medium {...iconProps} title="MAIS Medium" />,
         link: 'https://medium.com/mcgill-artificial-intelligence-review',
     },
 ];

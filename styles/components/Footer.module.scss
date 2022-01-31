@@ -9,5 +9,10 @@
     background-color: black;
     &__logo {
         margin: 10px;
+        opacity: 1;
+        transition: opacity 0.1s;
+        &:hover {
+            opacity: 0.5;
+        }
     }
 }

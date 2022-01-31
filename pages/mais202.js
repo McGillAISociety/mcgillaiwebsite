@@ -6,43 +6,42 @@ import styles from '../styles/pages/mais202.module.scss';
 export default function MAIS202() {
     return (
         <>
-            <div className="flex-center">
-                <div>
-                    <h3>ACCELERATED INTRODUCTION TO MACHINE LEARNING</h3>
-                    <p>2021-2022 Offerings: Fall 2021, Winter 2022</p>
+            <div className="section">
+                <div className="flex-center">
+                    {/* <SubscribeButton href="https://tiny.cc/mais202-w2020-app" target="_blank">APPLY NOW!</SubscribeButton> */}
+                    <Carousel
+                        autoPlay
+                        infiniteLoop
+                        stopOnHover={false}
+                        showStatus={false}
+                        showThumbs={false}
+                        interval={1500}
+                        className={styles['carousel']}
+                    >
+                        {['1', '2', '3', '4', '5', '6'].map((number) => (
+                            <img
+                                key={number}
+                                src={`/images/mais202/gallery/${number}.jpg`}
+                                alt="MAIS 202"
+                                className={styles['carousel__img']}
+                            />
+                        ))}
+                    </Carousel>
+
+                    <div className={`flex-center ${styles['stats']}`}>
+                        {['1', '2', '3', '4'].map((number) => (
+                            <img
+                                key={number}
+                                src={`/images/mais202/stats_${number}.svg`}
+                                alt="MAIS Statistic"
+                                className={styles['stats__img']}
+                            />
+                        ))}
+                    </div>
                 </div>
-                {/* <SubscribeButton href="https://tiny.cc/mais202-w2020-app" target="_blank">APPLY NOW!</SubscribeButton> */}
-                <Carousel
-                    autoPlay
-                    infiniteLoop
-                    stopOnHover={false}
-                    showStatus={false}
-                    showThumbs={false}
-                    interval={1500}
-                    className={styles['carousel']}
-                >
-                    {['1', '2', '3', '4', '5', '6'].map((number) => (
-                        <img
-                            key={number}
-                            src={`/images/mais202/gallery/${number}.jpg`}
-                            alt="MAIS"
-                            className={styles['carousel__img']}
-                        />
-                    ))}
-                </Carousel>
-            </div>
-            <div className="flex-center">
-                {['1', '2', '3', '4'].map((number) => (
-                    <img
-                        key={number}
-                        src={`/images/mais202/stats_${number}.svg`}
-                        alt="MAIS Statistic"
-                        className={styles['stat-img']}
-                    />
-                ))}
             </div>
             <div className="section">
-                <h2>About The Bootcamp</h2>
+                <h2>About</h2>
                 <h3>How it started</h3>
                 <p>
                     {' '}
@@ -58,8 +57,9 @@ export default function MAIS202() {
                     The MAIS 202 bootcamp is an accelerated survey course which
                     aims to teach lower-year undergraduates the fundamentals of
                     machine learning. In addition to weekly lectures and
-                    assignments, participants worked towards an individual final
-                    project which was presented at the McGill AI Project Fair.
+                    assignments, participants worked towards an individual or
+                    team final project which was presented at the McGill AI
+                    Project Fair.
                 </p>
                 <h3>Takeaways</h3>
                 <p>

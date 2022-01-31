@@ -1,7 +1,8 @@
 @use '../vars';
 
 .landing {
-    padding-top: 80px;
+    padding-top: 20px;
+    padding-bottom: 40px;
     &__main-title {
         // TODO: mayhaps change from roboto to Monsterrat; figure out overflow
         font-family: 'Roboto', sans-serif;
@@ -38,6 +39,9 @@
         text-align: left;
     }
     &__entry {
+        @media (max-width: vars.$max-mobile) {
+            padding: 0 5vw 0 5vw;
+        }
         p {
             max-width: 375px;
             text-align: left;
@@ -70,7 +74,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     @media (max-width: vars.$max-mobile) {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
     p {
         text-align: center;
@@ -122,15 +126,6 @@
         text-align: center;
         opacity: 0;
         transition: opacity 500ms;
-        // TODO: play around with sizes here; may want another breakpoint...
-        @media (max-width: vars.$max-mobile) {
-            h3 {
-                font-size: 16px;
-            }
-            p {
-                font-size: 12px;
-            }
-        }
     }
 }
 
@@ -148,12 +143,17 @@
 
 .sponsors {
     &__text {
-        max-width: 500px;
+        max-width: 700px;
         p {
             margin-bottom: 15px;
+            padding: 0 5vw 0 5vw;
         }
     }
     &__logos {
-        max-width: 500px;
+        width: 600px;
+        img {
+            max-width: 90%;
+            padding: 10px;
+        }
     }
 }

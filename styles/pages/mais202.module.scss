@@ -1,9 +1,14 @@
+@use '../vars.scss';
+
 .carousel {
-    width: 700px;
-    //     &__img {
-    //         width: 500px;
-    //     }
+    width: 600px;
+    margin-bottom: 20px;
 }
-.stat-img {
-    width: 200px;
+.stats {
+    width: 600px;
+    &__img {
+        width: 200px;
+        padding: 5px;
+        margin-bottom: 20px;
+    }
 }

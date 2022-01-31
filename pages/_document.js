@@ -4,7 +4,7 @@ import Document, { Html, Head, Main, NextScript } from 'next/document';
 class MyDocument extends Document {
     render() {
         return (
-            <Html>
+            <Html lang="en">
                 <Head>
                     <link
                         rel="apple-touch-icon"
@@ -24,13 +24,7 @@ class MyDocument extends Document {
                         href="/meta/favicon-16x16.png"
                     />
                     <link rel="manifest" href="/meta/site.webmanifest" />
-                    <link
-                        rel="mask-icon"
-                        href="/meta/safari-pinned-tab.svg"
-                        color="#5bbad5"
-                    />
-                    <meta name="msapplication-TileColor" content="#da532c" />
-                    <meta name="theme-color" content="#ffffff" />
+                    <link rel="mask-icon" href="/meta/safari-pinned-tab.svg" />
                     <meta
                         name="keywords"
                         content="AI, ML, MAIS, McGill, artificial intelligence, machine learning, university, society, MAIS 202, MAIS Hacks, hackathon, bootcamp, deep learning, club, student, podcast, learnathon, ethics"
@@ -41,6 +35,24 @@ class MyDocument extends Document {
                         content="text/html; charset=utf-8"
                     />
                     <meta name="language" content="English" />
+                    <link
+                        rel="preconnect"
+                        href="https://fonts.googleapis.com"
+                    />
+                    <link
+                        rel="preconnect"
+                        href="https://fonts.gstatic.com"
+                        crossorigin
+                    />
+                    {/* TODO: only pull in the font weights that I use, and/or only pull Roboto using next/head on the home page? */}
+                    <link
+                        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+                        rel="stylesheet"
+                    />
+                    <link
+                        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+                        rel="stylesheet"
+                    />
                 </Head>
                 <body>
                     <Main />
