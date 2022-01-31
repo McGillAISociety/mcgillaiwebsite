@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../styles/pages/index.module.scss';
+import ContentGrid from '../components/ContentGrid';
 
 const aboutImgDir = (img) => `/images/home/assets/${img}.svg`;
 const aboutData = [
@@ -167,37 +168,7 @@ function Home() {
             {/* Activities */}
             <div className="section">
                 <h2>Initiatives</h2>
-                <center className="desktop-hide">
-                    <small>
-                        <i>Tap images for more!</i>
-                    </small>
-                </center>
-                <div className={styles['activities']}>
-                    {activitiesData.map((data, index) => (
-                        <div className={styles['activities__cell']} key={index}>
-                            <img
-                                src={data.img}
-                                alt={data.title}
-                                className={styles['activities__background']}
-                            />
-                            <div
-                                className={`${styles['activities__bounds']} 
-                            ${
-                                index % 2 === 0 &&
-                                styles['activities__bounds--red']
-                            }`}
-                            />
-                            <div
-                                className={`flex-center ${styles['activities__text']}`}
-                            >
-                                <div>
-                                    <h3>{data.title}</h3>
-                                    <p>{data.description}</p>
-                                </div>
-                            </div>
-                        </div>
-                    ))}
-                </div>
+                <ContentGrid content={activitiesData} />
             </div>
 
             {/* <Sponsors /> */}

@@ -48,6 +48,7 @@ html {
     justify-content: space-evenly;
 }
 
+// TODO: use the html section element instead!
 .section {
     padding: 40px 0 40px 0;
     max-width: 2000px;
@@ -108,8 +109,6 @@ ul {
     font-weight: 200;
     line-height: 20pt;
 }
-
-// TODO: global link styling!
 
 a {
     color: vars.$red;

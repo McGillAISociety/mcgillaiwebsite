@@ -1,0 +1,71 @@
+@use '../vars.scss';
+
+.grid {
+    a {
+        height: fit-content;
+    }
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    @media (max-width: vars.$max-mobile) {
+        grid-template-columns: 1fr;
+    }
+    p {
+        text-align: center;
+    }
+    %abs-pos {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    &__cell {
+        display: inline-block;
+        vertical-align: bottom;
+        aspect-ratio: 1;
+        height: fit-content;
+        position: relative;
+        overflow: hidden;
+        &--link {
+            cursor: pointer;
+        }
+        &:hover .grid__background {
+            -webkit-transform: scale(1.025);
+            transform: scale(1.025);
+        }
+        &:hover .grid__bounds {
+            opacity: 0.7;
+        }
+        &:hover .grid__text {
+            opacity: 1;
+        }
+    }
+    &__background {
+        width: 100%;
+        object-fit: cover;
+        transition: -webkit-transform 500ms;
+        transition: transform 500ms;
+        transition: transform 500ms, -webkit-transform 500ms;
+    }
+    &__bounds {
+        @extend %abs-pos;
+        &--with-img {
+            opacity: 0;
+        }
+        opacity: 0.4;
+        transition: opacity 500ms;
+        background: linear-gradient(to bottom, vars.$purple, vars.$red);
+        &--red {
+            background: linear-gradient(to bottom, vars.$purple, vars.$blue);
+        }
+    }
+    &__text {
+        @extend %abs-pos;
+        padding: 20px;
+        text-align: center;
+        &--with-img {
+            opacity: 0;
+        }
+        transition: opacity 500ms;
+    }
+}
