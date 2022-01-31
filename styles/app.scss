@@ -105,6 +105,15 @@ ul {
 
 // TODO: global link styling!
 
+a {
+    color: vars.$red;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 // for the burger menu libary
 .bm-burger-button {
     position: absolute;
