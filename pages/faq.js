@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function FAQ() {
     return (
-        <div className="section">
+        <section>
             <h3>How can I get involved with McGill AI?</h3>
             <p>
                 We’ll be holding various events throughout the year, some of our
@@ -11,10 +11,7 @@ export default function FAQ() {
                 community building events this year -- if you have any
                 suggestions for us, please feel free to drop us a line either
                 via our{' '}
-                <a 
-                    href="https://www.facebook.com/McGillAI/" 
-                    target="_blank"
-                >
+                <a href="https://www.facebook.com/McGillAI/" target="_blank">
                     Facebook page
                 </a>{' '}
                 or{' '}
@@ -70,13 +67,10 @@ export default function FAQ() {
             <h3>Can we submit a blurb to your biweekly newsletter?</h3>
             <p>
                 For McGill clubs: Yes! Please fill out this{' '}
-                <a 
-                    href="https://forms.gle/NfXYRL38WfWiapPr5" 
-                    target="_blank"
-                >
+                <a href="https://forms.gle/NfXYRL38WfWiapPr5" target="_blank">
                     form
-                </a> or reach
-                out to us at{' '}
+                </a>{' '}
+                or reach out to us at{' '}
                 <a href="mailto:mcgillaicontact@gmail.com">
                     mcgillaicontact@gmail.com
                 </a>{' '}
@@ -100,6 +94,6 @@ export default function FAQ() {
                 </a>{' '}
                 and a member of our exec team will be in touch!
             </p>
-        </div>
+        </section>
     );
 }

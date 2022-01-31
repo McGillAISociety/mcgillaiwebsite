@@ -15,7 +15,7 @@ const hostData = execData.filter((exec) =>
 export default function Podcast() {
     return (
         <>
-            <div className="section">
+            <section>
                 <h2>Stream</h2>
                 <div className="flex-center">
                     <iframe
@@ -48,8 +48,8 @@ export default function Podcast() {
                         />
                     </div>
                 </div>
-            </div>
-            <div className="section">
+            </section>
+            <section>
                 <h2>About</h2>
                 <h3>Origins</h3>
                 <p>
@@ -91,14 +91,14 @@ export default function Podcast() {
                         entry to all those interested/curious.
                     </li>
                 </ul>
-            </div>
+            </section>
 
-            <div className="section">
+            <section>
                 <h2>Meet The Hosts</h2>
                 <Profiles profilesData={hostData} />
-            </div>
+            </section>
 
-            <div className="section">
+            <section>
                 <h2>FAQ</h2>
                 <h3>What does the structure of an episode look like?</h3>
                 <p>We will broadly be focusing on three ideas each episode:</p>
@@ -125,7 +125,7 @@ export default function Podcast() {
                     We are looking to publish an episode biweekly starting mid
                     September.
                 </p>
-            </div>
+            </section>
         </>
     );
 }

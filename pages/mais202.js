@@ -6,7 +6,7 @@ import styles from '../styles/pages/mais202.module.scss';
 export default function MAIS202() {
     return (
         <>
-            <div className="section">
+            <section>
                 <div className="flex-center">
                     {/* <SubscribeButton href="https://tiny.cc/mais202-w2020-app" target="_blank">APPLY NOW!</SubscribeButton> */}
                     <Carousel
@@ -39,8 +39,8 @@ export default function MAIS202() {
                         ))}
                     </div>
                 </div>
-            </div>
-            <div className="section">
+            </section>
+            <section>
                 <h2>About</h2>
                 <h3>How it started</h3>
                 <p>
@@ -69,8 +69,8 @@ export default function MAIS202() {
                     managers offer real-time mentorship and feedback, as well as
                     opportunities to network with fellow ML enthusiasts!
                 </p>
-            </div>
-            <div className="section">
+            </section>
+            <section>
                 <h2>FAQ</h2>
                 <h3>
                     {' '}
@@ -103,8 +103,8 @@ export default function MAIS202() {
                     assignments, and fulfill bi-weekly project deliverables
                     pertaining to their final project. For more details
                     regarding assignments and project deliverables, see our{' '}
-                    <a 
-                        href="https://drive.google.com/file/d/10EoBsvygM6U5v-AVIHXs0MVm_xGXZ0HA/view?fbclid=IwAR3wC0q2r8ugqb2sVAGAMPNXXU9b0jU8a27wQ_9VIuoUXsHeRP8Gowr-CQ8" 
+                    <a
+                        href="https://drive.google.com/file/d/10EoBsvygM6U5v-AVIHXs0MVm_xGXZ0HA/view?fbclid=IwAR3wC0q2r8ugqb2sVAGAMPNXXU9b0jU8a27wQ_9VIuoUXsHeRP8Gowr-CQ8"
                         target="_blank"
                     >
                         2021/2022 Syllabus
@@ -159,7 +159,7 @@ export default function MAIS202() {
 
                 <h3>Are there any fees associated with MAIS 202? </h3>
                 <p>Not at all! The course is completely free of charge :)</p>
-            </div>
+            </section>
         </>
     );
 }

@@ -128,7 +128,7 @@ const aiXother = [
 
 export default function MTLAI() {
     return (
-        <div className="section">
+        <section>
             <p>
                 The following is a list of different ways students can get
                 involved with the AI and ML community in Montreal. While we
@@ -152,19 +152,19 @@ export default function MTLAI() {
                 </a>
                 .
             </p>
-            <div className="section">
+            <section>
                 <h2> AI/ML Research </h2>
                 <ContentGrid content={research} />
-            </div>
+            </section>
             {/* TODO: a section on AI-focused companies */}
-            <div className="section">
+            <section>
                 <h2>AI Ethics, Society, and Regulation</h2>
                 <ContentGrid content={ethicsSocietyRegulation} />
-            </div>
-            <div className="section">
+            </section>
+            <section>
                 <h2>AI x Other Fields</h2>
                 <ContentGrid content={aiXother} />
-            </div>
-        </div>
+            </section>
+        </section>
     );
 }

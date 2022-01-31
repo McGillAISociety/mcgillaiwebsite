@@ -150,7 +150,7 @@ export const execData = [
 const Exec = () => (
     <>
         <Profiles profilesData={execData} />
-        <div className="section flex-center">
+        <section className="flex-center">
             <h3>
                 Join a team like no other! Exec recruitement starts in late
                 February.
@@ -160,7 +160,7 @@ const Exec = () => (
                 alt="MAIS execs"
                 className={styles['execs-img']}
             />
-        </div>
+        </section>
     </>
 );
 export default Exec;

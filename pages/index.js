@@ -108,7 +108,7 @@ function Home() {
     return (
         <>
             {/* Landing */}
-            <div className={`section flex-center ${styles['landing']}`}>
+            <section className={`flex-center ${styles['landing']}`}>
                 <img
                     src="/images/logo.png"
                     alt="MAIS Logo"
@@ -118,10 +118,10 @@ function Home() {
                     <span>MCGILL</span> ARTIFICIAL INTELLIGENCE{' '}
                     <span>SOCIETY</span>
                 </div>
-            </div>
+            </section>
 
             {/* About */}
-            <div className={`section ${styles['about']}`}>
+            <section className={styles['about']}>
                 <h2>About Us</h2>
                 <div className="flex-center">
                     {aboutData.map((data, index) => (
@@ -133,10 +133,10 @@ function Home() {
                         </div>
                     ))}
                 </div>
-            </div>
+            </section>
 
             {/* Timeline */}
-            <div className={`section ${styles['timeline']}`}>
+            <section className={styles['timeline']}>
                 <h2>Upcoming Events</h2>
                 {timelineData.length ? (
                     <div className={styles['timeline__events']}>
@@ -151,10 +151,10 @@ function Home() {
                         soon!
                     </p>
                 )}
-            </div>
+            </section>
 
             {/* Stats */}
-            <div className={`section flex-center ${styles['stats']}`}>
+            <section className={`flex-center ${styles['stats']}`}>
                 <h2 className={styles['stats__title']}>
                     The McGill AI Community
                 </h2>
@@ -163,16 +163,16 @@ function Home() {
                     src="/images/home/assets/grid.svg"
                     alt="MAIS Stats"
                 />
-            </div>
+            </section>
 
             {/* Activities */}
-            <div className="section">
+            <section>
                 <h2>Initiatives</h2>
                 <ContentGrid content={activitiesData} />
-            </div>
+            </section>
 
             {/* <Sponsors /> */}
-            <div className="section">
+            <section>
                 <h2>Sponsors</h2>
                 <div className={`flex-center ${styles['sponsors']}`}>
                     <div className={styles['sponsors__text']}>
@@ -211,7 +211,7 @@ function Home() {
                         ))}
                     </div>
                 </div>
-            </div>
+            </section>
         </>
     );
 }
