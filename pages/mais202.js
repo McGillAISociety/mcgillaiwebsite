@@ -103,7 +103,10 @@ export default function MAIS202() {
                     assignments, and fulfill bi-weekly project deliverables
                     pertaining to their final project. For more details
                     regarding assignments and project deliverables, see our{' '}
-                    <a href="https://drive.google.com/file/d/10EoBsvygM6U5v-AVIHXs0MVm_xGXZ0HA/view?fbclid=IwAR3wC0q2r8ugqb2sVAGAMPNXXU9b0jU8a27wQ_9VIuoUXsHeRP8Gowr-CQ8">
+                    <a 
+                        href="https://drive.google.com/file/d/10EoBsvygM6U5v-AVIHXs0MVm_xGXZ0HA/view?fbclid=IwAR3wC0q2r8ugqb2sVAGAMPNXXU9b0jU8a27wQ_9VIuoUXsHeRP8Gowr-CQ8" 
+                        target="_blank"
+                    >
                         2021/2022 Syllabus
                     </a>
                     . The time commitment for the course can range from four to
