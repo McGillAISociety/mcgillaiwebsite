@@ -70,7 +70,10 @@ class Mtlai extends React.Component {
                                 Of course, the best way for you to stay updated
                                 with upcoming AI events at McGill and Montreal
                                 is by following us on{' '}
-                                <a href="https://www.facebook.com/McGillAI">
+                                <a 
+                                    href="https://www.facebook.com/McGillAI" 
+                                    target="_blank"
+                                >
                                     Facebook
                                 </a>{' '}
                                 and subscribing to our{' '}
