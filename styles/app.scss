@@ -1,0 +1,163 @@
+@use './vars';
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    color: white;
+}
+
+html {
+    background-color: black;
+}
+
+#background {
+    z-index: -1;
+    background-image: url(../public/images/background.jpg);
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: vars.$max-mobile) {
+    .mobile-hide {
+        display: none;
+    }
+}
+
+@media (min-width: vars.$min-desktop) {
+    .desktop-hide {
+        display: none;
+    }
+}
+
+%flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex {
+    @extend %flex;
+}
+
+.flex-center {
+    @extend %flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+section {
+    padding: 40px 0 40px 0;
+    max-width: 2000px;
+    margin: auto;
+    > h3,
+    > p,
+    > ul {
+        padding: 0 5vw 0 5vw;
+    }
+    > h3 {
+        margin-top: 20px;
+    }
+    > ul {
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+.page-header {
+    padding-top: 80px;
+    margin: 30px 5vw 0 5vw;
+    &__title {
+        font-size: 35px;
+        font-weight: 600;
+        display: inline;
+        background: linear-gradient(to right, vars.$purple, vars.$red);
+        background-repeat: no-repeat;
+        background-size: calc(100% - 15px) 40%;
+        background-position: 0% 80%;
+        padding-left: 15px;
+        padding-bottom: 10px;
+    }
+    &__subtitle {
+        padding-left: 5px;
+        font-size: 22px !important;
+        margin-top: 5px !important;
+        font-weight: 200 !important;
+    }
+}
+
+h2 {
+    font-size: 35pt;
+    margin-bottom: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+
+h3 {
+    font-style: italic;
+    font-size: 20pt;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+p,
+ul {
+    font-size: 15pt;
+    font-weight: 200;
+    line-height: 20pt;
+}
+
+a {
+    color: vars.$red;
+    font-weight: 400;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+// for the burger menu libary
+.bm-burger-button {
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    right: 25px;
+    top: 25px;
+}
+
+.bm-burger-bars {
+    background: linear-gradient(to left, vars.$purple, vars.$red);
+}
+
+.bm-cross-button {
+    transform: scale(2) !important;
+    top: 20px !important;
+    right: 20px !important;
+}
+
+// TODO: why isn't this dimming on hover like the burger bars?
+.bm-cross {
+    background: linear-gradient(to top, vars.$purple, vars.$red);
+}
+
+.bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+}
+
+.bm-menu {
+    background: vars.$menu-background;
+    padding: 1em 1em 0;
+}
+
+.bm-item-list {
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.bm-overlay {
+    background: vars.$menu-background;
+}

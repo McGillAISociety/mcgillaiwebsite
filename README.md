@@ -1,38 +1,33 @@
-# mcgill-ai-website2019
+# McGill AI Club Website
 
-- wireframing: https://www.figma.com/file/SHbGg6HgS3YYegCqboA8lovX/McGill-AI-Website-(Main-Page-2019-2020)-Wireframe?node-id=0%3A1
-- brainstorming + notes on libraries, breaking things down: https://www.notion.so/mcgillai/Main-Page-d0cde6e655ea4708bdae5b3d25ff0a76
+The code for the main website of the McGill Artificial Intelligence society. Made with ❤️ using [Next.js](https://nextjs.org/) and [SCSS](https://sass-lang.com/).
 
-### useful react articles
-- about different types of components - https://code.tutsplus.com/tutorials/stateful-vs-stateless-functional-components-in-react--cms-29541
+The result of the hard work of many MAIS team members over the semesters: [Cheng Lin](https://cheng-lin.me/), [Claudia Leung](https://www.linkedin.com/in/claudiahleun), [Rosie Zhao](https://www.linkedin.com/in/rosieyzh/), [Raphaelle Tseng](https://raphaelletseng.github.io/mpreact/), and [Josh Katofsky](https://www.linkedin.com/in/josh-katofsky/).
 
-### Editing logo colours
-An easy way to make sections of a company logo white so they appear on our site:
-Go to [https://www.photopea.com/](https://www.photopea.com/) and upload the logo image. Then go to Select > Colour Range in the top, drop down menu. Click the sections that need to change colour and when they are outlined, use a fill bucket to colour them the colour you need. 
+## Structure
 
-# mcgill-ai website 2020 Updates
+-   `/pages` automatically statically exports site routes based on the file names within, whose content corresponds to the React.js components in those files. I.e. `mais202.js` corresponds to the page at `mcgillai.com/mais202`, and its content is derived from the `MAIS202` React.js component which is default-exported from that file. The exceptions to this rule are the `_app.js` and `_document.js` which deal with shared rendering logic and shared metadata, respectively.
+-   `/components` contains React.js components that are shared among the website.
+-   `/styles` holds the SCSS styling for the applcation, done using the [CSS module style](https://nextjs.org/docs/basic-features/built-in-css-support#adding-component-level-css) which scopes styling exactly to the page or component that it targets. Along these lines, the subdirectories in `/stlyes` mirror `/pages` and `/components`.
+-   `/public` contains all site content.
 
-## Team Page
-- 2019 exec pictures moved to 'exec-archive' (Consider moving to the google drive website folder / Figure out a better way to maintain archives)
-- ~~Finish getting bios and pictures from everyone. ~~
-- ~~Check the sizing on the images (202 x 202 vs 152 x 152) and how this affects the overall look. Consider redownloading all the exec images with a different size~~
+## Running locally
 
-## Mais 202
-- **Drop down menu**
-1. Alumni (name, linkedin, github as per wireframe)
-2. About
+You need to have [Node.js](https://nodejs.org/en/) and [Yarn](https://classic.yarnpkg.com/en/) installed to work on the site. After you `git clone` this repository, run `yarn install`. Then, to start the Next.js development server, run `yarn dev` and the site will be hosted locally with fast refresh at `http://localhost:3000`.
 
-## Montreal AI resources
-- ~~Add to nav bar~~
-- ~~Create new page~~
-- ~~Figure out wireframe / aesthetic for this page~~
-- ~~Add links to the click for each site~~
-- ~~Fix header~~
-- ~~Center containers~~
-- Fix the changing screen size text disappearing
+## Deploying
 
-## Future
-- ~~Consider adding a link to the hackathon website / A tab for the hackathon given it is now names MAIS Hacks~~
-- Fix the janky gallery in Mais 202 occasionally disappearing
-- Add an accordion FAQ
-- Write a better README for incoming execs
+This is subject to change soon, as it's worthwhile (in Josh's humble opinon) to change eventually from AWS to something more purpose-built for front-end projects (something like GitHub pages, Netlify, or Vercel). However, the site is currently served from an AWS bucket, so that's what these instructions pertain to.
+
+### AWS Setup
+
+You have to setup the AWS CLI on your machine to deploy the site. You'll only have to do this once.
+
+1.  Install the AWS command line interface (CLI) [here](https://docs.aws.amazon.com/cli/v1/userguide/cli-chap-install.html) (version 1 should suffice).
+2.  Follow the [configuration basics](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html) guide on the AWS docs. Our default region name is `us-west-2` and the default output format is JSON.
+
+### Deployment Process
+
+To make sure that Next.js can properly output the static site for hosting on a CDN and that everything is bug-free, simulate a production environemnt using `yarn serve`, which will build the site into `/out` and host it with a local server.
+
+When you're ready, run `yarn deploy` to deploy the site.

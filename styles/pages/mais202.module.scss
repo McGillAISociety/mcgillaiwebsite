@@ -1,0 +1,14 @@
+@use '../vars.scss';
+
+.carousel {
+    width: 600px;
+    margin-bottom: 20px;
+}
+.stats {
+    width: 600px;
+    &__img {
+        width: 200px;
+        padding: 5px;
+        margin-bottom: 20px;
+    }
+}

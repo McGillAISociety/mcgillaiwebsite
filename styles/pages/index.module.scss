@@ -1,0 +1,99 @@
+@use '../vars';
+
+.landing {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    &__main-title {
+        // TODO: mayhaps change from roboto to Monsterrat; figure out overflow
+        font-family: 'Roboto', sans-serif;
+        background: -webkit-linear-gradient(vars.$red, vars.$purple);
+        font-weight: 700;
+        font-style: italic;
+        span {
+            font-style: normal;
+            font-weight: 300;
+        }
+        font-size: 60pt;
+        width: 550px;
+        word-break: break-word;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        @media (max-width: vars.$max-mobile) {
+            width: 100%;
+            text-align: center;
+            font-size: 40pt;
+        }
+    }
+    &__mais-logo {
+        max-height: 350px;
+        @media (max-width: vars.$max-mobile) {
+            max-height: 200px;
+        }
+    }
+}
+
+.about {
+    text-align: center;
+    h3 {
+        text-align: left;
+    }
+    &__entry {
+        @media (max-width: vars.$max-mobile) {
+            padding: 0 5vw 0 5vw;
+        }
+        p {
+            max-width: 375px;
+            text-align: left;
+        }
+        img {
+            margin: 10px;
+            height: 150px;
+        }
+        margin-bottom: 35px;
+    }
+}
+
+.stats {
+    &__title {
+        width: 350px;
+        text-align: left;
+        @media (max-width: vars.$max-mobile) {
+            text-align: center;
+            width: 100%;
+        }
+    }
+    &__img {
+        width: 800px;
+        max-width: 90vw;
+    }
+}
+
+.timeline {
+    &__events {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__no-event-message {
+        text-align: center;
+        font-weight: 100;
+    }
+}
+
+.sponsors {
+    &__text {
+        max-width: 700px;
+        p {
+            margin-bottom: 15px;
+            padding: 0 5vw 0 5vw;
+        }
+    }
+    &__logos {
+        width: 600px;
+        img {
+            max-width: 90%;
+            padding: 10px;
+        }
+    }
+}

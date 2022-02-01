@@ -1,0 +1,87 @@
+@use '../vars';
+
+.nav {
+    position: fixed;
+    background-color: vars.$menu-background;
+    height: 80px;
+    width: 100vw;
+    top: 0;
+    z-index: 1;
+    &__item {
+        display: inline-block;
+        padding: 0;
+        margin: 10px;
+        width: fit-content;
+        cursor: pointer;
+        &--logo {
+            position: relative;
+            align-self: flex-start;
+            height: 60px;
+            width: 60px;
+            &__bounds {
+                border-radius: 10px;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                opacity: 0;
+                transition: opacity 500ms;
+                background: linear-gradient(to bottom, vars.$purple, vars.$red);
+                &--active {
+                    opacity: 0.4;
+                }
+            }
+            &__img {
+                position: absolute;
+                height: 50px;
+                transform: scale(1);
+                opacity: 0.8;
+                transition: transform 300ms, opacity 300ms;
+                &:hover {
+                    transform: scale(1.1);
+                    opacity: 1;
+                }
+                &--active {
+                    transform: scale(1.1);
+                    opacity: 1;
+                }
+            }
+        }
+        &--text {
+            font-size: x-large;
+            font-weight: 200;
+            position: relative;
+            &:after {
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 5px;
+                bottom: -5px;
+                left: 0;
+                opacity: 0.8;
+                background: -webkit-linear-gradient(
+                    left,
+                    vars.$red,
+                    vars.$purple
+                );
+                transform: scaleX(0);
+                transform-origin: bottom right;
+                transition: transform 0.25s ease-out;
+            }
+            &:hover:after {
+                transform: scaleX(1);
+                transform-origin: bottom left;
+            }
+            &--active {
+                font-weight: 400;
+                &:after {
+                    transform: scaleX(1);
+                }
+            }
+        }
+        &--icon {
+            margin-left: 5px;
+            margin-bottom: -3px;
+            fill: lightgray;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "mcgillai",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "next": "^12.0.3",
+    "react": "^16.8.6",
+    "react-burger-menu": "^3.0.6",
+    "react-dom": "^16.8.6",
+    "react-icons": "^4.3.1",
+    "react-responsive-carousel": "^3.2.22",
+    "react-scripts": "3.0.1",
+    "sass": "^1.43.4",
+    "framer-motion": "^5.6.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next build && next export",
+    "serve": "yarn export && serve out",
+    "deploy": "yarn export && aws s3 sync out/ s3://www.mcgillai.com --acl public-read"
+  },
+  "eslintConfig": {
+    "extends": "next"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
