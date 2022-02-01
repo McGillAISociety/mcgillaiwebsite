@@ -8,7 +8,7 @@ const aboutData = [
         title: 'Learn',
         img: aboutImgDir('Lightbulb'),
         description:
-            'We aim to make AI more accessible by hosting events, bootcamps, and workshops that give students an nopportunity to learn about AI in a peer-based, supportive environment.',
+            'We aim to make AI more accessible by hosting events, bootcamps, and workshops that give students an opportunity to learn about AI in a peer-based, supportive environment.',
     },
     {
         title: 'Foster Community',
