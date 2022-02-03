@@ -8,19 +8,19 @@ const aboutData = [
         title: 'Learn',
         img: aboutImgDir('Lightbulb'),
         description:
-            'We aim to make AI more accessible by hosting events, bootcamps, and workshops that give students an opportunity to learn about AI in a peer-based, supportive environment.',
+            'We make AI more accessible by hosting bootcamps and workshops that give students the opportunity to learn about AI in a peer-based, supportive environment.',
     },
     {
         title: 'Foster Community',
         img: aboutImgDir('People'),
         description:
-            'We want to make learning AI fun and welcoming. Our talks, bootcamps, and community building events give our participants the opportunity to meet others interested in AI.',
+            'We want to make AI fun and welcoming. Our initiatives focus on giving participants the opportunity to meet others interested in AI.',
     },
     {
         title: 'Connect',
         img: aboutImgDir('Network'),
         description:
-            "Montreal is one of the world's leading AI hubs. Through our hackathon, Company Crawl, and industry events, we help connect McGill students with Montreal's AI ecosystem.",
+            "Montreal is one of the world's leading AI hubs. Through our hackathon, learnathon, and industry events, we help connect McGill students with Montreal's AI ecosystem.",
     },
 ];
 
@@ -30,36 +30,37 @@ const activitiesData = [
         title: 'MAIS 202',
         img: activitiesImgDir('mais202'),
         description:
-            'A ten-week bootcamp that teaches lower-year undergraduates ML fundamentals',
+            'Each semester, a cohort of 30 lower-year undergraduates are selected for a 10-week bootcamp on ML fundamentals.',
     },
     {
         title: 'MAIS Hacks',
         img: activitiesImgDir('maishacks'),
         description:
-            'Our annual hackathon bringing together 150 students to innovate modern AI solutions',
+            "Canada's largest AI hackathon, hosted every fall, brings together 150 students to innovate modern AI solutions.",
     },
     {
         title: 'The McGill AI Podcast',
         img: activitiesImgDir('podcast'),
         description:
-            'Connnecting ML principles to their research disciplines through interviews with professors and industry leaders',
+            'Connnecting ML principles to their research disciplines through interviews with professors and industry leaders.',
     },
     {
         title: 'Workshops',
         img: activitiesImgDir('workshops'),
         description:
-            'Our technical project managers give workshops on applied topics in machine learning. Our 2021-2022 series covered topics such as Python data science tools and ML model deployment',
+            'Our technical project managers give workshops on applied topics in machine learning. Our 2021-2022 series covered topics such as Python data science tools and ML model deployment.',
     },
     {
         title: 'AI Ethics Panel',
         img: activitiesImgDir('aiethics'),
         description:
-            'We hosted a panel on the ethical implications of AI systems with experts on the subject',
+            'An interactive panel on the ethical implications of AI systems with experts on the subject.',
     },
     {
         title: 'Learnathon',
         img: activitiesImgDir('learnathon'),
-        description: 'An AI research conference aimed at undergraduates',
+        description:
+            'A free undergraduate AI research conference. Hosted in the winter semester, this AI-filled day covers everything from workshops, talks, panels, and networking. Everyone from high schoolers to last-year undergrads will find something to love!',
     },
 ];
 
