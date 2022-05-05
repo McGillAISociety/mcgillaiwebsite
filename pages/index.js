@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from '../styles/pages/index.module.scss';
 import ContentGrid from '../components/ContentGrid';
+import Image from 'next/image';
 
 const aboutImgDir = (img) => `/images/home/assets/${img}.svg`;
 const aboutData = [
@@ -110,10 +111,12 @@ function Home() {
         <>
             {/* Landing */}
             <section className={`flex-center ${styles['landing']}`}>
-                <img
+                <Image
                     src="/images/logo.png"
                     alt="MAIS Logo"
-                    className={styles['landing__mais-logo']}
+                    priority
+                    width={350}
+                    height={350}
                 />
                 <div className={styles['landing__main-title']}>
                     <span>MCGILL</span> ARTIFICIAL INTELLIGENCE{' '}
@@ -128,7 +131,15 @@ function Home() {
                     {aboutData.map((data, index) => (
                         // TODO: style these entries into cards? (and also maybe the timeline entries?)
                         <div key={index} className={styles['about__entry']}>
-                            <img src={data.img} alt={data.title} />
+                            <div className={styles['about__entry__img']}>
+                                <Image
+                                    src={data.img}
+                                    alt={data.title}
+                                    priority
+                                    width={150}
+                                    height={150}
+                                />
+                            </div>
                             <h3>{data.title}</h3>
                             <p>{data.description}</p>
                         </div>
@@ -159,10 +170,11 @@ function Home() {
                 <h2 className={styles['stats__title']}>
                     The McGill AI Community
                 </h2>
-                <img
-                    className={styles['stats__img']}
+                <Image
                     src="/images/home/assets/grid.svg"
                     alt="MAIS Stats"
+                    width={930}
+                    height={600}
                 />
             </section>
 
@@ -203,11 +215,14 @@ function Home() {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                <img
-                                    src={sponsor.img}
-                                    alt={`${sponsor.name} logo`}
-                                    width={sponsor.imgWidth}
-                                />
+                                <div className={styles['sponsors__logos__img']}>
+                                    <Image
+                                        src={sponsor.img}
+                                        alt={`${sponsor.name} logo`}
+                                        width={sponsor.imgWidth}
+                                        height="100%"
+                                    />
+                                </div>
                             </a>
                         ))}
                     </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
+import Image from 'next/image';
 import styles from '../styles/pages/mais202.module.scss';
 
 export default function MAIS202() {
@@ -19,23 +20,27 @@ export default function MAIS202() {
                         className={styles['carousel']}
                     >
                         {['1', '2', '3', '4', '5', '6'].map((number) => (
-                            <img
+                            <Image
                                 key={number}
                                 src={`/images/mais202/gallery/${number}.jpg`}
                                 alt="MAIS 202"
-                                className={styles['carousel__img']}
+                                width={640}
+                                height={480}
                             />
                         ))}
                     </Carousel>
 
                     <div className={`flex-center ${styles['stats']}`}>
                         {['1', '2', '3', '4'].map((number) => (
-                            <img
-                                key={number}
-                                src={`/images/mais202/stats_${number}.svg`}
-                                alt="MAIS Statistic"
-                                className={styles['stats__img']}
-                            />
+                            <div className={styles['stats__img']}>
+                                <Image
+                                    key={number}
+                                    src={`/images/mais202/stats_${number}.svg`}
+                                    alt="MAIS Statistic"
+                                    width={200}
+                                    height={200}
+                                />
+                            </div>
                         ))}
                     </div>
                 </div>

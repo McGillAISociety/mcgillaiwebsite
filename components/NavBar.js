@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from '../styles/components/NavBar.module.scss';
 import { HiExternalLink } from 'react-icons/hi';
 import { useWindowWidth } from './util';
@@ -56,14 +57,26 @@ function NavBar() {
             >
                 <div
                     className={`${styles['nav__item--logo__bounds']}
-            ${homeActive ? styles['nav__item--logo__bounds--active'] : ''}`}
+                    ${
+                        homeActive
+                            ? styles['nav__item--logo__bounds--active']
+                            : ''
+                    }`}
                 />
-                <img
+                <div
                     className={`${styles['nav__item--logo__img']}
-            ${homeActive ? styles['nav__item--logo__img--active'] : ''}`}
-                    src="/images/logo.png"
-                    alt="MAIS Logo"
-                />
+                    ${
+                        homeActive ? styles['nav__item--logo__img--active'] : ''
+                    }`}
+                >
+                    <Image
+                        width={50}
+                        height={50}
+                        priority
+                        src="/images/logo.png"
+                        alt="MAIS Logo"
+                    />
+                </div>
             </div>
         </Link>
     );

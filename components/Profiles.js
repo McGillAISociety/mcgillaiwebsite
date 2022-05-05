@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from '../styles/components/Profiles.module.scss';
 import { FaLinkedinIn as LinkedIn } from 'react-icons/fa';
+import Image from 'next/image';
 
 /** 
 profileData takes the following form:
@@ -20,7 +21,12 @@ export default function Profiles({ profilesData = [] }) {
         <div className={`flex-center ${styles['profiles-container']}`}>
             {profilesData.map((profileData, index) => (
                 <div className={styles['profile']} key={index}>
-                    <img src={profileData.photo} alt={`${profileData.name}`} />
+                    <Image
+                        src={profileData.photo}
+                        alt={profileData.name}
+                        width={200}
+                        height={200}
+                    />
                     <h2>{profileData.name}</h2>
                     <h3>{profileData.position}</h3>
                     <p>{profileData.bio}</p>
