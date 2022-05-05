@@ -13,12 +13,10 @@ html {
 
 #background {
     z-index: -1;
-    background-image: url(../public/images/background.jpg);
     height: 100vh;
     width: 100vw;
     position: fixed;
-    background-size: cover;
-    background-position: center;
+    overflow: hidden;
 }
 
 @media (max-width: vars.$max-mobile) {

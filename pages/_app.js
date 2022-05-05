@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 import '../styles/app.scss';
 import MetaTags from '../components/MetaTags';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 const metaImagePath = (img) => `/meta/page-previews/${img}.png`;
 const pagesData = {
@@ -72,7 +73,16 @@ function MAIS({ Component, pageProps, router }) {
                 route={route}
             />
 
-            <div id="background" />
+            <div id="background">
+                <Image
+                    priority
+                    alt="background"
+                    src="/images/background.jpg"
+                    layout="fill"
+                    objectFit="cover"
+                    quality={100}
+                />
+            </div>
 
             {/* TODO: find a way to have the navbar slide down from the top (couldn't get to work yet) */}
             <motion.div
