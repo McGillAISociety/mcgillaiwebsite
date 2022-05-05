@@ -18,8 +18,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next build && next export",
-    "serve": "yarn export && serve out"
+    "export": "next build && next export"
   },
   "eslintConfig": {
     "extends": "next"

@@ -1,8 +1,0 @@
-@use '../vars.scss';
-
-.execs-img {
-    width: 80vw;
-    @media (max-width: vars.$max-mobile) {
-        width: 95vw;
-    }
-}

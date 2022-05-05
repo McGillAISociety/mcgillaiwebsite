@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from '../styles/components/ContentGrid.module.scss';
 import Link from 'next/link';
+import Image from 'next/image';
 
 // reusable component that dispays a list of content in squares with nice gradients
 // if images are supplied, it displays the text on hover, if not the text is always displayed
@@ -32,8 +33,9 @@ export default function ContentGrid({ content }) {
                             key={index}
                         >
                             {data.img && (
-                                <img
+                                <Image
                                     src={data.img}
+                                    layout="fill"
                                     alt={data.title}
                                     className={styles['grid__background']}
                                 />

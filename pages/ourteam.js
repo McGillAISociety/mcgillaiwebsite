@@ -1,6 +1,6 @@
 import React from 'react';
+import Image from 'next/image';
 import Profiles from '../components/Profiles';
-import styles from '../styles/pages/ourteam.module.scss';
 
 const path = (name) => `/images/ourteam/2021-2022/${name}.png`;
 
@@ -155,10 +155,11 @@ const Exec = () => (
                 Join a team like no other! Exec recruitement starts in late
                 February.
             </h3>
-            <img
+            <Image
                 src="/images/ourteam/execs.jpeg"
                 alt="MAIS execs"
-                className={styles['execs-img']}
+                height={756}
+                width={1080}
             />
         </section>
     </>
