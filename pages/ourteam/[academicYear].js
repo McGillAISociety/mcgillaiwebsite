@@ -8,9 +8,9 @@ import execs2020_2021 from './execs/2020-2021';
 import execs2019_2020 from './execs/2019-2020';
 
 // it's important for this to be more-recent-years=first
-export const execsAcademicYears = new Map();
-execsAcademicYears.set('2021-2022', execs2020_2021);
-execsAcademicYears.set('2020-2021', execs2021_2022);
+const execsAcademicYears = new Map();
+execsAcademicYears.set('2021-2022', execs2021_2022);
+execsAcademicYears.set('2020-2021', execs2020_2021);
 execsAcademicYears.set('2019-2020', execs2019_2020);
 
 const OurTeam = ({ academicYear, execsData }) => (
@@ -32,7 +32,7 @@ const OurTeam = ({ academicYear, execsData }) => (
 );
 
 export async function getStaticProps({ params }) {
-    const academicYear = params.academicYear;
+    const { academicYear } = params;
 
     if (!(academicYear in execsAcademicYears)) {
         return {
@@ -43,7 +43,7 @@ export async function getStaticProps({ params }) {
     return {
         props: {
             academicYear,
-            execsData,
+            execsData: execsAcademicYears[academicYear],
         },
     };
 }

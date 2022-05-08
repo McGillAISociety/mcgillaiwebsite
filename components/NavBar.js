@@ -86,7 +86,7 @@ function NavBar() {
             href: navOption.route,
             key: index,
         };
-        const active = router.pathname === `/${navOption.route}`;
+        const active = router.pathname.startsWith(`/${navOption.route}`);
         const item = (
             <span
                 className={`${styles['nav__item']}
