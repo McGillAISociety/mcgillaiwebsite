@@ -3,7 +3,6 @@ import styles from '../styles/pages/podcast.module.scss';
 import Profiles from '../components/Profiles';
 
 import academicYearExecsMap from '../data/execs/academicYearExecsMap';
-console.log(academicYearExecsMap);
 const hostData = academicYearExecsMap
     .get(academicYearExecsMap.get('currentAcademicYear'))
     .filter((exec) => exec.position.toLowerCase().includes('podcast'));

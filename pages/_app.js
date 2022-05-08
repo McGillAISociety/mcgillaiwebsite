@@ -7,61 +7,81 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 
 const metaImagePath = (img) => `/meta/page-previews/${img}.png`;
-const pagesData = {
-    '/': {
-        metaTitle: 'McGill Artificial Intelligence Society',
-        metaDescription:
-            'A hub for learning and community in the Montreal AI ecosystem',
-        metaImagePath: metaImagePath('mais'),
-        title: '',
-        subtitle: '',
-    },
-    '/ourteam': {
-        metaTitle: 'McGill AI Society – Our Team',
-        metaDescription: '',
-        metaImagePath: '/images/ourteam/execs.jpeg',
-        title: 'Our Team',
-        subtitle: 'Get to know our execs',
-    },
-    '/mais202': {
-        metaTitle: 'MAIS 202 Machine Learning Bootcamp',
-        metaDescription: 'By students, for students',
-        metaImagePath: metaImagePath('mais202'),
-        title: 'MAIS 202: Accelerated Introduction to Machine Learning',
-        subtitle: 'By students, for students',
-    },
-    '/podcast': {
-        metaTitle: 'The McGill AI Podcast',
-        metaDescription:
-            'Connnecting AI principles to their research disciplines',
-        metaImagePath: metaImagePath('podcast'),
-        title: 'The McGill AI Podcast',
-        subtitle: 'Connnecting ML principles to their research disciplines',
-    },
-    '/mtlai': {
-        metaTitle: 'McGill AI Society – Montreal AI Resources',
-        metaDescription: "McGill AI's guide to the Montreal AI Scene",
-        metaImagePath: metaImagePath('mais'),
-        title: 'Montreal AI Resources',
-        subtitle: 'Our guide to the Montreal AI Scene',
-    },
-    '/faq': {
-        metaTitle: 'McGill AI Society – FAQ',
-        metaDescription: '',
-        metaImagePath: metaImagePath('mais'),
-        title: 'Frequently Asked Questions',
-        subtitle: '',
-    },
-};
 
 function MAIS({ Component, pageProps, router }) {
-    const route = router.route;
-    let pageData = pagesData[router.route];
+    const { route } = router;
 
-    if (!pageData) {
-        pageData = {
-            metaTitle: 'Page Not Found',
-        };
+    let pageData;
+
+    switch (route) {
+        case '/':
+            pageData = {
+                metaTitle: 'McGill Artificial Intelligence Society',
+                metaDescription:
+                    'A hub for learning and community in the Montreal AI ecosystem',
+                metaImagePath: metaImagePath('mais'),
+                title: '',
+                subtitle: '',
+                route: '/',
+            };
+            break;
+        case '/team/[academicYear]':
+            const { academicYear } = pageProps;
+            pageData = {
+                metaTitle: `${academicYear} Team | McGill AI Society`,
+                metaDescription: `Get to know our incredible execs for the ${academicYear} academic year`,
+                metaImagePath: '/images/ourteam/execs.jpeg',
+                title: `Our ${academicYear} Team`,
+                subtitle: `Get to know our incredible execs`,
+                route: `/team/${academicYear}`,
+            };
+            break;
+        case '/mais202':
+            pageData = {
+                metaTitle: 'MAIS 202 | McGill AI Society',
+                metaDescription: 'By students, for students',
+                metaImagePath: metaImagePath('mais202'),
+                title: 'MAIS 202: Accelerated Introduction to Machine Learning',
+                subtitle: 'By students, for students',
+                route: '/mais202',
+            };
+            break;
+        case '/podcast':
+            pageData = {
+                metaTitle: 'Podcast | McGill AI Society',
+                metaDescription:
+                    'Connnecting AI principles to their research disciplines',
+                metaImagePath: metaImagePath('podcast'),
+                title: 'The McGill AI Podcast',
+                subtitle:
+                    'Connnecting ML principles to their research disciplines',
+                route: '/podcast',
+            };
+            break;
+        case '/resources':
+            pageData = {
+                metaTitle: 'Resources | McGill AI Society',
+                metaDescription: "McGill AI's guide to the Montreal AI Scene",
+                metaImagePath: metaImagePath('mais'),
+                title: 'Montreal AI Resources',
+                subtitle: 'Our guide to the Montreal AI Scene',
+                route: '/resources',
+            };
+            break;
+        case '/faq':
+            pageData = {
+                metaTitle: 'FAQ | McGill AI Society',
+                metaDescription: '',
+                metaImagePath: metaImagePath('mais'),
+                title: 'Frequently Asked Questions',
+                subtitle: '',
+                route: '/faq',
+            };
+            break;
+        default:
+            pageData = {
+                metaTitle: 'Page Not Found',
+            };
     }
 
     return (
@@ -70,7 +90,7 @@ function MAIS({ Component, pageProps, router }) {
                 title={pageData.metaTitle}
                 description={pageData.metaDescription}
                 imagePath={pageData.metaImagePath}
-                route={route}
+                route={pageData.route}
             />
 
             <div id="background">
@@ -127,7 +147,7 @@ function MAIS({ Component, pageProps, router }) {
 
             <motion.div
                 layout
-                key={route}
+                key={pageData.route}
                 initial={{
                     opacity: 0,
                     y: 40,
