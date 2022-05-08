@@ -2,11 +2,11 @@ import React from 'react';
 import styles from '../styles/pages/podcast.module.scss';
 import Profiles from '../components/Profiles';
 
-// TODO: is there a more elegant way to do this than hard-coding the most recent year?
-import execData from './ourteam/execs/2021-2022';
-const hostData = execData.filter((exec) =>
-    exec.position.toLowerCase().includes('podcast')
-);
+import academicYearExecsMap from '../data/execs/academicYearExecsMap';
+console.log(academicYearExecsMap);
+const hostData = academicYearExecsMap
+    .get(academicYearExecsMap.get('currentAcademicYear'))
+    .filter((exec) => exec.position.toLowerCase().includes('podcast'));
 
 export default function Podcast() {
     return (

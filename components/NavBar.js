@@ -11,23 +11,23 @@ import { slide as BurgerMenu } from 'react-burger-menu';
 const navOptions = [
     {
         title: 'Team',
-        route: 'ourteam',
+        route: '/ourteam',
     },
     {
         title: 'MAIS 202',
-        route: 'mais202',
+        route: '/mais202',
     },
     {
         title: 'Podcast',
-        route: 'podcast',
+        route: '/podcast',
     },
     {
         title: 'Resources',
-        route: 'mtlai',
+        route: '/mtlai',
     },
     {
         title: 'FAQ',
-        route: 'faq',
+        route: '/faq',
     },
     {
         title: 'MAIS Hacks',
