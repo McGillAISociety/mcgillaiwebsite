@@ -93,11 +93,13 @@ export async function getStaticProps({ params }) {
 
 export async function getStaticPaths() {
     return {
-        paths: Array.from(academicYearExecsMap.keys()).map((academicYear) => ({
-            params: {
-                academicYear,
-            },
-        })),
+        paths: Array.from(academicYearExecsMap.keys())
+            .filter((key) => key !== 'currentAcademicYear')
+            .map((academicYear) => ({
+                params: {
+                    academicYear,
+                },
+            })),
         fallback: false,
     };
 }
