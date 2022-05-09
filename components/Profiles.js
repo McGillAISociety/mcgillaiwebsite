@@ -30,13 +30,15 @@ export default function Profiles({ profilesData = [] }) {
                     <h2>{profileData.name}</h2>
                     <h3>{profileData.position}</h3>
                     <p>{profileData.bio}</p>
-                    <a
-                        href={profileData.linkedin}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <LinkedIn size={20} />
-                    </a>
+                    {profileData.linkedin && (
+                        <a
+                            href={profileData.linkedin}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <LinkedIn size={20} />
+                        </a>
+                    )}
                 </div>
             ))}
         </div>

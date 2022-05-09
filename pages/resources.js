@@ -126,7 +126,7 @@ const aiXother = [
 
 // TODO: find a solution for the description overflow
 
-export default function MTLAI() {
+export default function Resources() {
     return (
         <section>
             <p>

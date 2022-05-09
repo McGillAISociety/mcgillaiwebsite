@@ -1,10 +1,6 @@
-import React from 'react';
-import Image from 'next/image';
-import Profiles from '../components/Profiles';
+const path = (name) => `/images/team/2021-2022/${name}.png`;
 
-const path = (name) => `/images/ourteam/2021-2022/${name}.png`;
-
-export const execData = [
+export default [
     {
         photo: path('yulu'),
         name: 'Yu Lu Liu',
@@ -146,22 +142,3 @@ export const execData = [
         linkedin: 'https://www.linkedin.com/in/philiptamcode/',
     },
 ];
-
-const Exec = () => (
-    <>
-        <Profiles profilesData={execData} />
-        <section className="flex-center">
-            <h3>
-                Join a team like no other! Exec recruitement starts in late
-                February.
-            </h3>
-            <Image
-                src="/images/ourteam/execs.jpeg"
-                alt="MAIS execs"
-                height={756}
-                width={1080}
-            />
-        </section>
-    </>
-);
-export default Exec;

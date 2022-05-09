@@ -1,16 +1,11 @@
 import React from 'react';
 import styles from '../styles/pages/podcast.module.scss';
 import Profiles from '../components/Profiles';
-import { execData } from './ourteam';
 
-const hostData = execData.filter((exec) =>
-    [
-        'Kaustav Das Sharma',
-        'Bonnie Li',
-        'Cole Killian',
-        'Himanshu Ranka',
-    ].includes(exec.name)
-);
+import academicYearExecsMap from '../data/execs/academicYearExecsMap';
+const hostData = academicYearExecsMap
+    .get(academicYearExecsMap.get('currentAcademicYear'))
+    .filter((exec) => exec.position.toLowerCase().includes('podcast'));
 
 export default function Podcast() {
     return (

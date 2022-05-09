@@ -7,27 +7,29 @@ import styles from '../styles/components/NavBar.module.scss';
 import { HiExternalLink } from 'react-icons/hi';
 import { useWindowWidth } from './util';
 import { slide as BurgerMenu } from 'react-burger-menu';
+import academicYearExecsMap from '../data/execs/academicYearExecsMap.js';
+import { sameBasePath } from './util';
 
 const navOptions = [
     {
         title: 'Team',
-        route: 'ourteam',
+        route: `/team/${academicYearExecsMap.get('currentAcademicYear')}`,
     },
     {
         title: 'MAIS 202',
-        route: 'mais202',
+        route: '/mais202',
     },
     {
         title: 'Podcast',
-        route: 'podcast',
+        route: '/podcast',
     },
     {
         title: 'Resources',
-        route: 'mtlai',
+        route: '/resources',
     },
     {
         title: 'FAQ',
-        route: 'faq',
+        route: '/faq',
     },
     {
         title: 'MAIS Hacks',
@@ -48,7 +50,7 @@ function NavBar() {
 
     // TODO: cleanup the classname structure maybe
 
-    const homeActive = router.pathname === '/';
+    const homeActive = router.route === '/';
     const logo = (
         <Link exact href="/">
             <div
@@ -86,7 +88,7 @@ function NavBar() {
             href: navOption.route,
             key: index,
         };
-        const active = router.pathname === `/${navOption.route}`;
+        const active = sameBasePath(router.route, navOption.route);
         const item = (
             <span
                 className={`${styles['nav__item']}
