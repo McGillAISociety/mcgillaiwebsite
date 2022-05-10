@@ -16,7 +16,7 @@ const OurTeam = ({
     if (academicYear === currentAcademicYear) {
         blurb = (
             <>
-                You can also view our exec teams from previous academic years!
+                View exec teams from previous years:
                 {otherAcademicYears.map((year) => (
                     <>
                         &nbsp;&nbsp;
@@ -28,8 +28,8 @@ const OurTeam = ({
     } else {
         blurb = (
             <>
-                You are viewing the team from a previous academic year. You can
-                view the&nbsp;
+                You are viewing a previous exec team. Note that the exec
+                headshots and bios may no longer be accurate. View the&nbsp;
                 <Link href={`/team/${currentAcademicYear}`}>current team</Link>
                 &nbsp;or other exec archives:
                 {otherAcademicYears
