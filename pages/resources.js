@@ -142,10 +142,9 @@ export default function Resources() {
                 AI events at McGill and Montreal is by following us on&nbsp;
                 <a href="https://www.facebook.com/McGillAI">Facebook</a>
                 &nbsp; and subscribing to our&nbsp;
-                {/* TODO: replace form */}
                 <a
                     rel="noopener noreferrer"
-                    href="https://forms.gle/L8HqJWJ2KSy3Cd6y5"
+                    href="https://forms.gle/sx6wKeN81F2qXo9g8"
                     target="_blank"
                 >
                     newsletter

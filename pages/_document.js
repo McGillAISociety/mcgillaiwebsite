@@ -42,7 +42,7 @@ class MyDocument extends Document {
                     <link
                         rel="preconnect"
                         href="https://fonts.gstatic.com"
-                        crossorigin
+                        crossOrigin="true"
                     />
                     {/* TODO: only pull in the font weights that I use, and/or only pull Roboto using next/head on the home page? */}
                     <link

@@ -103,9 +103,6 @@ const sponsorData = [
     },
 ];
 
-// TODO: find another location for the listserv signup, or just have it on the footer only
-// Maybe have a "connect with us" section on homepage?
-// Maybe have a form that auto signs up to mailing list?
 function Home() {
     return (
         <>
@@ -129,7 +126,6 @@ function Home() {
                 <h2>About Us</h2>
                 <div className="flex-center">
                     {aboutData.map((data, index) => (
-                        // TODO: style these entries into cards? (and also maybe the timeline entries?)
                         <div key={index} className={styles['about__entry']}>
                             <div className={styles['about__entry__img']}>
                                 <Image
@@ -154,7 +150,8 @@ function Home() {
                     <div className={styles['timeline__events']}>
                         {timelineData.map((data, index) => (
                             <></>
-                            // TODO: rewrite this!
+                            // TODO: when I re-wrote the website, I didn't procrastinated re-implementing this timeline. So it's up to you to figure out how you want the the events to display!
+                            // No matter the aesthetic, I definetly think that the timeline entries should be wrapped in links to the relevant facebook events (this wasn't the case before)
                         ))}
                     </div>
                 ) : (
@@ -184,7 +181,7 @@ function Home() {
                 <ContentGrid content={activitiesData} />
             </section>
 
-            {/* <Sponsors /> */}
+            {/* Sponsors */}
             <section>
                 <h2>Sponsors</h2>
                 <div className={`flex-center ${styles['sponsors']}`}>

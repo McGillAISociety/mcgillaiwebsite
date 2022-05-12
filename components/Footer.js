@@ -52,6 +52,20 @@ export default function Footer() {
         <footer className={`flex-center ${styles['footer']}`}>
             <div>
                 <div className="flex-center">
+                    <p>
+                        Register for our&nbsp;
+                        <a
+                            href="https://forms.gle/sx6wKeN81F2qXo9g8"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            listserv
+                        </a>
+                        &nbsp;to stay up to date with our initiatives!
+                    </p>
+                </div>
+                <br />
+                <div className="flex-center">
                     {socials.map((social, index) => (
                         <a
                             key={index}
