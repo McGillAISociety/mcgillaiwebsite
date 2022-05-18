@@ -150,7 +150,7 @@ function Home() {
                     <div className={styles['timeline__events']}>
                         {timelineData.map((data, index) => (
                             <></>
-                            // TODO: when I re-wrote the website, I didn't procrastinated re-implementing this timeline. So it's up to you to figure out how you want the the events to display!
+                            // TODO: when I re-wrote the website, I procrastinated re-implementing this timeline. So it's up to you to figure out how you want the the events to display!
                             // No matter the aesthetic, I definetly think that the timeline entries should be wrapped in links to the relevant facebook events (this wasn't the case before)
                         ))}
                     </div>

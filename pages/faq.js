@@ -1,5 +1,7 @@
 import React from 'react';
 
+// TODO: put the question/answers in an array of objects and use map() to render them
+
 export default function FAQ() {
     return (
         <section>
