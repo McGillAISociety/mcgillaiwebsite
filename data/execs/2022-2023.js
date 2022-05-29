@@ -148,14 +148,4 @@ export default [
         bio: 'Josh (AKA VP Vibes) is a recent McGill grad who majored in CS with minors in Poli Sci and Philosophy. He’s currently working at Coveo as a full stack dev. He loves to exercise, cook, and wander aimlessly around the Plateau.',
         linkedin: 'https://www.linkedin.com/in/josh-katofsky/',
     },
-    {
-        photo: path('xin'),
-        name: 'Xin Rui Li',
-        position: 'Senior Advisor',
-        bio: 'Victor is a fourth year statistics and computer science student interested in time series prediction and machine learning theory. In his spare time, he enjoys biking, swimming and running around Mont-Royal.',
-        linkedin: 'https://www.linkedin.com/in/victor-crz/',
-    }
-    
-
-
 ];
