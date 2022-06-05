@@ -19,7 +19,7 @@ export default [
         photo: path('signe'),
         name: 'Signe Hoel',
         position: 'VP Communications',
-        bio: 'Signe is a third year Computer Science and Biology student interested in computational biology and using artificial intelligence to analyze biological data sets. She spends her free time exploring, crocheting, cooking or watching everything on Netflix.',
+        bio: 'Signe is a third year Computer Science and Biology student interested in computational biology and using AI to analyze biological data sets. She spends her free time exploring, crocheting, cooking or watching everything on Netflix.',
         linkedin: 'https://www.linkedin.com/in/signe-hoel/',
     },
     {
