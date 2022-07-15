@@ -63,7 +63,7 @@ function MAIS({ Component, pageProps, router }) {
                 metaTitle: 'Membership | McGill AI Society',
                 metaDescription: "Expanding our community",
                 metaImagePath: metaImagePath('mais'),
-                title: 'Montreal AI Membership',
+                title: 'McGill AI Membership',
                 subtitle: 'Expanding our community',
                 route: '/membership',
             };
