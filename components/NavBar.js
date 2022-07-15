@@ -24,6 +24,10 @@ const navOptions = [
         route: '/podcast',
     },
     {
+        title: 'Membership',
+        route: '/membership',
+    },
+    {
         title: 'Resources',
         route: '/resources',
     },

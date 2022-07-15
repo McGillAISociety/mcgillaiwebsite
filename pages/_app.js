@@ -58,14 +58,14 @@ function MAIS({ Component, pageProps, router }) {
                 route: '/podcast',
             };
             break;
-        case '/resources':
+        case '/membership':
             pageData = {
-                metaTitle: 'Resources | McGill AI Society',
-                metaDescription: "McGill AI's guide to the Montreal AI Scene",
+                metaTitle: 'Membership | McGill AI Society',
+                metaDescription: "Expanding our community",
                 metaImagePath: metaImagePath('mais'),
-                title: 'Montreal AI Resources',
-                subtitle: 'Our guide to the Montreal AI Scene',
-                route: '/resources',
+                title: 'Montreal AI Membership',
+                subtitle: 'Expanding our community',
+                route: '/membership',
             };
             break;
         case '/faq':
