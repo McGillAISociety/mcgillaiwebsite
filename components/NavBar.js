@@ -50,7 +50,7 @@ const navOptions = [
 function NavBar() {
     const [burgerOpen, setBurgerOpen] = useState(false);
     const router = useRouter();
-    const burgered = useWindowWidth(1000);
+    const burgered = useWindowWidth(1300);
 
     // TODO: cleanup the classname structure maybe
 
