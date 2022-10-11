@@ -19,7 +19,7 @@ export default function MAIS202() {
                         interval={1500}
                         className={styles['carousel']}
                     >
-                        {['1', '2', '3', '4', '5', '6'].map((number) => (
+                        {['bootcamp2022', '1', '2', '3', '4', '5', '6'].map((number) => (
                             <Image
                                 key={number}
                                 src={`/images/mais202/gallery/${number}.jpg`}

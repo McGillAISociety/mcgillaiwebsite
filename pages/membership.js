@@ -1,9 +1,34 @@
 import React from 'react';
+import Image from 'next/image';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import { Carousel } from 'react-responsive-carousel';
+import styles from '../styles/pages/membership.module.scss';
 
 export default function Membership() {
     return (
         <>
             <section>
+                <section className="flex-center">
+                <Carousel
+                        autoPlay
+                        infiniteLoop
+                        stopOnHover={false}
+                        showStatus={false}
+                        showThumbs={false}
+                        interval={1500}
+                        className={styles['carousel']}
+                    >
+                        {['1', '2', '3'].map((number) => (
+                            <Image
+                                key={number}
+                                src={`/images/membership/${number}.jpg`}
+                                alt="MAIS 202"
+                                width={800}
+                                height={640}
+                            />
+                        ))}
+                    </Carousel>
+                </section>
                 <h2>About</h2>
                 <p>
                     MAIS hosts a variety of events throughout the year open to everyone regardless of previous experience or knowledge of AI. If you're looking to learn more about any category of AI, technical, legal/law, ethics, etc. then we'd love to see you at our future events. We're always looking to provide an inclusive and educational environment for all.  

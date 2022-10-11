@@ -57,7 +57,7 @@ const OurTeam = ({
                         late February.
                     </h3>
                     <Image
-                        src="/images/team/execs.jpeg"
+                        src="/images/team/execs2.jpeg"
                         alt="MAIS execs"
                         height={756}
                         width={1080}
