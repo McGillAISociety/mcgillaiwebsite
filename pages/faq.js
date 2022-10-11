@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 // TODO: put the question/answers in an array of objects and use map() to render them
 
@@ -24,6 +25,22 @@ export default function FAQ() {
             </p>
 
             <h3>
+                I'm confused about the McGill AI Membership - Do I need to be a member to take part in MAIS202 or MAIS Hacks?
+            </h3>
+            <p>
+                You do not need to be a member to take part in the MAIS202 bootcamp or our hackathon! The goal of membership is to get more people involved in the McGill AI community. However, if you would like to take part in our journal club, go to socials or have access to our community discord, you would need to apply for membership. If you are still confused about what is involved in each McGill AI initiative, you can use this flowchart as a reference:
+            </p>
+            <br></br>
+            <p>
+                <Image
+                    src="/images/faq/flowchart.jpeg"
+                    alt="flowchart"
+                    height={484}
+                    width={720}
+                />
+            </p>
+
+            <h3>
                 Can I still come to your events even if I have no experience
                 with AI?
             </h3>
@@ -39,9 +56,7 @@ export default function FAQ() {
                 >
                     blog post
                 </a>{' '}
-                by one of our former co-presidents.
-                <br />
-                If you are new to programming, we would highly recommend that
+                by one of our former co-presidents. If you are new to programming, we would highly recommend that
                 you build a solid understanding of Python fundamentals first.
             </p>
 
@@ -68,7 +83,7 @@ export default function FAQ() {
 
             <h3>Can we submit a blurb to your biweekly newsletter?</h3>
             <p>
-                For McGill clubs: Yes! Please fill out this{' '}
+                <strong>For McGill clubs:</strong> Yes! Please fill out this{' '}
                 <a href="https://forms.gle/NfXYRL38WfWiapPr5" target="_blank">
                     form
                 </a>{' '}
@@ -77,8 +92,8 @@ export default function FAQ() {
                     mcgillaicontact@gmail.com
                 </a>{' '}
                 and one of our execs will be in touch.
-                <br />
-                For companies in Montreal and abroad: Due to agreements with our
+                <br></br>
+                <strong>For companies in Montreal and abroad:</strong> Due to agreements with our
                 sponsors, blurbs submitted by non-sponsors will be reviewed on a
                 case by case basis. In the past, we have included blurbs from
                 non-sponsors for networking events, research opportunities on
