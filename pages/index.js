@@ -78,27 +78,21 @@ const timelineData = [
 const sponsorImgDir = (img) => `/images/home/sponsors/${img}.png`;
 const sponsorData = [
     {
-        name: 'sama',
-        url: 'https://www.sama.com/careers',
-        imgWidth: 400,
-        img: sponsorImgDir('sama'),
+        name: 'desjardins',
+        url: 'https://www.desjardins.com/en/careers.html',
+        imgWidth: 350,
+        img: sponsorImgDir('desjardins'),
     },
     {
-        name: 'intact',
-        url: 'https://careers.intactfc.com/intactinsurance/ca/en',
+        name: 'isaac',
+        url: 'https://www.isaacinstruments.com/careers/',
         imgWidth: 400,
-        img: sponsorImgDir('Intactlab'),
-    },
-    {
-        name: 'cae',
-        url: 'https://www.cae.com/careers/',
-        imgWidth: 250,
-        img: sponsorImgDir('cae'),
+        img: sponsorImgDir('isaac'),
     },
     {
         name: 'squarepoint',
         url: 'https://www.squarepoint-capital.com/',
-        imgWidth: 200,
+        imgWidth: 350,
         img: sponsorImgDir('squarepoint'),
     },
 ];
@@ -144,6 +138,7 @@ function Home() {
             </section>
 
             {/* Timeline */}
+            {/* 
             <section className={styles['timeline']}>
                 <h2>Upcoming Events</h2>
                 {timelineData.length ? (
@@ -160,7 +155,7 @@ function Home() {
                         soon!
                     </p>
                 )}
-            </section>
+            </section>*/}
 
             {/* Stats */}
             <section className={`flex-center ${styles['stats']}`}>
@@ -179,7 +174,7 @@ function Home() {
             <section>
                 <h2>Initiatives</h2>
                 <ContentGrid content={activitiesData} />
-            </section>
+             </section>
 
             {/* Sponsors */}
             <section>
