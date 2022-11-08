@@ -2,18 +2,18 @@ const path = (name) => `/images/team/2021-2022/${name}.png`;
 
 export default [
     {
-        photo: path('yulu'),
-        name: 'Yu Lu Liu',
-        position: 'Co-President',
-        bio: 'Yu Lu is a third year Stats and Comp Sci student interested in natural language processing and its applications. In her free time, she enjoys gardening and watching nature documentaries.',
-        linkedin: 'https://www.linkedin.com/in/yu-lu-liu-5a66861a2/',
-    },
-    {
         photo: path('parsa'),
         name: 'Parsa Yadollahi',
         position: 'Co-President',
         bio: "Parsa is a fourth and last year Computer Science student interested in software engineering and quantitative finance. A lover of Toronto and El-Drake, he embodies the spirit of Trottier's 3rd floor where he and his trademark biceps roam.",
         linkedin: 'https://www.linkedin.com/in/parsa-yadollahi/',
+    },
+    {
+        photo: path('yulu'),
+        name: 'Yu Lu Liu',
+        position: 'Co-President',
+        bio: 'Yu Lu is a third year Stats and Comp Sci student interested in natural language processing and its applications. In her free time, she enjoys gardening and watching nature documentaries.',
+        linkedin: 'https://www.linkedin.com/in/yu-lu-liu-5a66861a2/',
     },
     {
         photo: path('xinrui'),
