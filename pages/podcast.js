@@ -114,12 +114,6 @@ export default function Podcast() {
                         ethical considerations that have gone into their work.
                     </li>
                 </ul>
-
-                <h3>What schedule does the podcast operate on?</h3>
-                <p>
-                    We are looking to publish an episode biweekly starting mid
-                    September.
-                </p>
             </section>
         </>
     );
