@@ -46,44 +46,22 @@ export default function Podcast() {
             </section>
             <section>
                 <h2>About</h2>
-                <h3>Origins</h3>
                 <p>
-                    There are very few places in the world like Montreal and
-                    McGill which have such a concentration of talent in the
-                    field of AI/ML. MAIS primarily serves to build a community
-                    with a shared passion for the field, spreading knowledge and
-                    resources to help aid people trying to enter it. Therefore,
-                    a podcast would be the perfect platform to promote interest
-                    and reduce the barrier to entry which currently exists in
-                    the AI ecosystem. We hope to focus on promoting the
-                    achievements of underrepresented people within the field,
-                    promoting their research/work, give them a platform to share
-                    their experiences and allow others to use that information
-                    to break into the field while being more aware of the
-                    challenges and opportunities.
+                There are very few places in the world like Montreal and McGill which have such a concentration of talent in the field of AI/ML. MAIS primarily serves to build a community with a shared passion for the field, spreading knowledge and resources to help aid people trying to enter the AI ecosystem. Our podcast aims to promote the research and share the experiences of people making remarkable contributions to the development of AI across disciplines, and to allow others to use that information to break into the field while being more aware of the challenges and opportunities. We hope to foster an accessible, holistic resource to understand how AI is evolving and continuously changing the world around us.
                 </p>
                 <h3>Vision and Goals</h3>
                 <ul>
                     <li>
-                        Attract students from all backgrounds/disciplines
-                        towards AI research.
+                    Build an accessible, holistic discussion platform and interdisciplinary community around AI.
                     </li>
                     <li>
-                        Promote the research of McGill & MILA professors by
-                        connecting fundamental AI/ML principles to their
-                        research interests/disciplines.
+                    Cover the current and future research, applications, and implications of AI.
                     </li>
                     <li>
-                        Cover the current/potential applications of AI research
-                        into technology and society’s daily lives.
+                    Analyze the socioeconomic, geopolitical and ethical concerns of AI.
                     </li>
                     <li>
-                        Analyse the socioeconomic, geopolitical and ethical
-                        concerns with AI research.
-                    </li>
-                    <li>
-                        Destigmatize the field of AI and reduce barriers to
-                        entry to all those interested/curious.
+                    Destigmatize the field of AI and reduce the barriers to entry to all those interested/curious.
                     </li>
                 </ul>
             </section>
