@@ -114,6 +114,12 @@ export default [
         linkedin: 'https://www.linkedin.com/in/adadtur/',
     },
     {
+        photo: path('nicolas'),
+        name: 'Nicolas Bosteels',
+        position: 'Podcast Producer',
+        bio: 'Nico is a 4th year Electrical engineer student minoring in AI and Economics. He is passionate about the multidisciplinary areas of AI involving neuroscience and its application in the music and finance industries. You can sometimes catch him playing football at campus and some fewer times studying there.',
+    },
+    {
         photo: path('alexandre'),
         name: 'Alexandre St-Onge',
         position: 'Podcast Producer',
