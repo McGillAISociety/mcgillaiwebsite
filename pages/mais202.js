@@ -19,15 +19,17 @@ export default function MAIS202() {
                         interval={1500}
                         className={styles['carousel']}
                     >
-                        {['bootcamp2022', '1', '2', '3', '4', '5', '6'].map((number) => (
-                            <Image
-                                key={number}
-                                src={`/images/mais202/gallery/${number}.jpg`}
-                                alt="MAIS 202"
-                                width={640}
-                                height={480}
-                            />
-                        ))}
+                        {['bootcamp2022', '1', '2', '3', '4', '5', '6'].map(
+                            (number) => (
+                                <Image
+                                    key={number}
+                                    src={`/images/mais202/gallery/${number}.jpg`}
+                                    alt="MAIS 202"
+                                    width={640}
+                                    height={480}
+                                />
+                            )
+                        )}
                     </Carousel>
 
                     <div className={`flex-center ${styles['stats']}`}>
@@ -44,6 +46,26 @@ export default function MAIS202() {
                         ))}
                     </div>
                 </div>
+            </section>
+            <section>
+                <h2>Fall 2023 Applications now open!</h2>
+                <p className={`${styles['center']}`}>
+                    {' '}
+                    Check out our{' '}
+                    <a
+                        href="https://www.facebook.com/events/1592220788182786?acontext=%7B%22event_action_history%22%3A[%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22unknown%22%2C%22surface%22%3A%22user_timeline%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22your_upcoming_events_unit%22%2C%22surface%22%3A%22bookmark%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22your_upcoming_events_unit%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D"
+                        target="_blank"
+                    >
+                        Facebook page
+                    </a>{' '}
+                    for more details, or apply{' '}
+                    <a
+                        href="https://forms.gle/LfNaQ5ao6WzRW35TA?fbclid=IwAR2t7y-Epfe5z5fCfbCCbM8JWsDydnApyrTkbbt0NN-jnbUw9yzDuiaJJ3E"
+                        target="_blank"
+                    >
+                        here.
+                    </a>{' '}
+                </p>
             </section>
             <section>
                 <h2>About</h2>
@@ -109,10 +131,10 @@ export default function MAIS202() {
                     pertaining to their final project. For more details
                     regarding assignments and project deliverables, see our{' '}
                     <a
-                        href="https://drive.google.com/file/d/10EoBsvygM6U5v-AVIHXs0MVm_xGXZ0HA/view?fbclid=IwAR3wC0q2r8ugqb2sVAGAMPNXXU9b0jU8a27wQ_9VIuoUXsHeRP8Gowr-CQ8"
+                        href="https://docs.google.com/document/d/1nLrA3Dt3J35puT1hJX8VW8LBsyilfBOXZ856knPjDuE/edit?usp=sharing"
                         target="_blank"
                     >
-                        2021/2022 Syllabus
+                        2023/2024 Syllabus
                     </a>
                     . The time commitment for the course can range from four to
                     eight hours a week (~2-3 credit McGill course), depending on

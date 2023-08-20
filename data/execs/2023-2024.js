@@ -129,9 +129,16 @@ export default [
     {
         photo: path('serena'),
         name: 'Serena Elzein',
-        position: 'VP Community - Social',
+        position: 'VP Community',
         bio: 'Serena is a second year Computer Science and Biology student specializing in AI. She is passionate about using computational methods to ameliorate biological and medical studies. Some of her interests include playing volleyball(a LOT), running, and playing the piano!',
         linkedin: 'https://www.linkedin.com/in/serena-elzein-061b33224/',
+    },
+    {
+        photo: path('meriem'),
+        name: 'Meriem Mehri',
+        position: 'VP Community',
+        bio: "Meriem is currently pursuing a master's degree in management analytics, specializing in data science. She is passionate about responsible machine learning and looks towards expanding her expertise in artificial intelligence in the tech4good landscape. Beyond her quantitative acumen, she cultivates a continuous interest to diversity & inclusion in tech and loves to create digital content on social media.",
+        linkedin: 'https://www.linkedin.com/in/meriem-mehri/',
     },
     {
         photo: path('maggie'),

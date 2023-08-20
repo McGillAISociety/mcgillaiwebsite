@@ -25,18 +25,25 @@ export default function FAQ() {
             </p>
 
             <h3>
-                I'm confused about the McGill AI Membership - Do I need to be a member to take part in MAIS202 or MAIS Hacks?
+                I'm confused about the McGill AI Membership - Do I need to be a
+                member to take part in MAIS202 or MAIS Hacks?
             </h3>
             <p>
-                You do not need to be a member to take part in the MAIS202 bootcamp or our hackathon! The goal of membership is to get more people involved in the McGill AI community. However, if you would like to take part in our journal club, go to socials or have access to our community discord, you would need to apply for membership. If you are still confused about what is involved in each McGill AI initiative, you can use this flowchart as a reference:
+                You do not need to be a member to take part in the MAIS202
+                bootcamp or our hackathon! The goal of membership is to get more
+                people involved in the McGill AI community. However, if you
+                would like to take part in our journal club, go to socials or
+                have access to our community discord, you would need to apply
+                for membership. If you are still confused about what is involved
+                in each McGill AI initiative, you can use this flowchart as a
+                reference:
             </p>
-            <br></br>
             <p>
                 <Image
-                    src="/images/faq/flowchart.jpeg"
+                    src="/images/faq/flowchart2023.png"
                     alt="flowchart"
                     height={484}
-                    width={720}
+                    width={1000}
                 />
             </p>
 
@@ -56,8 +63,9 @@ export default function FAQ() {
                 >
                     blog post
                 </a>{' '}
-                by one of our former co-presidents. If you are new to programming, we would highly recommend that
-                you build a solid understanding of Python fundamentals first.
+                by one of our former co-presidents. If you are new to
+                programming, we would highly recommend that you build a solid
+                understanding of Python fundamentals first.
             </p>
 
             <h3>
@@ -93,11 +101,12 @@ export default function FAQ() {
                 </a>{' '}
                 and one of our execs will be in touch.
                 <br></br>
-                <strong>For companies in Montreal and abroad:</strong> Due to agreements with our
-                sponsors, blurbs submitted by non-sponsors will be reviewed on a
-                case by case basis. In the past, we have included blurbs from
-                non-sponsors for networking events, research opportunities on
-                campus (pertaining to AI), and the AI4Good summer lab.
+                <strong>For companies in Montreal and abroad:</strong> Due to
+                agreements with our sponsors, blurbs submitted by non-sponsors
+                will be reviewed on a case by case basis. In the past, we have
+                included blurbs from non-sponsors for networking events,
+                research opportunities on campus (pertaining to AI), and the
+                AI4Good summer lab.
             </p>
 
             <h3>
