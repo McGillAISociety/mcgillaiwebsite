@@ -43,7 +43,7 @@ export default function FAQ() {
                     src="/images/faq/flowchart2023.png"
                     alt="flowchart"
                     height={484}
-                    width={1000}
+                    width={850}
                 />
             </p>
 
