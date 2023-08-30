@@ -55,7 +55,7 @@ export default function Footer() {
                     <p>
                         Register for our&nbsp;
                         <a
-                            href="https://forms.gle/sx6wKeN81F2qXo9g8"
+                            href="http://eepurl.com/gC9zZT"
                             target="_blank"
                             rel="noopener noreferrer"
                         >

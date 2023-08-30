@@ -144,7 +144,7 @@ export default function Resources() {
                 &nbsp; and subscribing to our&nbsp;
                 <a
                     rel="noopener noreferrer"
-                    href="https://forms.gle/sx6wKeN81F2qXo9g8"
+                    href="http://eepurl.com/gC9zZT"
                     target="_blank"
                 >
                     newsletter
