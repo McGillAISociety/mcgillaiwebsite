@@ -23,10 +23,10 @@ const navOptions = [
         title: 'Podcast',
         route: '/podcast',
     },
-    {
+    /*{
         title: 'Membership',
         route: '/membership',
-    },
+    },*/
     {
         title: 'Resources',
         route: '/resources',

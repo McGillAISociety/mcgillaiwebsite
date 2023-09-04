@@ -163,7 +163,7 @@ function Home() {
                     The McGill AI Community
                 </h2>
                 <Image
-                    src="/images/home/assets/grid.svg"
+                    src="/images/home/assets/grid-2023.svg"
                     alt="MAIS Stats"
                     width={930}
                     height={600}
@@ -174,7 +174,7 @@ function Home() {
             <section>
                 <h2>Initiatives</h2>
                 <ContentGrid content={activitiesData} />
-             </section>
+            </section>
 
             {/* Sponsors */}
             <section>

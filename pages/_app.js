@@ -58,7 +58,7 @@ function MAIS({ Component, pageProps, router }) {
                 route: '/podcast',
             };
             break;
-        case '/membership':
+        /*case '/membership':
             pageData = {
                 metaTitle: 'Membership | McGill AI Society',
                 metaDescription: "Expanding our community",
@@ -67,7 +67,7 @@ function MAIS({ Component, pageProps, router }) {
                 subtitle: 'Expanding our community',
                 route: '/membership',
             };
-            break;
+            break;*/
         case '/resources':
             pageData = {
                 metaTitle: 'Resources | McGill AI Society',
