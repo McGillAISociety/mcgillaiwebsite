@@ -24,20 +24,6 @@ export default function FAQ() {
                 !
             </p>
 
-            <h3>
-                I'm confused about the McGill AI Membership - Do I need to be a
-                member to take part in MAIS202 or MAIS Hacks?
-            </h3>
-            <p>
-                You do not need to be a member to take part in the MAIS202
-                bootcamp or our hackathon! The goal of membership is to get more
-                people involved in the McGill AI community. However, if you
-                would like to take part in our journal club, go to socials or
-                have access to our community discord, you would need to apply
-                for membership. If you are still confused about what is involved
-                in each McGill AI initiative, you can use this flowchart as a
-                reference:
-            </p>
             <p>
                 <Image
                     src="/images/faq/flowchart2023.png"
@@ -85,14 +71,16 @@ export default function FAQ() {
                 To be fair to our company sponsors, our Facebook page is
                 reserved for them and our own events only. If you'd like to
                 partner with us, feel free to email{' '}
-                <a href="mailto:external@mcgillai.com">external@mcgillai.com</a>
+                <a href="mailto:external.mcgillai@mcgilleus.ca">
+                    external.mcgillai@mcgilleus.ca
+                </a>
                 .
             </p>
 
             <h3>Can we submit a blurb to your biweekly newsletter?</h3>
             <p>
                 <strong>For McGill clubs:</strong> Yes! Please fill out this{' '}
-                <a href="https://forms.gle/NfXYRL38WfWiapPr5" target="_blank">
+                <a href="https://forms.gle/b1PbLGHds1GQpgww8" target="_blank">
                     form
                 </a>{' '}
                 or reach out to us at{' '}
@@ -110,16 +98,33 @@ export default function FAQ() {
             </p>
 
             <h3>
-                Our club would like to collaborate with you on an event, how do
-                we get in touch?
+                Our club would like to collaborate with you, how do we get in
+                touch?
             </h3>
             <p>
-                Reach out at{' '}
-                <a href="mailto:mcgillaicontact@gmail.com">
-                    mcgillaicontact@gmail.com
-                </a>{' '}
-                and a member of our exec team will be in touch!
+                There are several ways to reach out to members of our team,
+                depending on type of collaboration:
             </p>
+            <ul>
+                <li>
+                    General:{' '}
+                    <a href="mailto:mcgillaicontact@gmail.com">
+                        mcgillaicontact@gmail.com
+                    </a>
+                </li>
+                <li>
+                    Events:{' '}
+                    <a href="events.mcgillai@mcgilleus.ca">
+                        events.mcgillai@mcgilleus.ca
+                    </a>
+                </li>
+                <li>
+                    Podcast:{' '}
+                    <a href="podcast.mcgillai@mcgilleus.ca">
+                        podcast.mcgillai@mcgilleus.ca
+                    </a>
+                </li>
+            </ul>
         </section>
     );
 }

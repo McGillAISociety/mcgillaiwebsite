@@ -47,23 +47,47 @@ export default function Podcast() {
             <section>
                 <h2>About</h2>
                 <p>
-                There are very few places in the world like Montreal and McGill which have such a concentration of talent in the field of AI/ML. MAIS primarily serves to build a community with a shared passion for the field, spreading knowledge and resources to help aid people trying to enter the AI ecosystem. Our podcast aims to promote the research and share the experiences of people making remarkable contributions to the development of AI across disciplines, and to allow others to use that information to break into the field while being more aware of the challenges and opportunities. We hope to foster an accessible, holistic resource to understand how AI is evolving and continuously changing the world around us.
+                    There are very few places in the world like Montreal and
+                    McGill which have such a concentration of talent in the
+                    field of AI/ML. MAIS primarily serves to build a community
+                    with a shared passion for the field, spreading knowledge and
+                    resources to help aid people trying to enter the AI
+                    ecosystem. Our podcast aims to promote the research and
+                    share the experiences of people making remarkable
+                    contributions to the development of AI across disciplines,
+                    and to allow others to use that information to break into
+                    the field while being more aware of the challenges and
+                    opportunities. We hope to foster an accessible, holistic
+                    resource to understand how AI is evolving and continuously
+                    changing the world around us.
                 </p>
                 <h3>Vision and Goals</h3>
                 <ul>
                     <li>
-                    Build an accessible, holistic discussion platform and interdisciplinary community around AI.
+                        Build an accessible, holistic discussion platform and
+                        interdisciplinary community around AI.
                     </li>
                     <li>
-                    Cover the current and future research, applications, and implications of AI.
+                        Cover the current and future research, applications, and
+                        implications of AI.
                     </li>
                     <li>
-                    Analyze the socioeconomic, geopolitical and ethical concerns of AI.
+                        Analyze the socioeconomic, geopolitical and ethical
+                        concerns of AI.
                     </li>
                     <li>
-                    Destigmatize the field of AI and reduce the barriers to entry to all those interested/curious.
+                        Destigmatize the field of AI and reduce the barriers to
+                        entry to all those interested/curious.
                     </li>
                 </ul>
+                <p>
+                    Interested in collaborating for an episode or have
+                    questions? Reach out to the podcast team at{' '}
+                    <a href="podcast.mcgillai@mcgilleus.ca">
+                        podcast.mcgillai@mcgilleus.ca
+                    </a>
+                    !
+                </p>
             </section>
 
             <section>
