@@ -47,7 +47,7 @@ export default function MAIS202() {
                     </div>
                 </div>
             </section>
-            <section>
+            {/*<section>
                 <h2>Fall 2023 Applications now open!</h2>
                 <p className={`${styles['center']}`}>
                     {' '}
@@ -66,7 +66,7 @@ export default function MAIS202() {
                         here.
                     </a>{' '}
                 </p>
-            </section>
+                        </section>*/}
             <section>
                 <h2>About</h2>
                 <h3>How it started</h3>
