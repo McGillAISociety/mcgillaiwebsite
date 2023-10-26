@@ -23,18 +23,18 @@ export default [
         linkedin: 'https://www.linkedin.com/in/jennifertramsu/',
     },
     {
-        photo: path('signe'),
-        name: 'Signe Hoel',
-        position: 'VP Communications',
-        bio: 'Signe is a fourth year Computer Science and Biology student interested in computational biology and using AI to analyze biological data sets. She spends her free time exploring, crocheting, cooking or watching everything on Netflix.',
-        linkedin: 'https://www.linkedin.com/in/signe-hoel/',
-    },
-    {
         photo: path('alexa'),
         name: 'Alexa Vasilakos',
         position: 'VP Communications',
         bio: 'Alexa is a fourth year Software Engineering student interested in the intersection between art and STEM and is especially interested in how AI is currently impacting visual artists. Her hobbies include swimming competitively, bouldering at Café Bloc, drawing, and tending to her Animal Crossing island.',
         linkedin: 'https://www.linkedin.com/in/alexavas/',
+    },
+    {
+        photo: path('jiajia'),
+        name: 'Jiajia Li',
+        position: 'VP Communications',
+        bio: 'Jia is a second year Computer Science student is passionate about integrating technology and AI with her artistic inclinations. Her fascination lies in exploring the potential of AI across various interdisciplinary fields. In her free time, she can be found reading, listening to music, and spending time with friends.',
+        linkedin: 'https://www.linkedin.com/in/jiajia-li17/',
     },
     {
         photo: path('emilie'),
@@ -50,11 +50,11 @@ export default [
         linkedin: 'https://www.linkedin.com/in/catherine-f-236796206',
     },
     {
-        photo: path('tahar'),
-        name: 'Tahar Oudghiri ',
+        photo: path('katrina'),
+        name: 'Katrina Poulin',
         position: 'VP Finance',
-        bio: "Tahar Oudghiri is a versatile professional with extensive experience in various fields. He did many social implication with the latest being a G20 YEA delegate, where he works to promote the use of AI for social and economic progress on international forums. He founded Mutini, a platform, where he implemented innovative solutions to help businesses manage their finances. Tahar's passion for technology and business led him to pursue a Certificate in Computer & Information Technology and another one in Applied Cybersecurity at McGill's School of Continuing Studies.",
-        linkedin: 'https://www.linkedin.com/in/toudghiri/',
+        bio: 'Katrina is doing her Masters in Electrical Engineering and is working on using Machine Learning to enhance simulation of electronic devices and systems. In her spare time, she likes taking care of her indoor garden and playing Mario Kart :)',
+        linkedin: 'https://www.linkedin.com/in/katrinapoulin/',
     },
     {
         photo: path('sheheryar'),
@@ -155,18 +155,18 @@ export default [
         linkedin: 'https://www.linkedin.com/in/benjamin-segall-a64a04187/ ',
     },
     {
-        photo: path('katrina'),
-        name: 'Katrina Poulin',
-        position: 'Senior Advisor - Events',
-        bio: 'Katrina is doing her Masters in Electrical Engineering and is working on using Machine Learning to enhance simulation of electronic devices and systems. In her spare time, she likes taking care of her indoor garden and playing Mario Kart :)',
-        linkedin: 'https://www.linkedin.com/in/katrinapoulin/',
-    },
-    {
         photo: path('thomas'),
         name: 'Thomas Jiralerspong',
         position: 'Senior Advisor - TPM',
         bio: 'Thomas is a third year math and computer science student interested in reinforcement learning and its applications. In his spare time, he enjoys writing music and watching movies.',
         linkedin: 'https://www.linkedin.com/in/thomas-jiralerspong/',
+    },
+    {
+        photo: path('signe'),
+        name: 'Signe Hoel',
+        position: 'Senior Advisor - Comms',
+        bio: 'Signe is a fourth year Computer Science and Biology student interested in computational biology and using AI to analyze biological data sets. She spends her free time exploring, crocheting, cooking or watching everything on Netflix.',
+        linkedin: 'https://www.linkedin.com/in/signe-hoel/',
     },
     {
         photo: path('lynn'),
