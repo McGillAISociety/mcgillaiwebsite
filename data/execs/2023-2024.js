@@ -33,14 +33,14 @@ export default [
         photo: path('jiajia'),
         name: 'Jiajia Li',
         position: 'VP Communications',
-        bio: 'Jia is a second year Computer Science student is passionate about integrating technology and AI with her artistic inclinations. Her fascination lies in exploring the potential of AI across various interdisciplinary fields. In her free time, she can be found reading, listening to music, and spending time with friends.',
+        bio: 'Jia is a second year Computer Science student who is passionate about integrating technology and AI with her artistic inclinations. Her fascination lies in exploring the potential of AI across various interdisciplinary fields. In her free time, she can be found reading, listening to music, and spending time with friends.',
         linkedin: 'https://www.linkedin.com/in/jiajia-li17/',
     },
     {
         photo: path('emilie'),
         name: 'Émilie Ducharme',
         position: 'VP Events',
-        bio: 'Émilie is a third year Honours Math and Computer Science student. In her free time she love to do sports, read a book or make animals in beads.',
+        bio: 'Émilie is a third year Honours Math and Computer Science student. In her free time she loves to play sports, read books, and make animals with beads.',
     },
     {
         photo: path('catherine'),
@@ -110,7 +110,7 @@ export default [
         photo: path('ada'),
         name: 'Ada Tur',
         position: 'Podcast Producer',
-        bio: 'Ada is a 2nd year CS and Linguistics student interested in NLP, Music + AI, and creative AI, and a research intern at MILA. Outside of MAIS, she loves playing musical instruments, going to concerts, watching movies, and hanging out with friends.',
+        bio: 'Ada is a 2nd year CS and Linguistics student interested in NLP, Music + AI, and creative AI, and is a research intern at MILA. Outside of MAIS, she loves playing musical instruments, going to concerts, watching movies, and hanging out with friends.',
         linkedin: 'https://www.linkedin.com/in/adadtur/',
     },
     {
@@ -130,7 +130,7 @@ export default [
         photo: path('serena'),
         name: 'Serena Elzein',
         position: 'VP Community',
-        bio: 'Serena is a second year Computer Science and Biology student specializing in AI. She is passionate about using computational methods to ameliorate biological and medical studies. Some of her interests include playing volleyball(a LOT), running, and playing the piano!',
+        bio: 'Serena is a second year Computer Science and Biology student specializing in AI. She is passionate about using computational methods to ameliorate biological and medical studies. Some of her interests include playing volleyball (a LOT), running, and playing the piano!',
         linkedin: 'https://www.linkedin.com/in/serena-elzein-061b33224/',
     },
     {
