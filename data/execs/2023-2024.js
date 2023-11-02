@@ -23,13 +23,6 @@ export default [
         linkedin: 'https://www.linkedin.com/in/jennifertramsu/',
     },
     {
-        photo: path('signe'),
-        name: 'Signe Hoel',
-        position: 'VP Communications',
-        bio: 'Signe is a fourth year Computer Science and Biology student interested in computational biology and using AI to analyze biological data sets. She spends her free time exploring, crocheting, cooking or watching everything on Netflix.',
-        linkedin: 'https://www.linkedin.com/in/signe-hoel/',
-    },
-    {
         photo: path('alexa'),
         name: 'Alexa Vasilakos',
         position: 'VP Communications',
@@ -37,10 +30,17 @@ export default [
         linkedin: 'https://www.linkedin.com/in/alexavas/',
     },
     {
+        photo: path('jiajia'),
+        name: 'Jiajia Li',
+        position: 'VP Communications',
+        bio: 'Jia is a second year Computer Science student who is passionate about integrating technology and AI with her artistic inclinations. Her fascination lies in exploring the potential of AI across various interdisciplinary fields. In her free time, she can be found reading, listening to music, and spending time with friends.',
+        linkedin: 'https://www.linkedin.com/in/jiajia-li17/',
+    },
+    {
         photo: path('emilie'),
         name: 'Émilie Ducharme',
         position: 'VP Events',
-        bio: 'Émilie is a third year Honours Math and Computer Science student. In her free time she love to do sports, read a book or make animals in beads.',
+        bio: 'Émilie is a third year Honours Math and Computer Science student. In her free time she loves to play sports, read books, and make animals with beads.',
     },
     {
         photo: path('catherine'),
@@ -50,11 +50,11 @@ export default [
         linkedin: 'https://www.linkedin.com/in/catherine-f-236796206',
     },
     {
-        photo: path('tahar'),
-        name: 'Tahar Oudghiri ',
+        photo: path('katrina'),
+        name: 'Katrina Poulin',
         position: 'VP Finance',
-        bio: "Tahar Oudghiri is a versatile professional with extensive experience in various fields. He did many social implication with the latest being a G20 YEA delegate, where he works to promote the use of AI for social and economic progress on international forums. He founded Mutini, a platform, where he implemented innovative solutions to help businesses manage their finances. Tahar's passion for technology and business led him to pursue a Certificate in Computer & Information Technology and another one in Applied Cybersecurity at McGill's School of Continuing Studies.",
-        linkedin: 'https://www.linkedin.com/in/toudghiri/',
+        bio: 'Katrina is doing her Masters in Electrical Engineering and is working on using Machine Learning to enhance simulation of electronic devices and systems. In her spare time, she likes taking care of her indoor garden and playing Mario Kart :)',
+        linkedin: 'https://www.linkedin.com/in/katrinapoulin/',
     },
     {
         photo: path('sheheryar'),
@@ -110,7 +110,7 @@ export default [
         photo: path('ada'),
         name: 'Ada Tur',
         position: 'Podcast Producer',
-        bio: 'Ada is a 2nd year CS and Linguistics student interested in NLP, Music + AI, and creative AI, and a research intern at MILA. Outside of MAIS, she loves playing musical instruments, going to concerts, watching movies, and hanging out with friends.',
+        bio: 'Ada is a 2nd year CS and Linguistics student interested in NLP, Music + AI, and creative AI, and is a research intern at MILA. Outside of MAIS, she loves playing musical instruments, going to concerts, watching movies, and hanging out with friends.',
         linkedin: 'https://www.linkedin.com/in/adadtur/',
     },
     {
@@ -130,7 +130,7 @@ export default [
         photo: path('serena'),
         name: 'Serena Elzein',
         position: 'VP Community',
-        bio: 'Serena is a second year Computer Science and Biology student specializing in AI. She is passionate about using computational methods to ameliorate biological and medical studies. Some of her interests include playing volleyball(a LOT), running, and playing the piano!',
+        bio: 'Serena is a second year Computer Science and Biology student specializing in AI. She is passionate about using computational methods to ameliorate biological and medical studies. Some of her interests include playing volleyball (a LOT), running, and playing the piano!',
         linkedin: 'https://www.linkedin.com/in/serena-elzein-061b33224/',
     },
     {
@@ -155,18 +155,18 @@ export default [
         linkedin: 'https://www.linkedin.com/in/benjamin-segall-a64a04187/ ',
     },
     {
-        photo: path('katrina'),
-        name: 'Katrina Poulin',
-        position: 'Senior Advisor - Events',
-        bio: 'Katrina is doing her Masters in Electrical Engineering and is working on using Machine Learning to enhance simulation of electronic devices and systems. In her spare time, she likes taking care of her indoor garden and playing Mario Kart :)',
-        linkedin: 'https://www.linkedin.com/in/katrinapoulin/',
-    },
-    {
         photo: path('thomas'),
         name: 'Thomas Jiralerspong',
         position: 'Senior Advisor - TPM',
         bio: 'Thomas is a third year math and computer science student interested in reinforcement learning and its applications. In his spare time, he enjoys writing music and watching movies.',
         linkedin: 'https://www.linkedin.com/in/thomas-jiralerspong/',
+    },
+    {
+        photo: path('signe'),
+        name: 'Signe Hoel',
+        position: 'Senior Advisor - Comms',
+        bio: 'Signe is a fourth year Computer Science and Biology student interested in computational biology and using AI to analyze biological data sets. She spends her free time exploring, crocheting, cooking or watching everything on Netflix.',
+        linkedin: 'https://www.linkedin.com/in/signe-hoel/',
     },
     {
         photo: path('lynn'),
