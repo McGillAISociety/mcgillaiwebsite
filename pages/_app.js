@@ -36,6 +36,15 @@ function MAIS({ Component, pageProps, router }) {
                 route: `/team/${academicYear}`,
             };
             break;
+        case '/events':
+            pageData = {
+                metaTitle: 'Events | McGill AI Society',
+                metaDescription: 'See what MAIS has to offer this academic year',
+                title: 'Events',
+                subtitle: 'See what MAIS has to offer this academic year',
+                route: '/events',
+            };
+            break;
         case '/mais202':
             pageData = {
                 metaTitle: 'MAIS 202 | McGill AI Society',

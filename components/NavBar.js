@@ -16,6 +16,10 @@ const navOptions = [
         route: `/team/${academicYearExecsMap.get('currentAcademicYear')}`,
     },
     {
+        title: 'Events',
+        route: '/events',
+    },
+    {
         title: 'MAIS 202',
         route: '/mais202',
     },
