@@ -1,0 +1,15 @@
+.event-container {
+    padding: 1.5em;
+    //flex-direction: column;
+}
+
+.event {
+    padding: 1.5em;
+    gap: 4em;
+    // display: flex;
+}
+
+.event-details {
+    flex-direction: column;
+    padding: 2em 0em 2em 0em;
+}
