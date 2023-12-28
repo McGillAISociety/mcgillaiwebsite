@@ -26,7 +26,7 @@ export default function Events({ eventsData = [] }) {
                         height={400}
                     />
                     <div className={`flex-start ${styles['event-details']}`}>
-                        <h2>{eventData.name}</h2>
+                        <h3>{eventData.name}</h3>
                         <h3>{eventData.datetime}</h3>
                         <p>{eventData.description}</p>
                     </div>

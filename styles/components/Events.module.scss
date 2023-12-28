@@ -1,13 +1,15 @@
 .event-container {
-    padding: 1.5em;
+    align-items: flex-start;
+    gap: 2em;
+    
 }
 
 .event {
-    padding: 1.5em;
-    gap: 4em;
+    display: flex;
+    flex-direction: column;
+    width: 40em;
 }
 
 .event-details {
-    flex-direction: column;
-    padding: 2em 0em 2em 0em;
+    padding-top: 1.5em;
 }
