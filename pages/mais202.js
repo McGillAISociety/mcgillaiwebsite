@@ -47,26 +47,26 @@ export default function MAIS202() {
                     </div>
                 </div>
             </section>
-            {/*<section>
-                <h2>Fall 2023 Applications now open!</h2>
+            <section>
+                <h2>Winter 2024 Applications now open!</h2>
                 <p className={`${styles['center']}`}>
                     {' '}
                     Check out our{' '}
                     <a
-                        href="https://www.facebook.com/events/1592220788182786?acontext=%7B%22event_action_history%22%3A[%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22unknown%22%2C%22surface%22%3A%22user_timeline%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22your_upcoming_events_unit%22%2C%22surface%22%3A%22bookmark%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22your_upcoming_events_unit%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D"
+                        href="https://fb.me/e/38KKiYK2h"
                         target="_blank"
                     >
                         Facebook page
                     </a>{' '}
                     for more details, or apply{' '}
                     <a
-                        href="https://forms.gle/LfNaQ5ao6WzRW35TA?fbclid=IwAR2t7y-Epfe5z5fCfbCCbM8JWsDydnApyrTkbbt0NN-jnbUw9yzDuiaJJ3E"
+                        href="https://forms.gle/JWZFo1dPcE2JjaoJ6"
                         target="_blank"
                     >
                         here.
                     </a>{' '}
                 </p>
-                        </section>*/}
+            </section>
             <section>
                 <h2>About</h2>
                 <h3>How it started</h3>
