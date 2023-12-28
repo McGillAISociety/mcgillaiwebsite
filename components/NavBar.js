@@ -8,12 +8,17 @@ import { HiExternalLink } from 'react-icons/hi';
 import { useWindowWidth } from './util';
 import { slide as BurgerMenu } from 'react-burger-menu';
 import academicYearExecsMap from '../data/execs/academicYearExecsMap.js';
+import academicYearEventsMap from '../data/events/academicYearEventsMap.js';
 import { sameBasePath } from './util';
 
 const navOptions = [
     {
         title: 'Team',
         route: `/team/${academicYearExecsMap.get('currentAcademicYear')}`,
+    },
+    {
+        title: 'Events',
+        route: `/events/${academicYearEventsMap.get('currentAcademicYear')}`,
     },
     {
         title: 'MAIS 202',

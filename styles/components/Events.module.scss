@@ -1,0 +1,38 @@
+@use '../vars';
+
+.event-container {
+    align-items: flex-start;
+    gap: 2em;
+    
+}
+
+.event {
+    display: flex;
+    flex-direction: column;
+    width: 40em;
+}
+
+.event-details {
+    padding-top: 1.5em;
+    h2 {
+        text-align: left;
+        font-weight: 700;
+        font-size: 2.4em;
+        margin-bottom: 0;
+        background: -webkit-linear-gradient(vars.$red, vars.$purple);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    h3 {
+        font-size: 1.5em;
+    }
+    h4 {
+        font-size: 1.1em;
+        text-transform: uppercase;
+        color: vars.$light-blue;
+        margin-bottom: 0.5em;
+    }
+    p {
+        font-size: 1.1em;
+    }
+}

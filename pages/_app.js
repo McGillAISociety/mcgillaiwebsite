@@ -10,6 +10,7 @@ const metaImagePath = (img) => `/meta/page-previews/${img}.png`;
 
 function MAIS({ Component, pageProps, router }) {
     const { route } = router;
+    const { academicYear } = pageProps;
 
     let pageData;
 
@@ -26,7 +27,6 @@ function MAIS({ Component, pageProps, router }) {
             };
             break;
         case '/team/[academicYear]':
-            const { academicYear } = pageProps;
             pageData = {
                 metaTitle: `${academicYear} Team | McGill AI Society`,
                 metaDescription: `Get to know our incredible execs for the ${academicYear} academic year`,
@@ -34,6 +34,15 @@ function MAIS({ Component, pageProps, router }) {
                 title: `Our ${academicYear} Team`,
                 subtitle: `Get to know our incredible execs`,
                 route: `/team/${academicYear}`,
+            };
+            break;
+        case '/events/[academicYear]':
+            pageData = {
+                metaTitle: `${academicYear} Events | McGill AI Society`,
+                metaDescription: `See what MAIS has to offer for the ${academicYear} year`,
+                title: `Events | ${academicYear}`,
+                subtitle: `See what MAIS has to offer this academic year`,
+                route: `/events/`,
             };
             break;
         case '/mais202':
