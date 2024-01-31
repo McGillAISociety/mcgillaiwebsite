@@ -71,11 +71,11 @@ export default [
         linkedin: 'https://www.linkedin.com/in/wassim-jabbour/',
     },
     {
-        photo: path('ziling'),
-        name: 'Ziling Cheng',
+        photo: path('murad'),
+        name: 'Murad Ismayilov',
         position: 'Technical Project Manager',
-        bio: 'Ziling is a 4th-year student in Honours Math & CS. She has been an undergraduate researcher at McGill and Mila since Summer 2022, focusing on Natural Language Processing. She likes cooking and has a strong passion for food.',
-        linkedin: 'https://www.linkedin.com/in/ziling-cheng-562968203/',
+        bio: 'Murad is a second-year CS - AI student interested in generative AI, and is actively learning about reinforcement learning. He wants to pursue research and eventually launch his own startup. His hobbies include going to the gym, playing football, basketball, video games and board games, and watching movies.',
+        linkedin: 'https://www.linkedin.com/in/murad-ism/',
     },
     {
         photo: path('aurelien'),
