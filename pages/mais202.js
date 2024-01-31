@@ -16,7 +16,7 @@ export default function MAIS202() {
                         stopOnHover={false}
                         showStatus={false}
                         showThumbs={false}
-                        interval={1500}
+                        interval={4500}
                         className={styles['carousel']}
                     >
                         {['bootcamp2022', '1', '2', '3', '4', '5', '6'].map(
@@ -47,7 +47,7 @@ export default function MAIS202() {
                     </div>
                 </div>
             </section>
-            <section>
+            {/* <section>
                 <h2>Winter 2024 Applications now open!</h2>
                 <p className={`${styles['center']}`}>
                     {' '}
@@ -66,7 +66,7 @@ export default function MAIS202() {
                         here.
                     </a>{' '}
                 </p>
-            </section>
+            </section> */}
             <section>
                 <h2>About</h2>
                 <h3>How it started</h3>
