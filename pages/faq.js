@@ -51,39 +51,44 @@ const SponsorFAQs = [
 
 export default function FAQ() {
     return (
-        <section>
-            <div className="flex-center">
-                <div className={styles['accordions']}>
-                <h3>Getting involved with MAIS</h3>
-                    {GettingInvolvedFAQs.map((faq, index) => (
-                        <Accordion key={index} label={faq.question}>
-                            <small dangerouslySetInnerHTML={{ __html: faq.answer }} />
-                        </Accordion>
-                    ))}
+        <>
+            <section>
+                <p>Check out some of our most frequently asked questions. <b>Don’t see your question? Reach out to us via social media or send us an email.</b></p>
+            </section>
+            <section>
+                <div className="flex-center">
+                    <div className={styles['accordions']}>
+                    <h3>Getting involved with MAIS</h3>
+                        {GettingInvolvedFAQs.map((faq, index) => (
+                            <Accordion key={index} label={faq.question}>
+                                <small dangerouslySetInnerHTML={{ __html: faq.answer }} />
+                            </Accordion>
+                        ))}
+                    </div>
                 </div>
-            </div>
-            <div className="flex-center">
-                <div className={styles['accordions']}>
-                <br></br>
-                <h3>MAIS Events</h3>
-                    {EventsFAQs.map((faq, index) => (
-                        <Accordion key={index} label={faq.question}>
-                            <small dangerouslySetInnerHTML={{ __html: faq.answer }} />
-                        </Accordion>
-                    ))}
+                <div className="flex-center">
+                    <div className={styles['accordions']}>
+                    <br></br>
+                    <h3>MAIS Events</h3>
+                        {EventsFAQs.map((faq, index) => (
+                            <Accordion key={index} label={faq.question}>
+                                <small dangerouslySetInnerHTML={{ __html: faq.answer }} />
+                            </Accordion>
+                        ))}
+                    </div>
                 </div>
-            </div>
-            <div className="flex-center">
-                <div className={styles['accordions']}>
-                <br></br>
-                <h3>Clubs, Companies and Sponsors</h3>
-                    {SponsorFAQs.map((faq, index) => (
-                        <Accordion key={index} label={faq.question}>
-                            <small dangerouslySetInnerHTML={{ __html: faq.answer }} />
-                        </Accordion>
-                    ))}
+                <div className="flex-center">
+                    <div className={styles['accordions']}>
+                    <br></br>
+                    <h3>Clubs, Companies and Sponsors</h3>
+                        {SponsorFAQs.map((faq, index) => (
+                            <Accordion key={index} label={faq.question}>
+                                <small dangerouslySetInnerHTML={{ __html: faq.answer }} />
+                            </Accordion>
+                        ))}
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </>
     );
 }

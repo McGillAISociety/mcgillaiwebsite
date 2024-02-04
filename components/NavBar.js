@@ -37,7 +37,7 @@ const navOptions = [
         route: '/resources',
     },
     {
-        title: 'FAQ',
+        title: 'FAQs',
         route: '/faq',
     },
     {
