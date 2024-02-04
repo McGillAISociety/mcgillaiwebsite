@@ -1,17 +1,27 @@
 import React from 'react';
-import styles from '../styles/pages/podcast.module.scss';
 import Profiles from '../components/Profiles';
+import Accordion from '../components/Accordion';
+import styles from '../styles/pages/podcast.module.scss';
+import styles2 from '../styles/pages/faq.module.scss';
 
 import academicYearExecsMap from '../data/execs/academicYearExecsMap';
 const hostData = academicYearExecsMap
     .get(academicYearExecsMap.get('currentAcademicYear'))
     .filter((exec) => exec.position.toLowerCase().includes('podcast'));
 
+const PodcastFAQs = [
+    {
+        question: 'What does the structure of an episode look like?',
+        answer: 'We will broadly be focusing on three ideas each episode: <br></br> • Getting to know the guest, their background, and the history of the topics they are studying. <br> • Looking at the theoretical concepts and frameworks the guest’s research uses and the problems their research is trying to solve. <br> • Analyzing this information from an interdisciplinary lens and trying to understand the socio political and economical impact their research has, as well as the ethical considerations that have gone into their work.',
+    },
+];
+
 export default function Podcast() {
     return (
         <>
             <section>
                 <h2>Stream</h2>
+                <br></br>
                 <div className="flex-center">
                     <iframe
                         title="Apple Podcasts"
@@ -96,26 +106,16 @@ export default function Podcast() {
             </section>
 
             <section>
-                <h2>FAQ</h2>
-                <h3>What does the structure of an episode look like?</h3>
-                <p>We will broadly be focusing on three ideas each episode:</p>
-                <ul>
-                    <li>
-                        Getting to know the guest, their background, and the
-                        history of the topics they are studying.
-                    </li>
-                    <li>
-                        Looking at the theoretical concepts and frameworks the
-                        guest’s research uses and the problems their research is
-                        trying to solve.
-                    </li>
-                    <li>
-                        Analyzing this information from an interdisciplinary
-                        lens and trying to understand the socio political and
-                        economical impact their research has, as well as the
-                        ethical considerations that have gone into their work.
-                    </li>
-                </ul>
+                <h2>Podcast FAQs</h2>
+                <div className="flex-center">
+                    <div className={styles2['accordions']}>
+                        {PodcastFAQs.map((faq, index) => (
+                            <Accordion key={index} label={faq.question}>
+                                <small dangerouslySetInnerHTML={{ __html: faq.answer }} />
+                            </Accordion>
+                        ))}
+                    </div>
+                </div>
             </section>
         </>
     );

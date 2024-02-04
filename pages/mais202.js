@@ -2,7 +2,44 @@ import React from 'react';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
 import Image from 'next/image';
+import Accordion from '../components/Accordion';
 import styles from '../styles/pages/mais202.module.scss';
+import styles2 from '../styles/pages/faq.module.scss';
+
+const BootcampFAQs = [
+    {
+        question: 'I am a U0/U1 student interested in taking MAIS 202. What pre-requisites do I need?',
+        answer: 'Note this does <b>NOT</b> include classes you are currently enrolled in. You <b>MUST</b> have completed the following: <br>• Linear Algebra (One of MATH 133, MATH 223 or equivalent) <br> • Calculus I (MATH 139/140/150 or equivalent) <br> • One object-oriented programming class (COMP 202 or equivalent) <br></br> <u>Optional but helpful:</u>  Multivariate Calculus (MATH 151/222/262), more advanced linear algebra (MATH 236/251/271), probability/stats (MATH 323/356, ECSE 205/305) <br></br> If you have not taken any of the above optional courses, don’t worry! What matters more is demonstrating a positive attitude, a willingness to learn, and a passion for math, computer science, and AI in your application.',
+    },
+    {
+        question: 'What is the time commitment like for MAIS 202?',
+        answer: 'MAIS 202 participants will be expected to attend one two-hour lecture every week for eight weeks, complete four assignments, and fulfill bi-weekly project deliverables pertaining to their final project. For more details regarding assignments and project deliverables, see our <a href="https://docs.google.com/document/d/1nLrA3Dt3J35puT1hJX8VW8LBsyilfBOXZ856knPjDuE/edit?usp=sharing">2023-2024 Syllabus</a>. The time commitment for the course can range from four to eight hours a week (approx. a 3-credit McGill course), depending on your familiarity with the material. Please consider this commitment when applying!',
+    },
+    {
+        question: 'When do applications usually open?',
+        answer: 'Note that applications for the Fall cohort usually open at the end of August, and applications for the Winter cohort usually open at the end of December. Make sure to stay up to date with our social media for any further updates or extensions. <b>We do NOT accept late applications.</b>',
+    },
+    {
+        question: 'What is the application process like?',
+        answer: 'Applications when open will be available on our website and social media. As part of the application, students must complete a coding exercise in Google Colab (Notebook and instructions provided in the application form). Shortlisted applicants will be invited to an interview where they will have to answer math questions as well as questions pertaining to their coding exercise. Selected bootcampees will be contacted via email to confirm their acceptance.',
+    },
+    {
+        question: 'Can I enroll in MAIS 202 if I am not a McGill Student?',
+        answer: 'Unfortunately, MAIS 202 is reserved for McGill students only. Our workshops, research talks, and other events (posted on our <a href="https://mcgillai.com/events/2023-2024"> Events</a> page and social media) are open to the public.',
+    },
+    {
+        question: 'Will I receive credit for MAIS 202?',
+        answer: 'Students who successfully complete the MAIS 202 Bootcamp will have their involvement officially recognized on their McGill Co-Curricular Record. Note that this is a bootcamp offered by the McGill AI Society, a student club. It is <b>NOT</b> an official course at McGill University.',
+    },
+    {
+        question: 'I’m a third/fourth year student. Can I still apply to MAIS 202?',
+        answer: 'As long as you have <b>NOT</b> taken one or more of COMP 424, COMP 551, ECSE 551, ECSE 552, or any other advanced course related to AI, yes! <br></br> Note that this bootcamp is intended for beginners and those with little to no experience with AI/ML. Any applicant who is deemed overqualified will be rejected.',
+    },
+    {
+        question: 'Are there any fees associated with MAIS 202?',
+        answer: 'Not at all! The course is completely free of charge :)',
+    },
+];
 
 export default function MAIS202() {
     return (
@@ -98,94 +135,16 @@ export default function MAIS202() {
                 </p>
             </section>
             <section>
-                <h2>FAQ</h2>
-                <h3>
-                    {' '}
-                    I am a U0/U1 student interested in taking MAIS 202. What
-                    pre-requisites do I need?
-                </h3>
-
-                <ul>
-                    <li>Introductory Linear Algebra (MATH 133)</li>
-                    <li>Calculus I (MATH 139-140/150)</li>
-                    <li>Basic Programming (COMP 202/204/208, ECSE 202)</li>
-                    <li>
-                        Optional but helpful: Multivariate Calculus (MATH
-                        151/222/262), more advanced linear algebra (MATH
-                        223/236/251/271), probability/stats (MATH 323/356, ECSE
-                        205/305)
-                    </li>
-                </ul>
-                <p>
-                    If you have not taken some of the aforementioned courses,
-                    don’t worry! What matters more is a positive attitude to
-                    learning and a passion for math, computer science, and AI
-                    demonstrated in your application.
-                </p>
-
-                <h3>What is the time commitment like for MAIS 202?</h3>
-                <p>
-                    MAIS 202 participants will be expected to attend one
-                    two-hour lecture every week for eight weeks, complete four
-                    assignments, and fulfill bi-weekly project deliverables
-                    pertaining to their final project. For more details
-                    regarding assignments and project deliverables, see our{' '}
-                    <a
-                        href="https://docs.google.com/document/d/1nLrA3Dt3J35puT1hJX8VW8LBsyilfBOXZ856knPjDuE/edit?usp=sharing"
-                        target="_blank"
-                    >
-                        2023/2024 Syllabus
-                    </a>
-                    . The time commitment for the course can range from four to
-                    eight hours a week (~2-3 credit McGill course), depending on
-                    your familiarity with the material.
-                </p>
-
-                {/* <h3>How long does MAIS 202 run for?</h3>
-                <p>
-                    Fall 2021 cohort:
-                    <ul>
-                        <li>Applications Open: 9th August - 8th September </li>
-                        <li>
-                            Final Project Fair: Late November/early December
-                        </li>
-                    </ul>
-                </p> */}
-
-                <h3>What is the selection process like?</h3>
-                <p>
-                    All applicants are required to complete a coding tutorial
-                    and fill out an application form, both of which will be
-                    provided on our Facebook page. Shortlisted applicants will
-                    then be invited to an interview with the academic lecturers
-                    and technical project managers. The applications for our
-                    Fall 2021 cohort will open at the end of August.
-                </p>
-
-                <h3>Can I enroll in MAIS 202 if I am not a McGill Student?</h3>
-                <p>
-                    Unfortunately, MAIS 202 will be reserved for McGill students
-                    only. Our workshops, research talks, and some other events
-                    (check specific Facebook event pages for more details!) are
-                    open to the public.
-                </p>
-
-                <h3>Will I receive credit for MAIS 202?</h3>
-                <p>
-                    Students who complete MAIS 202 will have the bootcamp appear
-                    on their Co-curricular record.
-                </p>
-
-                <h3>
-                    I’m a third year student. Can I still enroll in MAIS 202?
-                </h3>
-                <p>
-                    As long as you have not taken COMP 424, COMP 551, or any
-                    other advanced courses related to AI, yes!
-                </p>
-
-                <h3>Are there any fees associated with MAIS 202? </h3>
-                <p>Not at all! The course is completely free of charge :)</p>
+                <h2>Bootcamp FAQs</h2>
+                <div className="flex-center">
+                    <div className={styles2['accordions']}>
+                        {BootcampFAQs.map((faq, index) => (
+                            <Accordion key={index} label={faq.question}>
+                                <small dangerouslySetInnerHTML={{ __html: faq.answer }} />
+                            </Accordion>
+                        ))}
+                    </div>
+                </div>
             </section>
         </>
     );
