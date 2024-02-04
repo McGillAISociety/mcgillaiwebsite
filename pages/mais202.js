@@ -9,7 +9,7 @@ import styles2 from '../styles/pages/faq.module.scss';
 const BootcampFAQs = [
     {
         question: 'I am a U0/U1 student interested in taking MAIS 202. What pre-requisites do I need?',
-        answer: 'Note this does <b>NOT</b> include classes you are currently enrolled in. You <b>MUST</b> have completed the following: <br>• Linear Algebra (One of MATH 133/MATH 223 or equivalent) <br> • Calculus I (MATH 139/140/150 or equivalent) <br> • One object-oriented programming class (COMP 202 or equivalent) <br></br> <u>Optional but helpful:</u>  Multivariate Calculus (MATH 151/222/262), more advanced linear algebra (MATH 236/251/271), probability/stats (MATH 323/356, ECSE 205/305) <br></br> If you have not taken any of the above optional courses, don’t worry! What matters more is demonstrating a positive attitude, a willingness to learn, and a passion for math, computer science, and AI in your application.',
+        answer: 'Note this does <b>NOT</b> include classes you are currently enrolled in. You <b>MUST</b> have completed the following: <br>• Linear Algebra (One of MATH 133, MATH 223 or equivalent) <br> • Calculus I (MATH 139/140/150 or equivalent) <br> • One object-oriented programming class (COMP 202 or equivalent) <br></br> <u>Optional but helpful:</u>  Multivariate Calculus (MATH 151/222/262), more advanced linear algebra (MATH 236/251/271), probability/stats (MATH 323/356, ECSE 205/305) <br></br> If you have not taken any of the above optional courses, don’t worry! What matters more is demonstrating a positive attitude, a willingness to learn, and a passion for math, computer science, and AI in your application.',
     },
     {
         question: 'What is the time commitment like for MAIS 202?',
