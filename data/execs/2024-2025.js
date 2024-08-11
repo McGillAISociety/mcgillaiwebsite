@@ -23,6 +23,13 @@ export default [
         linkedin: 'http://linkedin.com/in/eya-ibrahim-0a130423b',
     },
     {
+        photo: path('sina'),
+        name: 'Sina Salmannia',
+        position: 'VP Events',
+        bio: 'Sina is a second-year Computer Science student with a strong passion for human-AI interactions and projects that merge human traits with artificial intelligence. He is also very interested in airplanes, simulators, and specific video games (and is always open to discussing these topics for hours.) Feel free to send him a message and make new connections! :)',
+        linkedin: 'www.linkedin.com/in/sinasalmannia',
+    },
+    {
         photo: path('ramatoulaye'),
         name: 'Ramatoulaye Balde',
         position: 'Podcast Producer',
@@ -51,6 +58,41 @@ export default [
         linkedin: 'https://www.linkedin.com/in/antoineparadis'
     },
     {
+        photo: path('david'),
+        name: 'David Medcalfe',
+        position: 'VP External',
+        bio: 'David is pursuing a Master of Information Studies under the supervision of Professor Benjamin Fung, Canada Research Chair in Data Mining for Cybersecurity. His research explores the ethical and legal facets of AI, integrating his legal background with advanced studies in data science and knowledge management to promote responsible AI innovation. ',
+        linkedin: 'https://www.linkedin.com/in/david-medcalfe-66060997/',
+    },
+    {
+        photo: path('deniz'),
+        name: 'Melek Deniz Colak',
+        position: 'VP Communications',
+        bio: 'Deniz is a fourth-year Cognitive Science student, concentrating in Computer Science. They are interested in the healthcare applications of AI and bioinformatics. In their free time, they enjoy cooking, crafting, and hiking with friends.',
+        linkedin: 'https://www.linkedin.com/in/melek-deniz-colak/',
+    },
+    {
+        photo: path('murad'),
+        name: 'Murad Ismayilov',
+        position: 'Technical Project Manager',
+        bio: 'Murad is a second-year CS - AI student interested in generative AI, and he is actively learning reinforcement learning. He wants to pursue research and to launch his own startup. His hobbies include football, gym, basketball, video games, movies, and board games.',
+        linkedin: 'https://www.linkedin.com/in/murad-ism/',
+    },
+    {
+        photo: path('tianyi'),
+        name: 'Tianyi Xu',
+        position: 'Technical Project Manager',
+        bio: 'Tianyi is a second year Math and CS student interested in Bio-inspired AI, LLM, NLP, and also ML engineering. He really enjoys all things food and sports related. He hopes to pursue further into research and apply ML in the industry. ',
+        linkedin: 'https://www.linkedin.com/in/tianyixucs/',
+    },
+    {
+        photo: path('emma'),
+        name: 'Emma Kondrup',
+        position: 'Technical Project Manager',
+        bio: "Emma is a third year student in Hon. Computer Science. Passionate about the ethical and socio-legal aspects of AI and tech, which she is exploring in her research at the University of Copenhagen. In her spare time, she is usually drawing in the parc, finding new music or hanging out with close ones :)",
+        linkedin: 'https://www.linkedin.com/in/emmakondrup',
+    },
+    {
         photo: path('veronica'),
         name: 'Veronica Xia',
         position: 'Senior Advisor',
@@ -63,6 +105,20 @@ export default [
         position: 'Senior Advisor',
         bio: 'Alexandre is a third-year law student interested in AI regulation, privacy law, and time series forecasting. In his spare time, he enjoys reading, playing golf and chess, and discovering new music.',
         linkedin: 'https://www.linkedin.com/in/alexandre-st-onge-060650203/',
+    },
+    {
+        photo: path('shahrad'),
+        name: 'Shahrad Mohammadzadeh',
+        position: 'Senior Advisor',
+        bio: "Shahrad is a Master's student in AI/ML at Mila/McGill. His work revolves around analyzing LLM behvaiour and efficiency, Graph Neural Networks and Reinforcement Learning. You can find him play the piano and Spikeball (ofc not at the same time, tho he would love to). He is always happy to connect :)",
+        linkedin: 'https://www.linkedin.com/in/shahrad-mz/',
+    },
+    {
+        photo: path('alexa'),
+        name: 'Alexa  Vasilakos',
+        position: 'Senior Advisor',
+        bio: 'Alexa recently completed her Bachelor of Science in Software Engineering at McGill and is starting her first work term in the fall. Her hobbies include swimming competitively, drawing, and tending to her Animal Crossing island.',
+        linkedin: 'https://www.linkedin.com/in/alexavas/',
     }
 
     
