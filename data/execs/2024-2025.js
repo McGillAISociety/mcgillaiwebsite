@@ -12,7 +12,7 @@ export default [
         photo: path('ada'),
         name: 'Ada Tur',
         position: 'Co-President',
-        bio: 'Ada is a third-year CS and Linguistics student, a researcher at Mila, and a 2024 AAAI UC Scholar. ',
+        bio: 'Ada is a third-year CS and Linguistics student, a researcher at Mila/McGillNLP, and a 2024 AAAI UC Scholar. Her current research focuses are NLP, multimodal AI, digital agents, computational linguistics, AI safety, and speech processing. She also has experience with music and AI, computer vision, and human-computer interaction. Outside of academics/research, Ada enjoys going to concerts and shows, TTRPGs, playing music with her band, hosting radio shows at CKUT 90.3 FM, and spending time with her gorgeous, accomplished son (cat), Vegas.',
         linkedin: 'https://www.linkedin.com/in/adadtur/',
     },
     {
@@ -61,7 +61,7 @@ export default [
         photo: path('david'),
         name: 'David Medcalfe',
         position: 'VP External',
-        bio: 'David is pursuing a Master of Information Studies under the supervision of Professor Benjamin Fung, Canada Research Chair in Data Mining for Cybersecurity. His research explores the ethical and legal facets of AI, integrating his legal background with advanced studies in data science and knowledge management to promote responsible AI innovation. ',
+        bio: 'David is pursuing a Master of Information Studies under the supervision of Professor Benjamin Fung, Canada Research Chair in Data Mining for Cybersecurity. His research focuses on the ethical and legal challenges of AI, leveraging his legal expertise and advanced studies in data science and knowledge management to advance responsible AI practices and bolster cybersecurity resilience.',
         linkedin: 'https://www.linkedin.com/in/david-medcalfe-66060997/',
     },
     {
@@ -70,6 +70,41 @@ export default [
         position: 'VP Communications',
         bio: 'Deniz is a fourth-year Cognitive Science student, concentrating in Computer Science. They are interested in the healthcare applications of AI and bioinformatics. In their free time, they enjoy cooking, crafting, and hiking with friends.',
         linkedin: 'https://www.linkedin.com/in/melek-deniz-colak/',
+    },
+    {
+        photo: path('william'),
+        name: 'William Kiem Lafond',
+        position: 'VP Communications',
+        bio: 'William is a second year Stats and CS student who likes learning on the algorithmic and statistical side of ML.  He can nerd out on cool algorithms (favourite one: bogosort). Outside of tech, his hobbies consists of working out with his dragonboat team and doing graphic designing for the vietnamese club (shoutout MVSA)!!',
+        linkedin: 'https://www.linkedin.com/in/william-kiem-lafond-98ab61233/',
+    },
+    {
+        photo: path('maelle'),
+        name: 'Maëlle Guislain',
+        position: 'VP Finance',
+        bio: 'Maëlle is a third-year undergraduate, studying Economics, Finance and Computer Science. She is interested in quantitative finance and the applications of AI in the world of banking. Outside of academics, she loves traveling, playing volleyball and enjoying music on the piano.',
+        linkedin: 'https://www.linkedin.com/in/maelleguislain/',
+    },
+    {
+        photo: path('arpan'),
+        name: 'Arpan Saha',
+        position: 'VP Kernel',
+        bio: 'Arpan is fourth year CS and Stats student interested in the use of AI for education, and AI algorithms of social media. His hobbies include soccer, volleyball and traveling.',
+        linkedin: 'https://www.linkedin.com/in/arpan-saha7/',
+    },
+    {
+        photo: path('gulce'),
+        name: 'Gülce Apaydın',
+        position: 'VP Kernel',
+        bio: 'Gülce is a third-year Computer Science and Math student with a love for exploring new concepts in technology and beyond. She enjoys reading fantasy novels and trying out new hobbies in her free time.',
+        linkedin: 'https://www.linkedin.com/in/gulceapaydin/',
+    },
+    {
+        photo: path('henry'),
+        name: 'Henry Paquin',
+        position: 'VP Kernel',
+        bio: "Henry is a first year student in Computer Science and Economics with a deep interest in the uses of AI in tech and startups, reflecting his entrepreneurial interests. Henry's pass-times include basketball, reading, drawing, and film (Look out for his horror movie club coming soon...).",
+        linkedin: 'https://www.linkedin.com/in/henry-paquin-329055295/',
     },
     {
         photo: path('murad'),
@@ -93,6 +128,13 @@ export default [
         linkedin: 'https://www.linkedin.com/in/emmakondrup',
     },
     {
+        photo: path('angadh'),
+        name: 'Angadh Verma',
+        position: 'Technical Project Manager',
+        bio: "Angadh is a third year CS and Stats student interested in theoretical ML research and using AI to battle climate change. His hobbies include playing the guitar, reading absurdist literature and playing sports.",
+        linkedin: 'https://www.linkedin.com/in/emmakondrup',
+    },
+    {
         photo: path('veronica'),
         name: 'Veronica Xia',
         position: 'Senior Advisor',
@@ -104,7 +146,7 @@ export default [
         name: 'Alexandre St-Onge',
         position: 'Senior Advisor',
         bio: 'Alexandre is a third-year law student interested in AI regulation, privacy law, and time series forecasting. In his spare time, he enjoys reading, playing golf and chess, and discovering new music.',
-        linkedin: 'https://www.linkedin.com/in/alexandre-st-onge-060650203/',
+        linkedin: 'https://www.linkedin.com/in/alexandre-st-onge',
     },
     {
         photo: path('shahrad'),
