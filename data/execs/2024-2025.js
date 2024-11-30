@@ -16,18 +16,18 @@ export default [
         linkedin: 'https://www.linkedin.com/in/adadtur/',
     },
     {
-        photo: path('eya'),
-        name: 'Eya Ibrahim',
-        position: 'VP Events',
-        bio: 'Eya is a third-year student from BC studying computational neuroscience. She hopes to delve into the world of neurotechnology, and BCIs in particular. In her research, she is working on ways in which AI can optimize pattern recognition for brain activity. ',
-        linkedin: 'http://linkedin.com/in/eya-ibrahim-0a130423b',
-    },
-    {
         photo: path('sina'),
         name: 'Sina Salmannia',
         position: 'VP Events',
         bio: 'Sina is a second-year Computer Science student with a strong passion for human-AI interactions and projects that merge human traits with artificial intelligence. He is also very interested in airplanes, simulators, and specific video games (and is always open to discussing these topics for hours.) Feel free to send him a message and make new connections! :)',
         linkedin: 'www.linkedin.com/in/sinasalmannia',
+    },
+    {
+        photo: path('catherinee'),
+        name: 'Catherine Fontaine',
+        position: 'VP Events',
+        bio: "Catherine is a fourth year Math and CS student who loves dancing and traveling. They discovered a new passion for cooking.",
+        linkedin: 'https://www.linkedin.com/in/catherine-f-236796206'
     },
     {
         photo: path('ramatoulaye'),
@@ -44,12 +44,13 @@ export default [
         linkedin: 'https://www.linkedin.com/in/alexandre-lamarche-in/'
     },
     {
-        photo: path('catherinee'),
-        name: 'Catherine Fontaine',
+        photo: path('eya'),
+        name: 'Eya Ibrahim',
         position: 'Podcast Producer',
-        bio: "Catherine is a fourth year Math and CS student who loves dancing and traveling. They discovered a new passion for cooking.",
-        linkedin: 'https://www.linkedin.com/in/catherine-f-236796206'
+        bio: 'Eya is a third-year student from BC studying computational neuroscience. She hopes to delve into the world of neurotechnology, and BCIs in particular. In her research, she is working on ways in which AI can optimize pattern recognition for brain activity. ',
+        linkedin: 'http://linkedin.com/in/eya-ibrahim-0a130423b',
     },
+
     {
         photo: path('antoine'),
         name: 'Antoine Paradis',
