@@ -17,30 +17,62 @@ profileData takes the following form:
 */
 
 export default function Profiles({ profilesData = [] }) {
+    // Split the profiles: first two (presidents), rest (other execs)
+    const topProfiles = profilesData.slice(0, 2);
+    const otherProfiles = profilesData.slice(2);
+
     return (
-        <div className={`flex-center ${styles['profiles-container']}`}>
-            {profilesData.map((profileData, index) => (
-                <div className={styles['profile']} key={index}>
-                    <Image
-                        src={profileData.photo}
-                        alt={profileData.name}
-                        width={200}
-                        height={200}
-                    />
-                    <h2>{profileData.name}</h2>
-                    <h3>{profileData.position}</h3>
-                    <p>{profileData.bio}</p>
-                    {profileData.linkedin && (
-                        <a
-                            href={profileData.linkedin}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <LinkedIn size={20} />
-                        </a>
-                    )}
-                </div>
-            ))}
-        </div>
+        <>
+            <div className={`flex-center ${styles['profiles-container']}`}
+                style={{ marginBottom: '2.5em', flexWrap: 'nowrap' }}>
+                {topProfiles.map((profileData, index) => (
+                    <div className={styles['profile']} key={index}>
+                        <Image
+                            src={profileData.photo}
+                            alt={profileData.name}
+                            width={200}
+                            height={200}
+                        />
+                        <h2>{profileData.name}</h2>
+                        <h3>{profileData.position}</h3>
+                        <p>{profileData.bio}</p>
+                        {profileData.linkedin && (
+                            <a
+                                href={profileData.linkedin}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <LinkedIn size={20} />
+                            </a>
+                        )}
+                    </div>
+                ))}
+            </div>
+            <div className={`flex-center ${styles['profiles-container']}`}
+                style={{ flexWrap: 'wrap' }}>
+                {otherProfiles.map((profileData, index) => (
+                    <div className={styles['profile']} key={index + 2}>
+                        <Image
+                            src={profileData.photo}
+                            alt={profileData.name}
+                            width={200}
+                            height={200}
+                        />
+                        <h2>{profileData.name}</h2>
+                        <h3>{profileData.position}</h3>
+                        <p>{profileData.bio}</p>
+                        {profileData.linkedin && (
+                            <a
+                                href={profileData.linkedin}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <LinkedIn size={20} />
+                            </a>
+                        )}
+                    </div>
+                ))}
+            </div>
+        </>
     );
 }
