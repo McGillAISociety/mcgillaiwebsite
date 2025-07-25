@@ -33,7 +33,7 @@ export default [
         photo: path('ramatoulaye'),
         name: 'Ramatoulaye Balde',
         position: 'Podcast Producer',
-        bio: "Ramatoulaye is a first-year Computer Engineering student minoring in Applied AI, interestd in AI applications in medicine and the ethical implications of AI's growing role in various fields. She enjoys video games, superheroes, and anime.",
+        bio: "Ramatoulaye is a second-year Computer Engineering student minoring in Applied AI, interested in AI applications in medicine and the ethical implications of AI's growing role in various fields. She enjoys video games, superheroes, and anime.",
         linkedin: 'https://www.linkedin.com/in/ramatoulayebalde?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
     },
     {
@@ -58,13 +58,13 @@ export default [
         bio: "Antoine is a third-year physics, computer science, and economics student with a passion for interdisciplinary problems. In his spare time, he enjoys golfing and skiing,  with a current interest in perfecting his beer-making skills (talk to me about it!). He is currently exploring the world of quantitative finance at National Bank, and is excited to bring insightful conversations about AI to the general public. ",
         linkedin: 'https://www.linkedin.com/in/antoineparadis'
     },
-    {
-        photo: path('david'),
-        name: 'David Medcalfe',
-        position: 'VP External',
-        bio: 'David is pursuing a Master of Information Studies under the supervision of Professor Benjamin Fung, Canada Research Chair in Data Mining for Cybersecurity. His research focuses on the ethical and legal challenges of AI, leveraging his legal expertise and advanced studies in data science and knowledge management to advance responsible AI practices and bolster cybersecurity resilience.',
-        linkedin: 'https://www.linkedin.com/in/david-medcalfe-66060997/',
-    },
+    // {
+    //     photo: path('david'),
+    //     name: 'David Medcalfe',
+    //     position: 'VP External',
+    //     bio: 'David is pursuing a Master of Information Studies under the supervision of Professor Benjamin Fung, Canada Research Chair in Data Mining for Cybersecurity. His research focuses on the ethical and legal challenges of AI, leveraging his legal expertise and advanced studies in data science and knowledge management to advance responsible AI practices and bolster cybersecurity resilience.',
+    //     linkedin: 'https://www.linkedin.com/in/david-medcalfe-66060997/',
+    // },
     {
         photo: path('deniz'),
         name: 'Melek Deniz Colak',
@@ -73,12 +73,19 @@ export default [
         linkedin: 'https://www.linkedin.com/in/melek-deniz-colak/',
     },
     {
-        photo: path('william'),
-        name: 'William Kiem Lafond',
+        photo: path('negar'),
+        name: 'Negar Badr',
         position: 'VP Communications',
-        bio: 'William is a second year Stats and CS student who likes learning on the algorithmic and statistical side of ML.  He can nerd out on cool algorithms (favourite one: bogosort). Outside of tech, his hobbies consists of working out with his dragonboat team and doing graphic designing for the vietnamese club (shoutout MVSA)!!',
-        linkedin: 'https://www.linkedin.com/in/william-kiem-lafond-98ab61233/',
+        bio: 'Negar is a U2 computer science - artificial intelligence student interested in AI and its connection to the human brain. In her spare time she loves paragliding, hiking, and camping outdoors with friends!',
+        linkedin: 'https://www.linkedin.com/in/negar-badr/',
     },
+    // {
+    //     photo: path('william'),
+    //     name: 'William Kiem Lafond',
+    //     position: 'VP Communications',
+    //     bio: 'William is a second year Stats and CS student who likes learning on the algorithmic and statistical side of ML.  He can nerd out on cool algorithms (favourite one: bogosort). Outside of tech, his hobbies consists of working out with his dragonboat team and doing graphic designing for the vietnamese club (shoutout MVSA)!!',
+    //     linkedin: 'https://www.linkedin.com/in/william-kiem-lafond-98ab61233/',
+    // },
     {
         photo: path('maelle'),
         name: 'Maëlle Guislain',
@@ -86,13 +93,13 @@ export default [
         bio: 'Maëlle is a third-year undergraduate, studying Economics, Finance and Computer Science. She is interested in quantitative finance and the applications of AI in the world of banking. Outside of academics, she loves traveling, playing volleyball and enjoying music on the piano.',
         linkedin: 'https://www.linkedin.com/in/maelleguislain/',
     },
-    {
-        photo: path('arpan'),
-        name: 'Arpan Saha',
-        position: 'VP Kernel',
-        bio: 'Arpan is fourth year CS and Stats student interested in the use of AI for education, and AI algorithms of social media. His hobbies include soccer, volleyball and traveling.',
-        linkedin: 'https://www.linkedin.com/in/arpan-saha7/',
-    },
+    // {
+    //     photo: path('arpan'),
+    //     name: 'Arpan Saha',
+    //     position: 'VP Kernel',
+    //     bio: 'Arpan is fourth year CS and Stats student interested in the use of AI for education, and AI algorithms of social media. His hobbies include soccer, volleyball and traveling.',
+    //     linkedin: 'https://www.linkedin.com/in/arpan-saha7/',
+    // },
     {
         photo: path('gulce'),
         name: 'Gülce Apaydın',
@@ -133,7 +140,14 @@ export default [
         name: 'Angadh Verma',
         position: 'Technical Project Manager',
         bio: "Angadh is a third year CS and Stats student interested in theoretical ML research and using AI to battle climate change. His hobbies include playing the guitar, reading absurdist literature and playing sports.",
-        linkedin: 'https://www.linkedin.com/in/emmakondrup',
+        linkedin: 'https://www.linkedin.com/in/angadh-v',
+    },
+    {
+        photo: path('ritchie'),
+        name: 'Ritchie Yu',
+        position: 'Technical Project Manager',
+        bio: "Ritchie is a fifth year Bioengineering student. Currently working on generative models for medical images, he is driven to explore the potential impacts of AI in medicine. Outside of school he has a passion for badminton, and enjoys playing the piano!",
+        linkedin: 'https://www.linkedin.com/in/ritchieyu/',
     },
     {
         photo: path('veronica'),
