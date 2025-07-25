@@ -65,13 +65,13 @@ export default [
         bio: 'Danyl is a second year Honours Mathematics and Computer Science student. He is interested in finding ways to utilize Machine Learning to solve complex algorithmic trading problems. Currently he is interning at an algorithmic hedge fund. In his spare time, he enjoys reading and stays active by hitting the gym and running.',
         linkedin: 'https://www.linkedin.com/in/danyl-satanovskyi',
     },
-    // {
-    //     photo: path('maelle'),
-    //     name: 'Maëlle Guislain',
-    //     position: 'VP Finance',
-    //     bio: 'Maëlle is a fourth-year undergraduate, studying Economics, Finance and Computer Science. She is interested in quantitative finance and the applications of AI in the world of banking. Outside of academics, she loves traveling, playing volleyball and enjoying music on the piano.',
-    //     linkedin: 'https://www.linkedin.com/in/maelleguislain/',
-    // },
+    {
+        photo: path('maelle'),
+        name: 'Maëlle Guislain',
+        position: 'VP Finance',
+        bio: 'Maëlle is a fourth-year undergraduate, studying Economics, Finance and Computer Science. She is interested in quantitative finance and the applications of AI in the world of banking. Outside of academics, she loves traveling, playing volleyball and enjoying music on the piano.',
+        linkedin: 'https://www.linkedin.com/in/maelleguislain/',
+    },
     {
         photo: path('duru'),
         name: 'Duru Aran',
