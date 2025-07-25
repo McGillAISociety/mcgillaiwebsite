@@ -51,7 +51,7 @@ export default function Profiles({ profilesData = [] }) {
             <div className={`flex-center ${styles['profiles-container']}`}
                 style={{ flexWrap: 'wrap' }}>
                 {otherProfiles.map((profileData, index) => (
-                    <div className={styles['profile']} key={index + 2}>
+                    <div className={styles['profile']} key={profileData.name}>
                         <Image
                             src={profileData.photo}
                             alt={profileData.name}
