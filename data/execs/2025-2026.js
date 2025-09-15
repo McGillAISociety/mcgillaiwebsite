@@ -65,20 +65,20 @@ export default [
         bio: 'Danyl is a second year Honours Mathematics and Computer Science student. He is interested in finding ways to utilize Machine Learning to solve complex algorithmic trading problems. Currently he is interning at an algorithmic hedge fund. In his spare time, he enjoys reading and stays active by hitting the gym and running.',
         linkedin: 'https://www.linkedin.com/in/danyl-satanovskyi',
     },
-    {
-        photo: path('maelle'),
-        name: 'Maëlle Guislain',
-        position: 'VP Finance',
-        bio: 'Maëlle is a fourth-year undergraduate, studying Economics, Finance and Computer Science. She is interested in quantitative finance and the applications of AI in the world of banking. Outside of academics, she loves traveling, playing volleyball and enjoying music on the piano.',
-        linkedin: 'https://www.linkedin.com/in/maelleguislain/',
-    },
-    {
-        photo: path('duru'),
-        name: 'Duru Aran',
-        position: 'VP Internal',
-        bio: 'Duru is a third year student majoring in Math and Computer Science, minoring in Linguistics to really be able to understand AI. Although she only recently became an AI enthusiast, she\'s most interested in its financial applications, as well as learning how it\'s developed from the very start. Outside of the library you can find her hanging out with friends, playing the trumpet, or rewatching her comfort shows under a blanket.',
-        linkedin: 'https://www.linkedin.com/in/duru-aran-a39970228',
-    },
+    // {
+    //     photo: path('anto'),
+    //     name: 'Anto Catanzaro ',
+    //     position: 'VP Finance',
+    //     bio: 'Anto is a U2 student majoring in Neuroscience and Computer Science Artificial Intelligence. They are particularly interested in machine learning as applied to brain computer interfaces. In their free time they enjoy fencing, traveling, and attempting (and failing) to cook.',
+    //     linkedin: 'https://www.linkedin.com/in/antonella-catanzaro-038b22238/',
+    // },
+    // {
+    //     photo: path('ian'),
+    //     name: 'Ian Couture',
+    //     position: 'VP Finance',
+    //     bio: 'Ian is a second year Honours Applied Mathematics student. He is interested in exploring how machine learning can be applied to quantitative finance, particularily with regards to portfolio optimization and risk management. Outside of school, he likes to hit the gym, play chess, and as an ex-competitive kickboxer he loves to watch boxing and mixed martial arts events with his friends.',
+    //     linkedin: 'https://www.linkedin.com/in/ian-couture17/',
+    // },
     {
         photo: path('jikael'),
         name: 'Jikael Gagnon',
@@ -101,13 +101,6 @@ export default [
         linkedin: 'https://www.linkedin.com/in/emmakondrup',
     },
     {
-        photo: path('angadh'),
-        name: 'Angadh Verma',
-        position: 'Technical Project Manager',
-        bio: "Angadh is a final year undergraduate student with a double major in CS and Stats. He is passionate about the applications of AI to social and environmental causes.",
-        linkedin: 'https://www.linkedin.com/in/angadh-v',
-    },
-    {
         photo: path('isaac'),
         name: 'Isaac Hu',
         position: 'Technical Project Manager',
@@ -127,6 +120,13 @@ export default [
         position: 'Senior Advisor',
         bio: "Catherine is a Master\’s student specializing in probability theory, with a focus on random trees and their evolution. Outside of academics, she enjoys swimming, dancing, and enjoying a good book with her cat.",
         linkedin: 'https://www.linkedin.com/in/catherine-f-236796206'
+    },
+    {
+        photo: path('duru'),
+        name: 'Duru Aran',
+        position: 'VP Senior Advisor',
+        bio: 'Duru is a third year student majoring in Math and Computer Science, minoring in Linguistics to really be able to understand AI. Although she only recently became an AI enthusiast, she\'s most interested in its financial applications, as well as learning how it\'s developed from the very start. Outside of the library you can find her hanging out with friends, playing the trumpet, or rewatching her comfort shows under a blanket.',
+        linkedin: 'https://www.linkedin.com/in/duru-aran-a39970228',
     },
     {
         photo: path('ada'),
