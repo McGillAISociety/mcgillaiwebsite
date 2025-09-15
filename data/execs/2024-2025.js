@@ -135,13 +135,13 @@ export default [
         bio: "Emma is a third year student in Hon. Computer Science. Passionate about the ethical and socio-legal aspects of AI and tech, which she is exploring in her research at the University of Copenhagen. In her spare time, she is usually drawing in the parc, finding new music or hanging out with close ones :)",
         linkedin: 'https://www.linkedin.com/in/emmakondrup',
     },
-    {
-        photo: path('angadh'),
-        name: 'Angadh Verma',
-        position: 'Technical Project Manager',
-        bio: "Angadh is a third year CS and Stats student interested in theoretical ML research and using AI to battle climate change. His hobbies include playing the guitar, reading absurdist literature and playing sports.",
-        linkedin: 'https://www.linkedin.com/in/angadh-v',
-    },
+    // {
+    //     photo: path('angadh'),
+    //     name: 'Angadh Verma',
+    //     position: 'Technical Project Manager',
+    //     bio: "Angadh is a third year CS and Stats student interested in theoretical ML research and using AI to battle climate change. His hobbies include playing the guitar, reading absurdist literature and playing sports.",
+    //     linkedin: 'https://www.linkedin.com/in/angadh-v',
+    // },
     {
         photo: path('ritchie'),
         name: 'Ritchie Yu',
