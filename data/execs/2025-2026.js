@@ -69,7 +69,7 @@ export default [
         photo: path('anto'),
         name: 'Anto Catanzaro ',
         position: 'VP Finance',
-        bio: 'Anto is a U2 student majoring in Neuroscience and Computer Science Artificial Intelligence. They are particularly interested in machine learning as applied to brain computer interfaces. In their free time they enjoy fencing, traveling, and attempting (and failing) to cook.',
+        bio: 'Anto is a U2 student majoring in Neuroscience and Computer Science - Artificial Intelligence. She is particularly interested in machine learning as applied to brain-computer interfaces. In her free time, she enjoys fencing, traveling, and attempting (and failing) to cook.',
         linkedin: 'https://www.linkedin.com/in/antonella-catanzaro-038b22238/',
     },
     {
@@ -124,7 +124,7 @@ export default [
     {
         photo: path('duru'),
         name: 'Duru Aran',
-        position: 'VP Senior Advisor',
+        position: 'Senior Advisor',
         bio: 'Duru is a third year student majoring in Math and Computer Science, minoring in Linguistics to really be able to understand AI. Although she only recently became an AI enthusiast, she\'s most interested in its financial applications, as well as learning how it\'s developed from the very start. Outside of the library you can find her hanging out with friends, playing the trumpet, or rewatching her comfort shows under a blanket.',
         linkedin: 'https://www.linkedin.com/in/duru-aran-a39970228',
     },
