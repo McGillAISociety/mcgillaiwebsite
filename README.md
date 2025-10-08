@@ -4,7 +4,7 @@
 
 The code for the main website of the McGill Artificial Intelligence society. Made with ❤️ using [Next.js](https://nextjs.org/), [SCSS](https://sass-lang.com/), and [Netlify](https://www.netlify.com/).
 
-The result of the hard work of many MAIS team members over the semesters: [Cheng Lin](https://cheng-lin.me/), [Claudia Leung](https://www.linkedin.com/in/claudiahleun), [Rosie Zhao](https://www.linkedin.com/in/rosieyzh/), [Raphaelle Tseng](https://raphaelletseng.github.io/mpreact/), [Josh Katofsky](https://www.linkedin.com/in/josh-katofsky/), [Signe Hoel](https://www.linkedin.com/in/signe-hoel/) and [Alexa Vasilakos](https://www.linkedin.com/in/alexavas/).
+The result of the hard work of many MAIS team members over the semesters: [Cheng Lin](https://cheng-lin.me/), [Claudia Leung](https://www.linkedin.com/in/claudiahleun), [Rosie Zhao](https://www.linkedin.com/in/rosieyzh/), [Raphaelle Tseng](https://raphaelletseng.github.io/mpreact/), [Josh Katofsky](https://www.linkedin.com/in/josh-katofsky/), [Signe Hoel](https://www.linkedin.com/in/signe-hoel/), [Alexa Vasilakos](https://www.linkedin.com/in/alexavas/) and [Negar Badr](https://www.linkedin.com/in/negar-badr/).
 
 ## Structure
 
