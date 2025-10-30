@@ -26,7 +26,7 @@ export default [
     {
         photo: path('learnathon25'),
         name: 'Learnathon 2025',
-        datetime: 'January 30th, 2026',
+        datetime: 'January 23rd, 2026',
         location: 'Mila - Quebec AI Institute',
         description: "Join some of the most curious students and acclaimed AI researchers in Montreal for an all-day conference! The McGill AI Society has organized a series of talks and events open to interested, curious, and ambitious students ranging from high school to the graduate level. Come learn about AI and meet other like-minded students!",
 
