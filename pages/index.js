@@ -77,23 +77,29 @@ const timelineData = [
 
 const sponsorImgDir = (img) => `/images/home/sponsors/${img}.png`;
 const sponsorData = [
+    // {
+    //     name: 'desjardins',
+    //     url: 'https://www.desjardins.com/en/careers.html',
+    //     imgWidth: 350,
+    //     img: sponsorImgDir('desjardins'),
+    // },
+    // {
+    //     name: 'isaac',
+    //     url: 'https://www.isaacinstruments.com/careers/',
+    //     imgWidth: 400,
+    //     img: sponsorImgDir('isaac'),
+    // },
+    // {
+    //     name: 'squarepoint',
+    //     url: 'https://www.squarepoint-capital.com/',
+    //     imgWidth: 350,
+    //     img: sponsorImgDir('squarepoint'),
+    // },
     {
-        name: 'desjardins',
-        url: 'https://www.desjardins.com/en/careers.html',
-        imgWidth: 350,
-        img: sponsorImgDir('desjardins'),
-    },
-    {
-        name: 'isaac',
-        url: 'https://www.isaacinstruments.com/careers/',
+        name: 'coveo',
+        url: 'https://www.coveo.com/',
         imgWidth: 400,
-        img: sponsorImgDir('isaac'),
-    },
-    {
-        name: 'squarepoint',
-        url: 'https://www.squarepoint-capital.com/',
-        imgWidth: 350,
-        img: sponsorImgDir('squarepoint'),
+        img: sponsorImgDir('coveo'),
     },
 ];
 
