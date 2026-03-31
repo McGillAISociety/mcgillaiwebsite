@@ -146,7 +146,7 @@ export default [
         photo: path('alexa'),
         name: 'Alexa Vasilakos',
         position: 'Senior Advisor',
-        bio: 'Alexa recently completed her Bachelor of Science in Software Engineering at McGill and is starting her first work term in the fall. Her hobbies include swimming competitively, drawing, and tending to her Animal Crossing island.',
+        bio: 'Alexa is currently working as an iOS Developer, maintaining her interest in the intersection between art and STEM. She recently took up Muay Thai, and continues to swim, draw, and play way too much Animal Crossing in her spare time.',
         linkedin: 'https://www.linkedin.com/in/alexavas/',
     }
 ];
