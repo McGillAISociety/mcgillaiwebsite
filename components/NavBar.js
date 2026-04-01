@@ -10,7 +10,6 @@ import { slide as BurgerMenu } from 'react-burger-menu';
 import academicYearExecsMap from '../data/execs/academicYearExecsMap.js';
 import academicYearEventsMap from '../data/events/academicYearEventsMap.js';
 import { sameBasePath } from './util';
-import { route } from 'next/dist/server/router.js';
 
 const navOptions = [
     {

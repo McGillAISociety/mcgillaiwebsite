@@ -218,7 +218,7 @@ function Home() {
                                         src={sponsor.img}
                                         alt={`${sponsor.name} logo`}
                                         width={sponsor.imgWidth}
-                                        height="100%"
+                                        height="100"
                                     />
                                 </div>
                             </a>
