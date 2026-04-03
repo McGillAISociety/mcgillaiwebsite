@@ -5,6 +5,7 @@ import Head from 'next/head';
 export default function MetaTags({ title, description, imagePath, route }) {
     return (
         <Head>
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
             <title>{title}</title>
             <meta name="title" content={title} />
             <meta name="description" content={description} />
