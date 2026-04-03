@@ -56,10 +56,9 @@ const OurTeam = ({
                         Join a team like no other! Exec recruitement starts in
                         late February.
                     </h3>
-                    <Image
+                    <img
                         src="/images/team/execs2.jpeg"
                         alt="MAIS execs"
-                        height={756}
                         width={1080}
                     />
                 </section>
