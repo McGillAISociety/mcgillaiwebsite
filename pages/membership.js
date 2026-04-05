@@ -1,4 +1,3 @@
-import React from 'react';
 import Image from 'next/image';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';

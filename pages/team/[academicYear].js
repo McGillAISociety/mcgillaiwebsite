@@ -1,10 +1,7 @@
-import React from 'react';
 import { Fragment } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 
 import Profiles from '../../components/Profiles';
-
 import academicYearExecsMap from '../../data/execs/academicYearExecsMap.js';
 
 const OurTeam = ({

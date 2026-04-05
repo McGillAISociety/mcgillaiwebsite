@@ -1,4 +1,3 @@
-import React from 'react';
 import Profiles from '../components/Profiles';
 import Accordion from '../components/Accordion';
 import styles from '../styles/pages/podcast.module.scss';

@@ -1,9 +1,7 @@
-import React from 'react';
 import { Fragment } from 'react';
 import Link from 'next/link';
 
 import Events from '../../components/Events';
-
 import academicYearEventsMap from '../../data/events/academicYearEventsMap';
 
 const OurEvents = ({

@@ -1,7 +1,5 @@
-import React from 'react';
 import styles from '../styles/components/Profiles.module.scss';
 import { FaLinkedinIn as LinkedIn } from 'react-icons/fa';
-import Image from 'next/image';
 
 /** 
 profileData takes the following form:

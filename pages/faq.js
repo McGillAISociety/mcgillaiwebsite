@@ -1,5 +1,3 @@
-import React from 'react';
-import Image from 'next/image';
 import Accordion from '../components/Accordion';
 import styles from '../styles/pages/faq.module.scss';
 
