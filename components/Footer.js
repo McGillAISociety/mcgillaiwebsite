@@ -1,13 +1,13 @@
 import styles from '../styles/components/Footer.module.scss';
-import { MdEmail as Email } from 'react-icons/md';
 import {
+    FaEnvelope as Email,
     FaFacebookF as Facebook,
     FaInstagram as Instagram,
     FaLinkedinIn as Linkedin,
-    FaTwitter as Twitter,
+    FaXTwitter as XTwitter,
     FaGithub as Github,
-    FaMediumM as Medium,
-} from 'react-icons/fa';
+    FaMedium as Medium,
+} from 'react-icons/fa6';
 
 const iconProps = {
     color: 'white',
@@ -17,7 +17,7 @@ const iconProps = {
 
 const socials = [
     {
-        icon: <Email {...iconProps} title="MAIS email" />,
+        icon: <Email {...iconProps} title="MAIS Email" />,
         link: 'mailto:mcgillaicontact@gmail.com',
     },
     {
@@ -33,8 +33,8 @@ const socials = [
         link: 'https://www.linkedin.com/company/mcgill-artificial-intelligence-society/',
     },
     {
-        icon: <Twitter {...iconProps} title="MAIS Twitter" />,
-        link: 'https://twitter.com/mcgillaisociety',
+        icon: <XTwitter {...iconProps} title="MAIS X (Twitter)" />,
+        link: 'https://x.com/mcgillaisociety',
     },
     {
         icon: <Github {...iconProps} title="MAIS GitHub" />,
