@@ -4,13 +4,13 @@
 
 The code for the main website of the McGill Artificial Intelligence society. Made with ❤️ using [Next.js](https://nextjs.org/), [SCSS](https://sass-lang.com/), and [Netlify](https://www.netlify.com/).
 
-The result of the hard work of many MAIS team members over the semesters: [Cheng Lin](https://cheng-lin.me/), [Claudia Leung](https://www.linkedin.com/in/claudiahleun), [Rosie Zhao](https://www.linkedin.com/in/rosieyzh/), [Raphaelle Tseng](https://raphaelletseng.github.io/mpreact/), [Josh Katofsky](https://www.linkedin.com/in/josh-katofsky/), [Signe Hoel](https://www.linkedin.com/in/signe-hoel/), [Alexa Vasilakos](https://www.linkedin.com/in/alexavas/) and [Negar Badr](https://www.linkedin.com/in/negar-badr/).
+The result of the hard work of many MAIS team members over the semesters: [Cheng Lin](https://cheng-lin.me/), [Claudia Leung](https://www.linkedin.com/in/claudiahleun), [Rosie Zhao](https://www.linkedin.com/in/rosieyzh/), [Raphaelle Tseng](https://raphaelletseng.github.io/mpreact/), [Josh Katofsky](https://www.linkedin.com/in/josh-katofsky/), [Rebecca Xie](https://www.linkedin.com/in/rebecca-becky-xie/), [Signe Hoel](https://www.linkedin.com/in/signe-hoel/), [Alexa Vasilakos](https://www.linkedin.com/in/alexavas/), [Melek Deniz Colak](https://www.linkedin.com/in/melek-deniz-colak/), and [Negar Badr](https://www.linkedin.com/in/negar-badr/).
 
 ## Structure
 
--   `/pages` automatically statically exports site routes based on the file names within, whose content corresponds to the React.js components in those files. I.e. `mais202.js` corresponds to the page at `mcgillai.com/mais202`, and its content is derived from the `MAIS202` React.js component which is default-exported from that file. The exceptions to this rule are the `_app.js` and `_document.js` which deal with shared rendering logic and shared metadata, respectively.
+-   `/pages` automatically statically exports site routes based on the file names within, whose content corresponds to the React.js components in those files. For example, `mais202.js` corresponds to the page at `mcgillai.com/mais202`, and its content is derived from the `MAIS202` React.js component, which is default-exported from that file. The exceptions to this rule are the `_app.js` and `_document.js` files which deal with shared rendering logic and shared metadata, respectively.
 -   `/components` contains React.js components that are shared among the website.
--   `/styles` holds the SCSS styling for the applcation, done using the [CSS module style](https://nextjs.org/docs/basic-features/built-in-css-support#adding-component-level-css) which scopes styling exactly to the page or component that it targets. Along these lines, the subdirectories in `/stlyes` mirror `/pages` and `/components`.
+-   `/styles` holds the SCSS styling for the application, done using the [CSS module style](https://nextjs.org/docs/basic-features/built-in-css-support#adding-component-level-css) which scopes styling exactly to the page or component that it targets. Along these lines, the subdirectories in `/styles` mirror `/pages` and `/components`.
 -   `/public` contains all site content.
 
 ## Running locally
@@ -19,4 +19,4 @@ You need to have [Node.js](https://nodejs.org/en/) and [Yarn](https://classic.ya
 
 ## Deployment
 
-This site is continously deployed to our Netlify. This means that any new commits to `master` automatically trigger a production build. It is therefore super important to **do all non-trivial site work in a different branch** and then do a PR to `master` when it's ready. On top of this being a good dev practice, for every PR Netlify will automatically make a [deploy preview site](https://docs.netlify.com/site-deploys/deploy-previews/) at a temp URL for MAIS execs to preview and give feedback on. Then, when everything looks good and the PR is merged, the live site will be auto-built.
+This site is continously deployed to our Netlify. This means that any new commits to `master` automatically trigger a production build. It is therefore super important to **do all non-trivial site work on a different branch** and then make a PR to `master` when it's ready. On top of this being a good dev practice, for every PR, Netlify will automatically make a [deploy preview site](https://docs.netlify.com/site-deploys/deploy-previews/) at a temp URL for MAIS execs to preview and give feedback on. Then, when everything looks good and the PR is merged, the live site will be auto-built.

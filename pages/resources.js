@@ -1,4 +1,3 @@
-import React from 'react';
 import ContentGrid from '../components/ContentGrid';
 
 const research = [

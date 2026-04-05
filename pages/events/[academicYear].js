@@ -1,8 +1,7 @@
-import React from 'react';
+import { Fragment } from 'react';
 import Link from 'next/link';
 
 import Events from '../../components/Events';
-
 import academicYearEventsMap from '../../data/events/academicYearEventsMap';
 
 const OurEvents = ({
@@ -17,10 +16,10 @@ const OurEvents = ({
             <>
                 View events from previous years:
                 {otherAcademicYears.map((year) => (
-                    <>
+                    <Fragment key={year}>
                         &nbsp;&nbsp;
                         <Link href={`/events/${year}`}>{year}</Link>
-                    </>
+                    </Fragment>
                 ))}
             </>
         );
@@ -33,10 +32,10 @@ const OurEvents = ({
                 {otherAcademicYears
                     .filter((year) => year !== currentAcademicYear)
                     .map((year) => (
-                        <>
+                        <Fragment key={year}>
                             &nbsp;&nbsp;
                             <Link href={`/events/${year}`}>{year}</Link>
-                        </>
+                        </Fragment>
                     ))}
             </>
         );

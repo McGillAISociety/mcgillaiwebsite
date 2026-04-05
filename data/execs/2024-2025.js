@@ -177,6 +177,4 @@ export default [
         bio: 'Alexa recently completed her Bachelor of Science in Software Engineering at McGill, and is starting work as an iOS Developer this fall. Her hobbies include swimming, drawing, and tending to her Animal Crossing island.',
         linkedin: 'https://www.linkedin.com/in/alexavas/',
     }
-
-    
 ];

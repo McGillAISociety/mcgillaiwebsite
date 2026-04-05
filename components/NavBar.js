@@ -1,4 +1,3 @@
-import React from 'react';
 import { useState } from 'react';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
@@ -62,7 +61,7 @@ function NavBar() {
 
     const homeActive = router.route === '/';
     const logo = (
-        <Link exact href="/">
+        <Link exact="true" href="/">
             <div
                 className={`${styles['nav__item']}
                 ${styles['nav__item--logo']} flex-center`}
@@ -94,10 +93,6 @@ function NavBar() {
     );
 
     const navLinks = navOptions.map((navOption, index) => {
-        const props = {
-            href: navOption.route,
-            key: index,
-        };
         const active = sameBasePath(router.route, navOption.route);
         const item = (
             <span
@@ -119,11 +114,11 @@ function NavBar() {
             </span>
         );
         return navOption.external ? (
-            <a {...props} target="_blank" rel="noopener noreferrer">
+            <a key={index} href={navOption.route} target="_blank" rel="noopener noreferrer">
                 {item}
             </a>
         ) : (
-            <Link {...props}>{item}</Link>
+            <Link key={index} href={navOption.route}>{item}</Link>
         );
     });
 
