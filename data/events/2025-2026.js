@@ -53,5 +53,4 @@ export default [
         description: "Applications for the 2025-2026 MAIS Executive Team are now open! If you're passionate about AI and eager to contribute to our vibrant community, we encourage you to apply. Join us in shaping the future of AI at McGill through exciting events, workshops, and initiatives. Don't miss this opportunity to make a meaningful impact and connect with like-minded individuals!",
         update: 'Applications are closed for the 2025-2026 academic year. Stay tuned for next year\'s applications in February 2026!',
     },
-
 ]
