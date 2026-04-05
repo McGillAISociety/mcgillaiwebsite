@@ -2,14 +2,19 @@
     &__apple {
         width: 100%;
         max-width: 500px;
+        border: none;
     }
+
     &__spotify {
         width: 100%;
         max-width: 900px;
         margin-bottom: 30px;
+        border: none;
     }
+    
     &__youtube {
         width: 100%;
         max-width: 800px;
+        border: none;
     }
 }

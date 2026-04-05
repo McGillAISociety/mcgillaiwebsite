@@ -28,7 +28,6 @@ export default function Podcast() {
                         className={styles['embeds__apple']}
                         src="https://embed.podcasts.apple.com/us/podcast/mcgill-ai-podcast/id1583837131?itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=dark"
                         height="500px"
-                        frameborder="0"
                         sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
                         allow="autoplay *; encrypted-media *;"
                     />
@@ -38,7 +37,6 @@ export default function Podcast() {
                             className={styles['embeds__spotify']}
                             src="https://open.spotify.com/embed/show/1k3AWxBYuGetrCjvZip8Ot?utm_source=generator&theme=0"
                             height="232"
-                            frameBorder="0"
                             allowFullScreen
                             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                         />
@@ -47,7 +45,6 @@ export default function Podcast() {
                             height="315"
                             src="https://www.youtube.com/embed/videoseries?list=PLxI2mURqdZYNjiA6cXMepfASyunlaP9Ah"
                             title="YouTube"
-                            frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowFullScreen
                         />

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Fragment } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -18,10 +19,10 @@ const OurTeam = ({
             <>
                 View exec teams from previous years:
                 {otherAcademicYears.map((year) => (
-                    <>
+                    <Fragment key={year}>
                         &nbsp;&nbsp;
                         <Link href={`/team/${year}`}>{year}</Link>
-                    </>
+                    </Fragment>
                 ))}
             </>
         );
@@ -35,10 +36,10 @@ const OurTeam = ({
                 {otherAcademicYears
                     .filter((year) => year !== currentAcademicYear)
                     .map((year) => (
-                        <>
+                        <Fragment key={year}>
                             &nbsp;&nbsp;
                             <Link href={`/team/${year}`}>{year}</Link>
-                        </>
+                        </Fragment>
                     ))}
             </>
         );

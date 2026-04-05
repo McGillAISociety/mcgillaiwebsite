@@ -58,24 +58,23 @@ export default function MAIS202() {
                     >
                         {['bootcamp2022', '1', '2', '3', '4', '5', '6'].map(
                             (number) => (
-                                <Image
-                                    key={number}
-                                    src={`/images/mais202/gallery/${number}.jpg`}
-                                    alt="MAIS 202"
-                                    width={640}
-                                    height={480}
-                                />
+                                <div key={number} className={styles['carousel__img']}>
+                                    <img
+                                        src={`/images/mais202/gallery/${number}.jpg`}
+                                        alt="MAIS 202"
+                                        width={640}
+                                    />
+                                </div>
                             )
                         )}
                     </Carousel>
 
                     <div className={`flex-center ${styles['stats']}`}>
                         {['1', '2', '3', '4'].map((number) => (
-                            <div className={styles['stats__img']}>
+                            <div key={number} className={styles['stats__img']}>
                                 <Image
-                                    key={number}
                                     src={`/images/mais202/stats_${number}.svg`}
-                                    alt="MAIS Statistic"
+                                    alt="MAIS 202 Statistics"
                                     width={200}
                                     height={200}
                                 />

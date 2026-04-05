@@ -30,7 +30,7 @@ function MAIS({ Component, pageProps, router }) {
             pageData = {
                 metaTitle: `${academicYear} Team | McGill AI Society`,
                 metaDescription: `Get to know our incredible execs for the ${academicYear} academic year`,
-                metaImagePath: '/images/ourteam/execs.jpeg',
+                metaImagePath: '/images/team/execs2.jpeg',
                 title: `Our ${academicYear} Team`,
                 subtitle: `Get to know our incredible execs`,
                 route: `/team/${academicYear}`,
@@ -40,6 +40,7 @@ function MAIS({ Component, pageProps, router }) {
             pageData = {
                 metaTitle: `${academicYear} Events | McGill AI Society`,
                 metaDescription: `See what MAIS has to offer for the ${academicYear} year`,
+                metaImagePath: metaImagePath('mais'),
                 title: `Events | ${academicYear}`,
                 subtitle: `See what MAIS has to offer this academic year`,
                 route: `/events/`,
@@ -117,8 +118,7 @@ function MAIS({ Component, pageProps, router }) {
                     priority
                     alt="background"
                     src="/images/background.jpg"
-                    layout="fill"
-                    objectFit="cover"
+                    fill
                     quality={100}
                 />
             </div>

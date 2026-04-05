@@ -35,9 +35,10 @@ export default function ContentGrid({ content }) {
                             {data.img && (
                                 <Image
                                     src={data.img}
-                                    layout="fill"
+                                    fill
                                     alt={data.title}
                                     className={styles['grid__background']}
+                                    sizes="(max-width: 768px) 100vw, 50vw"
                                 />
                             )}
                             <div
