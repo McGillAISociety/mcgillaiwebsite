@@ -1,9 +1,7 @@
-import React from 'react';
-import Image from 'next/image';
+import { Fragment } from 'react';
 import Link from 'next/link';
 
 import Profiles from '../../components/Profiles';
-
 import academicYearExecsMap from '../../data/execs/academicYearExecsMap.js';
 
 const OurTeam = ({
@@ -18,10 +16,10 @@ const OurTeam = ({
             <>
                 View exec teams from previous years:
                 {otherAcademicYears.map((year) => (
-                    <>
+                    <Fragment key={year}>
                         &nbsp;&nbsp;
                         <Link href={`/team/${year}`}>{year}</Link>
-                    </>
+                    </Fragment>
                 ))}
             </>
         );
@@ -35,10 +33,10 @@ const OurTeam = ({
                 {otherAcademicYears
                     .filter((year) => year !== currentAcademicYear)
                     .map((year) => (
-                        <>
+                        <Fragment key={year}>
                             &nbsp;&nbsp;
                             <Link href={`/team/${year}`}>{year}</Link>
-                        </>
+                        </Fragment>
                     ))}
             </>
         );

@@ -3,7 +3,11 @@
 .carousel {
     width: 600px;
     margin-bottom: 20px;
+    &__img {
+        height: auto;
+    }
 }
+
 .stats {
     width: 600px;
     &__img {
@@ -11,6 +15,7 @@
         margin-bottom: 20px;
     }
 }
+
 .center {
     text-align: center;
 }

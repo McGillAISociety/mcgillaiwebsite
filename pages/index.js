@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from '../styles/pages/index.module.scss';
 import ContentGrid from '../components/ContentGrid';
 import Image from 'next/image';

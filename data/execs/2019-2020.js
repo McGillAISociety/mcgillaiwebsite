@@ -19,7 +19,7 @@ export default [
         photo: path('aanika'),
         name: 'Aanika Rahman',
         position: 'VP Internal',
-        bio: 'Aanika is a final year Mathematics and Computer Science student.       Aanika loves dancing, photography and interactive art.',
+        bio: 'Aanika is a final year Mathematics and Computer Science student. She loves dancing, photography, and interactive art.',
         linkedin: 'https://www.linkedin.com/in/aanikarahman/',
     },
     {

@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from '../styles/components/ContentGrid.module.scss';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -35,9 +34,10 @@ export default function ContentGrid({ content }) {
                             {data.img && (
                                 <Image
                                     src={data.img}
-                                    layout="fill"
+                                    fill
                                     alt={data.title}
                                     className={styles['grid__background']}
+                                    sizes="(max-width: 768px) 100vw, 50vw"
                                 />
                             )}
                             <div

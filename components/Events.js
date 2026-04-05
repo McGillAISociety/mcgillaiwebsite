@@ -1,5 +1,3 @@
-import React from "react";
-import Image from 'next/image';
 import styles from '../styles/components/Events.module.scss'
 
 /** 
@@ -21,11 +19,9 @@ export default function Events({ eventsData = [] }) {
         <div className={`flex-center ${styles['event-container']}`}>
             {eventsData.map((eventData, index) => (
                 <div className={styles['event']} key={index}>
-                    <Image
+                    <img
                         src={eventData.photo}
                         alt={eventData.name}
-                        width={600}
-                        height={400}
                     />
                     <div className={`flex-start ${styles['event-details']}`}>
                         <h2>{eventData.name}</h2>

@@ -1,13 +1,11 @@
-import React from 'react';
 import styles from '../styles/components/Profiles.module.scss';
 import { FaLinkedinIn as LinkedIn } from 'react-icons/fa';
-import Image from 'next/image';
 
 /** 
 profileData takes the following form:
 [
     {
-        photo: `/images/ourteam/2021-2022/yulu.png`,
+        photo: `/images/team/2021-2022/yulu.png`,
         name: 'Yu Lu Liu',
         position: 'Co-President',
         bio: 'Yu Lu is a third year Stats and Comp Sci student interested in natural language processing and its applications. In her free time, she enjoys gardening and watching nature documentaries.',
@@ -27,11 +25,10 @@ export default function Profiles({ profilesData = [] }) {
                 style={{ marginBottom: '2.5em', flexWrap: 'nowrap' }}>
                 {topProfiles.map((profileData, index) => (
                     <div className={styles['profile']} key={index}>
-                        <Image
+                        <img
                             src={profileData.photo}
                             alt={profileData.name}
                             width={200}
-                            height={200}
                         />
                         <h2>{profileData.name}</h2>
                         <h3>{profileData.position}</h3>
@@ -52,11 +49,10 @@ export default function Profiles({ profilesData = [] }) {
                 style={{ flexWrap: 'wrap' }}>
                 {otherProfiles.map((profileData, index) => (
                     <div className={styles['profile']} key={profileData.name}>
-                        <Image
+                        <img
                             src={profileData.photo}
                             alt={profileData.name}
                             width={200}
-                            height={200}
                         />
                         <h2>{profileData.name}</h2>
                         <h3>{profileData.position}</h3>

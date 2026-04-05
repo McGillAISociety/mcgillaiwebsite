@@ -1,4 +1,8 @@
 module.exports = {
+    images: {
+        qualities: [75, 100]
+    },
+    /*
     async redirects() {
         return [
             {
@@ -14,4 +18,5 @@ module.exports = {
             },
         ];
     },
+    */
 };
