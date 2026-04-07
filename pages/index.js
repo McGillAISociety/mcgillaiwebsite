@@ -100,6 +100,12 @@ const sponsorData = [
         imgWidth: 400,
         img: sponsorImgDir('coveo'),
     },
+    {
+        name: 'cgi',
+        url: 'https://www.cgi.com/',
+        imgWidth: 220,
+        img: sponsorImgDir('cgi'),
+    },
 ];
 
 function Home() {
