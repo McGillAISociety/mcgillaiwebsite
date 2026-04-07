@@ -5,7 +5,7 @@ export default [
         photo: path('gulce'),
         name: 'Gülce Apaydın',
         position: 'Co-President',
-        bio: 'Gülce is a fourth year student in Computer Science and Math. Her hobbies include playing volleyball, reading books (especially fantasy), and she\'s been getting into taking care of her houseplants. She also enjoys animated series.',
+        bio: 'Gülce is a fourth year student in Computer Science and Math. Her hobbies include playing volleyball, reading books (especially fantasy), and hiking. She also enjoys animated series and video games.',
         linkedin: 'https://www.linkedin.com/in/gulceapaydin/',
     },
     {
@@ -101,13 +101,6 @@ export default [
         linkedin: 'https://www.linkedin.com/in/emmakondrup',
     },
     {
-        photo: path('isaac'),
-        name: 'Isaac Hu',
-        position: 'Technical Project Manager',
-        bio: 'Isaac is a fourth year student in computer science with an AI concentration.  He is passionate about machine learning and natural language processing. In his free time he loves running video games, and playing the piano.',
-        linkedin: 'https://www.linkedin.com/in/isaac-hu-5229542b3/',
-    },
-    {
         photo: path('antoine'),
         name: 'Antoine Dulauroy',
         position: 'Technical Project Manager',
@@ -127,20 +120,6 @@ export default [
         position: 'Senior Advisor',
         bio: 'Duru is a third year student majoring in Math and Computer Science, minoring in Linguistics to really be able to understand AI. Although she only recently became an AI enthusiast, she\'s most interested in its financial applications, as well as learning how it\'s developed from the very start. Outside of the library you can find her hanging out with friends, playing the trumpet, or rewatching her comfort shows under a blanket.',
         linkedin: 'https://www.linkedin.com/in/duru-aran-a39970228',
-    },
-    {
-        photo: path('ada'),
-        name: 'Ada Tur',
-        position: 'Senior Advisor',
-        bio: 'Ada is a final year CS and Linguistics student and a researcher at Mila/McGillNLP. Her current research focuses are NLP, language grounding, digital agents, computational linguistics, and AI safety. Outside of academics/research, Ada enjoys going to concerts and shows, TTRPGs, playing guitar, hosting the occasional radio show at CKUT 90.3 FM, and spending time with her gorgeous, accomplished son (cat), Vegas.',
-        linkedin: 'https://www.linkedin.com/in/adadtur/',
-    }, 
-    {
-        photo: path('shahrad'),
-        name: 'Shahrad Mohammadzadeh',
-        position: 'Senior Advisor',
-        bio: "Shahrad is a Master's student in AI/ML at Mila/McGill. His work revolves around analyzing LLM behaviour and efficiency, Graph Neural Networks and Reinforcement Learning. You can find him play the piano and Spikeball (ofc not at the same time, tho he would love to). He is always happy to connect :)",
-        linkedin: 'https://www.linkedin.com/in/shahrad-mz/',
     },
     {
         photo: path('alexa'),
