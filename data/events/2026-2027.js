@@ -1,0 +1,67 @@
+const path = (event) => `/images/events/2026-2027/${event}.png`;
+
+/**
+ * Events should be organized in chronological order
+ */
+
+export default [
+    {
+        photo: path('staytunedevent26'),
+        name: 'Stay Tuned',
+        datetime: 'TBA',
+        location: 'TBA',
+        description: "Coming soon...",
+        link: 'https://mcgillai.com/mais-202',
+
+    },
+    {
+        photo: path('bootcamp26'),
+        name: 'MAIS 202',
+        datetime: 'January - April 2027',
+        location: 'Leacock 14',
+        description: "Kickstart your AI journey with MAIS 202, our fast introductory course to Machine Learning! Whether you're a beginner or looking to deepen your core understanding of ML, this course is designed to equip you with the foundational knowledge and skills. Join us for an engaging semester filled with workshops, hands-on project, interactive lectures, and collaborative learning. Don't miss this opportunity to explore the exciting world of AI and connect with fellow enthusiasts!",
+        link: 'https://mcgillai.com/mais-202',
+        // update: 'Applications for Fall 2025 are closed and lectures have started. Stay tuned for Winter 2026 applications in January!',
+
+    },
+    {
+        photo: path('maishacks26'),
+        name: 'MAIS Hacks 2026',
+        datetime: 'TBD',
+        location: 'Trottier Mezzanine',
+        description: "One of Canada’s largest AI Hackathons is back! Join us for a weekend of collaboration, networking, workshops and activities for coders of all levels! Great ideas are created by bringing together people from different perspectives. At MAIS Hacks, researchers, companies and students will work together to understand, collaborate, and innovate new solutions in the field of artificial intelligence.\nCome collaborate and make something extraordinary in 48 hours!",
+        // update: 'Applications are OPEN!',
+    },
+    {
+        photo: path('learnathon26'),
+        name: 'Learnathon 2027',
+        datetime: 'TBD',
+        location: 'Mila - Quebec AI Institute',
+        description: "Join some of the most curious students and acclaimed AI researchers in Montreal for an all-day conference! The McGill AI Society has organized a series of talks and events open to interested, curious, and ambitious students ranging from high school to the graduate level. Come learn about AI and meet other like-minded students!",
+
+    },
+    // {
+    //     photo: path('projectfair25'),
+    //     name: 'Montreal AI Undergraduate Project Fair',
+    //     datetime: 'April 8, 2026',
+    //     location: 'MILA - Quebec AI Institute',
+    //     description: "Hosted by MAIS and UdeMAI, this groundbreaking event celebrates the brilliance of undergraduate AI minds! Whether you've worked on a project or are eager to dive into one, this is your chance to shine! Join us for a day of innovation, collaboration, and inspiration as students showcase their cutting-edge AI projects.",
+    // },
+    // {
+    //     photo: path('pythonfordatascience'),
+    //     name: 'Python for Data Science',
+    //     datetime: 'October 3rd, 2025',
+    //     location: '680 Sherbrooke, room 1025',
+    //     description: "This workshop will bring you up to speed with all the coding skills needed to apply to and excel in the MAIS 202 bootcamp and the upcoming MAIS Hacks in November! We will cover everything from using common libraries for data analytics and data-wrangling, to simple plotting and modeling!",
+    // },
+    {
+        photo: path('mais26'),
+        name: 'MAIS Exec Applications',
+        datetime: '2026-2027 Academic Year',
+        // location: 'EUS Common Room',
+        description: "Applications for the 2026-2027 MAIS Executive Team are currently closed. We are still looking for a Podcast Producer. If you're interested in joining the team, please contact us at the McGill AI Society email address.",
+        //description: "Applications for the 2025-2026 MAIS Executive Team are now open! If you're passionate about AI and eager to contribute to our vibrant community, we encourage you to apply. Join us in shaping the future of AI at McGill through exciting events, workshops, and initiatives. Don't miss this opportunity to make a meaningful impact and connect with like-minded individuals!",
+        //update: 'Applications are closed for the 2026-2027 academic year. DM us on Instagram if you have any questions!',
+        update: 'Interested in becoming our Podcast Producer? Contact us at mcgillaicontact@gmail.com.',
+    },
+]

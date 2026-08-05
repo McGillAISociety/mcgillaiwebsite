@@ -19,3 +19,35 @@
 .center {
     text-align: center;
 }
+
+.embeds {
+
+    &__youtube {
+        
+        display: block;
+
+        width: 100%;
+
+        max-width: 800px;
+
+        margin: 0 auto 40px;
+
+        border: none;
+
+        aspect-ratio: 16 / 9;
+
+        border-radius: 18px;
+
+        margin-bottom: 40px;
+
+    }
+
+}
+
+.videoTitle{
+
+    text-align:center;
+
+    margin-bottom:18px;
+
+}

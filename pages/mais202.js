@@ -132,6 +132,46 @@ export default function MAIS202() {
                     opportunities to network with fellow ML enthusiasts!
                 </p>
             </section>
+
+            <section>
+
+                <h2>Sample Lectures</h2>
+
+                <p>
+                    Curious about what MAIS 202 looks like? Here are two real lectures
+                    from the bootcamp covering essential machine learning tools used
+                    throughout the course taught by our 2025-2026 bootcamp lecturer,
+                    Jikael Gagnon.
+                </p>
+
+                <br />
+
+                <h3 className={styles.videoTitle}>
+                    Essential NumPy for Machine Learning
+                </h3>
+
+                <iframe
+                    className={styles['embeds__youtube']}
+                    src="https://www.youtube.com/embed/uvEQohgvL1Y"
+                    title="Essential NumPy for Machine Learning"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                />
+
+                <h3 className={styles.videoTitle}>
+                    Essential PyTorch for Machine Learning
+                </h3>
+
+                <iframe
+                    className={styles['embeds__youtube']}
+                    src="https://www.youtube.com/embed/-s8TzdXLLYg"
+                    title="Essential PyTorch for Machine Learning"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                />
+
+            </section>
+
             <section>
                 <h2>Bootcamp FAQs</h2>
                 <div className="flex-center">

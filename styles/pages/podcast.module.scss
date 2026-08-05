@@ -1,3 +1,5 @@
+@use '../vars.scss';
+
 .embeds {
     &__apple {
         width: 100%;
@@ -17,4 +19,50 @@
         max-width: 800px;
         border: none;
     }
+}
+
+
+
+.mediumSection { // spaces the text more in Medium Blog
+
+    p {
+
+        margin-bottom: 15px;
+
+    }
+
+}
+
+.mediumbutton {
+
+    display: inline-flex;
+    align-items: center;
+
+    margin-top: 30px;
+    margin-left: 145px;   // adjust until it looks right
+
+    padding: 18px 36px;
+
+    border-radius: 999px;
+
+    border: 2px solid vars.$red;
+
+    color: white;
+
+    font-size: 1.2rem;
+
+    font-weight: 700;
+
+    text-decoration: none;
+
+    transition: .25s;
+
+    &:hover {
+
+        background: vars.$red;
+
+        transform: translateY(-2px);
+
+    }
+
 }
