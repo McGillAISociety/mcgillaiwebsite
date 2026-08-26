@@ -264,11 +264,11 @@ function Home() {
                             the Montreal AI ecosystem.
                         </p>
                         <p>
-                            As a McGill AI club sponsor, you will have access to
-                            the CVs of our hundreds of event participants and
-                            reach our over 2000 subscribers. If you are
-                            interested in partnering with our club, please don’t
-                            hesitate to reach out to&nbsp;
+                            As a sponsor of the McGill Artificial Intelligence Society, 
+                            your team can gain direct access to our hundreds of event 
+                            participants and over two thousand subscribers. If you are 
+                            interested in partnering with our club, please don't hesitate
+                            to reach out to&nbsp;
                             <a href="mailto:mcgillaicontact@gmail.com">
                                 mcgillaicontact@gmail.com
                             </a>
