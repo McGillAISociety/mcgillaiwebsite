@@ -199,7 +199,7 @@ export default function Podcast() {
                 </p>
 
                 <a
-                    href="YOUR_MEDIUM_LINK"
+                    href="https://medium.com/mcgill-artificial-intelligence-review"
                     target="_blank"
                     rel="noopener noreferrer"
                     className={styles.mediumbutton}

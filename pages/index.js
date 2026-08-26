@@ -205,7 +205,7 @@ function Home() {
                         </p>
 
                         <a
-                            href="YOUR_MEDIUM_LINK"
+                            href="https://medium.com/mcgill-artificial-intelligence-review"
                             target="_blank"                 // links to medium blog --> WHERE IS IT??
                             rel="noopener noreferrer"
                             className={styles['announcement__link']}

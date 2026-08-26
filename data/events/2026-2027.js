@@ -6,15 +6,6 @@ const path = (event) => `/images/events/2026-2027/${event}.png`;
 
 export default [
     {
-        photo: path('staytunedevent26'),
-        name: 'Stay Tuned',
-        datetime: 'TBA',
-        location: 'TBA',
-        description: "Coming soon...",
-        link: 'https://mcgillai.com/mais-202',
-
-    },
-    {
         photo: path('bootcamp26'),
         name: 'MAIS 202',
         datetime: 'January - April 2027',
@@ -63,5 +54,15 @@ export default [
         //description: "Applications for the 2025-2026 MAIS Executive Team are now open! If you're passionate about AI and eager to contribute to our vibrant community, we encourage you to apply. Join us in shaping the future of AI at McGill through exciting events, workshops, and initiatives. Don't miss this opportunity to make a meaningful impact and connect with like-minded individuals!",
         //update: 'Applications are closed for the 2026-2027 academic year. DM us on Instagram if you have any questions!',
         update: 'Interested in becoming our Podcast Producer? Contact us at mcgillaicontact@gmail.com.',
+    },
+
+    {
+        photo: path('staytunedevent26'),
+        name: 'Stay Tuned',
+        datetime: 'TBA',
+        location: 'TBA',
+        description: "Coming soon...",
+        link: 'https://mcgillai.com/mais-202',
+
     },
 ]

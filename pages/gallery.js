@@ -48,16 +48,16 @@ const sections = [
         ],
     },
 
-    {
-        title: 'Social Events',
-        folder: 'socialevents',
+    // {
+    //     title: 'Social Events',
+    //     folder: 'socialevents',
 
-        cover: 'cover',
+    //     cover: 'cover',
 
-        photos: [
-            // add your filenames here
-        ],
-    },
+    //     photos: [
+    //         // add your filenames here
+    //     ],
+    // },
 ];
 
 export default function Gallery() {
