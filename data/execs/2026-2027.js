@@ -117,11 +117,11 @@ export default [
         linkedin: 'https://www.linkedin.com/in/ramatoulayebalde?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app/',
     },
     {
-        photo: path('danyl'),
-        name: 'Danyl Satanovskyi',
+        photo: path('sam'),
+        name: 'Sam Knowlton',
         position: 'Podcast Producer',
-        bio: 'Danyl is a third year Honours Mathematics and Computer Science student. He is interested in finding ways to utilize Machine Learning to solve complex algorithmic trading problems. Currently he is interning at an algorithmic hedge fund. In his spare time, he enjoys reading and stays active by hitting the gym and running',
-        linkedin: 'https://www.linkedin.com/in/danyl-satanovskyi',
+        bio: 'Sam is a third year CS & Math student with a minor in philosophy. He enjoys working on projects that apply and exploit CS and AI, often related to his hobbies. On the side, you\'ll likely find Sam nerding out over fashion, playing video games, or lifting.',
+        linkedin: 'https://www.linkedin.com/in/sam-knowlton-8b0b01382/',
     },
 
     // {
