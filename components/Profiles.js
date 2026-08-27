@@ -21,8 +21,11 @@ export default function Profiles({ profilesData = [] }) {
 
     return (
         <>
-            <div className={`flex-center ${styles['profiles-container']}`}
-                style={{ marginBottom: '2.5em', flexWrap: 'nowrap' }}>
+            {/* <div className={`flex-center ${styles['profiles-container']}`}
+                style={{ marginBottom: '2.5em', flexWrap: 'nowrap' }}> */}
+            <div 
+                className={`flex-center ${styles['profiles-container']} ${styles['presidents']}`}
+            >
                 {topProfiles.map((profileData, index) => (
                     <div className={styles['profile']} key={index}>
                         <img
