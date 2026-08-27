@@ -4,15 +4,51 @@ import styles from '../styles/pages/podcast.module.scss';
 import styles2 from '../styles/pages/faq.module.scss';
 
 import academicYearExecsMap from '../data/execs/academicYearExecsMap';
+
 const hostData = academicYearExecsMap
     .get(academicYearExecsMap.get('currentAcademicYear'))
     .filter((exec) => exec.position.toLowerCase().includes('podcast'));
+
+const writerData = academicYearExecsMap
+    .get(academicYearExecsMap.get('currentAcademicYear'))
+    .filter(
+        (exec) =>
+            exec.position.toLowerCase().includes('media')
+    );
 
 const PodcastFAQs = [
     {
         question: 'What does the structure of an episode look like?',
         answer: 'We will broadly be focusing on three ideas each episode: <br></br> • Getting to know the guest, their background, and the history of the topics they are studying. <br> • Looking at the theoretical concepts and frameworks the guest’s research uses and the problems their research is trying to solve. <br> • Analyzing this information from an interdisciplinary lens and trying to understand the socio political and economical impact their research has, as well as the ethical considerations that have gone into their work.',
     },
+];
+
+const BlogFAQs = [
+
+{
+    question: "How often are articles published?",
+
+    answer:
+        "A new article is published every month."
+
+},
+
+{
+    question: "Who writes the articles?",
+
+    answer:
+        "Articles are written by members of the MAIS Media Team under the leadership of VP Media Lou Didelot."
+
+},
+
+{
+    question: "Can I contribute?",
+
+    answer:
+        "Yes! Reach out to the MAIS Media Team if you'd like to write or collaborate on a future article."
+
+}
+
 ];
 
 export default function Podcast() {
@@ -96,6 +132,8 @@ export default function Podcast() {
                 </p>
             </section>
 
+            
+
             <section>
                 <h2>Meet The Hosts</h2>
                 <Profiles profilesData={hostData} />
@@ -112,6 +150,96 @@ export default function Podcast() {
                         ))}
                     </div>
                 </div>
+            </section>
+            
+            {/* <section className={styles['mediaHeader']}>
+
+                <h1>The MAIS Medium Blog</h1>
+
+                <h3>
+                    Exploring AI across every discipline at McGill.
+                </h3>
+
+            </section> */}
+            
+            {/* ====================================================== */}
+            {/* Medium Blog Header */}
+            <div className="page-header">
+
+                <h1 className="page-header__title">
+                    The MAIS Medium Blog
+                </h1>
+
+                <h3 className="page-header__subtitle">
+                    Exploring how AI is transforming every discipline at McGill.
+                </h3>
+
+            </div>
+
+            <section className={styles.mediumSection}>
+
+                <h2>Medium Blog</h2>
+
+                <p>
+                    The MAIS Medium Blog is our student-led publication
+                    exploring how artificial intelligence is transforming
+                    every discipline at McGill.
+                </p>
+
+                <p>
+                    Articles are written by members of the McGill AI Society
+                    Media Team under the leadership of
+                    <strong> VP Media Lou Didelot</strong>.
+                </p>
+
+                <p>
+                    Every month we publish a new article making AI
+                    accessible to students from every faculty—not only
+                    Computer Science.
+                </p>
+
+                <a
+                    href="https://medium.com/mcgill-artificial-intelligence-review"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.mediumbutton}
+                >
+                    Read our Medium Blog →
+                </a>
+
+            </section>
+
+            <section>
+
+                <h2>Meet our Writer</h2>
+
+                <Profiles profilesData={writerData} />
+
+            </section>
+
+            <section>
+
+                <h2>Blog FAQs</h2>
+
+                <div className="flex-center">
+
+                    <div className={styles2.accordions}>
+
+                        {BlogFAQs.map((faq,index)=>(
+
+                            <Accordion
+                                key={index}
+                                label={faq.question}
+                            >
+                                {faq.answer}
+                            </Accordion>
+
+                        ))}
+
+                    </div>
+
+                </div>
+
             </section>
         </>
     );

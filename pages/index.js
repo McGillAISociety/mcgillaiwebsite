@@ -94,17 +94,26 @@ const sponsorData = [
     //     imgWidth: 350,
     //     img: sponsorImgDir('squarepoint'),
     // },
-    {
-        name: 'coveo',
-        url: 'https://www.coveo.com/',
-        imgWidth: 400,
-        img: sponsorImgDir('coveo'),
-    },
+    // {
+    //     name: 'coveo',
+    //     url: 'https://www.coveo.com/',
+    //     imgWidth: 400,
+    //     imgHeight: 100,
+    //     img: sponsorImgDir('coveo'),
+    // },
     {
         name: 'cgi',
         url: 'https://www.cgi.com/',
         imgWidth: 220,
+        imgHeight: 100,
         img: sponsorImgDir('cgi'),
+    },
+    {
+        name: 'techrbc_1',
+        url: 'https://www.rbc.com/',
+        imgWidth: 400,
+        imgHeight: 150,
+        img: sponsorImgDir('techrbc_1'),
     },
 ];
 
@@ -168,13 +177,69 @@ function Home() {
                 )}
             </section>*/}
 
+
+            {/* Announcements */}
+            <section className={styles['announcements']}>
+                <h2>Announcements</h2>
+
+                <div className={styles['announcements__grid']}>
+
+                    <div className={styles['announcement']}>
+                        <h3>The MAIS Medium Blog is back!</h3>
+
+                        <p>
+                            Our Media Team is relaunching the MAIS Medium Blog, where we will
+                            publish one article every month exploring how artificial
+                            intelligence is transforming different fields at McGill.
+                        </p>
+
+                        <p>
+                            Led by <strong>VP Media Lou Didelot</strong>, the blog makes AI
+                            accessible to students from every faculty—not just Computer
+                            Science.
+                        </p>
+
+                        <p>
+                            Every month we will highlight a different discipline, from medicine, 
+                            education, political science and law to business, history, engineering and many more.
+                        </p>
+
+                        <a
+                            href="https://medium.com/mcgill-artificial-intelligence-review"
+                            target="_blank"                 // links to medium blog --> WHERE IS IT??
+                            rel="noopener noreferrer"
+                            className={styles['announcement__link']}
+                        >
+                            Read our Medium Blog →
+                        </a>
+                    </div>
+
+                    <div className={styles['announcement']}>
+                        <h3>Stay tuned.</h3>
+
+                        <p>
+                            We're preparing a special event for this year.
+                        </p>
+
+                        <p>
+                            More details will be announced soon.
+                        </p>
+
+                        <div className={styles['announcement__coming']}>
+                            Coming Soon
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            
             {/* Stats */}
             <section className={`flex-center ${styles['stats']}`}>
                 <h2 className={styles['stats__title']}>
                     The McGill AI Community
                 </h2>
                 <Image
-                    src="/images/home/assets/grid-2023.svg"
+                    src="/images/home/assets/grid-2026.svg"
                     alt="MAIS Stats"
                     width={930}
                     height={600}
@@ -199,11 +264,11 @@ function Home() {
                             the Montreal AI ecosystem.
                         </p>
                         <p>
-                            As a McGill AI club sponsor, you will have access to
-                            the CVs of our hundreds of event participants and
-                            reach our over 2000 subscribers. If you are
-                            interested in partnering with our club, please don’t
-                            hesitate to reach out to&nbsp;
+                            As a sponsor of the McGill Artificial Intelligence Society, 
+                            your team can gain direct access to our hundreds of event 
+                            participants and over two thousand subscribers. If you are 
+                            interested in partnering with our club, please don't hesitate
+                            to reach out to&nbsp;
                             <a href="mailto:mcgillaicontact@gmail.com">
                                 mcgillaicontact@gmail.com
                             </a>
@@ -223,7 +288,7 @@ function Home() {
                                         src={sponsor.img}
                                         alt={`${sponsor.name} logo`}
                                         width={sponsor.imgWidth}
-                                        height="100"
+                                        height={sponsor.imgHeight}
                                     />
                                 </div>
                             </a>

@@ -24,13 +24,17 @@ const navOptions = [
         route: '/mais202',
     },
     {
-        title: 'Podcast',
+        title: 'Media',             // 2026-2027 : we changed the tab of Podcast to Media instead but I didn't change the route /podcast to keep everything working correctly
         route: '/podcast',
     },
     /*{
         title: 'Membership',
         route: '/membership',
     },*/
+    {
+        title: 'Gallery',
+        route: '/gallery',
+    },
     {
         title: 'Resources',
         route: '/resources',
