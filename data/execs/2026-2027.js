@@ -174,7 +174,7 @@ export default [
 
     {
         photo: path('kim'),
-        name: 'Kim Dowoo',
+        name: 'Dowoo Kim',
         position: 'Senior Advisor',
         bio: 'Dowoo is a Master\’s student in Electrical Engineering with research interests in deep learning for computer vision, especially medical imaging. Outside of academics, he enjoys exercising and training in Muay Thai.',
         linkedin: 'https://www.linkedin.com/in/dowoo-kim-805998250/'
