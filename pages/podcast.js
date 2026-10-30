@@ -56,6 +56,25 @@ export default function Podcast() {
         <>
             <section>
                 <h2>Stream</h2>
+
+                {/* Latest podcast */}
+                <div className={styles['latestPodcast']}>
+                    <h3 className={styles['latestPodcast__title']}>
+                        Podcast with Emma Frejinger: Professor at Université de Montréal,
+                        Optimization researcher, CN Chair in Railway Operations,
+                        Mila member, and more, hosted by Sam Knowlton
+                    </h3>
+
+                    <div className={styles['latestPodcast__video']}>
+                        <iframe
+                            src="https://www.youtube.com/embed/C_vOHUWDo30"
+                            title="Podcast with Emma Frejinger, hosted by Sam Knowlton"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowFullScreen
+                        />
+                    </div>
+                </div>
+
                 <br></br>
                 <div className="flex-center">
                     <iframe
